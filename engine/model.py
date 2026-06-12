@@ -13,6 +13,24 @@ GOALS_PER_ELO = 0.0035  # Tor-Vorsprung pro Elo-Punkt Differenz
 HOME_ADV_GOALS = 0.35   # Heim-Tor-Bonus (0 bei neutralem Platz)
 RHO = -0.13             # Dixon-Coles-Korrektur fuer knappe Ergebnisse
 
+# Kalibrierte Werte (engine/params.json, via calibrate.py) ueberschreiben die
+# Defaults, falls vorhanden — wird VOR den Funktionsdefinitionen geladen, damit
+# die Default-Argumente die kalibrierten Werte uebernehmen.
+import os as _os
+import json as _json
+_PARAMS_PATH = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "params.json")
+CALIBRATION = None
+if _os.path.exists(_PARAMS_PATH):
+    try:
+        _c = _json.load(open(_PARAMS_PATH, encoding="utf-8"))
+        BASE_TOTAL = _c.get("base_total", BASE_TOTAL)
+        GOALS_PER_ELO = _c.get("goals_per_elo", GOALS_PER_ELO)
+        HOME_ADV_GOALS = _c.get("home_adv_goals", HOME_ADV_GOALS)
+        RHO = _c.get("rho", RHO)
+        CALIBRATION = _c
+    except Exception:
+        pass
+
 
 def elo_to_lambdas(elo_h, elo_a, neutral,
                    base_total=BASE_TOTAL, goals_per_elo=GOALS_PER_ELO,
