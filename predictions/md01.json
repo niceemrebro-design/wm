@@ -1,0 +1,128 @@
+{
+  "batch": "Briefing 1 — 12.–14. Juni 2026",
+  "generated_at": "2026-06-12",
+  "oracle": "Claude (Claude Code) — Multi-Agenten-Orakel",
+  "method": "Form · Historie/H2H · Qualität (Elo) · Kontext · Statistik-Modell (Poisson/Dixon-Coles) + Advocatus-Diaboli-Gegenprobe",
+  "predictions": [
+    {
+      "fixture_id": "wc2026-002",
+      "date": "2026-06-12",
+      "home": "Canada", "away": "Bosnia and Herzegovina", "city": "Toronto",
+      "pick": {"home": 2, "away": 0},
+      "probs": {"home": 0.62, "draw": 0.26, "away": 0.12},
+      "confidence": "mittel",
+      "reasoning": "Kanada spielt als Gastgeber faktisch zu Hause (kein neutraler Platz), hat +268 Elo Vorsprung und stabile Form. Bosnien ist defensiv schwer zu knacken, offensiv aber harmlos — fünf Remis in Serie, viermal 1:1.",
+      "key_factors": ["Echter Heimvorteil (Gastgeber)", "Elo +268", "Bosnien offensiv harmlos"],
+      "upset_watch": "Bosniens Remis-Serie ist das realistischste Überraschungsszenario — ein 1:1 wäre nicht schockierend.",
+      "stat_model": {"p_home": 0.67, "p_draw": 0.23, "p_away": 0.10, "lambda_home": 1.94, "lambda_away": 0.66, "top_scoreline": "2:0"}
+    },
+    {
+      "fixture_id": "wc2026-003",
+      "date": "2026-06-12",
+      "home": "United States", "away": "Paraguay", "city": "Inglewood",
+      "pick": {"home": 1, "away": 1},
+      "probs": {"home": 0.36, "draw": 0.31, "away": 0.33},
+      "confidence": "niedrig",
+      "reasoning": "Echtes Pick'em: Paraguay ist nach Elo sogar leicht stärker, der US-Heimvorteil gleicht das aus. Die US-Defensive ist anfällig (5 Gegentore gegen Belgien, Pleiten gegen Portugal/Deutschland), Paraguay reist robust (Sieg in Mexiko).",
+      "key_factors": ["Coin-Flip", "US-Defensive löchrig", "Paraguay auswärtsstark"],
+      "upset_watch": "Die Familie tippt reflexhaft USA — der Wert liegt im Remis oder sogar Paraguay-Sieg.",
+      "stat_model": {"p_home": 0.36, "p_draw": 0.30, "p_away": 0.34, "lambda_home": 1.32, "lambda_away": 1.28, "top_scoreline": "1:1"}
+    },
+    {
+      "fixture_id": "wc2026-004",
+      "date": "2026-06-13",
+      "home": "Qatar", "away": "Switzerland", "city": "Santa Clara",
+      "pick": {"home": 0, "away": 2},
+      "probs": {"home": 0.11, "draw": 0.23, "away": 0.66},
+      "confidence": "mittel-hoch",
+      "reasoning": "Elo-Kluft von 382 Punkten, Katar zuletzt ohne Tore und ohne Sieg. Die Schweiz hat klar mehr Qualität.",
+      "key_factors": ["Elo-Kluft 382", "Katar ohne Tore", "Schweizer Klasse"],
+      "upset_watch": "Schweizer Remis-Hang (zuletzt viele 0:0/1:1) plus mauerndes Katar könnte es eng halten — 1:0 oder 0:1 deckelt die Konfidenz.",
+      "stat_model": {"p_home": 0.10, "p_draw": 0.22, "p_away": 0.68, "lambda_home": 0.63, "lambda_away": 1.97, "top_scoreline": "0:2"}
+    },
+    {
+      "fixture_id": "wc2026-005",
+      "date": "2026-06-13",
+      "home": "Brazil", "away": "Morocco", "city": "East Rutherford",
+      "pick": {"home": 2, "away": 1},
+      "probs": {"home": 0.45, "draw": 0.27, "away": 0.28},
+      "confidence": "niedrig-mittel",
+      "reasoning": "Brasilien ist favorisiert, aber Marokko (WM-Halbfinalist 2022) ist brandgefährlich und formstark (Siege/Remis gegen Paraguay, Norwegen, Ecuador). Brasilien wirkt wechselhaft (Pleite gegen Frankreich, Remis gegen Tunesien). Deutlich enger, als der große Name Brasilien suggeriert.",
+      "key_factors": ["Marokko brandgefährlich", "Brasilien wechselhaft", "neutraler Platz nivelliert"],
+      "upset_watch": "1:1 oder ein Marokko-Sieg sind hochlebendig — die klassische Falle für Tipper, die Brasilien blind hoch tippen.",
+      "stat_model": {"p_home": 0.42, "p_draw": 0.29, "p_away": 0.29, "lambda_home": 1.44, "lambda_away": 1.16, "top_scoreline": "1:1"}
+    },
+    {
+      "fixture_id": "wc2026-006",
+      "date": "2026-06-13",
+      "home": "Haiti", "away": "Scotland", "city": "Foxborough",
+      "pick": {"home": 1, "away": 2},
+      "probs": {"home": 0.25, "draw": 0.28, "away": 0.47},
+      "confidence": "niedrig-mittel",
+      "reasoning": "Schottland ist die klar bessere Elf (Sieg 4:2 gegen Dänemark), aber wechselhaft (Pleiten gegen Japan und Elfenbeinküste). Haiti ist solide, aber eine Nummer kleiner.",
+      "key_factors": ["Schottland qualitativ überlegen", "Schottland aber unkonstant"],
+      "upset_watch": "Haiti kann ein Remis klauen, wenn Schottland wieder pomadig auftritt.",
+      "stat_model": {"p_home": 0.24, "p_draw": 0.29, "p_away": 0.47, "lambda_home": 1.06, "lambda_away": 1.54, "top_scoreline": "1:1"}
+    },
+    {
+      "fixture_id": "wc2026-007",
+      "date": "2026-06-13",
+      "home": "Australia", "away": "Turkey", "city": "Vancouver",
+      "pick": {"home": 1, "away": 2},
+      "probs": {"home": 0.28, "draw": 0.28, "away": 0.44},
+      "confidence": "niedrig",
+      "reasoning": "Die Türkei ist formstark (Remis gegen Spanien, klare Siege gegen Rumänien/Nordmazedonien) und führt das direkte Duell 2:0. Australien ist diszipliniert, aber offensiv limitiert.",
+      "key_factors": ["Türkei in Form", "H2H 2:0 für Türkei", "Australien offensiv limitiert"],
+      "upset_watch": "Enge Kiste — ein 1:1 ist sehr realistisch, Australien ist kein Selbstläufer.",
+      "stat_model": {"p_home": 0.29, "p_draw": 0.29, "p_away": 0.42, "lambda_home": 1.17, "lambda_away": 1.43, "top_scoreline": "1:1"}
+    },
+    {
+      "fixture_id": "wc2026-008",
+      "date": "2026-06-14",
+      "home": "Sweden", "away": "Tunisia", "city": "Guadalupe",
+      "pick": {"home": 2, "away": 1},
+      "probs": {"home": 0.42, "draw": 0.29, "away": 0.29},
+      "confidence": "niedrig-mittel",
+      "reasoning": "Schweden hat die größere Offensivqualität und einen leichten Elo-Vorteil. Tunesien ist defensiv organisiert, aber auswärts zuletzt schwach (0:5 in Belgien, 0:1 in Österreich).",
+      "key_factors": ["Schweden offensiv stärker", "Tunesien auswärts schwach", "H2H Schweden 2-1-1"],
+      "upset_watch": "Wenn Tunesien mauert, droht ein zähes 1:1 oder 1:0.",
+      "stat_model": {"p_home": 0.38, "p_draw": 0.30, "p_away": 0.32, "lambda_home": 1.37, "lambda_away": 1.23, "top_scoreline": "1:1"}
+    },
+    {
+      "fixture_id": "wc2026-009",
+      "date": "2026-06-14",
+      "home": "Netherlands", "away": "Japan", "city": "Arlington",
+      "pick": {"home": 1, "away": 1},
+      "probs": {"home": 0.34, "draw": 0.31, "away": 0.35},
+      "confidence": "niedrig",
+      "reasoning": "DER Aufpasser-Tipp des Spieltags. Statistik und Elo sagen Münzwurf — aber Japan ist in absoluter Galaform: fünf Siege in Folge, darunter 1:0 in England und 1:0 in Schottland. Die Niederlande sind gut, aber zuletzt fehleranfällig (0:1 gegen Algerien, Remis gegen Ecuador). Die halbe Familie tippt blind Oranje-Sieg — genau hier liegt der Vorsprung.",
+      "key_factors": ["Japan 5 Siege in Serie (1:0 in England!)", "Oranje fehleranfällig", "Statistik = Münzwurf"],
+      "upset_watch": "Ein Japan-Sieg ist hochlebendig, kein echter 'Upset' — ein Remis ist der Mindestwert. Wer hier Oranje hoch tippt, verschenkt Punkte.",
+      "stat_model": {"p_home": 0.36, "p_draw": 0.30, "p_away": 0.34, "lambda_home": 1.33, "lambda_away": 1.27, "top_scoreline": "1:1"}
+    },
+    {
+      "fixture_id": "wc2026-010",
+      "date": "2026-06-14",
+      "home": "Germany", "away": "Curaçao", "city": "Houston",
+      "pick": {"home": 3, "away": 0},
+      "probs": {"home": 0.70, "draw": 0.21, "away": 0.09},
+      "confidence": "hoch",
+      "reasoning": "Deutschland in Torlaune (6:0, 4:3, 2:1, 4:0, 2:1) gegen ein defensiv überfordertes Curaçao (zuletzt 1:5, 1:4 kassiert). Klarster Tipp des Spieltags.",
+      "key_factors": ["Deutschland in Torlaune", "Elo +390", "Curaçao defensiv überfordert"],
+      "upset_watch": "Nur eigene Nachlässigkeit könnte Deutschland bremsen — sportlich praktisch ausgeschlossen.",
+      "stat_model": {"p_home": 0.68, "p_draw": 0.22, "p_away": 0.09, "lambda_home": 1.98, "lambda_away": 0.62, "top_scoreline": "2:0"}
+    },
+    {
+      "fixture_id": "wc2026-011",
+      "date": "2026-06-14",
+      "home": "Ivory Coast", "away": "Ecuador", "city": "Philadelphia",
+      "pick": {"home": 0, "away": 1},
+      "probs": {"home": 0.22, "draw": 0.29, "away": 0.49},
+      "confidence": "niedrig-mittel",
+      "reasoning": "Ecuador hat den deutlich höheren Elo und eine der besten Defensiven des Turniers (viele Zu-Null-Spiele). Die Elfenbeinküste ist aber in bestechender Form (2:1 in Frankreich!, 4:0 gegen Südkorea) — gefährlicher, als der Elo-Abstand vermuten lässt.",
+      "key_factors": ["Ecuador defensiv top + höherer Elo", "Elfenbeinküste in Top-Form (2:1 in Frankreich)"],
+      "upset_watch": "Bei diesem ivorischen Lauf sind Remis oder sogar Sieg lebendig — kein sicherer Ecuador-Tipp.",
+      "stat_model": {"p_home": 0.19, "p_draw": 0.27, "p_away": 0.54, "lambda_home": 0.92, "lambda_away": 1.68, "top_scoreline": "1:1"}
+    }
+  ]
+}
