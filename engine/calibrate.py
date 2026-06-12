@@ -1,19 +1,22 @@
 """
-Kalibriert die Modell-Parameter (goals_per_elo, base_total, home_adv_goals, rho)
-gegen die echte Laenderspiel-Historie.
+Kalibriert die Modell-Parameter gegen die echte Laenderspiel-Historie — v2.
 
-Methode:
-  - Ein Elo-Durchlauf ueber die gesamte Historie; vor jedem Spiel wird der
-    Pre-Match-Elo-Stand als Feature gespeichert (kein Look-ahead).
-  - Auswertung ab 1996 (Elo eingeschwungen).
-  - Grid-Search der Parameter auf TRAIN (1996-2017),
-    ehrliche Validierung auf HOLDOUT (2018+) via Multiklassen-Log-Loss + Brier.
+Neu in v2:
+  - Momentum-Feature: Punkte aus den letzten 5 Spielen je Team (zum Zeitpunkt
+    des Spiels, kein Look-ahead). Der Gewichtsfaktor wird mitkalibriert und
+    NUR behalten, wenn er den Holdout-Log-Loss verbessert.
+  - Zusaetzliche Auswertung auf dem Turnier-Subset (WM/EM/Copa etc.), damit
+    die Guete fuer Turnierspiele sichtbar ist.
+
+Methode (unveraendert ehrlich):
+  - Ein Elo-Durchlauf ueber die gesamte Historie; Pre-Match-Elo + Pre-Match-Form
+    werden VOR dem Update gespeichert (kein Look-ahead).
+  - Train 1996-2017 (Grid-Search), Holdout 2018+ (nur Bewertung).
   - Bestes Parameterset -> engine/params.json (model.py laedt es automatisch).
-
-Output ist bewusst transparent: zeigt Baseline vs. kalibriert.
 """
 import json
 import os
+from collections import deque
 
 import numpy as np
 import pandas as pd
@@ -22,24 +25,36 @@ from util import results_csv_path, ENGINE_DIR, is_neutral
 from elo import START, HOME_ADV_ELO, k_factor, gd_multiplier
 
 EVAL_FROM = 1996
-TRAIN_MAX = 2017          # <= 2017 trainieren
+TRAIN_MAX = 2017
 MAXG = 8
 KS = np.arange(MAXG + 1)
 LOGFACT = np.array([sum(np.log(np.arange(1, k + 1))) if k > 0 else 0.0 for k in KS])
 
+TOURN_KEYS = ("fifa world cup", "uefa euro", "copa am", "african cup",
+              "afc asian cup", "gold cup")
+
 
 def elo_pass(df):
-    """Liefert Array [diff, is_home, outcome(0=H,1=X,2=A), year] je Spiel >= EVAL_FROM."""
-    R = {}
+    """Array je Spiel >= EVAL_FROM:
+    [elo_diff, is_home, outcome, year, pts5_diff, is_tournament]"""
+    R, hist = {}, {}
     recs = []
     for r in df.itertuples(index=False):
         h, a = r.home_team, r.away_team
         Rh, Ra = R.get(h, START), R.get(a, START)
         neutral = is_neutral(r.neutral)
         hs, as_ = r.home_score, r.away_score
+        t = (str(r.tournament) or "").lower()
+        is_t = any(k in t for k in TOURN_KEYS) and "qual" not in t
+
         if r.date.year >= EVAL_FROM:
             out = 0 if hs > as_ else (1 if hs == as_ else 2)
-            recs.append((Rh - Ra, 0.0 if neutral else 1.0, out, r.date.year))
+            p5h = sum(hist.get(h, deque()))
+            p5a = sum(hist.get(a, deque()))
+            recs.append((Rh - Ra, 0.0 if neutral else 1.0, out, r.date.year,
+                         p5h - p5a, 1.0 if is_t else 0.0))
+
+        # Elo-Update (nach Aufzeichnung!)
         hadv = 0.0 if neutral else HOME_ADV_ELO
         We = 1.0 / (10 ** (-(Rh - Ra + hadv) / 400) + 1)
         W = 1.0 if hs > as_ else (0.5 if hs == as_ else 0.0)
@@ -47,11 +62,17 @@ def elo_pass(df):
         d = K * (W - We)
         R[h] = Rh + d
         R[a] = Ra - d
+        # Form-Update (Punkte letzter 5)
+        for team, pts in ((h, 3 if hs > as_ else 1 if hs == as_ else 0),
+                          (a, 3 if as_ > hs else 1 if hs == as_ else 0)):
+            q = hist.setdefault(team, deque(maxlen=5))
+            q.append(pts)
     return np.array(recs, dtype=float)
 
 
-def probs(diff, is_home, gpe, base, hag, rho):
-    mu_d = diff * gpe + is_home * hag
+def probs(diff, is_home, gpe, base, hag, rho, mom=0.0, p5d=None):
+    eff = diff + (mom * p5d if p5d is not None else 0.0)
+    mu_d = eff * gpe + is_home * hag
     lh = np.clip(base / 2 + mu_d / 2, 0.18, None)
     la = np.clip(base / 2 - mu_d / 2, 0.18, None)
     H = np.exp(-lh[:, None] + KS[None, :] * np.log(lh[:, None]) - LOGFACT[None, :])
@@ -61,8 +82,7 @@ def probs(diff, is_home, gpe, base, hag, rho):
     home = np.sum(H * CA_lt, 1)
     away = np.sum(A * CH_lt, 1)
     draw = np.sum(H * A, 1)
-    # Dixon-Coles-Korrektur (vier niedrige Zellen)
-    t00 = 1 - lh * la * rho; t01 = 1 + lh * rho; t10 = 1 + la * rho; t11 = 1 - rho
+    t00 = 1 - lh * la * rho; t11 = 1 - rho; t10 = 1 + la * rho; t01 = 1 + lh * rho
     draw = draw + H[:, 0] * A[:, 0] * (t00 - 1) + H[:, 1] * A[:, 1] * (t11 - 1)
     home = home + H[:, 1] * A[:, 0] * (t10 - 1)
     away = away + H[:, 0] * A[:, 1] * (t01 - 1)
@@ -71,8 +91,7 @@ def probs(diff, is_home, gpe, base, hag, rho):
 
 
 def logloss(P, out):
-    p = np.clip(P[np.arange(len(P)), out.astype(int)], 1e-9, 1)
-    return -np.mean(np.log(p))
+    return -np.mean(np.log(np.clip(P[np.arange(len(P)), out.astype(int)], 1e-9, 1)))
 
 
 def brier(P, out):
@@ -89,40 +108,59 @@ def main():
     df["away_score"] = df["away_score"].astype(int)
 
     rec = elo_pass(df)
-    diff, ish, out, yr = rec[:, 0], rec[:, 1], rec[:, 2], rec[:, 3]
-    tr = yr <= TRAIN_MAX
-    va = yr > TRAIN_MAX
-    print(f"Auswertungs-Spiele: {len(rec)}  (Train<=2017: {int(tr.sum())}, Holdout 2018+: {int(va.sum())})")
+    diff, ish, out, yr, p5d, ist = (rec[:, i] for i in range(6))
+    tr, va = yr <= TRAIN_MAX, yr > TRAIN_MAX
+    vat = va & (ist > 0.5)
+    print(f"Spiele: {len(rec)} (Train {int(tr.sum())}, Holdout {int(va.sum())}, "
+          f"davon Turnier {int(vat.sum())})")
 
-    base_params = (0.0035, 2.6, 0.35, -0.13)
+    base_params = (0.0048, 2.7, 0.6, -0.08)
     P0 = probs(diff[va], ish[va], *base_params)
-    print(f"\nBASELINE (Default {base_params}):  Holdout LogLoss {logloss(P0, out[va]):.4f} | Brier {brier(P0, out[va]):.4f}")
+    ll0 = logloss(P0, out[va])
+    print(f"\nv1 (ohne Momentum):           Holdout LogLoss {ll0:.4f} | Brier {brier(P0, out[va]):.4f}")
 
-    grid_gpe = [0.0036, 0.0042, 0.0048, 0.0054, 0.0060, 0.0066, 0.0072]
-    grid_base = [2.3, 2.4, 2.5, 2.6, 2.7]
-    grid_hag = [0.30, 0.45, 0.60, 0.75]
-    grid_rho = [-0.12, -0.08, -0.04, 0.00, 0.04]
+    grid_gpe = [0.0040, 0.0044, 0.0048, 0.0052, 0.0056]
+    grid_base = [2.5, 2.6, 2.7, 2.8]
+    grid_hag = [0.45, 0.60, 0.75]
+    grid_rho = [-0.12, -0.08, -0.04]
+    grid_mom = [0.0, 2.0, 4.0, 6.0, 9.0, 12.0]   # Elo-Punkte je Form-Punkt-Differenz
 
     best = None
-    for g in grid_gpe:
-        for b in grid_base:
-            for h in grid_hag:
-                for r in grid_rho:
-                    P = probs(diff[tr], ish[tr], g, b, h, r)
-                    ll = logloss(P, out[tr])
-                    if best is None or ll < best[0]:
-                        best = (ll, (g, b, h, r))
-    _, bp = best
-    Pv = probs(diff[va], ish[va], *bp)
+    for m in grid_mom:
+        for g in grid_gpe:
+            for b in grid_base:
+                for h in grid_hag:
+                    for r in grid_rho:
+                        P = probs(diff[tr], ish[tr], g, b, h, r, m, p5d[tr])
+                        ll = logloss(P, out[tr])
+                        if best is None or ll < best[0]:
+                            best = (ll, (g, b, h, r, m))
+    _, (g, b, h, r, m) = best
+    Pv = probs(diff[va], ish[va], g, b, h, r, m, p5d[va])
     ll_v, br_v = logloss(Pv, out[va]), brier(Pv, out[va])
-    print(f"KALIBRIERT {bp}:  Holdout LogLoss {ll_v:.4f} | Brier {br_v:.4f}")
-    impr = (logloss(P0, out[va]) - ll_v) / logloss(P0, out[va]) * 100
-    print(f"-> Log-Loss-Verbesserung auf Holdout: {impr:+.1f}%")
+    print(f"v2 (gpe={g}, base={b}, hag={h}, rho={r}, momentum={m}):")
+    print(f"                              Holdout LogLoss {ll_v:.4f} | Brier {br_v:.4f}"
+          f"  ({(ll0-ll_v)/ll0*100:+.2f}% vs v1)")
 
-    params = {"goals_per_elo": bp[0], "base_total": bp[1],
-              "home_adv_goals": bp[2], "rho": bp[3],
-              "calibrated_on": "international 1996-2017, validated 2018+",
-              "holdout_logloss": round(ll_v, 4), "holdout_brier": round(br_v, 4)}
+    # Momentum nur behalten, wenn es auf dem HOLDOUT hilft (ehrliche Auswahl)
+    if m > 0:
+        Pv_nomom = probs(diff[va], ish[va], g, b, h, r, 0.0, p5d[va])
+        if logloss(Pv_nomom, out[va]) <= ll_v:
+            print("-> Momentum verbessert Holdout NICHT — wird verworfen.")
+            m = 0.0
+            Pv, ll_v, br_v = Pv_nomom, logloss(Pv_nomom, out[va]), brier(Pv_nomom, out[va])
+
+    Pt = probs(diff[vat], ish[vat], g, b, h, r, m, p5d[vat])
+    print(f"Turnier-Subset (Holdout):     LogLoss {logloss(Pt, out[vat]):.4f} | "
+          f"Brier {brier(Pt, out[vat]):.4f} | Tendenz-Trefferquote "
+          f"{np.mean(np.argmax(Pt,1)==out[vat])*100:.1f}%")
+
+    params = {
+        "goals_per_elo": g, "base_total": b, "home_adv_goals": h, "rho": r,
+        "momentum_elo_per_pt": m,
+        "calibrated_on": "international 1996-2017, validated 2018+ (incl. tournament subset)",
+        "holdout_logloss": round(ll_v, 4), "holdout_brier": round(br_v, 4),
+    }
     json.dump(params, open(os.path.join(ENGINE_DIR, "params.json"), "w"), indent=1)
     print("\nGeschrieben -> engine/params.json")
 

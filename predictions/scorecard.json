@@ -1,0 +1,39 @@
+{
+ "generated_at": "2026-06-12",
+ "integrity": "Gewertet werden ausschliesslich Tipps, die VOR Anpfiff im Ledger eingefroren wurden (predictions/ledger.json). Nachtraegliche Tipps erscheinen als 'ungewertet'.",
+ "summary": {
+  "gewertet": 0,
+  "exakt": 0,
+  "tordifferenz": 0,
+  "tendenz": 0,
+  "daneben": 0,
+  "kicktipp_pts": 0,
+  "kicktipp_avg": null,
+  "tendenz_quote": null,
+  "brier_avg": null,
+  "retro_ungewertet": 2
+ },
+ "games": [],
+ "retro": [
+  {
+   "fixture_id": "wc2026-000",
+   "date": "2026-06-11",
+   "match": "Mexico vs South Africa",
+   "pick": "2:0",
+   "result": "2:0",
+   "source": "Engine",
+   "locked_at": null,
+   "cat": "ungewertet (Tipp nach Spielende)"
+  },
+  {
+   "fixture_id": "wc2026-001",
+   "date": "2026-06-11",
+   "match": "South Korea vs Czech Republic",
+   "pick": "2:1",
+   "result": "2:1",
+   "source": "Engine",
+   "locked_at": null,
+   "cat": "ungewertet (Tipp nach Spielende)"
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+  "batch": "Briefing 2 — 15.–17. Juni 2026",
+  "generated_at": "2026-06-12",
+  "oracle": "Claude (Claude Code) — Multi-Agenten-Orakel",
+  "method": "Form · Historie/H2H · Qualität (Elo) · Kontext · Statistik-Modell (kalibriert) + Advocatus-Diaboli-Gegenprobe",
+  "predictions": [
+    {
+      "fixture_id": "wc2026-012",
+      "date": "2026-06-15",
+      "home": "Belgium", "away": "Egypt", "city": "Seattle",
+      "pick": {"home": 2, "away": 1},
+      "probs": {"home": 0.52, "draw": 0.27, "away": 0.21},
+      "confidence": "niedrig-mittel",
+      "reasoning": "Belgien ist in Torlaune (7:0, 5:2, 5:0), aber Ägypten ist die unbequemste Sorte Gegner: extrem kompakt (0:0 gegen Spanien!, 0:0 gegen Nigeria) und im H2H sogar 3:1 vorn. Belgiens Offensivkraft sollte reichen — aber nicht hoch.",
+      "key_factors": ["Belgien in Torlaune", "Ägypten hielt Spanien bei 0:0", "H2H spricht für Ägypten (3-1)"],
+      "upset_watch": "Ägypten ist ein klassischer 1:1-Kandidat: tief stehen, kontern. Wer Belgien hoch tippt, riskiert viel.",
+      "stat_model": {"p_home": 0.52, "p_draw": 0.26, "p_away": 0.22, "lambda_home": null, "lambda_away": null, "top_scoreline": "1:1"}
+    },
+    {
+      "fixture_id": "wc2026-013",
+      "date": "2026-06-15",
+      "home": "Iran", "away": "New Zealand", "city": "Inglewood",
+      "pick": {"home": 2, "away": 0},
+      "probs": {"home": 0.59, "draw": 0.24, "away": 0.17},
+      "confidence": "mittel",
+      "reasoning": "Neuseeland ist in desolater Form (4 Pleiten in 5, darunter 0:4 gegen Haiti). Der Iran ist stabil, defensiv solide und gewinnt solche Pflichtaufgaben turniererfahren — selten spektakulär, meist kontrolliert.",
+      "key_factors": ["Neuseeland 4 Pleiten in 5", "Iran defensiv stabil", "Elo +178"],
+      "upset_watch": "Der Iran tut sich gegen Mauertaktik manchmal schwer — ein zähes 1:0 ist die realistischste Abweichung.",
+      "stat_model": {"p_home": 0.56, "p_draw": 0.25, "p_away": 0.19, "lambda_home": null, "lambda_away": null, "top_scoreline": "1:1"}
+    },
+    {
+      "fixture_id": "wc2026-014",
+      "date": "2026-06-15",
+      "home": "Spain", "away": "Cape Verde", "city": "Atlanta",
+      "pick": {"home": 3, "away": 0},
+      "probs": {"home": 0.85, "draw": 0.12, "away": 0.03},
+      "confidence": "hoch",
+      "reasoning": "Größtes Elo-Gefälle des Spieltags (+585). Spanien ist der Turnierfavorit Nr. 1 — auch wenn die Generalproben träge waren (2:2 Türkei, 0:0 Ägypten, 1:1 Irak). Gegen Kap Verde reicht die Klasse auch im Energiesparmodus.",
+      "key_factors": ["Elo +585 — größte Kluft des Spieltags", "Spanien Titelfavorit Nr. 1", "Generalproben träge (leichter Dämpfer)"],
+      "upset_watch": "Spaniens Schongang-Remis-Serie ist der einzige Haken — falls sie schlafwandeln, wird es 'nur' 2:0 oder 1:0. Kap-Verde-Punktgewinn wäre eine Mega-Sensation.",
+      "stat_model": {"p_home": 0.90, "p_draw": 0.09, "p_away": 0.01, "lambda_home": null, "lambda_away": null, "top_scoreline": "2:0"}
+    },
+    {
+      "fixture_id": "wc2026-015",
+      "date": "2026-06-15",
+      "home": "Saudi Arabia", "away": "Uruguay", "city": "Miami Gardens",
+      "pick": {"home": 0, "away": 2},
+      "probs": {"home": 0.14, "draw": 0.24, "away": 0.62},
+      "confidence": "mittel",
+      "reasoning": "Uruguay ist klar besser besetzt (+282 Elo), aber beide kommen wackelig daher: Saudi-Arabien mit 0:4 gegen Ägypten, Uruguay mit 1:5 gegen die USA und vielen torlosen Remis. Die Klasse setzt sich durch — aber weniger souverän, als das Modell glaubt.",
+      "key_factors": ["Elo +282 für Uruguay", "Uruguay-Offensive stottert", "Saudi-Form desolat"],
+      "upset_watch": "Geschichtsstunde: Saudi-Arabien schlug 2022 den späteren Weltmeister Argentinien. Tief stehen + Konter können Uruguay quälen — 0:0/1:1 nicht abwegig.",
+      "stat_model": {"p_home": 0.11, "p_draw": 0.22, "p_away": 0.68, "lambda_home": null, "lambda_away": null, "top_scoreline": "0:2"}
+    },
+    {
+      "fixture_id": "wc2026-016",
+      "date": "2026-06-16",
+      "home": "Austria", "away": "Jordan", "city": "Santa Clara",
+      "pick": {"home": 2, "away": 0},
+      "probs": {"home": 0.56, "draw": 0.26, "away": 0.18},
+      "confidence": "mittel",
+      "reasoning": "Österreich ist formstärker als sein Elo (4 Siege in 5, darunter 5:1 gegen Ghana und Siege gegen Südkorea/Tunesien) — das Pressing funktioniert. Jordanien ist seit fünf Spielen sieglos und kassiert viel. Ich stufe Österreich höher ein als das Modell.",
+      "key_factors": ["Österreich 4 Siege in 5", "Jordanien 5 Spiele sieglos", "Pressing vs. limitierten Aufbau"],
+      "upset_watch": "Jordanien hat bei der WM 2022/Asien-Cup-Ära Kampfgeist gezeigt — ein frühes Gegentor könnte Österreich nervös machen, mehr aber nicht.",
+      "stat_model": {"p_home": 0.49, "p_draw": 0.27, "p_away": 0.24, "lambda_home": null, "lambda_away": null, "top_scoreline": "1:1"}
+    },
+    {
+      "fixture_id": "wc2026-017",
+      "date": "2026-06-16",
+      "home": "Argentina", "away": "Algeria", "city": "Kansas City",
+      "pick": {"home": 2, "away": 0},
+      "probs": {"home": 0.66, "draw": 0.21, "away": 0.13},
+      "confidence": "mittel-hoch",
+      "reasoning": "Argentinien ist eine Maschine: 5 Siege in Folge, kaum Gegentore, Weltmeister-DNA. Aber Achtung — Algerien ist kein Standard-Außenseiter: 1:0 in den Niederlanden, 4:0 in Bolivien. Der Titelverteidiger gewinnt, aber Algerien verdient Respekt.",
+      "key_factors": ["Argentinien 5 Siege, kaum Gegentore", "Algerien gewann in den Niederlanden!", "Titelverteidiger-Routine"],
+      "upset_watch": "Algerien ist gefährlicher als sein Ruf — das 1:0 in Amsterdam war kein Zufall. Ein 1:1 ist das realistische Überraschungsszenario.",
+      "stat_model": {"p_home": 0.70, "p_draw": 0.20, "p_away": 0.09, "lambda_home": null, "lambda_away": null, "top_scoreline": "2:0"}
+    },
+    {
+      "fixture_id": "wc2026-018",
+      "date": "2026-06-16",
+      "home": "France", "away": "Senegal", "city": "East Rutherford",
+      "pick": {"home": 2, "away": 1},
+      "probs": {"home": 0.53, "draw": 0.25, "away": 0.22},
+      "confidence": "niedrig-mittel",
+      "reasoning": "DER Aufpasser-Tipp dieser Welle. Frankreich hat gegen Senegal noch NIE gewonnen (0 Siege, 2 Niederlagen — inkl. des legendären 0:1 bei der WM 2002). Und: Frankreich verlor gerade gegen die Elfenbeinküste — genau das athletische westafrikanische Profil, das ihnen nicht liegt. Die Qualität spricht für Frankreich, das Muster warnt.",
+      "key_factors": ["Frankreich NIE gegen Senegal gewonnen (0-0-2)", "Pleite gegen Elfenbeinküste = Warnmuster", "Qualität trotzdem klar pro Frankreich"],
+      "upset_watch": "Senegal-Sieg oder Remis ist deutlich lebendiger, als die halbe Familie denkt. Wer Frankreich hoch tippt, ignoriert ein 24-Jahre-Muster.",
+      "stat_model": {"p_home": 0.61, "p_draw": 0.24, "p_away": 0.15, "lambda_home": null, "lambda_away": null, "top_scoreline": "1:1"}
+    },
+    {
+      "fixture_id": "wc2026-019",
+      "date": "2026-06-16",
+      "home": "Iraq", "away": "Norway", "city": "Foxborough",
+      "pick": {"home": 0, "away": 2},
+      "probs": {"home": 0.13, "draw": 0.24, "away": 0.63},
+      "confidence": "mittel-hoch",
+      "reasoning": "Norwegen ist die formstärkste Nicht-Top-Nation des Turniers (4:1 in Italien!) und offensiv brutal. Der Irak kämpft, hat aber gegen dieses Kaliber wenig entgegenzusetzen.",
+      "key_factors": ["Norwegen 4:1 in Italien", "Offensive Wucht", "Irak limitiert"],
+      "upset_watch": "Der Irak hielt Spanien bei 1:1 — Bus parken können sie. Ein zähes 0:1 ist realistischer als ein Irak-Punkt.",
+      "stat_model": {"p_home": 0.13, "p_draw": 0.23, "p_away": 0.64, "lambda_home": null, "lambda_away": null, "top_scoreline": "0:2"}
+    },
+    {
+      "fixture_id": "wc2026-020",
+      "date": "2026-06-17",
+      "home": "Portugal", "away": "DR Congo", "city": "Houston",
+      "pick": {"home": 2, "away": 0},
+      "probs": {"home": 0.70, "draw": 0.20, "away": 0.10},
+      "confidence": "mittel-hoch",
+      "reasoning": "Portugal kommt mit breiter Brust (9:1 gegen Armenien, Auswärtssiege bei USA und Mexiko-Remis) und hat individuell zwei Klassen Vorsprung. Die DR Kongo ist solide organisiert, aber offensiv harmlos gegen Top-Abwehrreihen.",
+      "key_factors": ["Portugal in Torlaune (9:1)", "Elo +297", "DRC offensiv limitiert"],
+      "upset_watch": "Einziges Risiko: Portugal-Schlendrian nach frühem Führungstreffer — dann bleibt es 'nur' 1:0/2:1.",
+      "stat_model": {"p_home": 0.69, "p_draw": 0.21, "p_away": 0.10, "lambda_home": null, "lambda_away": null, "top_scoreline": "2:0"}
+    },
+    {
+      "fixture_id": "wc2026-021",
+      "date": "2026-06-17",
+      "home": "Uzbekistan", "away": "Colombia", "city": "Mexico City",
+      "pick": {"home": 0, "away": 2},
+      "probs": {"home": 0.11, "draw": 0.22, "away": 0.67},
+      "confidence": "mittel-hoch",
+      "reasoning": "Kontext-Detail, das viele übersehen: Das Spiel steigt in Mexiko-Stadt auf 2.240 m Höhe — und Kolumbiens Spieler sind Höhenluft gewohnt (Bogotá liegt auf 2.640 m), Usbekistan nicht. Dazu ist Kolumbien schlicht das viel bessere Team in guter Form (3:0 gegen Australien).",
+      "key_factors": ["Höhe 2.240 m — Vorteil Kolumbien (Bogotá-Gewohnheit)", "Elo +246 für Kolumbien", "Kolumbien formstark"],
+      "upset_watch": "Usbekistan ist diszipliniert und hat WM-Euphorie — mehr als ein Achtungs-1:2 ist aber kaum drin.",
+      "stat_model": {"p_home": 0.13, "p_draw": 0.23, "p_away": 0.64, "lambda_home": null, "lambda_away": null, "top_scoreline": "0:2"}
+    },
+    {
+      "fixture_id": "wc2026-022",
+      "date": "2026-06-17",
+      "home": "England", "away": "Croatia", "city": "Arlington",
+      "pick": {"home": 1, "away": 0},
+      "probs": {"home": 0.51, "draw": 0.28, "away": 0.21},
+      "confidence": "niedrig-mittel",
+      "reasoning": "England gewinnt seine Spiele knapp und kontrolliert (2:0, 1:0, 1:0 — kaum Spektakel), Kroatien bleibt mit seiner Turnier-DNA (Finale 2018, Halbfinale 2022) brandgefährlich, altert aber sichtbar. H2H spricht für England (6-2-3). Ein enges, taktisches 1:0 passt zu beiden Profilen.",
+      "key_factors": ["England gewinnt knapp & kontrolliert", "Kroatiens Turnier-DNA", "H2H 6-2-3 für England"],
+      "upset_watch": "Kroatien bei Turnieren abzuschreiben war historisch IMMER ein Fehler — das Remis ist hochlebendig. Englands 0:1 gegen Japan zeigt die Anfälligkeit.",
+      "stat_model": {"p_home": 0.50, "p_draw": 0.27, "p_away": 0.23, "lambda_home": null, "lambda_away": null, "top_scoreline": "1:1"}
+    },
+    {
+      "fixture_id": "wc2026-023",
+      "date": "2026-06-17",
+      "home": "Ghana", "away": "Panama", "city": "Toronto",
+      "pick": {"home": 1, "away": 2},
+      "probs": {"home": 0.27, "draw": 0.28, "away": 0.45},
+      "confidence": "niedrig",
+      "reasoning": "Hier korrigiere ich das Modell deutlich: Es sieht Panama bei 64 % — aber Ghanas Pleitenserie kam ausschließlich gegen Schwergewichte (Deutschland, Österreich, Südkorea, Mexiko — alles auswärts). Gegen Panama ist Ghana nicht so chancenlos, wie der eingebrochene Elo suggeriert. Panama bleibt favorisiert (bessere Form, CONCACAF-Quasi-Heimspiel in Toronto), aber als knapper Favorit.",
+      "key_factors": ["Modell überzeichnet: Ghanas Pleiten kamen gegen Elite", "Panama formstabil + Quasi-Heimspiel", "echtes Drei-Wege-Spiel"],
+      "upset_watch": "Das ist das offenste Spiel der Welle — Ghana-Sieg und Remis sind beide absolut lebendig. Hier auf Nummer sicher tippen (1:1 wäre die Defensiv-Variante).",
+      "stat_model": {"p_home": 0.13, "p_draw": 0.23, "p_away": 0.64, "lambda_home": null, "lambda_away": null, "top_scoreline": "0:2"}
+    }
+  ]
+}

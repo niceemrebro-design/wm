@@ -27,10 +27,15 @@ def main():
     elo_top = [{"team": t, "elo": elo.get(t, {}).get("elo")}
                for t in sorted(parts, key=lambda t: -elo.get(t, {}).get("elo", 0))]
 
-    tour = None
-    tp = os.path.join(PRED_DIR, "tournament.json")
-    if os.path.exists(tp):
-        tour = _load(tp)
+    def _opt(name):
+        p = os.path.join(PRED_DIR, name)
+        return _load(p) if os.path.exists(p) else None
+
+    tour = _opt("tournament.json")
+    scorecard = _opt("scorecard.json")
+    backtest = _opt("backtest.json")
+    if backtest:
+        backtest.pop("games", None)  # Detail-Listen nicht in die Web-Daten
 
     data = {
         "meta": allp.get("data", {}),
@@ -41,6 +46,8 @@ def main():
         "predictions": allp.get("predictions", []),
         "elo_top": elo_top,
         "tournament": tour,
+        "scorecard": scorecard,
+        "backtest": backtest,
     }
     with open(os.path.join(WEB, "data.js"), "w", encoding="utf-8") as f:
         f.write("window.WM_DATA = " + json.dumps(data, ensure_ascii=False) + ";\n")

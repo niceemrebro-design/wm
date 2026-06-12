@@ -32,6 +32,7 @@ def main():
     if "--calibrate" in args:
         run("calibrate.py")
     run("predict.py")
+    run("evaluate.py")
     run("montecarlo.py", "25000")
     run("build_web.py")
     print("\n✅ Refresh fertig — predictions/ und web/data.js sind aktuell.")

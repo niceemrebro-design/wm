@@ -1,0 +1,6790 @@
+{
+ "wc2026-002": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.62,
+   "draw": 0.26,
+   "away": 0.12
+  },
+  "confidence": "mittel",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Kanada spielt als Gastgeber faktisch zu Hause (kein neutraler Platz), hat +268 Elo Vorsprung und stabile Form. Bosnien ist defensiv schwer zu knacken, offensiv aber harmlos — fünf Remis in Serie, viermal 1:1.",
+  "key_factors": [
+   "Echter Heimvorteil (Gastgeber)",
+   "Elo +268",
+   "Bosnien offensiv harmlos"
+  ],
+  "upset_watch": "Bosniens Remis-Serie ist das realistischste Überraschungsszenario — ein 1:1 wäre nicht schockierend.",
+  "stat_model": {
+   "p_home": 0.79,
+   "p_draw": 0.161,
+   "p_away": 0.048,
+   "lambda_home": 2.34,
+   "lambda_away": 0.46,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Canada": 1906.9,
+    "Bosnia and Herzegovina": 1639.2,
+    "diff": 267.7
+   },
+   "form": {
+    "Canada": {
+     "seq5": "WDDWD",
+     "pts5": 9,
+     "gf5": 7,
+     "ga5": 3,
+     "pts10": 17,
+     "n": 10
+    },
+    "Bosnia and Herzegovina": {
+     "seq5": "DDDDD",
+     "pts5": 5,
+     "gf5": 4,
+     "ga5": 4,
+     "pts10": 15,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 2.34,
+    "lambda_away": 0.46,
+    "p_home": 0.79,
+    "p_draw": 0.161,
+    "p_away": 0.048,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.167
+     },
+     {
+      "score": "1:0",
+      "p": 0.135
+     },
+     {
+      "score": "3:0",
+      "p": 0.13
+     },
+     {
+      "score": "2:1",
+      "p": 0.076
+     }
+    ]
+   },
+   "context": {
+    "neutral": false,
+    "city": "Toronto"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1907 vs 1639 (Δ +268) · Form letzte 5 WDDWD (7:3) vs DDDDD (4:4) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 79%/16%/5%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-003": {
+  "pick": {
+   "home": 1,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.36,
+   "draw": 0.31,
+   "away": 0.33
+  },
+  "confidence": "niedrig",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Echtes Pick'em: Paraguay ist nach Elo sogar leicht stärker, der US-Heimvorteil gleicht das aus. Die US-Defensive ist anfällig (5 Gegentore gegen Belgien, Pleiten gegen Portugal/Deutschland), Paraguay reist robust (Sieg in Mexiko).",
+  "key_factors": [
+   "Coin-Flip",
+   "US-Defensive löchrig",
+   "Paraguay auswärtsstark"
+  ],
+  "upset_watch": "Die Familie tippt reflexhaft USA — der Wert liegt im Remis oder sogar Paraguay-Sieg.",
+  "stat_model": {
+   "p_home": 0.398,
+   "p_draw": 0.28,
+   "p_away": 0.322,
+   "lambda_home": 1.48,
+   "lambda_away": 1.32,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "United States": 1831.6,
+    "Paraguay": 1921.7,
+    "diff": -90.1
+   },
+   "form": {
+    "United States": {
+     "seq5": "WLLWL",
+     "pts5": 6,
+     "gf5": 11,
+     "ga5": 12,
+     "pts10": 16,
+     "n": 10
+    },
+    "Paraguay": {
+     "seq5": "LWWLW",
+     "pts5": 9,
+     "gf5": 9,
+     "ga5": 5,
+     "pts10": 14,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 9,
+    "home_persp": "5-2-2",
+    "goals": "12:7"
+   },
+   "model": {
+    "lambda_home": 1.48,
+    "lambda_away": 1.32,
+    "p_home": 0.398,
+    "p_draw": 0.28,
+    "p_away": 0.322,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.133
+     },
+     {
+      "score": "2:1",
+      "p": 0.088
+     },
+     {
+      "score": "1:2",
+      "p": 0.078
+     },
+     {
+      "score": "1:0",
+      "p": 0.076
+     }
+    ]
+   },
+   "context": {
+    "neutral": false,
+    "city": "Inglewood"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1832 vs 1922 (Δ -90) · Form letzte 5 WLLWL (11:12) vs LWWLW (9:5) · H2H 9 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 40%/28%/32%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-004": {
+  "pick": {
+   "home": 0,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.11,
+   "draw": 0.23,
+   "away": 0.66
+  },
+  "confidence": "mittel-hoch",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Elo-Kluft von 382 Punkten, Katar zuletzt ohne Tore und ohne Sieg. Die Schweiz hat klar mehr Qualität.",
+  "key_factors": [
+   "Elo-Kluft 382",
+   "Katar ohne Tore",
+   "Schweizer Klasse"
+  ],
+  "upset_watch": "Schweizer Remis-Hang (zuletzt viele 0:0/1:1) plus mauerndes Katar könnte es eng halten — 1:0 oder 0:1 deckelt die Konfidenz.",
+  "stat_model": {
+   "p_home": 0.053,
+   "p_draw": 0.167,
+   "p_away": 0.78,
+   "lambda_home": 0.48,
+   "lambda_away": 2.32,
+   "top_scoreline": "0:2"
+  },
+  "basis": {
+   "elo": {
+    "Qatar": 1566.8,
+    "Switzerland": 1948.7,
+    "diff": -381.9
+   },
+   "form": {
+    "Qatar": {
+     "seq5": "LDLLD",
+     "pts5": 2,
+     "gf5": 1,
+     "ga5": 6,
+     "pts10": 7,
+     "n": 10
+    },
+    "Switzerland": {
+     "seq5": "DLDWD",
+     "pts5": 6,
+     "gf5": 9,
+     "ga5": 7,
+     "pts10": 19,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 1,
+    "home_persp": "1-0-0",
+    "goals": "1:0"
+   },
+   "model": {
+    "lambda_home": 0.48,
+    "lambda_away": 2.32,
+    "p_home": 0.053,
+    "p_draw": 0.167,
+    "p_away": 0.78,
+    "top_scorelines": [
+     {
+      "score": "0:2",
+      "p": 0.163
+     },
+     {
+      "score": "0:1",
+      "p": 0.133
+     },
+     {
+      "score": "0:3",
+      "p": 0.126
+     },
+     {
+      "score": "1:2",
+      "p": 0.079
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Santa Clara"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1567 vs 1949 (Δ -382) · Form letzte 5 LDLLD (1:6) vs DLDWD (9:7) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 5%/17%/78%, wahrscheinlichstes Ergebnis 0:2."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-005": {
+  "pick": {
+   "home": 2,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.45,
+   "draw": 0.27,
+   "away": 0.28
+  },
+  "confidence": "niedrig-mittel",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Brasilien ist favorisiert, aber Marokko (WM-Halbfinalist 2022) ist brandgefährlich und formstark (Siege/Remis gegen Paraguay, Norwegen, Ecuador). Brasilien wirkt wechselhaft (Pleite gegen Frankreich, Remis gegen Tunesien). Deutlich enger, als der große Name Brasilien suggeriert.",
+  "key_factors": [
+   "Marokko brandgefährlich",
+   "Brasilien wechselhaft",
+   "neutraler Platz nivelliert"
+  ],
+  "upset_watch": "1:1 oder ein Marokko-Sieg sind hochlebendig — die klassische Falle für Tipper, die Brasilien blind hoch tippen.",
+  "stat_model": {
+   "p_home": 0.451,
+   "p_draw": 0.275,
+   "p_away": 0.274,
+   "lambda_home": 1.6,
+   "lambda_away": 1.2,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Brazil": 2072.1,
+    "Morocco": 1990.1,
+    "diff": 82.0
+   },
+   "form": {
+    "Brazil": {
+     "seq5": "DLWWW",
+     "pts5": 10,
+     "gf5": 13,
+     "ga5": 7,
+     "pts10": 19,
+     "n": 10
+    },
+    "Morocco": {
+     "seq5": "DWWWD",
+     "pts5": 11,
+     "gf5": 13,
+     "ga5": 3,
+     "pts10": 24,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 3,
+    "home_persp": "2-0-1",
+    "goals": "6:2"
+   },
+   "model": {
+    "lambda_home": 1.6,
+    "lambda_away": 1.2,
+    "p_home": 0.451,
+    "p_draw": 0.275,
+    "p_away": 0.274,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.131
+     },
+     {
+      "score": "2:1",
+      "p": 0.093
+     },
+     {
+      "score": "1:0",
+      "p": 0.083
+     },
+     {
+      "score": "2:0",
+      "p": 0.078
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "East Rutherford"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2072 vs 1990 (Δ +82) · Form letzte 5 DLWWW (13:7) vs DWWWD (13:3) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 45%/28%/27%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-006": {
+  "pick": {
+   "home": 1,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.25,
+   "draw": 0.28,
+   "away": 0.47
+  },
+  "confidence": "niedrig-mittel",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Schottland ist die klar bessere Elf (Sieg 4:2 gegen Dänemark), aber wechselhaft (Pleiten gegen Japan und Elfenbeinküste). Haiti ist solide, aber eine Nummer kleiner.",
+  "key_factors": [
+   "Schottland qualitativ überlegen",
+   "Schottland aber unkonstant"
+  ],
+  "upset_watch": "Haiti kann ein Remis klauen, wenn Schottland wieder pomadig auftritt.",
+  "stat_model": {
+   "p_home": 0.221,
+   "p_draw": 0.265,
+   "p_away": 0.514,
+   "lambda_home": 1.07,
+   "lambda_away": 1.73,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Haiti": 1718.6,
+    "Scotland": 1855.8,
+    "diff": -137.2
+   },
+   "form": {
+    "Haiti": {
+     "seq5": "WLDWL",
+     "pts5": 7,
+     "gf5": 8,
+     "ga5": 4,
+     "pts10": 15,
+     "n": 10
+    },
+    "Scotland": {
+     "seq5": "WLLWW",
+     "pts5": 9,
+     "gf5": 12,
+     "ga5": 5,
+     "pts10": 19,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 1.07,
+    "lambda_away": 1.73,
+    "p_home": 0.221,
+    "p_draw": 0.265,
+    "p_away": 0.514,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.126
+     },
+     {
+      "score": "1:2",
+      "p": 0.097
+     },
+     {
+      "score": "0:1",
+      "p": 0.092
+     },
+     {
+      "score": "0:2",
+      "p": 0.091
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Foxborough"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1719 vs 1856 (Δ -137) · Form letzte 5 WLDWL (8:4) vs WLLWW (12:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 22%/26%/51%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-007": {
+  "pick": {
+   "home": 1,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.28,
+   "draw": 0.28,
+   "away": 0.44
+  },
+  "confidence": "niedrig",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Die Türkei ist formstark (Remis gegen Spanien, klare Siege gegen Rumänien/Nordmazedonien) und führt das direkte Duell 2:0. Australien ist diszipliniert, aber offensiv limitiert.",
+  "key_factors": [
+   "Türkei in Form",
+   "H2H 2:0 für Türkei",
+   "Australien offensiv limitiert"
+  ],
+  "upset_watch": "Enge Kiste — ein 1:1 ist sehr realistisch, Australien ist kein Selbstläufer.",
+  "stat_model": {
+   "p_home": 0.279,
+   "p_draw": 0.276,
+   "p_away": 0.445,
+   "lambda_home": 1.22,
+   "lambda_away": 1.58,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Australia": 1902.6,
+    "Turkey": 1979.1,
+    "diff": -76.5
+   },
+   "form": {
+    "Australia": {
+     "seq5": "LWWLD",
+     "pts5": 7,
+     "gf5": 7,
+     "ga5": 6,
+     "pts10": 16,
+     "n": 10
+    },
+    "Turkey": {
+     "seq5": "DWWWW",
+     "pts5": 13,
+     "gf5": 10,
+     "ga5": 3,
+     "pts10": 25,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 2,
+    "home_persp": "0-0-2",
+    "goals": "1:4"
+   },
+   "model": {
+    "lambda_home": 1.22,
+    "lambda_away": 1.58,
+    "p_home": 0.279,
+    "p_draw": 0.276,
+    "p_away": 0.445,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.131
+     },
+     {
+      "score": "1:2",
+      "p": 0.093
+     },
+     {
+      "score": "0:1",
+      "p": 0.082
+     },
+     {
+      "score": "0:2",
+      "p": 0.076
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Vancouver"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1903 vs 1979 (Δ -76) · Form letzte 5 LWWLD (7:6) vs DWWWW (10:3) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 28%/28%/44%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-008": {
+  "pick": {
+   "home": 2,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.42,
+   "draw": 0.29,
+   "away": 0.29
+  },
+  "confidence": "niedrig-mittel",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Schweden hat die größere Offensivqualität und einen leichten Elo-Vorteil. Tunesien ist defensiv organisiert, aber auswärts zuletzt schwach (0:5 in Belgien, 0:1 in Österreich).",
+  "key_factors": [
+   "Schweden offensiv stärker",
+   "Tunesien auswärts schwach",
+   "H2H Schweden 2-1-1"
+  ],
+  "upset_watch": "Wenn Tunesien mauert, droht ein zähes 1:1 oder 1:0.",
+  "stat_model": {
+   "p_home": 0.403,
+   "p_draw": 0.28,
+   "p_away": 0.317,
+   "lambda_home": 1.5,
+   "lambda_away": 1.3,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Sweden": 1772.2,
+    "Tunisia": 1732.5,
+    "diff": 39.7
+   },
+   "form": {
+    "Sweden": {
+     "seq5": "DWWLD",
+     "pts5": 8,
+     "gf5": 10,
+     "ga5": 9,
+     "pts10": 9,
+     "n": 10
+    },
+    "Tunisia": {
+     "seq5": "DWDLL",
+     "pts5": 5,
+     "gf5": 2,
+     "ga5": 7,
+     "pts10": 13,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 4,
+    "home_persp": "2-1-1",
+    "goals": "3:2"
+   },
+   "model": {
+    "lambda_home": 1.5,
+    "lambda_away": 1.3,
+    "p_home": 0.403,
+    "p_draw": 0.28,
+    "p_away": 0.317,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.133
+     },
+     {
+      "score": "2:1",
+      "p": 0.089
+     },
+     {
+      "score": "1:2",
+      "p": 0.077
+     },
+     {
+      "score": "1:0",
+      "p": 0.077
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Guadalupe"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1772 vs 1732 (Δ +40) · Form letzte 5 DWWLD (10:9) vs DWDLL (2:7) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 40%/28%/32%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-009": {
+  "pick": {
+   "home": 1,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.34,
+   "draw": 0.31,
+   "away": 0.35
+  },
+  "confidence": "niedrig",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "DER Aufpasser-Tipp des Spieltags. Statistik und Elo sagen Münzwurf — aber Japan ist in absoluter Galaform: fünf Siege in Folge, darunter 1:0 in England und 1:0 in Schottland. Die Niederlande sind gut, aber zuletzt fehleranfällig (0:1 gegen Algerien, Remis gegen Ecuador). Die halbe Familie tippt blind Oranje-Sieg — genau hier liegt der Vorsprung.",
+  "key_factors": [
+   "Japan 5 Siege in Serie (1:0 in England!)",
+   "Oranje fehleranfällig",
+   "Statistik = Münzwurf"
+  ],
+  "upset_watch": "Ein Japan-Sieg ist hochlebendig, kein echter 'Upset' — ein Remis ist der Mindestwert. Wer hier Oranje hoch tippt, verschenkt Punkte.",
+  "stat_model": {
+   "p_home": 0.376,
+   "p_draw": 0.281,
+   "p_away": 0.343,
+   "lambda_home": 1.44,
+   "lambda_away": 1.36,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Netherlands": 2011.4,
+    "Japan": 1996.1,
+    "diff": 15.3
+   },
+   "form": {
+    "Netherlands": {
+     "seq5": "WWDLW",
+     "pts5": 10,
+     "gf5": 9,
+     "ga5": 4,
+     "pts10": 21,
+     "n": 10
+    },
+    "Japan": {
+     "seq5": "WWWWW",
+     "pts5": 15,
+     "gf5": 8,
+     "ga5": 0,
+     "pts10": 23,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 3,
+    "home_persp": "2-1-0",
+    "goals": "6:2"
+   },
+   "model": {
+    "lambda_home": 1.44,
+    "lambda_away": 1.36,
+    "p_home": 0.376,
+    "p_draw": 0.281,
+    "p_away": 0.343,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.133
+     },
+     {
+      "score": "2:1",
+      "p": 0.086
+     },
+     {
+      "score": "1:2",
+      "p": 0.081
+     },
+     {
+      "score": "0:0",
+      "p": 0.075
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Arlington"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2011 vs 1996 (Δ +15) · Form letzte 5 WWDLW (9:4) vs WWWWW (8:0) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 38%/28%/34%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-010": {
+  "pick": {
+   "home": 3,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.7,
+   "draw": 0.21,
+   "away": 0.09
+  },
+  "confidence": "hoch",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Deutschland in Torlaune (6:0, 4:3, 2:1, 4:0, 2:1) gegen ein defensiv überfordertes Curaçao (zuletzt 1:5, 1:4 kassiert). Klarster Tipp des Spieltags.",
+  "key_factors": [
+   "Deutschland in Torlaune",
+   "Elo +390",
+   "Curaçao defensiv überfordert"
+  ],
+  "upset_watch": "Nur eigene Nachlässigkeit könnte Deutschland bremsen — sportlich praktisch ausgeschlossen.",
+  "stat_model": {
+   "p_home": 0.788,
+   "p_draw": 0.163,
+   "p_away": 0.049,
+   "lambda_home": 2.34,
+   "lambda_away": 0.46,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Germany": 2003.4,
+    "Curaçao": 1613.6,
+    "diff": 389.8
+   },
+   "form": {
+    "Germany": {
+     "seq5": "WWWWW",
+     "pts5": 15,
+     "gf5": 18,
+     "ga5": 5,
+     "pts10": 27,
+     "n": 10
+    },
+    "Curaçao": {
+     "seq5": "DLLLW",
+     "pts5": 4,
+     "gf5": 6,
+     "ga5": 11,
+     "pts10": 15,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 2.34,
+    "lambda_away": 0.46,
+    "p_home": 0.788,
+    "p_draw": 0.163,
+    "p_away": 0.049,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.166
+     },
+     {
+      "score": "1:0",
+      "p": 0.134
+     },
+     {
+      "score": "3:0",
+      "p": 0.129
+     },
+     {
+      "score": "2:1",
+      "p": 0.077
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Houston"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2003 vs 1614 (Δ +390) · Form letzte 5 WWWWW (18:5) vs DLLLW (6:11) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 79%/16%/5%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-011": {
+  "pick": {
+   "home": 0,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.22,
+   "draw": 0.29,
+   "away": 0.49
+  },
+  "confidence": "niedrig-mittel",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Ecuador hat den deutlich höheren Elo und eine der besten Defensiven des Turniers (viele Zu-Null-Spiele). Die Elfenbeinküste ist aber in bestechender Form (2:1 in Frankreich!, 4:0 gegen Südkorea) — gefährlicher, als der Elo-Abstand vermuten lässt.",
+  "key_factors": [
+   "Ecuador defensiv top + höherer Elo",
+   "Elfenbeinküste in Top-Form (2:1 in Frankreich)"
+  ],
+  "upset_watch": "Bei diesem ivorischen Lauf sind Remis oder sogar Sieg lebendig — kein sicherer Ecuador-Tipp.",
+  "stat_model": {
+   "p_home": 0.152,
+   "p_draw": 0.24,
+   "p_away": 0.609,
+   "lambda_home": 0.87,
+   "lambda_away": 1.93,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Ivory Coast": 1811.8,
+    "Ecuador": 2031.5,
+    "diff": -219.7
+   },
+   "form": {
+    "Ivory Coast": {
+     "seq5": "WLWWW",
+     "pts5": 12,
+     "gf5": 12,
+     "ga5": 4,
+     "pts10": 22,
+     "n": 10
+    },
+    "Ecuador": {
+     "seq5": "WDDWW",
+     "pts5": 11,
+     "gf5": 9,
+     "ga5": 3,
+     "pts10": 18,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 0.87,
+    "lambda_away": 1.93,
+    "p_home": 0.152,
+    "p_draw": 0.24,
+    "p_away": 0.609,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.115
+     },
+     {
+      "score": "0:2",
+      "p": 0.113
+     },
+     {
+      "score": "0:1",
+      "p": 0.105
+     },
+     {
+      "score": "1:2",
+      "p": 0.099
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Philadelphia"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1812 vs 2032 (Δ -220) · Form letzte 5 WLWWW (12:4) vs WDDWW (9:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 15%/24%/61%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-012": {
+  "pick": {
+   "home": 2,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.52,
+   "draw": 0.27,
+   "away": 0.21
+  },
+  "confidence": "niedrig-mittel",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Belgien ist in Torlaune (7:0, 5:2, 5:0), aber Ägypten ist die unbequemste Sorte Gegner: extrem kompakt (0:0 gegen Spanien!, 0:0 gegen Nigeria) und im H2H sogar 3:1 vorn. Belgiens Offensivkraft sollte reichen — aber nicht hoch.",
+  "key_factors": [
+   "Belgien in Torlaune",
+   "Ägypten hielt Spanien bei 0:0",
+   "H2H spricht für Ägypten (3-1)"
+  ],
+  "upset_watch": "Ägypten ist ein klassischer 1:1-Kandidat: tief stehen, kontern. Wer Belgien hoch tippt, riskiert viel.",
+  "stat_model": {
+   "p_home": 0.516,
+   "p_draw": 0.264,
+   "p_away": 0.22,
+   "lambda_home": 1.73,
+   "lambda_away": 1.07,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Belgium": 1950.9,
+    "Egypt": 1812.6,
+    "diff": 138.3
+   },
+   "form": {
+    "Belgium": {
+     "seq5": "WWDWW",
+     "pts5": 13,
+     "gf5": 20,
+     "ga5": 3,
+     "pts10": 24,
+     "n": 10
+    },
+    "Egypt": {
+     "seq5": "DWDWL",
+     "pts5": 8,
+     "gf5": 6,
+     "ga5": 2,
+     "pts10": 18,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 4,
+    "home_persp": "1-0-3",
+    "goals": "4:7"
+   },
+   "model": {
+    "lambda_home": 1.73,
+    "lambda_away": 1.07,
+    "p_home": 0.516,
+    "p_draw": 0.264,
+    "p_away": 0.22,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.126
+     },
+     {
+      "score": "2:1",
+      "p": 0.097
+     },
+     {
+      "score": "1:0",
+      "p": 0.092
+     },
+     {
+      "score": "2:0",
+      "p": 0.091
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Seattle"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1951 vs 1813 (Δ +138) · Form letzte 5 WWDWW (20:3) vs DWDWL (6:2) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 52%/26%/22%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-013": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.59,
+   "draw": 0.24,
+   "away": 0.17
+  },
+  "confidence": "mittel",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Neuseeland ist in desolater Form (4 Pleiten in 5, darunter 0:4 gegen Haiti). Der Iran ist stabil, defensiv solide und gewinnt solche Pflichtaufgaben turniererfahren — selten spektakulär, meist kontrolliert.",
+  "key_factors": [
+   "Neuseeland 4 Pleiten in 5",
+   "Iran defensiv stabil",
+   "Elo +178"
+  ],
+  "upset_watch": "Der Iran tut sich gegen Mauertaktik manchmal schwer — ein zähes 1:0 ist die realistischste Abweichung.",
+  "stat_model": {
+   "p_home": 0.561,
+   "p_draw": 0.254,
+   "p_away": 0.186,
+   "lambda_home": 1.83,
+   "lambda_away": 0.97,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Iran": 1897.8,
+    "New Zealand": 1720.2,
+    "diff": 177.6
+   },
+   "form": {
+    "Iran": {
+     "seq5": "DLWWW",
+     "pts5": 10,
+     "gf5": 11,
+     "ga5": 3,
+     "pts10": 17,
+     "n": 10
+    },
+    "New Zealand": {
+     "seq5": "LLWLL",
+     "pts5": 3,
+     "gf5": 4,
+     "ga5": 10,
+     "pts10": 4,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 2,
+    "home_persp": "1-1-0",
+    "goals": "3:0"
+   },
+   "model": {
+    "lambda_home": 1.83,
+    "lambda_away": 0.97,
+    "p_home": 0.561,
+    "p_draw": 0.254,
+    "p_away": 0.186,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.121
+     },
+     {
+      "score": "2:0",
+      "p": 0.101
+     },
+     {
+      "score": "2:1",
+      "p": 0.099
+     },
+     {
+      "score": "1:0",
+      "p": 0.098
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Inglewood"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1898 vs 1720 (Δ +178) · Form letzte 5 DLWWW (11:3) vs LLWLL (4:10) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 56%/25%/19%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-014": {
+  "pick": {
+   "home": 3,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.85,
+   "draw": 0.12,
+   "away": 0.03
+  },
+  "confidence": "hoch",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Größtes Elo-Gefälle des Spieltags (+585). Spanien ist der Turnierfavorit Nr. 1 — auch wenn die Generalproben träge waren (2:2 Türkei, 0:0 Ägypten, 1:1 Irak). Gegen Kap Verde reicht die Klasse auch im Energiesparmodus.",
+  "key_factors": [
+   "Elo +585 — größte Kluft des Spieltags",
+   "Spanien Titelfavorit Nr. 1",
+   "Generalproben träge (leichter Dämpfer)"
+  ],
+  "upset_watch": "Spaniens Schongang-Remis-Serie ist der einzige Haken — falls sie schlafwandeln, wird es 'nur' 2:0 oder 1:0. Kap-Verde-Punktgewinn wäre eine Mega-Sensation.",
+  "stat_model": {
+   "p_home": 0.905,
+   "p_draw": 0.086,
+   "p_away": 0.01,
+   "lambda_home": 2.8,
+   "lambda_away": 0.18,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Spain": 2228.6,
+    "Cape Verde": 1643.5,
+    "diff": 585.1
+   },
+   "form": {
+    "Spain": {
+     "seq5": "DWDDW",
+     "pts5": 9,
+     "gf5": 9,
+     "ga5": 4,
+     "pts10": 24,
+     "n": 10
+    },
+    "Cape Verde": {
+     "seq5": "DLDWL",
+     "pts5": 5,
+     "gf5": 7,
+     "ga5": 9,
+     "pts10": 16,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 2.8,
+    "lambda_away": 0.18,
+    "p_home": 0.905,
+    "p_draw": 0.086,
+    "p_away": 0.01,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.199
+     },
+     {
+      "score": "3:0",
+      "p": 0.186
+     },
+     {
+      "score": "1:0",
+      "p": 0.139
+     },
+     {
+      "score": "4:0",
+      "p": 0.131
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Atlanta"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2229 vs 1644 (Δ +585) · Form letzte 5 DWDDW (9:4) vs DLDWL (7:9) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 90%/9%/1%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-015": {
+  "pick": {
+   "home": 0,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.14,
+   "draw": 0.24,
+   "away": 0.62
+  },
+  "confidence": "mittel",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Uruguay ist klar besser besetzt (+282 Elo), aber beide kommen wackelig daher: Saudi-Arabien mit 0:4 gegen Ägypten, Uruguay mit 1:5 gegen die USA und vielen torlosen Remis. Die Klasse setzt sich durch — aber weniger souverän, als das Modell glaubt.",
+  "key_factors": [
+   "Elo +282 für Uruguay",
+   "Uruguay-Offensive stottert",
+   "Saudi-Form desolat"
+  ],
+  "upset_watch": "Geschichtsstunde: Saudi-Arabien schlug 2022 den späteren Weltmeister Argentinien. Tief stehen + Konter können Uruguay quälen — 0:0/1:1 nicht abwegig.",
+  "stat_model": {
+   "p_home": 0.107,
+   "p_draw": 0.215,
+   "p_away": 0.678,
+   "lambda_home": 0.72,
+   "lambda_away": 2.08,
+   "top_scoreline": "0:2"
+  },
+  "basis": {
+   "elo": {
+    "Saudi Arabia": 1697.1,
+    "Uruguay": 1979.2,
+    "diff": -282.1
+   },
+   "form": {
+    "Saudi Arabia": {
+     "seq5": "LLLWD",
+     "pts5": 4,
+     "gf5": 5,
+     "ga5": 8,
+     "pts10": 13,
+     "n": 10
+    },
+    "Uruguay": {
+     "seq5": "WDLDD",
+     "pts5": 6,
+     "gf5": 4,
+     "ga5": 7,
+     "pts10": 16,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 3,
+    "home_persp": "1-1-1",
+    "goals": "4:4"
+   },
+   "model": {
+    "lambda_home": 0.72,
+    "lambda_away": 2.08,
+    "p_home": 0.107,
+    "p_draw": 0.215,
+    "p_away": 0.678,
+    "top_scorelines": [
+     {
+      "score": "0:2",
+      "p": 0.131
+     },
+     {
+      "score": "0:1",
+      "p": 0.115
+     },
+     {
+      "score": "1:1",
+      "p": 0.102
+     },
+     {
+      "score": "1:2",
+      "p": 0.095
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Miami Gardens"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1697 vs 1979 (Δ -282) · Form letzte 5 LLLWD (5:8) vs WDLDD (4:7) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 11%/21%/68%, wahrscheinlichstes Ergebnis 0:2."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-016": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.56,
+   "draw": 0.26,
+   "away": 0.18
+  },
+  "confidence": "mittel",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Österreich ist formstärker als sein Elo (4 Siege in 5, darunter 5:1 gegen Ghana und Siege gegen Südkorea/Tunesien) — das Pressing funktioniert. Jordanien ist seit fünf Spielen sieglos und kassiert viel. Ich stufe Österreich höher ein als das Modell.",
+  "key_factors": [
+   "Österreich 4 Siege in 5",
+   "Jordanien 5 Spiele sieglos",
+   "Pressing vs. limitierten Aufbau"
+  ],
+  "upset_watch": "Jordanien hat bei der WM 2022/Asien-Cup-Ära Kampfgeist gezeigt — ein frühes Gegentor könnte Österreich nervös machen, mehr aber nicht.",
+  "stat_model": {
+   "p_home": 0.486,
+   "p_draw": 0.27,
+   "p_away": 0.244,
+   "lambda_home": 1.67,
+   "lambda_away": 1.13,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Austria": 1890.0,
+    "Jordan": 1777.7,
+    "diff": 112.3
+   },
+   "form": {
+    "Austria": {
+     "seq5": "WDWWW",
+     "pts5": 13,
+     "gf5": 10,
+     "ga5": 2,
+     "pts10": 25,
+     "n": 10
+    },
+    "Jordan": {
+     "seq5": "LDDLL",
+     "pts5": 2,
+     "gf5": 7,
+     "ga5": 13,
+     "pts10": 17,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 1.67,
+    "lambda_away": 1.13,
+    "p_home": 0.486,
+    "p_draw": 0.27,
+    "p_away": 0.244,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.129
+     },
+     {
+      "score": "2:1",
+      "p": 0.096
+     },
+     {
+      "score": "1:0",
+      "p": 0.088
+     },
+     {
+      "score": "2:0",
+      "p": 0.085
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Santa Clara"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1890 vs 1778 (Δ +112) · Form letzte 5 WDWWW (10:2) vs LDDLL (7:13) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 49%/27%/24%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-017": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.66,
+   "draw": 0.21,
+   "away": 0.13
+  },
+  "confidence": "mittel-hoch",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Argentinien ist eine Maschine: 5 Siege in Folge, kaum Gegentore, Weltmeister-DNA. Aber Achtung — Algerien ist kein Standard-Außenseiter: 1:0 in den Niederlanden, 4:0 in Bolivien. Der Titelverteidiger gewinnt, aber Algerien verdient Respekt.",
+  "key_factors": [
+   "Argentinien 5 Siege, kaum Gegentore",
+   "Algerien gewann in den Niederlanden!",
+   "Titelverteidiger-Routine"
+  ],
+  "upset_watch": "Algerien ist gefährlicher als sein Ruf — das 1:0 in Amsterdam war kein Zufall. Ein 1:1 ist das realistische Überraschungsszenario.",
+  "stat_model": {
+   "p_home": 0.701,
+   "p_draw": 0.205,
+   "p_away": 0.094,
+   "lambda_home": 2.13,
+   "lambda_away": 0.67,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Argentina": 2193.7,
+    "Algeria": 1890.3,
+    "diff": 303.4
+   },
+   "form": {
+    "Argentina": {
+     "seq5": "WWWWW",
+     "pts5": 15,
+     "gf5": 14,
+     "ga5": 1,
+     "pts10": 25,
+     "n": 10
+    },
+    "Algeria": {
+     "seq5": "LWDWW",
+     "pts5": 10,
+     "gf5": 12,
+     "ga5": 2,
+     "pts10": 23,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 1,
+    "home_persp": "1-0-0",
+    "goals": "4:3"
+   },
+   "model": {
+    "lambda_home": 2.13,
+    "lambda_away": 0.67,
+    "p_home": 0.701,
+    "p_draw": 0.205,
+    "p_away": 0.094,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.138
+     },
+     {
+      "score": "1:0",
+      "p": 0.119
+     },
+     {
+      "score": "3:0",
+      "p": 0.098
+     },
+     {
+      "score": "1:1",
+      "p": 0.097
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Kansas City"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2194 vs 1890 (Δ +303) · Form letzte 5 WWWWW (14:1) vs LWDWW (12:2) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 70%/21%/9%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-018": {
+  "pick": {
+   "home": 2,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.53,
+   "draw": 0.25,
+   "away": 0.22
+  },
+  "confidence": "niedrig-mittel",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "DER Aufpasser-Tipp dieser Welle. Frankreich hat gegen Senegal noch NIE gewonnen (0 Siege, 2 Niederlagen — inkl. des legendären 0:1 bei der WM 2002). Und: Frankreich verlor gerade gegen die Elfenbeinküste — genau das athletische westafrikanische Profil, das ihnen nicht liegt. Die Qualität spricht für Frankreich, das Muster warnt.",
+  "key_factors": [
+   "Frankreich NIE gegen Senegal gewonnen (0-0-2)",
+   "Pleite gegen Elfenbeinküste = Warnmuster",
+   "Qualität trotzdem klar pro Frankreich"
+  ],
+  "upset_watch": "Senegal-Sieg oder Remis ist deutlich lebendiger, als die halbe Familie denkt. Wer Frankreich hoch tippt, ignoriert ein 24-Jahre-Muster.",
+  "stat_model": {
+   "p_home": 0.607,
+   "p_draw": 0.24,
+   "p_away": 0.153,
+   "lambda_home": 1.92,
+   "lambda_away": 0.88,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "France": 2134.1,
+    "Senegal": 1915.7,
+    "diff": 218.4
+   },
+   "form": {
+    "France": {
+     "seq5": "WWWLW",
+     "pts5": 12,
+     "gf5": 12,
+     "ga5": 6,
+     "pts10": 25,
+     "n": 10
+    },
+    "Senegal": {
+     "seq5": "LWWLD",
+     "pts5": 7,
+     "gf5": 7,
+     "ga5": 7,
+     "pts10": 20,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 2,
+    "home_persp": "0-0-2",
+    "goals": "0:3"
+   },
+   "model": {
+    "lambda_home": 1.92,
+    "lambda_away": 0.88,
+    "p_home": 0.607,
+    "p_draw": 0.24,
+    "p_away": 0.153,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.115
+     },
+     {
+      "score": "2:0",
+      "p": 0.113
+     },
+     {
+      "score": "1:0",
+      "p": 0.105
+     },
+     {
+      "score": "2:1",
+      "p": 0.099
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "East Rutherford"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2134 vs 1916 (Δ +218) · Form letzte 5 WWWLW (12:6) vs LWWLD (7:7) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 61%/24%/15%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-019": {
+  "pick": {
+   "home": 0,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.13,
+   "draw": 0.24,
+   "away": 0.63
+  },
+  "confidence": "mittel-hoch",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Norwegen ist die formstärkste Nicht-Top-Nation des Turniers (4:1 in Italien!) und offensiv brutal. Der Irak kämpft, hat aber gegen dieses Kaliber wenig entgegenzusetzen.",
+  "key_factors": [
+   "Norwegen 4:1 in Italien",
+   "Offensive Wucht",
+   "Irak limitiert"
+  ],
+  "upset_watch": "Der Irak hielt Spanien bei 1:1 — Bus parken können sie. Ein zähes 0:1 ist realistischer als ein Irak-Punkt.",
+  "stat_model": {
+   "p_home": 0.132,
+   "p_draw": 0.23,
+   "p_away": 0.638,
+   "lambda_home": 0.81,
+   "lambda_away": 1.99,
+   "top_scoreline": "0:2"
+  },
+  "basis": {
+   "elo": {
+    "Iraq": 1740.0,
+    "Norway": 1986.2,
+    "diff": -246.2
+   },
+   "form": {
+    "Iraq": {
+     "seq5": "LWWDL",
+     "pts5": 7,
+     "gf5": 4,
+     "ga5": 5,
+     "pts10": 17,
+     "n": 10
+    },
+    "Norway": {
+     "seq5": "WLDWD",
+     "pts5": 8,
+     "gf5": 9,
+     "ga5": 5,
+     "pts10": 21,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 0.81,
+    "lambda_away": 1.99,
+    "p_home": 0.132,
+    "p_draw": 0.23,
+    "p_away": 0.638,
+    "top_scorelines": [
+     {
+      "score": "0:2",
+      "p": 0.121
+     },
+     {
+      "score": "1:1",
+      "p": 0.11
+     },
+     {
+      "score": "0:1",
+      "p": 0.109
+     },
+     {
+      "score": "1:2",
+      "p": 0.098
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Foxborough"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1740 vs 1986 (Δ -246) · Form letzte 5 LWWDL (4:5) vs WLDWD (9:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 13%/23%/64%, wahrscheinlichstes Ergebnis 0:2."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-020": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.7,
+   "draw": 0.2,
+   "away": 0.1
+  },
+  "confidence": "mittel-hoch",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Portugal kommt mit breiter Brust (9:1 gegen Armenien, Auswärtssiege bei USA und Mexiko-Remis) und hat individuell zwei Klassen Vorsprung. Die DR Kongo ist solide organisiert, aber offensiv harmlos gegen Top-Abwehrreihen.",
+  "key_factors": [
+   "Portugal in Torlaune (9:1)",
+   "Elo +297",
+   "DRC offensiv limitiert"
+  ],
+  "upset_watch": "Einziges Risiko: Portugal-Schlendrian nach frühem Führungstreffer — dann bleibt es 'nur' 1:0/2:1.",
+  "stat_model": {
+   "p_home": 0.694,
+   "p_draw": 0.208,
+   "p_away": 0.098,
+   "lambda_home": 2.11,
+   "lambda_away": 0.69,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Portugal": 2062.6,
+    "DR Congo": 1765.5,
+    "diff": 297.1
+   },
+   "form": {
+    "Portugal": {
+     "seq5": "WDWWW",
+     "pts5": 13,
+     "gf5": 15,
+     "ga5": 3,
+     "pts10": 23,
+     "n": 10
+    },
+    "DR Congo": {
+     "seq5": "LWWDL",
+     "pts5": 7,
+     "gf5": 4,
+     "ga5": 3,
+     "pts10": 18,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 2.11,
+    "lambda_away": 0.69,
+    "p_home": 0.694,
+    "p_draw": 0.208,
+    "p_away": 0.098,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.136
+     },
+     {
+      "score": "1:0",
+      "p": 0.118
+     },
+     {
+      "score": "1:1",
+      "p": 0.099
+     },
+     {
+      "score": "3:0",
+      "p": 0.096
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Houston"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2063 vs 1766 (Δ +297) · Form letzte 5 WDWWW (15:3) vs LWWDL (4:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 69%/21%/10%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-021": {
+  "pick": {
+   "home": 0,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.11,
+   "draw": 0.22,
+   "away": 0.67
+  },
+  "confidence": "mittel-hoch",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Kontext-Detail, das viele übersehen: Das Spiel steigt in Mexiko-Stadt auf 2.240 m Höhe — und Kolumbiens Spieler sind Höhenluft gewohnt (Bogotá liegt auf 2.640 m), Usbekistan nicht. Dazu ist Kolumbien schlicht das viel bessere Team in guter Form (3:0 gegen Australien).",
+  "key_factors": [
+   "Höhe 2.240 m — Vorteil Kolumbien (Bogotá-Gewohnheit)",
+   "Elo +246 für Kolumbien",
+   "Kolumbien formstark"
+  ],
+  "upset_watch": "Usbekistan ist diszipliniert und hat WM-Euphorie — mehr als ein Achtungs-1:2 ist aber kaum drin.",
+  "stat_model": {
+   "p_home": 0.132,
+   "p_draw": 0.23,
+   "p_away": 0.638,
+   "lambda_home": 0.81,
+   "lambda_away": 1.99,
+   "top_scoreline": "0:2"
+  },
+  "basis": {
+   "elo": {
+    "Uzbekistan": 1822.1,
+    "Colombia": 2067.6,
+    "diff": -245.5
+   },
+   "form": {
+    "Uzbekistan": {
+     "seq5": "DWDLL",
+     "pts5": 5,
+     "gf5": 6,
+     "ga5": 7,
+     "pts10": 15,
+     "n": 10
+    },
+    "Colombia": {
+     "seq5": "WLLWW",
+     "pts5": 9,
+     "gf5": 10,
+     "ga5": 6,
+     "pts10": 22,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 0.81,
+    "lambda_away": 1.99,
+    "p_home": 0.132,
+    "p_draw": 0.23,
+    "p_away": 0.638,
+    "top_scorelines": [
+     {
+      "score": "0:2",
+      "p": 0.12
+     },
+     {
+      "score": "1:1",
+      "p": 0.11
+     },
+     {
+      "score": "0:1",
+      "p": 0.109
+     },
+     {
+      "score": "1:2",
+      "p": 0.098
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Mexico City"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1822 vs 2068 (Δ -246) · Form letzte 5 DWDLL (6:7) vs WLLWW (10:6) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 13%/23%/64%, wahrscheinlichstes Ergebnis 0:2."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-022": {
+  "pick": {
+   "home": 1,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.51,
+   "draw": 0.28,
+   "away": 0.21
+  },
+  "confidence": "niedrig-mittel",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "England gewinnt seine Spiele knapp und kontrolliert (2:0, 1:0, 1:0 — kaum Spektakel), Kroatien bleibt mit seiner Turnier-DNA (Finale 2018, Halbfinale 2022) brandgefährlich, altert aber sichtbar. H2H spricht für England (6-2-3). Ein enges, taktisches 1:0 passt zu beiden Profilen.",
+  "key_factors": [
+   "England gewinnt knapp & kontrolliert",
+   "Kroatiens Turnier-DNA",
+   "H2H 6-2-3 für England"
+  ],
+  "upset_watch": "Kroatien bei Turnieren abzuschreiben war historisch IMMER ein Fehler — das Remis ist hochlebendig. Englands 0:1 gegen Japan zeigt die Anfälligkeit.",
+  "stat_model": {
+   "p_home": 0.501,
+   "p_draw": 0.267,
+   "p_away": 0.231,
+   "lambda_home": 1.7,
+   "lambda_away": 1.1,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "England": 2098.9,
+    "Croatia": 1973.1,
+    "diff": 125.8
+   },
+   "form": {
+    "England": {
+     "seq5": "WDLWW",
+     "pts5": 10,
+     "gf5": 7,
+     "ga5": 2,
+     "pts10": 25,
+     "n": 10
+    },
+    "Croatia": {
+     "seq5": "WWLLW",
+     "pts5": 9,
+     "gf5": 8,
+     "ga5": 9,
+     "pts10": 22,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 11,
+    "home_persp": "6-2-3",
+    "goals": "22:13"
+   },
+   "model": {
+    "lambda_home": 1.7,
+    "lambda_away": 1.1,
+    "p_home": 0.501,
+    "p_draw": 0.267,
+    "p_away": 0.231,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.127
+     },
+     {
+      "score": "2:1",
+      "p": 0.097
+     },
+     {
+      "score": "1:0",
+      "p": 0.09
+     },
+     {
+      "score": "2:0",
+      "p": 0.088
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Arlington"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2099 vs 1973 (Δ +126) · Form letzte 5 WDLWW (7:2) vs WWLLW (8:9) · H2H 11 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 50%/27%/23%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-023": {
+  "pick": {
+   "home": 1,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.27,
+   "draw": 0.28,
+   "away": 0.45
+  },
+  "confidence": "niedrig",
+  "source": "Orakel (verfeinert)",
+  "reasoning": "Hier korrigiere ich das Modell deutlich: Es sieht Panama bei 64 % — aber Ghanas Pleitenserie kam ausschließlich gegen Schwergewichte (Deutschland, Österreich, Südkorea, Mexiko — alles auswärts). Gegen Panama ist Ghana nicht so chancenlos, wie der eingebrochene Elo suggeriert. Panama bleibt favorisiert (bessere Form, CONCACAF-Quasi-Heimspiel in Toronto), aber als knapper Favorit.",
+  "key_factors": [
+   "Modell überzeichnet: Ghanas Pleiten kamen gegen Elite",
+   "Panama formstabil + Quasi-Heimspiel",
+   "echtes Drei-Wege-Spiel"
+  ],
+  "upset_watch": "Das ist das offenste Spiel der Welle — Ghana-Sieg und Remis sind beide absolut lebendig. Hier auf Nummer sicher tippen (1:1 wäre die Defensiv-Variante).",
+  "stat_model": {
+   "p_home": 0.13,
+   "p_draw": 0.228,
+   "p_away": 0.642,
+   "lambda_home": 0.8,
+   "lambda_away": 2.0,
+   "top_scoreline": "0:2"
+  },
+  "basis": {
+   "elo": {
+    "Ghana": 1614.0,
+    "Panama": 1863.6,
+    "diff": -249.6
+   },
+   "form": {
+    "Ghana": {
+     "seq5": "LLLLD",
+     "pts5": 1,
+     "gf5": 3,
+     "ga5": 11,
+     "pts10": 11,
+     "n": 10
+    },
+    "Panama": {
+     "seq5": "DWLWD",
+     "pts5": 8,
+     "gf5": 10,
+     "ga5": 11,
+     "pts10": 16,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 0.8,
+    "lambda_away": 2.0,
+    "p_home": 0.13,
+    "p_draw": 0.228,
+    "p_away": 0.642,
+    "top_scorelines": [
+     {
+      "score": "0:2",
+      "p": 0.122
+     },
+     {
+      "score": "0:1",
+      "p": 0.11
+     },
+     {
+      "score": "1:1",
+      "p": 0.109
+     },
+     {
+      "score": "1:2",
+      "p": 0.097
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Toronto"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1614 vs 1864 (Δ -250) · Form letzte 5 LLLLD (3:11) vs DWLWD (10:11) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 13%/23%/64%, wahrscheinlichstes Ergebnis 0:2."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-024": {
+  "pick": {
+   "home": 2,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.498,
+   "draw": 0.268,
+   "away": 0.234
+  },
+  "confidence": "mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Czech Republic ist nach Elo und Form favorisiert. Berechnet aus: Elo 1784 vs 1661 (Δ +123) · Form letzte 5 DDWWL (12:8) vs DLDWL (3:5) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 50%/27%/23%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1784 vs 1661 (Δ +123)",
+   "Form L5 8 vs 5 Punkte",
+   "H2H 1 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.498,
+   "p_draw": 0.268,
+   "p_away": 0.234,
+   "lambda_home": 1.7,
+   "lambda_away": 1.1,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Czech Republic": 1783.9,
+    "South Africa": 1660.6,
+    "diff": 123.3
+   },
+   "form": {
+    "Czech Republic": {
+     "seq5": "DDWWL",
+     "pts5": 8,
+     "gf5": 12,
+     "ga5": 8,
+     "pts10": 16,
+     "n": 10
+    },
+    "South Africa": {
+     "seq5": "DLDWL",
+     "pts5": 5,
+     "gf5": 3,
+     "ga5": 5,
+     "pts10": 14,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 1,
+    "home_persp": "0-1-0",
+    "goals": "2:2"
+   },
+   "model": {
+    "lambda_home": 1.7,
+    "lambda_away": 1.1,
+    "p_home": 0.498,
+    "p_draw": 0.268,
+    "p_away": 0.234,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.128
+     },
+     {
+      "score": "2:1",
+      "p": 0.097
+     },
+     {
+      "score": "1:0",
+      "p": 0.089
+     },
+     {
+      "score": "2:0",
+      "p": 0.087
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Atlanta"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1784 vs 1661 (Δ +123) · Form letzte 5 DDWWL (12:8) vs DLDWL (3:5) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 50%/27%/23%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-025": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.603,
+   "draw": 0.241,
+   "away": 0.156
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Mexico ist nach Elo und Form favorisiert. Berechnet aus: Elo 1996 vs 1906 (Δ +90) · Form letzte 5 DWWWW (11:2) vs LLWWW (8:6) · H2H 14 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 60%/24%/16%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1996 vs 1906 (Δ +90)",
+   "Form L5 13 vs 9 Punkte",
+   "H2H 14 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.603,
+   "p_draw": 0.241,
+   "p_away": 0.156,
+   "lambda_home": 1.92,
+   "lambda_away": 0.88,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Mexico": 1995.8,
+    "South Korea": 1906.2,
+    "diff": 89.6
+   },
+   "form": {
+    "Mexico": {
+     "seq5": "DWWWW",
+     "pts5": 13,
+     "gf5": 11,
+     "ga5": 2,
+     "pts10": 23,
+     "n": 10
+    },
+    "South Korea": {
+     "seq5": "LLWWW",
+     "pts5": 9,
+     "gf5": 8,
+     "ga5": 6,
+     "pts10": 19,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 14,
+    "home_persp": "8-3-3",
+    "goals": "28:15"
+   },
+   "model": {
+    "lambda_home": 1.92,
+    "lambda_away": 0.88,
+    "p_home": 0.603,
+    "p_draw": 0.241,
+    "p_away": 0.156,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.115
+     },
+     {
+      "score": "2:0",
+      "p": 0.112
+     },
+     {
+      "score": "1:0",
+      "p": 0.104
+     },
+     {
+      "score": "2:1",
+      "p": 0.099
+     }
+    ]
+   },
+   "context": {
+    "neutral": false,
+    "city": "Zapopan"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1996 vs 1906 (Δ +90) · Form letzte 5 DWWWW (11:2) vs LLWWW (8:6) · H2H 14 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 60%/24%/16%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-026": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.707,
+   "draw": 0.202,
+   "away": 0.091
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Switzerland ist nach Elo und Form favorisiert. Berechnet aus: Elo 1949 vs 1639 (Δ +310) · Form letzte 5 DLDWD (9:7) vs DDDDD (4:4) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 71%/20%/9%, wahrscheinlichstes Ergebnis 2:0.",
+  "key_factors": [
+   "Elo 1949 vs 1639 (Δ +310)",
+   "Form L5 6 vs 5 Punkte",
+   "H2H 1 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.707,
+   "p_draw": 0.202,
+   "p_away": 0.091,
+   "lambda_home": 2.14,
+   "lambda_away": 0.66,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Switzerland": 1948.7,
+    "Bosnia and Herzegovina": 1639.2,
+    "diff": 309.5
+   },
+   "form": {
+    "Switzerland": {
+     "seq5": "DLDWD",
+     "pts5": 6,
+     "gf5": 9,
+     "ga5": 7,
+     "pts10": 19,
+     "n": 10
+    },
+    "Bosnia and Herzegovina": {
+     "seq5": "DDDDD",
+     "pts5": 5,
+     "gf5": 4,
+     "ga5": 4,
+     "pts10": 15,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 1,
+    "home_persp": "0-0-1",
+    "goals": "0:2"
+   },
+   "model": {
+    "lambda_home": 2.14,
+    "lambda_away": 0.66,
+    "p_home": 0.707,
+    "p_draw": 0.202,
+    "p_away": 0.091,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.14
+     },
+     {
+      "score": "1:0",
+      "p": 0.12
+     },
+     {
+      "score": "3:0",
+      "p": 0.1
+     },
+     {
+      "score": "1:1",
+      "p": 0.096
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Inglewood"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1949 vs 1639 (Δ +310) · Form letzte 5 DLDWD (9:7) vs DDDDD (4:4) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 71%/20%/9%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-027": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.854,
+   "draw": 0.123,
+   "away": 0.022
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Canada ist nach Elo und Form favorisiert. Berechnet aus: Elo 1907 vs 1567 (Δ +340) · Form letzte 5 WDDWD (7:3) vs LDLLD (1:6) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 85%/12%/2%, wahrscheinlichstes Ergebnis 2:0.",
+  "key_factors": [
+   "Elo 1907 vs 1567 (Δ +340)",
+   "Form L5 9 vs 2 Punkte",
+   "H2H 1 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.854,
+   "p_draw": 0.123,
+   "p_away": 0.022,
+   "lambda_home": 2.52,
+   "lambda_away": 0.28,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Canada": 1906.9,
+    "Qatar": 1566.8,
+    "diff": 340.1
+   },
+   "form": {
+    "Canada": {
+     "seq5": "WDDWD",
+     "pts5": 9,
+     "gf5": 7,
+     "ga5": 3,
+     "pts10": 17,
+     "n": 10
+    },
+    "Qatar": {
+     "seq5": "LDLLD",
+     "pts5": 2,
+     "gf5": 1,
+     "ga5": 6,
+     "pts10": 7,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 1,
+    "home_persp": "1-0-0",
+    "goals": "2:0"
+   },
+   "model": {
+    "lambda_home": 2.52,
+    "lambda_away": 0.28,
+    "p_home": 0.854,
+    "p_draw": 0.123,
+    "p_away": 0.022,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.193
+     },
+     {
+      "score": "3:0",
+      "p": 0.162
+     },
+     {
+      "score": "1:0",
+      "p": 0.148
+     },
+     {
+      "score": "4:0",
+      "p": 0.102
+     }
+    ]
+   },
+   "context": {
+    "neutral": false,
+    "city": "Vancouver"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1907 vs 1567 (Δ +340) · Form letzte 5 WDDWD (7:3) vs LDLLD (1:6) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 85%/12%/2%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-028": {
+  "pick": {
+   "home": 2,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.423,
+   "draw": 0.278,
+   "away": 0.299
+  },
+  "confidence": "mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Turkey ist nach Elo und Form favorisiert. Berechnet aus: Elo 1979 vs 1922 (Δ +57) · Form letzte 5 DWWWW (10:3) vs LWWLW (9:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 42%/28%/30%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1979 vs 1922 (Δ +57)",
+   "Form L5 13 vs 9 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.423,
+   "p_draw": 0.278,
+   "p_away": 0.299,
+   "lambda_home": 1.54,
+   "lambda_away": 1.26,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Turkey": 1979.1,
+    "Paraguay": 1921.7,
+    "diff": 57.4
+   },
+   "form": {
+    "Turkey": {
+     "seq5": "DWWWW",
+     "pts5": 13,
+     "gf5": 10,
+     "ga5": 3,
+     "pts10": 25,
+     "n": 10
+    },
+    "Paraguay": {
+     "seq5": "LWWLW",
+     "pts5": 9,
+     "gf5": 9,
+     "ga5": 5,
+     "pts10": 14,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 1.54,
+    "lambda_away": 1.26,
+    "p_home": 0.423,
+    "p_draw": 0.278,
+    "p_away": 0.299,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.132
+     },
+     {
+      "score": "2:1",
+      "p": 0.091
+     },
+     {
+      "score": "1:0",
+      "p": 0.079
+     },
+     {
+      "score": "0:0",
+      "p": 0.075
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Santa Clara"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1979 vs 1922 (Δ +57) · Form letzte 5 DWWWW (10:3) vs LWWLW (9:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 42%/28%/30%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-029": {
+  "pick": {
+   "home": 1,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.224,
+   "draw": 0.265,
+   "away": 0.511
+  },
+  "confidence": "mittel-hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Morocco ist nach Elo und Form favorisiert. Berechnet aus: Elo 1856 vs 1990 (Δ -134) · Form letzte 5 WLLWW (12:5) vs DWWWD (13:3) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 22%/27%/51%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1856 vs 1990 (Δ -134)",
+   "Form L5 9 vs 11 Punkte",
+   "H2H 1 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.224,
+   "p_draw": 0.265,
+   "p_away": 0.511,
+   "lambda_home": 1.08,
+   "lambda_away": 1.72,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Scotland": 1855.8,
+    "Morocco": 1990.1,
+    "diff": -134.3
+   },
+   "form": {
+    "Scotland": {
+     "seq5": "WLLWW",
+     "pts5": 9,
+     "gf5": 12,
+     "ga5": 5,
+     "pts10": 19,
+     "n": 10
+    },
+    "Morocco": {
+     "seq5": "DWWWD",
+     "pts5": 11,
+     "gf5": 13,
+     "ga5": 3,
+     "pts10": 24,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 1,
+    "home_persp": "0-0-1",
+    "goals": "0:3"
+   },
+   "model": {
+    "lambda_home": 1.08,
+    "lambda_away": 1.72,
+    "p_home": 0.224,
+    "p_draw": 0.265,
+    "p_away": 0.511,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.126
+     },
+     {
+      "score": "1:2",
+      "p": 0.097
+     },
+     {
+      "score": "0:1",
+      "p": 0.091
+     },
+     {
+      "score": "0:2",
+      "p": 0.09
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Foxborough"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1856 vs 1990 (Δ -134) · Form letzte 5 WLLWW (12:5) vs DWWWD (13:3) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 22%/27%/51%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-030": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.752,
+   "draw": 0.181,
+   "away": 0.066
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Brazil ist nach Elo und Form favorisiert. Berechnet aus: Elo 2072 vs 1719 (Δ +354) · Form letzte 5 DLWWW (13:7) vs WLDWL (8:4) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 75%/18%/7%, wahrscheinlichstes Ergebnis 2:0.",
+  "key_factors": [
+   "Elo 2072 vs 1719 (Δ +354)",
+   "Form L5 10 vs 7 Punkte",
+   "H2H 3 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.752,
+   "p_draw": 0.181,
+   "p_away": 0.066,
+   "lambda_home": 2.25,
+   "lambda_away": 0.55,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Brazil": 2072.1,
+    "Haiti": 1718.6,
+    "diff": 353.5
+   },
+   "form": {
+    "Brazil": {
+     "seq5": "DLWWW",
+     "pts5": 10,
+     "gf5": 13,
+     "ga5": 7,
+     "pts10": 19,
+     "n": 10
+    },
+    "Haiti": {
+     "seq5": "WLDWL",
+     "pts5": 7,
+     "gf5": 8,
+     "ga5": 4,
+     "pts10": 15,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 3,
+    "home_persp": "3-0-0",
+    "goals": "17:1"
+   },
+   "model": {
+    "lambda_home": 2.25,
+    "lambda_away": 0.55,
+    "p_home": 0.752,
+    "p_draw": 0.181,
+    "p_away": 0.066,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.154
+     },
+     {
+      "score": "1:0",
+      "p": 0.128
+     },
+     {
+      "score": "3:0",
+      "p": 0.115
+     },
+     {
+      "score": "2:1",
+      "p": 0.085
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Philadelphia"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2072 vs 1719 (Δ +354) · Form letzte 5 DLWWW (13:7) vs WLDWL (8:4) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 75%/18%/7%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-031": {
+  "pick": {
+   "home": 2,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.419,
+   "draw": 0.279,
+   "away": 0.302
+  },
+  "confidence": "niedrig-mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: United States ist nach Elo und Form favorisiert. Berechnet aus: Elo 1832 vs 1903 (Δ -71) · Form letzte 5 WLLWL (11:12) vs LWWLD (7:6) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 42%/28%/30%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1832 vs 1903 (Δ -71)",
+   "Form L5 6 vs 7 Punkte",
+   "H2H 4 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.419,
+   "p_draw": 0.279,
+   "p_away": 0.302,
+   "lambda_home": 1.53,
+   "lambda_away": 1.27,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "United States": 1831.6,
+    "Australia": 1902.6,
+    "diff": -71.0
+   },
+   "form": {
+    "United States": {
+     "seq5": "WLLWL",
+     "pts5": 6,
+     "gf5": 11,
+     "ga5": 12,
+     "pts10": 16,
+     "n": 10
+    },
+    "Australia": {
+     "seq5": "LWWLD",
+     "pts5": 7,
+     "gf5": 7,
+     "ga5": 6,
+     "pts10": 16,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 4,
+    "home_persp": "2-1-1",
+    "goals": "5:3"
+   },
+   "model": {
+    "lambda_home": 1.53,
+    "lambda_away": 1.27,
+    "p_home": 0.419,
+    "p_draw": 0.279,
+    "p_away": 0.302,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.132
+     },
+     {
+      "score": "2:1",
+      "p": 0.09
+     },
+     {
+      "score": "1:0",
+      "p": 0.079
+     },
+     {
+      "score": "1:2",
+      "p": 0.075
+     }
+    ]
+   },
+   "context": {
+    "neutral": false,
+    "city": "Seattle"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1832 vs 1903 (Δ -71) · Form letzte 5 WLLWL (11:12) vs LWWLD (7:6) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 42%/28%/30%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-032": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.631,
+   "draw": 0.232,
+   "away": 0.137
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Netherlands ist nach Elo und Form favorisiert. Berechnet aus: Elo 2011 vs 1772 (Δ +239) · Form letzte 5 WWDLW (9:4) vs DWWLD (10:9) · H2H 25 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 63%/23%/14%, wahrscheinlichstes Ergebnis 2:0.",
+  "key_factors": [
+   "Elo 2011 vs 1772 (Δ +239)",
+   "Form L5 10 vs 8 Punkte",
+   "H2H 25 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.631,
+   "p_draw": 0.232,
+   "p_away": 0.137,
+   "lambda_home": 1.97,
+   "lambda_away": 0.83,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Netherlands": 2011.4,
+    "Sweden": 1772.2,
+    "diff": 239.2
+   },
+   "form": {
+    "Netherlands": {
+     "seq5": "WWDLW",
+     "pts5": 10,
+     "gf5": 9,
+     "ga5": 4,
+     "pts10": 21,
+     "n": 10
+    },
+    "Sweden": {
+     "seq5": "DWWLD",
+     "pts5": 8,
+     "gf5": 10,
+     "ga5": 9,
+     "pts10": 9,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 25,
+    "home_persp": "11-6-8",
+    "goals": "47:48"
+   },
+   "model": {
+    "lambda_home": 1.97,
+    "lambda_away": 0.83,
+    "p_home": 0.631,
+    "p_draw": 0.232,
+    "p_away": 0.137,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.119
+     },
+     {
+      "score": "1:1",
+      "p": 0.111
+     },
+     {
+      "score": "1:0",
+      "p": 0.108
+     },
+     {
+      "score": "2:1",
+      "p": 0.098
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Houston"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2011 vs 1772 (Δ +239) · Form letzte 5 WWDLW (9:4) vs DWWLD (10:9) · H2H 25 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 63%/23%/14%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-033": {
+  "pick": {
+   "home": 0,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.12,
+   "draw": 0.223,
+   "away": 0.658
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Japan ist nach Elo und Form favorisiert. Berechnet aus: Elo 1732 vs 1996 (Δ -264) · Form letzte 5 DWDLL (2:7) vs WWWWW (8:0) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 12%/22%/66%, wahrscheinlichstes Ergebnis 0:2.",
+  "key_factors": [
+   "Elo 1732 vs 1996 (Δ -264)",
+   "Form L5 5 vs 15 Punkte",
+   "H2H 5 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.12,
+   "p_draw": 0.223,
+   "p_away": 0.658,
+   "lambda_home": 0.77,
+   "lambda_away": 2.03,
+   "top_scoreline": "0:2"
+  },
+  "basis": {
+   "elo": {
+    "Tunisia": 1732.5,
+    "Japan": 1996.1,
+    "diff": -263.6
+   },
+   "form": {
+    "Tunisia": {
+     "seq5": "DWDLL",
+     "pts5": 5,
+     "gf5": 2,
+     "ga5": 7,
+     "pts10": 13,
+     "n": 10
+    },
+    "Japan": {
+     "seq5": "WWWWW",
+     "pts5": 15,
+     "gf5": 8,
+     "ga5": 0,
+     "pts10": 23,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 5,
+    "home_persp": "1-0-4",
+    "goals": "3:6"
+   },
+   "model": {
+    "lambda_home": 0.77,
+    "lambda_away": 2.03,
+    "p_home": 0.12,
+    "p_draw": 0.223,
+    "p_away": 0.658,
+    "top_scorelines": [
+     {
+      "score": "0:2",
+      "p": 0.126
+     },
+     {
+      "score": "0:1",
+      "p": 0.112
+     },
+     {
+      "score": "1:1",
+      "p": 0.106
+     },
+     {
+      "score": "1:2",
+      "p": 0.096
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Guadalupe"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1732 vs 1996 (Δ -264) · Form letzte 5 DWDLL (2:7) vs WWWWW (8:0) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 12%/22%/66%, wahrscheinlichstes Ergebnis 0:2."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-034": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.577,
+   "draw": 0.249,
+   "away": 0.174
+  },
+  "confidence": "mittel-hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Germany ist nach Elo und Form favorisiert. Berechnet aus: Elo 2003 vs 1812 (Δ +192) · Form letzte 5 WWWWW (18:5) vs WLWWW (12:4) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 58%/25%/17%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 2003 vs 1812 (Δ +192)",
+   "Form L5 15 vs 12 Punkte",
+   "H2H 1 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.577,
+   "p_draw": 0.249,
+   "p_away": 0.174,
+   "lambda_home": 1.86,
+   "lambda_away": 0.94,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Germany": 2003.4,
+    "Ivory Coast": 1811.8,
+    "diff": 191.6
+   },
+   "form": {
+    "Germany": {
+     "seq5": "WWWWW",
+     "pts5": 15,
+     "gf5": 18,
+     "ga5": 5,
+     "pts10": 27,
+     "n": 10
+    },
+    "Ivory Coast": {
+     "seq5": "WLWWW",
+     "pts5": 12,
+     "gf5": 12,
+     "ga5": 4,
+     "pts10": 22,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 1,
+    "home_persp": "0-1-0",
+    "goals": "2:2"
+   },
+   "model": {
+    "lambda_home": 1.86,
+    "lambda_away": 0.94,
+    "p_home": 0.577,
+    "p_draw": 0.249,
+    "p_away": 0.174,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.119
+     },
+     {
+      "score": "2:0",
+      "p": 0.105
+     },
+     {
+      "score": "1:0",
+      "p": 0.1
+     },
+     {
+      "score": "2:1",
+      "p": 0.099
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Toronto"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2003 vs 1812 (Δ +192) · Form letzte 5 WWWWW (18:5) vs WLWWW (12:4) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 58%/25%/17%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-035": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.814,
+   "draw": 0.148,
+   "away": 0.038
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Ecuador ist nach Elo und Form favorisiert. Berechnet aus: Elo 2032 vs 1614 (Δ +418) · Form letzte 5 WDDWW (9:3) vs DLLLW (6:11) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 81%/15%/4%, wahrscheinlichstes Ergebnis 2:0.",
+  "key_factors": [
+   "Elo 2032 vs 1614 (Δ +418)",
+   "Form L5 11 vs 4 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.814,
+   "p_draw": 0.148,
+   "p_away": 0.038,
+   "lambda_home": 2.4,
+   "lambda_away": 0.4,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Ecuador": 2031.5,
+    "Curaçao": 1613.6,
+    "diff": 417.9
+   },
+   "form": {
+    "Ecuador": {
+     "seq5": "WDDWW",
+     "pts5": 11,
+     "gf5": 9,
+     "ga5": 3,
+     "pts10": 18,
+     "n": 10
+    },
+    "Curaçao": {
+     "seq5": "DLLLW",
+     "pts5": 4,
+     "gf5": 6,
+     "ga5": 11,
+     "pts10": 15,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 2.4,
+    "lambda_away": 0.4,
+    "p_home": 0.814,
+    "p_draw": 0.148,
+    "p_away": 0.038,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.176
+     },
+     {
+      "score": "3:0",
+      "p": 0.141
+     },
+     {
+      "score": "1:0",
+      "p": 0.139
+     },
+     {
+      "score": "4:0",
+      "p": 0.085
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Kansas City"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2032 vs 1614 (Δ +418) · Form letzte 5 WDDWW (9:3) vs DLLLW (6:11) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 81%/15%/4%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-036": {
+  "pick": {
+   "home": 2,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.418,
+   "draw": 0.279,
+   "away": 0.303
+  },
+  "confidence": "niedrig-mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Belgium ist nach Elo und Form favorisiert. Berechnet aus: Elo 1951 vs 1898 (Δ +53) · Form letzte 5 WWDWW (20:3) vs DLWWW (11:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 42%/28%/30%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1951 vs 1898 (Δ +53)",
+   "Form L5 13 vs 10 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.418,
+   "p_draw": 0.279,
+   "p_away": 0.303,
+   "lambda_home": 1.53,
+   "lambda_away": 1.27,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Belgium": 1950.9,
+    "Iran": 1897.8,
+    "diff": 53.1
+   },
+   "form": {
+    "Belgium": {
+     "seq5": "WWDWW",
+     "pts5": 13,
+     "gf5": 20,
+     "ga5": 3,
+     "pts10": 24,
+     "n": 10
+    },
+    "Iran": {
+     "seq5": "DLWWW",
+     "pts5": 10,
+     "gf5": 11,
+     "ga5": 3,
+     "pts10": 17,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 1.53,
+    "lambda_away": 1.27,
+    "p_home": 0.418,
+    "p_draw": 0.279,
+    "p_away": 0.303,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.132
+     },
+     {
+      "score": "2:1",
+      "p": 0.09
+     },
+     {
+      "score": "1:0",
+      "p": 0.079
+     },
+     {
+      "score": "1:2",
+      "p": 0.075
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Inglewood"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1951 vs 1898 (Δ +53) · Form letzte 5 WWDWW (20:3) vs DLWWW (11:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 42%/28%/30%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-037": {
+  "pick": {
+   "home": 1,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.263,
+   "draw": 0.274,
+   "away": 0.463
+  },
+  "confidence": "mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Egypt ist nach Elo und Form favorisiert. Berechnet aus: Elo 1720 vs 1813 (Δ -92) · Form letzte 5 LLWLL (4:10) vs DWDWL (6:2) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 26%/27%/46%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1720 vs 1813 (Δ -92)",
+   "Form L5 3 vs 8 Punkte",
+   "H2H 3 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.263,
+   "p_draw": 0.274,
+   "p_away": 0.463,
+   "lambda_home": 1.18,
+   "lambda_away": 1.62,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "New Zealand": 1720.2,
+    "Egypt": 1812.6,
+    "diff": -92.4
+   },
+   "form": {
+    "New Zealand": {
+     "seq5": "LLWLL",
+     "pts5": 3,
+     "gf5": 4,
+     "ga5": 10,
+     "pts10": 4,
+     "n": 10
+    },
+    "Egypt": {
+     "seq5": "DWDWL",
+     "pts5": 8,
+     "gf5": 6,
+     "ga5": 2,
+     "pts10": 18,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 3,
+    "home_persp": "0-1-2",
+    "goals": "1:3"
+   },
+   "model": {
+    "lambda_home": 1.18,
+    "lambda_away": 1.62,
+    "p_home": 0.263,
+    "p_draw": 0.274,
+    "p_away": 0.463,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.13
+     },
+     {
+      "score": "1:2",
+      "p": 0.094
+     },
+     {
+      "score": "0:1",
+      "p": 0.085
+     },
+     {
+      "score": "0:2",
+      "p": 0.08
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Vancouver"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1720 vs 1813 (Δ -92) · Form letzte 5 LLWLL (4:10) vs DWDWL (6:2) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 26%/27%/46%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-038": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.894,
+   "draw": 0.096,
+   "away": 0.011
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Spain ist nach Elo und Form favorisiert. Berechnet aus: Elo 2229 vs 1697 (Δ +532) · Form letzte 5 DWDDW (9:4) vs LLLWD (5:8) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 89%/10%/1%, wahrscheinlichstes Ergebnis 2:0.",
+  "key_factors": [
+   "Elo 2229 vs 1697 (Δ +532)",
+   "Form L5 9 vs 4 Punkte",
+   "H2H 3 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.894,
+   "p_draw": 0.096,
+   "p_away": 0.011,
+   "lambda_home": 2.68,
+   "lambda_away": 0.18,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Spain": 2228.6,
+    "Saudi Arabia": 1697.1,
+    "diff": 531.5
+   },
+   "form": {
+    "Spain": {
+     "seq5": "DWDDW",
+     "pts5": 9,
+     "gf5": 9,
+     "ga5": 4,
+     "pts10": 24,
+     "n": 10
+    },
+    "Saudi Arabia": {
+     "seq5": "LLLWD",
+     "pts5": 4,
+     "gf5": 5,
+     "ga5": 8,
+     "pts10": 13,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 3,
+    "home_persp": "3-0-0",
+    "goals": "9:2"
+   },
+   "model": {
+    "lambda_home": 2.68,
+    "lambda_away": 0.18,
+    "p_home": 0.894,
+    "p_draw": 0.096,
+    "p_away": 0.011,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.206
+     },
+     {
+      "score": "3:0",
+      "p": 0.184
+     },
+     {
+      "score": "1:0",
+      "p": 0.151
+     },
+     {
+      "score": "4:0",
+      "p": 0.123
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Atlanta"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2229 vs 1697 (Δ +532) · Form letzte 5 DWDDW (9:4) vs LLLWD (5:8) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 89%/10%/1%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-039": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.734,
+   "draw": 0.19,
+   "away": 0.076
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Uruguay ist nach Elo und Form favorisiert. Berechnet aus: Elo 1979 vs 1644 (Δ +336) · Form letzte 5 WDLDD (4:7) vs DLDWL (7:9) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 73%/19%/8%, wahrscheinlichstes Ergebnis 2:0.",
+  "key_factors": [
+   "Elo 1979 vs 1644 (Δ +336)",
+   "Form L5 6 vs 5 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.734,
+   "p_draw": 0.19,
+   "p_away": 0.076,
+   "lambda_home": 2.21,
+   "lambda_away": 0.59,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Uruguay": 1979.2,
+    "Cape Verde": 1643.5,
+    "diff": 335.7
+   },
+   "form": {
+    "Uruguay": {
+     "seq5": "WDLDD",
+     "pts5": 6,
+     "gf5": 4,
+     "ga5": 7,
+     "pts10": 16,
+     "n": 10
+    },
+    "Cape Verde": {
+     "seq5": "DLDWL",
+     "pts5": 5,
+     "gf5": 7,
+     "ga5": 9,
+     "pts10": 16,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 2.21,
+    "lambda_away": 0.59,
+    "p_home": 0.734,
+    "p_draw": 0.19,
+    "p_away": 0.076,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.148
+     },
+     {
+      "score": "1:0",
+      "p": 0.125
+     },
+     {
+      "score": "3:0",
+      "p": 0.109
+     },
+     {
+      "score": "1:1",
+      "p": 0.089
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Miami Gardens"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1979 vs 1644 (Δ +336) · Form letzte 5 WDLDD (4:7) vs DLDWL (7:9) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 73%/19%/8%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-040": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.792,
+   "draw": 0.161,
+   "away": 0.048
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: France ist nach Elo und Form favorisiert. Berechnet aus: Elo 2134 vs 1740 (Δ +394) · Form letzte 5 WWWLW (12:6) vs LWWDL (4:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 79%/16%/5%, wahrscheinlichstes Ergebnis 2:0.",
+  "key_factors": [
+   "Elo 2134 vs 1740 (Δ +394)",
+   "Form L5 12 vs 7 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.792,
+   "p_draw": 0.161,
+   "p_away": 0.048,
+   "lambda_home": 2.35,
+   "lambda_away": 0.45,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "France": 2134.1,
+    "Iraq": 1740.0,
+    "diff": 394.1
+   },
+   "form": {
+    "France": {
+     "seq5": "WWWLW",
+     "pts5": 12,
+     "gf5": 12,
+     "ga5": 6,
+     "pts10": 25,
+     "n": 10
+    },
+    "Iraq": {
+     "seq5": "LWWDL",
+     "pts5": 7,
+     "gf5": 4,
+     "ga5": 5,
+     "pts10": 17,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 2.35,
+    "lambda_away": 0.45,
+    "p_home": 0.792,
+    "p_draw": 0.161,
+    "p_away": 0.048,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.167
+     },
+     {
+      "score": "1:0",
+      "p": 0.135
+     },
+     {
+      "score": "3:0",
+      "p": 0.131
+     },
+     {
+      "score": "4:0",
+      "p": 0.077
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Philadelphia"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2134 vs 1740 (Δ +394) · Form letzte 5 WWWLW (12:6) vs LWWDL (4:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 79%/16%/5%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-041": {
+  "pick": {
+   "home": 2,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.438,
+   "draw": 0.277,
+   "away": 0.285
+  },
+  "confidence": "mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Norway ist nach Elo und Form favorisiert. Berechnet aus: Elo 1986 vs 1916 (Δ +70) · Form letzte 5 WLDWD (9:5) vs LWWLD (7:7) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 44%/28%/29%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1986 vs 1916 (Δ +70)",
+   "Form L5 8 vs 7 Punkte",
+   "H2H 1 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.438,
+   "p_draw": 0.277,
+   "p_away": 0.285,
+   "lambda_home": 1.57,
+   "lambda_away": 1.23,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Norway": 1986.2,
+    "Senegal": 1915.7,
+    "diff": 70.5
+   },
+   "form": {
+    "Norway": {
+     "seq5": "WLDWD",
+     "pts5": 8,
+     "gf5": 9,
+     "ga5": 5,
+     "pts10": 21,
+     "n": 10
+    },
+    "Senegal": {
+     "seq5": "LWWLD",
+     "pts5": 7,
+     "gf5": 7,
+     "ga5": 7,
+     "pts10": 20,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 1,
+    "home_persp": "0-0-1",
+    "goals": "1:2"
+   },
+   "model": {
+    "lambda_home": 1.57,
+    "lambda_away": 1.23,
+    "p_home": 0.438,
+    "p_draw": 0.277,
+    "p_away": 0.285,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.132
+     },
+     {
+      "score": "2:1",
+      "p": 0.092
+     },
+     {
+      "score": "1:0",
+      "p": 0.081
+     },
+     {
+      "score": "0:0",
+      "p": 0.075
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "East Rutherford"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1986 vs 1916 (Δ +70) · Form letzte 5 WLDWD (9:5) vs LWWLD (7:7) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 44%/28%/29%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-042": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.701,
+   "draw": 0.205,
+   "away": 0.094
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Argentina ist nach Elo und Form favorisiert. Berechnet aus: Elo 2194 vs 1890 (Δ +304) · Form letzte 5 WWWWW (14:1) vs WDWWW (10:2) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 70%/21%/9%, wahrscheinlichstes Ergebnis 2:0.",
+  "key_factors": [
+   "Elo 2194 vs 1890 (Δ +304)",
+   "Form L5 15 vs 13 Punkte",
+   "H2H 2 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.701,
+   "p_draw": 0.205,
+   "p_away": 0.094,
+   "lambda_home": 2.13,
+   "lambda_away": 0.67,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Argentina": 2193.7,
+    "Austria": 1890.0,
+    "diff": 303.7
+   },
+   "form": {
+    "Argentina": {
+     "seq5": "WWWWW",
+     "pts5": 15,
+     "gf5": 14,
+     "ga5": 1,
+     "pts10": 25,
+     "n": 10
+    },
+    "Austria": {
+     "seq5": "WDWWW",
+     "pts5": 13,
+     "gf5": 10,
+     "ga5": 2,
+     "pts10": 25,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 2,
+    "home_persp": "1-1-0",
+    "goals": "6:2"
+   },
+   "model": {
+    "lambda_home": 2.13,
+    "lambda_away": 0.67,
+    "p_home": 0.701,
+    "p_draw": 0.205,
+    "p_away": 0.094,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.138
+     },
+     {
+      "score": "1:0",
+      "p": 0.119
+     },
+     {
+      "score": "3:0",
+      "p": 0.098
+     },
+     {
+      "score": "1:1",
+      "p": 0.097
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Arlington"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2194 vs 1890 (Δ +304) · Form letzte 5 WWWWW (14:1) vs WDWWW (10:2) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 70%/21%/9%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-043": {
+  "pick": {
+   "home": 1,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.244,
+   "draw": 0.27,
+   "away": 0.486
+  },
+  "confidence": "mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Algeria ist nach Elo und Form favorisiert. Berechnet aus: Elo 1778 vs 1890 (Δ -113) · Form letzte 5 LDDLL (7:13) vs LWDWW (12:2) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 24%/27%/49%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1778 vs 1890 (Δ -113)",
+   "Form L5 2 vs 10 Punkte",
+   "H2H 2 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.244,
+   "p_draw": 0.27,
+   "p_away": 0.486,
+   "lambda_home": 1.13,
+   "lambda_away": 1.67,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Jordan": 1777.7,
+    "Algeria": 1890.3,
+    "diff": -112.6
+   },
+   "form": {
+    "Jordan": {
+     "seq5": "LDDLL",
+     "pts5": 2,
+     "gf5": 7,
+     "ga5": 13,
+     "pts10": 17,
+     "n": 10
+    },
+    "Algeria": {
+     "seq5": "LWDWW",
+     "pts5": 10,
+     "gf5": 12,
+     "ga5": 2,
+     "pts10": 23,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 2,
+    "home_persp": "0-1-1",
+    "goals": "1:7"
+   },
+   "model": {
+    "lambda_home": 1.13,
+    "lambda_away": 1.67,
+    "p_home": 0.244,
+    "p_draw": 0.27,
+    "p_away": 0.486,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.129
+     },
+     {
+      "score": "1:2",
+      "p": 0.096
+     },
+     {
+      "score": "0:1",
+      "p": 0.088
+     },
+     {
+      "score": "0:2",
+      "p": 0.085
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Santa Clara"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1778 vs 1890 (Δ -113) · Form letzte 5 LDDLL (7:13) vs LWDWW (12:2) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 24%/27%/49%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-044": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.632,
+   "draw": 0.232,
+   "away": 0.136
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Portugal ist nach Elo und Form favorisiert. Berechnet aus: Elo 2063 vs 1822 (Δ +240) · Form letzte 5 WDWWW (15:3) vs DWDLL (6:7) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 63%/23%/14%, wahrscheinlichstes Ergebnis 2:0.",
+  "key_factors": [
+   "Elo 2063 vs 1822 (Δ +240)",
+   "Form L5 13 vs 5 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.632,
+   "p_draw": 0.232,
+   "p_away": 0.136,
+   "lambda_home": 1.98,
+   "lambda_away": 0.82,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Portugal": 2062.6,
+    "Uzbekistan": 1822.1,
+    "diff": 240.5
+   },
+   "form": {
+    "Portugal": {
+     "seq5": "WDWWW",
+     "pts5": 13,
+     "gf5": 15,
+     "ga5": 3,
+     "pts10": 23,
+     "n": 10
+    },
+    "Uzbekistan": {
+     "seq5": "DWDLL",
+     "pts5": 5,
+     "gf5": 6,
+     "ga5": 7,
+     "pts10": 15,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 1.98,
+    "lambda_away": 0.82,
+    "p_home": 0.632,
+    "p_draw": 0.232,
+    "p_away": 0.136,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.119
+     },
+     {
+      "score": "1:1",
+      "p": 0.111
+     },
+     {
+      "score": "1:0",
+      "p": 0.108
+     },
+     {
+      "score": "2:1",
+      "p": 0.098
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Houston"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2063 vs 1822 (Δ +240) · Form letzte 5 WDWWW (15:3) vs DWDLL (6:7) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 63%/23%/14%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-045": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.699,
+   "draw": 0.206,
+   "away": 0.095
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Colombia ist nach Elo und Form favorisiert. Berechnet aus: Elo 2068 vs 1766 (Δ +302) · Form letzte 5 WLLWW (10:6) vs LWWDL (4:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 70%/21%/9%, wahrscheinlichstes Ergebnis 2:0.",
+  "key_factors": [
+   "Elo 2068 vs 1766 (Δ +302)",
+   "Form L5 9 vs 7 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.699,
+   "p_draw": 0.206,
+   "p_away": 0.095,
+   "lambda_home": 2.13,
+   "lambda_away": 0.67,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Colombia": 2067.6,
+    "DR Congo": 1765.5,
+    "diff": 302.1
+   },
+   "form": {
+    "Colombia": {
+     "seq5": "WLLWW",
+     "pts5": 9,
+     "gf5": 10,
+     "ga5": 6,
+     "pts10": 22,
+     "n": 10
+    },
+    "DR Congo": {
+     "seq5": "LWWDL",
+     "pts5": 7,
+     "gf5": 4,
+     "ga5": 3,
+     "pts10": 18,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 2.13,
+    "lambda_away": 0.67,
+    "p_home": 0.699,
+    "p_draw": 0.206,
+    "p_away": 0.095,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.137
+     },
+     {
+      "score": "1:0",
+      "p": 0.119
+     },
+     {
+      "score": "1:1",
+      "p": 0.098
+     },
+     {
+      "score": "3:0",
+      "p": 0.097
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Zapopan"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2068 vs 1766 (Δ +302) · Form letzte 5 WLLWW (10:6) vs LWWDL (4:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 70%/21%/9%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-046": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.87,
+   "draw": 0.113,
+   "away": 0.017
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: England ist nach Elo und Form favorisiert. Berechnet aus: Elo 2099 vs 1614 (Δ +485) · Form letzte 5 WDLWW (7:2) vs LLLLD (3:11) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 87%/11%/2%, wahrscheinlichstes Ergebnis 2:0.",
+  "key_factors": [
+   "Elo 2099 vs 1614 (Δ +485)",
+   "Form L5 10 vs 1 Punkte",
+   "H2H 1 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.87,
+   "p_draw": 0.113,
+   "p_away": 0.017,
+   "lambda_home": 2.56,
+   "lambda_away": 0.24,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "England": 2098.9,
+    "Ghana": 1614.0,
+    "diff": 484.9
+   },
+   "form": {
+    "England": {
+     "seq5": "WDLWW",
+     "pts5": 10,
+     "gf5": 7,
+     "ga5": 2,
+     "pts10": 25,
+     "n": 10
+    },
+    "Ghana": {
+     "seq5": "LLLLD",
+     "pts5": 1,
+     "gf5": 3,
+     "ga5": 11,
+     "pts10": 11,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 1,
+    "home_persp": "0-1-0",
+    "goals": "1:1"
+   },
+   "model": {
+    "lambda_home": 2.56,
+    "lambda_away": 0.24,
+    "p_home": 0.87,
+    "p_draw": 0.113,
+    "p_away": 0.017,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.2
+     },
+     {
+      "score": "3:0",
+      "p": 0.171
+     },
+     {
+      "score": "1:0",
+      "p": 0.152
+     },
+     {
+      "score": "4:0",
+      "p": 0.11
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Foxborough"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2099 vs 1614 (Δ +485) · Form letzte 5 WDLWW (7:2) vs LLLLD (3:11) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 87%/11%/2%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-047": {
+  "pick": {
+   "home": 1,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.247,
+   "draw": 0.271,
+   "away": 0.483
+  },
+  "confidence": "mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Croatia ist nach Elo und Form favorisiert. Berechnet aus: Elo 1864 vs 1973 (Δ -110) · Form letzte 5 DWLWD (10:11) vs WWLLW (8:9) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 25%/27%/48%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1864 vs 1973 (Δ -110)",
+   "Form L5 8 vs 9 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.247,
+   "p_draw": 0.271,
+   "p_away": 0.483,
+   "lambda_home": 1.14,
+   "lambda_away": 1.66,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Panama": 1863.6,
+    "Croatia": 1973.1,
+    "diff": -109.5
+   },
+   "form": {
+    "Panama": {
+     "seq5": "DWLWD",
+     "pts5": 8,
+     "gf5": 10,
+     "ga5": 11,
+     "pts10": 16,
+     "n": 10
+    },
+    "Croatia": {
+     "seq5": "WWLLW",
+     "pts5": 9,
+     "gf5": 8,
+     "ga5": 9,
+     "pts10": 22,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 1.14,
+    "lambda_away": 1.66,
+    "p_home": 0.247,
+    "p_draw": 0.271,
+    "p_away": 0.483,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.129
+     },
+     {
+      "score": "1:2",
+      "p": 0.096
+     },
+     {
+      "score": "0:1",
+      "p": 0.087
+     },
+     {
+      "score": "0:2",
+      "p": 0.084
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Toronto"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1864 vs 1973 (Δ -110) · Form letzte 5 DWLWD (10:11) vs WWLLW (8:9) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 25%/27%/48%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-048": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.666,
+   "draw": 0.219,
+   "away": 0.114
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Morocco ist nach Elo und Form favorisiert. Berechnet aus: Elo 1990 vs 1719 (Δ +272) · Form letzte 5 DWWWD (13:3) vs WLDWL (8:4) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 67%/22%/11%, wahrscheinlichstes Ergebnis 2:0.",
+  "key_factors": [
+   "Elo 1990 vs 1719 (Δ +272)",
+   "Form L5 11 vs 7 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.666,
+   "p_draw": 0.219,
+   "p_away": 0.114,
+   "lambda_home": 2.05,
+   "lambda_away": 0.75,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Morocco": 1990.1,
+    "Haiti": 1718.6,
+    "diff": 271.5
+   },
+   "form": {
+    "Morocco": {
+     "seq5": "DWWWD",
+     "pts5": 11,
+     "gf5": 13,
+     "ga5": 3,
+     "pts10": 24,
+     "n": 10
+    },
+    "Haiti": {
+     "seq5": "WLDWL",
+     "pts5": 7,
+     "gf5": 8,
+     "ga5": 4,
+     "pts10": 15,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 2.05,
+    "lambda_away": 0.75,
+    "p_home": 0.666,
+    "p_draw": 0.219,
+    "p_away": 0.114,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.128
+     },
+     {
+      "score": "1:0",
+      "p": 0.114
+     },
+     {
+      "score": "1:1",
+      "p": 0.105
+     },
+     {
+      "score": "2:1",
+      "p": 0.096
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Atlanta"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1990 vs 1719 (Δ +272) · Form letzte 5 DWWWD (13:3) vs WLDWL (8:4) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 67%/22%/11%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-049": {
+  "pick": {
+   "home": 2,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.44,
+   "draw": 0.277,
+   "away": 0.283
+  },
+  "confidence": "mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Bosnia and Herzegovina ist nach Elo und Form favorisiert. Berechnet aus: Elo 1639 vs 1567 (Δ +72) · Form letzte 5 DDDDD (4:4) vs LDLLD (1:6) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 44%/28%/28%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1639 vs 1567 (Δ +72)",
+   "Form L5 5 vs 2 Punkte",
+   "H2H 2 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.44,
+   "p_draw": 0.277,
+   "p_away": 0.283,
+   "lambda_home": 1.57,
+   "lambda_away": 1.23,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Bosnia and Herzegovina": 1639.2,
+    "Qatar": 1566.8,
+    "diff": 72.4
+   },
+   "form": {
+    "Bosnia and Herzegovina": {
+     "seq5": "DDDDD",
+     "pts5": 5,
+     "gf5": 4,
+     "ga5": 4,
+     "pts10": 15,
+     "n": 10
+    },
+    "Qatar": {
+     "seq5": "LDLLD",
+     "pts5": 2,
+     "gf5": 1,
+     "ga5": 6,
+     "pts10": 7,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 2,
+    "home_persp": "0-1-1",
+    "goals": "1:3"
+   },
+   "model": {
+    "lambda_home": 1.57,
+    "lambda_away": 1.23,
+    "p_home": 0.44,
+    "p_draw": 0.277,
+    "p_away": 0.283,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.131
+     },
+     {
+      "score": "2:1",
+      "p": 0.092
+     },
+     {
+      "score": "1:0",
+      "p": 0.082
+     },
+     {
+      "score": "2:0",
+      "p": 0.075
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Seattle"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1639 vs 1567 (Δ +72) · Form letzte 5 DDDDD (4:4) vs LDLLD (1:6) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 44%/28%/28%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-050": {
+  "pick": {
+   "home": 0,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.154,
+   "draw": 0.241,
+   "away": 0.605
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Brazil ist nach Elo und Form favorisiert. Berechnet aus: Elo 1856 vs 2072 (Δ -216) · Form letzte 5 WLLWW (12:5) vs DLWWW (13:7) · H2H 10 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 15%/24%/60%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1856 vs 2072 (Δ -216)",
+   "Form L5 9 vs 10 Punkte",
+   "H2H 10 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.154,
+   "p_draw": 0.241,
+   "p_away": 0.605,
+   "lambda_home": 0.88,
+   "lambda_away": 1.92,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Scotland": 1855.8,
+    "Brazil": 2072.1,
+    "diff": -216.3
+   },
+   "form": {
+    "Scotland": {
+     "seq5": "WLLWW",
+     "pts5": 9,
+     "gf5": 12,
+     "ga5": 5,
+     "pts10": 19,
+     "n": 10
+    },
+    "Brazil": {
+     "seq5": "DLWWW",
+     "pts5": 10,
+     "gf5": 13,
+     "ga5": 7,
+     "pts10": 19,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 10,
+    "home_persp": "0-2-8",
+    "goals": "3:16"
+   },
+   "model": {
+    "lambda_home": 0.88,
+    "lambda_away": 1.92,
+    "p_home": 0.154,
+    "p_draw": 0.241,
+    "p_away": 0.605,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.115
+     },
+     {
+      "score": "0:2",
+      "p": 0.112
+     },
+     {
+      "score": "0:1",
+      "p": 0.104
+     },
+     {
+      "score": "1:2",
+      "p": 0.099
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Miami Gardens"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1856 vs 2072 (Δ -216) · Form letzte 5 WLLWW (12:5) vs DLWWW (13:7) · H2H 10 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 15%/24%/60%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-051": {
+  "pick": {
+   "home": 0,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.132,
+   "draw": 0.23,
+   "away": 0.638
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: South Korea ist nach Elo und Form favorisiert. Berechnet aus: Elo 1661 vs 1906 (Δ -246) · Form letzte 5 DLDWL (3:5) vs LLWWW (8:6) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 13%/23%/64%, wahrscheinlichstes Ergebnis 0:2.",
+  "key_factors": [
+   "Elo 1661 vs 1906 (Δ -246)",
+   "Form L5 5 vs 9 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.132,
+   "p_draw": 0.23,
+   "p_away": 0.638,
+   "lambda_home": 0.81,
+   "lambda_away": 1.99,
+   "top_scoreline": "0:2"
+  },
+  "basis": {
+   "elo": {
+    "South Africa": 1660.6,
+    "South Korea": 1906.2,
+    "diff": -245.6
+   },
+   "form": {
+    "South Africa": {
+     "seq5": "DLDWL",
+     "pts5": 5,
+     "gf5": 3,
+     "ga5": 5,
+     "pts10": 14,
+     "n": 10
+    },
+    "South Korea": {
+     "seq5": "LLWWW",
+     "pts5": 9,
+     "gf5": 8,
+     "ga5": 6,
+     "pts10": 19,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 0.81,
+    "lambda_away": 1.99,
+    "p_home": 0.132,
+    "p_draw": 0.23,
+    "p_away": 0.638,
+    "top_scorelines": [
+     {
+      "score": "0:2",
+      "p": 0.12
+     },
+     {
+      "score": "1:1",
+      "p": 0.11
+     },
+     {
+      "score": "0:1",
+      "p": 0.109
+     },
+     {
+      "score": "1:2",
+      "p": 0.098
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Guadalupe"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1661 vs 1906 (Δ -246) · Form letzte 5 DLDWL (3:5) vs LLWWW (8:6) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 13%/23%/64%, wahrscheinlichstes Ergebnis 0:2."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-052": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.735,
+   "draw": 0.189,
+   "away": 0.075
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Mexico ist nach Elo und Form favorisiert. Berechnet aus: Elo 1996 vs 1784 (Δ +212) · Form letzte 5 DWWWW (11:2) vs DDWWL (12:8) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 74%/19%/8%, wahrscheinlichstes Ergebnis 2:0.",
+  "key_factors": [
+   "Elo 1996 vs 1784 (Δ +212)",
+   "Form L5 13 vs 8 Punkte",
+   "H2H 1 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.735,
+   "p_draw": 0.189,
+   "p_away": 0.075,
+   "lambda_home": 2.21,
+   "lambda_away": 0.59,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Mexico": 1995.8,
+    "Czech Republic": 1783.9,
+    "diff": 211.9
+   },
+   "form": {
+    "Mexico": {
+     "seq5": "DWWWW",
+     "pts5": 13,
+     "gf5": 11,
+     "ga5": 2,
+     "pts10": 23,
+     "n": 10
+    },
+    "Czech Republic": {
+     "seq5": "DDWWL",
+     "pts5": 8,
+     "gf5": 12,
+     "ga5": 8,
+     "pts10": 16,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 1,
+    "home_persp": "0-0-1",
+    "goals": "1:2"
+   },
+   "model": {
+    "lambda_home": 2.21,
+    "lambda_away": 0.59,
+    "p_home": 0.735,
+    "p_draw": 0.189,
+    "p_away": 0.075,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.148
+     },
+     {
+      "score": "1:0",
+      "p": 0.125
+     },
+     {
+      "score": "3:0",
+      "p": 0.109
+     },
+     {
+      "score": "1:1",
+      "p": 0.089
+     }
+    ]
+   },
+   "context": {
+    "neutral": false,
+    "city": "Mexico City"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1996 vs 1784 (Δ +212) · Form letzte 5 DWWWW (11:2) vs DDWWL (12:8) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 74%/19%/8%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-053": {
+  "pick": {
+   "home": 2,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.452,
+   "draw": 0.275,
+   "away": 0.272
+  },
+  "confidence": "mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Canada ist nach Elo und Form favorisiert. Berechnet aus: Elo 1907 vs 1949 (Δ -42) · Form letzte 5 WDDWD (7:3) vs DLDWD (9:7) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 45%/28%/27%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1907 vs 1949 (Δ -42)",
+   "Form L5 9 vs 6 Punkte",
+   "H2H 1 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.452,
+   "p_draw": 0.275,
+   "p_away": 0.272,
+   "lambda_home": 1.6,
+   "lambda_away": 1.2,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Canada": 1906.9,
+    "Switzerland": 1948.7,
+    "diff": -41.8
+   },
+   "form": {
+    "Canada": {
+     "seq5": "WDDWD",
+     "pts5": 9,
+     "gf5": 7,
+     "ga5": 3,
+     "pts10": 17,
+     "n": 10
+    },
+    "Switzerland": {
+     "seq5": "DLDWD",
+     "pts5": 6,
+     "gf5": 9,
+     "ga5": 7,
+     "pts10": 19,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 1,
+    "home_persp": "1-0-0",
+    "goals": "3:1"
+   },
+   "model": {
+    "lambda_home": 1.6,
+    "lambda_away": 1.2,
+    "p_home": 0.452,
+    "p_draw": 0.275,
+    "p_away": 0.272,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.131
+     },
+     {
+      "score": "2:1",
+      "p": 0.093
+     },
+     {
+      "score": "1:0",
+      "p": 0.083
+     },
+     {
+      "score": "2:0",
+      "p": 0.078
+     }
+    ]
+   },
+   "context": {
+    "neutral": false,
+    "city": "Vancouver"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1907 vs 1949 (Δ -42) · Form letzte 5 WDDWD (7:3) vs DLDWD (9:7) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 45%/28%/27%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-054": {
+  "pick": {
+   "home": 1,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.335,
+   "draw": 0.281,
+   "away": 0.384
+  },
+  "confidence": "niedrig-mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Turkey ist nach Elo und Form favorisiert. Berechnet aus: Elo 1832 vs 1979 (Δ -148) · Form letzte 5 WLLWL (11:12) vs DWWWW (10:3) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 34%/28%/38%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1832 vs 1979 (Δ -148)",
+   "Form L5 6 vs 13 Punkte",
+   "H2H 5 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.335,
+   "p_draw": 0.281,
+   "p_away": 0.384,
+   "lambda_home": 1.35,
+   "lambda_away": 1.45,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "United States": 1831.6,
+    "Turkey": 1979.1,
+    "diff": -147.5
+   },
+   "form": {
+    "United States": {
+     "seq5": "WLLWL",
+     "pts5": 6,
+     "gf5": 11,
+     "ga5": 12,
+     "pts10": 16,
+     "n": 10
+    },
+    "Turkey": {
+     "seq5": "DWWWW",
+     "pts5": 13,
+     "gf5": 10,
+     "ga5": 3,
+     "pts10": 25,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 5,
+    "home_persp": "2-1-2",
+    "goals": "7:7"
+   },
+   "model": {
+    "lambda_home": 1.35,
+    "lambda_away": 1.45,
+    "p_home": 0.335,
+    "p_draw": 0.281,
+    "p_away": 0.384,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.133
+     },
+     {
+      "score": "1:2",
+      "p": 0.087
+     },
+     {
+      "score": "2:1",
+      "p": 0.08
+     },
+     {
+      "score": "0:0",
+      "p": 0.075
+     }
+    ]
+   },
+   "context": {
+    "neutral": false,
+    "city": "Inglewood"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1832 vs 1979 (Δ -148) · Form letzte 5 WLLWL (11:12) vs DWWWW (10:3) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 34%/28%/38%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-055": {
+  "pick": {
+   "home": 2,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.38,
+   "draw": 0.281,
+   "away": 0.339
+  },
+  "confidence": "niedrig-mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Paraguay ist nach Elo und Form favorisiert. Berechnet aus: Elo 1922 vs 1903 (Δ +19) · Form letzte 5 LWWLW (9:5) vs LWWLD (7:6) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 38%/28%/34%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1922 vs 1903 (Δ +19)",
+   "Form L5 9 vs 7 Punkte",
+   "H2H 5 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.38,
+   "p_draw": 0.281,
+   "p_away": 0.339,
+   "lambda_home": 1.45,
+   "lambda_away": 1.35,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Paraguay": 1921.7,
+    "Australia": 1902.6,
+    "diff": 19.1
+   },
+   "form": {
+    "Paraguay": {
+     "seq5": "LWWLW",
+     "pts5": 9,
+     "gf5": 9,
+     "ga5": 5,
+     "pts10": 14,
+     "n": 10
+    },
+    "Australia": {
+     "seq5": "LWWLD",
+     "pts5": 7,
+     "gf5": 7,
+     "ga5": 6,
+     "pts10": 16,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 5,
+    "home_persp": "0-3-2",
+    "goals": "2:4"
+   },
+   "model": {
+    "lambda_home": 1.45,
+    "lambda_away": 1.35,
+    "p_home": 0.38,
+    "p_draw": 0.281,
+    "p_away": 0.339,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.133
+     },
+     {
+      "score": "2:1",
+      "p": 0.086
+     },
+     {
+      "score": "1:2",
+      "p": 0.081
+     },
+     {
+      "score": "0:0",
+      "p": 0.075
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Santa Clara"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1922 vs 1903 (Δ +19) · Form letzte 5 LWWLW (9:5) vs LWWLD (7:6) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 38%/28%/34%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-056": {
+  "pick": {
+   "home": 0,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.169,
+   "draw": 0.247,
+   "away": 0.584
+  },
+  "confidence": "mittel-hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Ivory Coast ist nach Elo und Form favorisiert. Berechnet aus: Elo 1614 vs 1812 (Δ -198) · Form letzte 5 DLLLW (6:11) vs WLWWW (12:4) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 17%/25%/58%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1614 vs 1812 (Δ -198)",
+   "Form L5 4 vs 12 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.169,
+   "p_draw": 0.247,
+   "p_away": 0.584,
+   "lambda_home": 0.92,
+   "lambda_away": 1.88,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Curaçao": 1613.6,
+    "Ivory Coast": 1811.8,
+    "diff": -198.2
+   },
+   "form": {
+    "Curaçao": {
+     "seq5": "DLLLW",
+     "pts5": 4,
+     "gf5": 6,
+     "ga5": 11,
+     "pts10": 15,
+     "n": 10
+    },
+    "Ivory Coast": {
+     "seq5": "WLWWW",
+     "pts5": 12,
+     "gf5": 12,
+     "ga5": 4,
+     "pts10": 22,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 0.92,
+    "lambda_away": 1.88,
+    "p_home": 0.169,
+    "p_draw": 0.247,
+    "p_away": 0.584,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.118
+     },
+     {
+      "score": "0:2",
+      "p": 0.107
+     },
+     {
+      "score": "0:1",
+      "p": 0.101
+     },
+     {
+      "score": "1:2",
+      "p": 0.099
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Philadelphia"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1614 vs 1812 (Δ -198) · Form letzte 5 DLLLW (6:11) vs WLWWW (12:4) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 17%/25%/58%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-057": {
+  "pick": {
+   "home": 2,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.39,
+   "draw": 0.281,
+   "away": 0.329
+  },
+  "confidence": "niedrig-mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Ecuador ist nach Elo und Form favorisiert. Berechnet aus: Elo 2032 vs 2003 (Δ +28) · Form letzte 5 WDDWW (9:3) vs WWWWW (18:5) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 39%/28%/33%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 2032 vs 2003 (Δ +28)",
+   "Form L5 11 vs 15 Punkte",
+   "H2H 2 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.39,
+   "p_draw": 0.281,
+   "p_away": 0.329,
+   "lambda_home": 1.47,
+   "lambda_away": 1.33,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Ecuador": 2031.5,
+    "Germany": 2003.4,
+    "diff": 28.1
+   },
+   "form": {
+    "Ecuador": {
+     "seq5": "WDDWW",
+     "pts5": 11,
+     "gf5": 9,
+     "ga5": 3,
+     "pts10": 18,
+     "n": 10
+    },
+    "Germany": {
+     "seq5": "WWWWW",
+     "pts5": 15,
+     "gf5": 18,
+     "ga5": 5,
+     "pts10": 27,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 2,
+    "home_persp": "0-0-2",
+    "goals": "2:7"
+   },
+   "model": {
+    "lambda_home": 1.47,
+    "lambda_away": 1.33,
+    "p_home": 0.39,
+    "p_draw": 0.281,
+    "p_away": 0.329,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.133
+     },
+     {
+      "score": "2:1",
+      "p": 0.087
+     },
+     {
+      "score": "1:2",
+      "p": 0.079
+     },
+     {
+      "score": "0:0",
+      "p": 0.075
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "East Rutherford"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2032 vs 2003 (Δ +28) · Form letzte 5 WDDWW (9:3) vs WWWWW (18:5) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 39%/28%/33%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-058": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.614,
+   "draw": 0.238,
+   "away": 0.148
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Japan ist nach Elo und Form favorisiert. Berechnet aus: Elo 1996 vs 1772 (Δ +224) · Form letzte 5 WWWWW (8:0) vs DWWLD (10:9) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 61%/24%/15%, wahrscheinlichstes Ergebnis 2:0.",
+  "key_factors": [
+   "Elo 1996 vs 1772 (Δ +224)",
+   "Form L5 15 vs 8 Punkte",
+   "H2H 4 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.614,
+   "p_draw": 0.238,
+   "p_away": 0.148,
+   "lambda_home": 1.94,
+   "lambda_away": 0.86,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Japan": 1996.1,
+    "Sweden": 1772.2,
+    "diff": 223.9
+   },
+   "form": {
+    "Japan": {
+     "seq5": "WWWWW",
+     "pts5": 15,
+     "gf5": 8,
+     "ga5": 0,
+     "pts10": 23,
+     "n": 10
+    },
+    "Sweden": {
+     "seq5": "DWWLD",
+     "pts5": 8,
+     "gf5": 10,
+     "ga5": 9,
+     "pts10": 9,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 4,
+    "home_persp": "0-3-1",
+    "goals": "4:5"
+   },
+   "model": {
+    "lambda_home": 1.94,
+    "lambda_away": 0.86,
+    "p_home": 0.614,
+    "p_draw": 0.238,
+    "p_away": 0.148,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.114
+     },
+     {
+      "score": "1:1",
+      "p": 0.114
+     },
+     {
+      "score": "1:0",
+      "p": 0.106
+     },
+     {
+      "score": "2:1",
+      "p": 0.098
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Arlington"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1996 vs 1772 (Δ +224) · Form letzte 5 WWWWW (8:0) vs DWWLD (10:9) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 61%/24%/15%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-059": {
+  "pick": {
+   "home": 0,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.11,
+   "draw": 0.216,
+   "away": 0.674
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Netherlands ist nach Elo und Form favorisiert. Berechnet aus: Elo 1732 vs 2011 (Δ -279) · Form letzte 5 DWDLL (2:7) vs WWDLW (9:4) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 11%/22%/67%, wahrscheinlichstes Ergebnis 0:2.",
+  "key_factors": [
+   "Elo 1732 vs 2011 (Δ -279)",
+   "Form L5 5 vs 10 Punkte",
+   "H2H 3 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.11,
+   "p_draw": 0.216,
+   "p_away": 0.674,
+   "lambda_home": 0.73,
+   "lambda_away": 2.07,
+   "top_scoreline": "0:2"
+  },
+  "basis": {
+   "elo": {
+    "Tunisia": 1732.5,
+    "Netherlands": 2011.4,
+    "diff": -278.9
+   },
+   "form": {
+    "Tunisia": {
+     "seq5": "DWDLL",
+     "pts5": 5,
+     "gf5": 2,
+     "ga5": 7,
+     "pts10": 13,
+     "n": 10
+    },
+    "Netherlands": {
+     "seq5": "WWDLW",
+     "pts5": 10,
+     "gf5": 9,
+     "ga5": 4,
+     "pts10": 21,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 3,
+    "home_persp": "0-2-1",
+    "goals": "3:7"
+   },
+   "model": {
+    "lambda_home": 0.73,
+    "lambda_away": 2.07,
+    "p_home": 0.11,
+    "p_draw": 0.216,
+    "p_away": 0.674,
+    "top_scorelines": [
+     {
+      "score": "0:2",
+      "p": 0.13
+     },
+     {
+      "score": "0:1",
+      "p": 0.115
+     },
+     {
+      "score": "1:1",
+      "p": 0.103
+     },
+     {
+      "score": "1:2",
+      "p": 0.095
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Kansas City"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1732 vs 2011 (Δ -279) · Form letzte 5 DWDLL (2:7) vs WWDLW (9:4) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 11%/22%/67%, wahrscheinlichstes Ergebnis 0:2."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-060": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.559,
+   "draw": 0.254,
+   "away": 0.187
+  },
+  "confidence": "mittel-hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Senegal ist nach Elo und Form favorisiert. Berechnet aus: Elo 1916 vs 1740 (Δ +176) · Form letzte 5 LWWLD (7:7) vs LWWDL (4:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 56%/25%/19%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1916 vs 1740 (Δ +176)",
+   "Form L5 7 vs 7 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.559,
+   "p_draw": 0.254,
+   "p_away": 0.187,
+   "lambda_home": 1.82,
+   "lambda_away": 0.98,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Senegal": 1915.7,
+    "Iraq": 1740.0,
+    "diff": 175.7
+   },
+   "form": {
+    "Senegal": {
+     "seq5": "LWWLD",
+     "pts5": 7,
+     "gf5": 7,
+     "ga5": 7,
+     "pts10": 20,
+     "n": 10
+    },
+    "Iraq": {
+     "seq5": "LWWDL",
+     "pts5": 7,
+     "gf5": 4,
+     "ga5": 5,
+     "pts10": 17,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 1.82,
+    "lambda_away": 0.98,
+    "p_home": 0.559,
+    "p_draw": 0.254,
+    "p_away": 0.187,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.121
+     },
+     {
+      "score": "2:0",
+      "p": 0.101
+     },
+     {
+      "score": "2:1",
+      "p": 0.099
+     },
+     {
+      "score": "1:0",
+      "p": 0.098
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Toronto"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1916 vs 1740 (Δ +176) · Form letzte 5 LWWLD (7:7) vs LWWDL (4:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 56%/25%/19%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-061": {
+  "pick": {
+   "home": 1,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.211,
+   "draw": 0.262,
+   "away": 0.527
+  },
+  "confidence": "mittel-hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: France ist nach Elo und Form favorisiert. Berechnet aus: Elo 1986 vs 2134 (Δ -148) · Form letzte 5 WLDWD (9:5) vs WWWLW (12:6) · H2H 16 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 21%/26%/53%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1986 vs 2134 (Δ -148)",
+   "Form L5 8 vs 12 Punkte",
+   "H2H 16 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.211,
+   "p_draw": 0.262,
+   "p_away": 0.527,
+   "lambda_home": 1.05,
+   "lambda_away": 1.75,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Norway": 1986.2,
+    "France": 2134.1,
+    "diff": -147.9
+   },
+   "form": {
+    "Norway": {
+     "seq5": "WLDWD",
+     "pts5": 8,
+     "gf5": 9,
+     "ga5": 5,
+     "pts10": 21,
+     "n": 10
+    },
+    "France": {
+     "seq5": "WWWLW",
+     "pts5": 12,
+     "gf5": 12,
+     "ga5": 6,
+     "pts10": 25,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 16,
+    "home_persp": "5-4-7",
+    "goals": "22:22"
+   },
+   "model": {
+    "lambda_home": 1.05,
+    "lambda_away": 1.75,
+    "p_home": 0.211,
+    "p_draw": 0.262,
+    "p_away": 0.527,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.125
+     },
+     {
+      "score": "1:2",
+      "p": 0.098
+     },
+     {
+      "score": "0:2",
+      "p": 0.094
+     },
+     {
+      "score": "0:1",
+      "p": 0.093
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Foxborough"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1986 vs 2134 (Δ -148) · Form letzte 5 WLDWD (9:5) vs WWWLW (12:6) · H2H 16 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 21%/26%/53%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-062": {
+  "pick": {
+   "home": 0,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.13,
+   "draw": 0.228,
+   "away": 0.642
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Spain ist nach Elo und Form favorisiert. Berechnet aus: Elo 1979 vs 2229 (Δ -249) · Form letzte 5 WDLDD (4:7) vs DWDDW (9:4) · H2H 10 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 13%/23%/64%, wahrscheinlichstes Ergebnis 0:2.",
+  "key_factors": [
+   "Elo 1979 vs 2229 (Δ -249)",
+   "Form L5 6 vs 9 Punkte",
+   "H2H 10 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.13,
+   "p_draw": 0.228,
+   "p_away": 0.642,
+   "lambda_home": 0.8,
+   "lambda_away": 2.0,
+   "top_scoreline": "0:2"
+  },
+  "basis": {
+   "elo": {
+    "Uruguay": 1979.2,
+    "Spain": 2228.6,
+    "diff": -249.4
+   },
+   "form": {
+    "Uruguay": {
+     "seq5": "WDLDD",
+     "pts5": 6,
+     "gf5": 4,
+     "ga5": 7,
+     "pts10": 16,
+     "n": 10
+    },
+    "Spain": {
+     "seq5": "DWDDW",
+     "pts5": 9,
+     "gf5": 9,
+     "ga5": 4,
+     "pts10": 24,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 10,
+    "home_persp": "0-5-5",
+    "goals": "8:16"
+   },
+   "model": {
+    "lambda_home": 0.8,
+    "lambda_away": 2.0,
+    "p_home": 0.13,
+    "p_draw": 0.228,
+    "p_away": 0.642,
+    "top_scorelines": [
+     {
+      "score": "0:2",
+      "p": 0.121
+     },
+     {
+      "score": "0:1",
+      "p": 0.11
+     },
+     {
+      "score": "1:1",
+      "p": 0.109
+     },
+     {
+      "score": "1:2",
+      "p": 0.097
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Zapopan"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1979 vs 2229 (Δ -249) · Form letzte 5 WDLDD (4:7) vs DWDDW (9:4) · H2H 10 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 13%/23%/64%, wahrscheinlichstes Ergebnis 0:2."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-063": {
+  "pick": {
+   "home": 0,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.143,
+   "draw": 0.236,
+   "away": 0.621
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Belgium ist nach Elo und Form favorisiert. Berechnet aus: Elo 1720 vs 1951 (Δ -231) · Form letzte 5 LLWLL (4:10) vs WWDWW (20:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 14%/24%/62%, wahrscheinlichstes Ergebnis 0:2.",
+  "key_factors": [
+   "Elo 1720 vs 1951 (Δ -231)",
+   "Form L5 3 vs 13 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.143,
+   "p_draw": 0.236,
+   "p_away": 0.621,
+   "lambda_home": 0.85,
+   "lambda_away": 1.95,
+   "top_scoreline": "0:2"
+  },
+  "basis": {
+   "elo": {
+    "New Zealand": 1720.2,
+    "Belgium": 1950.9,
+    "diff": -230.7
+   },
+   "form": {
+    "New Zealand": {
+     "seq5": "LLWLL",
+     "pts5": 3,
+     "gf5": 4,
+     "ga5": 10,
+     "pts10": 4,
+     "n": 10
+    },
+    "Belgium": {
+     "seq5": "WWDWW",
+     "pts5": 13,
+     "gf5": 20,
+     "ga5": 3,
+     "pts10": 24,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 0.85,
+    "lambda_away": 1.95,
+    "p_home": 0.143,
+    "p_draw": 0.236,
+    "p_away": 0.621,
+    "top_scorelines": [
+     {
+      "score": "0:2",
+      "p": 0.116
+     },
+     {
+      "score": "1:1",
+      "p": 0.113
+     },
+     {
+      "score": "0:1",
+      "p": 0.107
+     },
+     {
+      "score": "1:2",
+      "p": 0.098
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Vancouver"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1720 vs 1951 (Δ -231) · Form letzte 5 LLWLL (4:10) vs WWDWW (20:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 14%/24%/62%, wahrscheinlichstes Ergebnis 0:2."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-064": {
+  "pick": {
+   "home": 1,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.27,
+   "draw": 0.275,
+   "away": 0.455
+  },
+  "confidence": "mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Iran ist nach Elo und Form favorisiert. Berechnet aus: Elo 1813 vs 1898 (Δ -85) · Form letzte 5 DWDWL (6:2) vs DLWWW (11:3) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 27%/27%/45%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1813 vs 1898 (Δ -85)",
+   "Form L5 8 vs 10 Punkte",
+   "H2H 1 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.27,
+   "p_draw": 0.275,
+   "p_away": 0.455,
+   "lambda_home": 1.2,
+   "lambda_away": 1.6,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Egypt": 1812.6,
+    "Iran": 1897.8,
+    "diff": -85.2
+   },
+   "form": {
+    "Egypt": {
+     "seq5": "DWDWL",
+     "pts5": 8,
+     "gf5": 6,
+     "ga5": 2,
+     "pts10": 18,
+     "n": 10
+    },
+    "Iran": {
+     "seq5": "DLWWW",
+     "pts5": 10,
+     "gf5": 11,
+     "ga5": 3,
+     "pts10": 17,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 1,
+    "home_persp": "0-1-0",
+    "goals": "1:1"
+   },
+   "model": {
+    "lambda_home": 1.2,
+    "lambda_away": 1.6,
+    "p_home": 0.27,
+    "p_draw": 0.275,
+    "p_away": 0.455,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.131
+     },
+     {
+      "score": "1:2",
+      "p": 0.094
+     },
+     {
+      "score": "0:1",
+      "p": 0.084
+     },
+     {
+      "score": "0:2",
+      "p": 0.078
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Seattle"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1813 vs 1898 (Δ -85) · Form letzte 5 DWDWL (6:2) vs DLWWW (11:3) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 27%/27%/45%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-065": {
+  "pick": {
+   "home": 1,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.302,
+   "draw": 0.279,
+   "away": 0.419
+  },
+  "confidence": "niedrig-mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Saudi Arabia ist nach Elo und Form favorisiert. Berechnet aus: Elo 1644 vs 1697 (Δ -54) · Form letzte 5 DLDWL (7:9) vs LLLWD (5:8) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 30%/28%/42%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1644 vs 1697 (Δ -54)",
+   "Form L5 5 vs 4 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.302,
+   "p_draw": 0.279,
+   "p_away": 0.419,
+   "lambda_home": 1.27,
+   "lambda_away": 1.53,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Cape Verde": 1643.5,
+    "Saudi Arabia": 1697.1,
+    "diff": -53.6
+   },
+   "form": {
+    "Cape Verde": {
+     "seq5": "DLDWL",
+     "pts5": 5,
+     "gf5": 7,
+     "ga5": 9,
+     "pts10": 16,
+     "n": 10
+    },
+    "Saudi Arabia": {
+     "seq5": "LLLWD",
+     "pts5": 4,
+     "gf5": 5,
+     "ga5": 8,
+     "pts10": 13,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 1.27,
+    "lambda_away": 1.53,
+    "p_home": 0.302,
+    "p_draw": 0.279,
+    "p_away": 0.419,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.132
+     },
+     {
+      "score": "1:2",
+      "p": 0.09
+     },
+     {
+      "score": "0:1",
+      "p": 0.079
+     },
+     {
+      "score": "2:1",
+      "p": 0.075
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Houston"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1644 vs 1697 (Δ -54) · Form letzte 5 DLDWL (7:9) vs LLLWD (5:8) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 30%/28%/42%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-066": {
+  "pick": {
+   "home": 0,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.14,
+   "draw": 0.234,
+   "away": 0.626
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: England ist nach Elo und Form favorisiert. Berechnet aus: Elo 1864 vs 2099 (Δ -235) · Form letzte 5 DWLWD (10:11) vs WDLWW (7:2) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 14%/23%/63%, wahrscheinlichstes Ergebnis 0:2.",
+  "key_factors": [
+   "Elo 1864 vs 2099 (Δ -235)",
+   "Form L5 8 vs 10 Punkte",
+   "H2H 1 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.14,
+   "p_draw": 0.234,
+   "p_away": 0.626,
+   "lambda_home": 0.84,
+   "lambda_away": 1.96,
+   "top_scoreline": "0:2"
+  },
+  "basis": {
+   "elo": {
+    "Panama": 1863.6,
+    "England": 2098.9,
+    "diff": -235.3
+   },
+   "form": {
+    "Panama": {
+     "seq5": "DWLWD",
+     "pts5": 8,
+     "gf5": 10,
+     "ga5": 11,
+     "pts10": 16,
+     "n": 10
+    },
+    "England": {
+     "seq5": "WDLWW",
+     "pts5": 10,
+     "gf5": 7,
+     "ga5": 2,
+     "pts10": 25,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 1,
+    "home_persp": "0-0-1",
+    "goals": "1:6"
+   },
+   "model": {
+    "lambda_home": 0.84,
+    "lambda_away": 1.96,
+    "p_home": 0.14,
+    "p_draw": 0.234,
+    "p_away": 0.626,
+    "top_scorelines": [
+     {
+      "score": "0:2",
+      "p": 0.117
+     },
+     {
+      "score": "1:1",
+      "p": 0.112
+     },
+     {
+      "score": "0:1",
+      "p": 0.108
+     },
+     {
+      "score": "1:2",
+      "p": 0.098
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "East Rutherford"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1864 vs 2099 (Δ -235) · Form letzte 5 DWLWD (10:11) vs WDLWW (7:2) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 14%/23%/63%, wahrscheinlichstes Ergebnis 0:2."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-067": {
+  "pick": {
+   "home": 2,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.36,
+   "draw": 0.281,
+   "away": 0.359
+  },
+  "confidence": "niedrig",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Algeria ist nach Elo und Form favorisiert. Berechnet aus: Elo 1890 vs 1890 (Δ +0) · Form letzte 5 LWDWW (12:2) vs WDWWW (10:2) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 36%/28%/36%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1890 vs 1890 (Δ +0)",
+   "Form L5 10 vs 13 Punkte",
+   "H2H 1 Spiele"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.36,
+   "p_draw": 0.281,
+   "p_away": 0.359,
+   "lambda_home": 1.4,
+   "lambda_away": 1.4,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Algeria": 1890.3,
+    "Austria": 1890.0,
+    "diff": 0.3
+   },
+   "form": {
+    "Algeria": {
+     "seq5": "LWDWW",
+     "pts5": 10,
+     "gf5": 12,
+     "ga5": 2,
+     "pts10": 23,
+     "n": 10
+    },
+    "Austria": {
+     "seq5": "WDWWW",
+     "pts5": 13,
+     "gf5": 10,
+     "ga5": 2,
+     "pts10": 25,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 1,
+    "home_persp": "0-0-1",
+    "goals": "0:2"
+   },
+   "model": {
+    "lambda_home": 1.4,
+    "lambda_away": 1.4,
+    "p_home": 0.36,
+    "p_draw": 0.281,
+    "p_away": 0.359,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.133
+     },
+     {
+      "score": "2:1",
+      "p": 0.083
+     },
+     {
+      "score": "1:2",
+      "p": 0.083
+     },
+     {
+      "score": "0:0",
+      "p": 0.075
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Kansas City"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1890 vs 1890 (Δ +0) · Form letzte 5 LWDWW (12:2) vs WDWWW (10:2) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 36%/28%/36%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-068": {
+  "pick": {
+   "home": 0,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.039,
+   "draw": 0.149,
+   "away": 0.812
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Argentina ist nach Elo und Form favorisiert. Berechnet aus: Elo 1778 vs 2194 (Δ -416) · Form letzte 5 LDDLL (7:13) vs WWWWW (14:1) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 4%/15%/81%, wahrscheinlichstes Ergebnis 0:2.",
+  "key_factors": [
+   "Elo 1778 vs 2194 (Δ -416)",
+   "Form L5 2 vs 15 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.039,
+   "p_draw": 0.149,
+   "p_away": 0.812,
+   "lambda_home": 0.4,
+   "lambda_away": 2.4,
+   "top_scoreline": "0:2"
+  },
+  "basis": {
+   "elo": {
+    "Jordan": 1777.7,
+    "Argentina": 2193.7,
+    "diff": -416.0
+   },
+   "form": {
+    "Jordan": {
+     "seq5": "LDDLL",
+     "pts5": 2,
+     "gf5": 7,
+     "ga5": 13,
+     "pts10": 17,
+     "n": 10
+    },
+    "Argentina": {
+     "seq5": "WWWWW",
+     "pts5": 15,
+     "gf5": 14,
+     "ga5": 1,
+     "pts10": 25,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 0.4,
+    "lambda_away": 2.4,
+    "p_home": 0.039,
+    "p_draw": 0.149,
+    "p_away": 0.812,
+    "top_scorelines": [
+     {
+      "score": "0:2",
+      "p": 0.175
+     },
+     {
+      "score": "0:3",
+      "p": 0.14
+     },
+     {
+      "score": "0:1",
+      "p": 0.139
+     },
+     {
+      "score": "0:4",
+      "p": 0.084
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Arlington"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1778 vs 2194 (Δ -416) · Form letzte 5 LDDLL (7:13) vs WWWWW (14:1) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 4%/15%/81%, wahrscheinlichstes Ergebnis 0:2."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-069": {
+  "pick": {
+   "home": 2,
+   "away": 1
+  },
+  "probs": {
+   "home": 0.365,
+   "draw": 0.281,
+   "away": 0.354
+  },
+  "confidence": "niedrig-mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Colombia ist nach Elo und Form favorisiert. Berechnet aus: Elo 2068 vs 2063 (Δ +5) · Form letzte 5 WLLWW (10:6) vs WDWWW (15:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 36%/28%/35%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 2068 vs 2063 (Δ +5)",
+   "Form L5 9 vs 13 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.365,
+   "p_draw": 0.281,
+   "p_away": 0.354,
+   "lambda_home": 1.41,
+   "lambda_away": 1.39,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "Colombia": 2067.6,
+    "Portugal": 2062.6,
+    "diff": 5.0
+   },
+   "form": {
+    "Colombia": {
+     "seq5": "WLLWW",
+     "pts5": 9,
+     "gf5": 10,
+     "ga5": 6,
+     "pts10": 22,
+     "n": 10
+    },
+    "Portugal": {
+     "seq5": "WDWWW",
+     "pts5": 13,
+     "gf5": 15,
+     "ga5": 3,
+     "pts10": 23,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 1.41,
+    "lambda_away": 1.39,
+    "p_home": 0.365,
+    "p_draw": 0.281,
+    "p_away": 0.354,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.133
+     },
+     {
+      "score": "2:1",
+      "p": 0.084
+     },
+     {
+      "score": "1:2",
+      "p": 0.083
+     },
+     {
+      "score": "0:0",
+      "p": 0.075
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Miami Gardens"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 2068 vs 2063 (Δ +5) · Form letzte 5 WLLWW (10:6) vs WDWWW (15:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 36%/28%/35%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-070": {
+  "pick": {
+   "home": 1,
+   "away": 2
+  },
+  "probs": {
+   "home": 0.299,
+   "draw": 0.279,
+   "away": 0.422
+  },
+  "confidence": "mittel",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Uzbekistan ist nach Elo und Form favorisiert. Berechnet aus: Elo 1766 vs 1822 (Δ -57) · Form letzte 5 LWWDL (4:3) vs DWDLL (6:7) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 30%/28%/42%, wahrscheinlichstes Ergebnis 1:1.",
+  "key_factors": [
+   "Elo 1766 vs 1822 (Δ -57)",
+   "Form L5 7 vs 5 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.299,
+   "p_draw": 0.279,
+   "p_away": 0.422,
+   "lambda_home": 1.26,
+   "lambda_away": 1.54,
+   "top_scoreline": "1:1"
+  },
+  "basis": {
+   "elo": {
+    "DR Congo": 1765.5,
+    "Uzbekistan": 1822.1,
+    "diff": -56.6
+   },
+   "form": {
+    "DR Congo": {
+     "seq5": "LWWDL",
+     "pts5": 7,
+     "gf5": 4,
+     "ga5": 3,
+     "pts10": 18,
+     "n": 10
+    },
+    "Uzbekistan": {
+     "seq5": "DWDLL",
+     "pts5": 5,
+     "gf5": 6,
+     "ga5": 7,
+     "pts10": 15,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 1.26,
+    "lambda_away": 1.54,
+    "p_home": 0.299,
+    "p_draw": 0.279,
+    "p_away": 0.422,
+    "top_scorelines": [
+     {
+      "score": "1:1",
+      "p": 0.132
+     },
+     {
+      "score": "1:2",
+      "p": 0.091
+     },
+     {
+      "score": "0:1",
+      "p": 0.079
+     },
+     {
+      "score": "0:0",
+      "p": 0.075
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Atlanta"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1766 vs 1822 (Δ -57) · Form letzte 5 LWWDL (4:3) vs DWDLL (6:7) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 30%/28%/42%, wahrscheinlichstes Ergebnis 1:1."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ },
+ "wc2026-071": {
+  "pick": {
+   "home": 2,
+   "away": 0
+  },
+  "probs": {
+   "home": 0.758,
+   "draw": 0.179,
+   "away": 0.064
+  },
+  "confidence": "hoch",
+  "source": "Engine",
+  "reasoning": "Modellbasierte Einschätzung: Croatia ist nach Elo und Form favorisiert. Berechnet aus: Elo 1973 vs 1614 (Δ +359) · Form letzte 5 WWLLW (8:9) vs LLLLD (3:11) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 76%/18%/6%, wahrscheinlichstes Ergebnis 2:0.",
+  "key_factors": [
+   "Elo 1973 vs 1614 (Δ +359)",
+   "Form L5 9 vs 1 Punkte",
+   "kein direktes H2H"
+  ],
+  "upset_watch": null,
+  "stat_model": {
+   "p_home": 0.758,
+   "p_draw": 0.179,
+   "p_away": 0.064,
+   "lambda_home": 2.26,
+   "lambda_away": 0.54,
+   "top_scoreline": "2:0"
+  },
+  "basis": {
+   "elo": {
+    "Croatia": 1973.1,
+    "Ghana": 1614.0,
+    "diff": 359.1
+   },
+   "form": {
+    "Croatia": {
+     "seq5": "WWLLW",
+     "pts5": 9,
+     "gf5": 8,
+     "ga5": 9,
+     "pts10": 22,
+     "n": 10
+    },
+    "Ghana": {
+     "seq5": "LLLLD",
+     "pts5": 1,
+     "gf5": 3,
+     "ga5": 11,
+     "pts10": 11,
+     "n": 10
+    }
+   },
+   "h2h": {
+    "meetings": 0,
+    "home_persp": "0-0-0",
+    "goals": "0:0"
+   },
+   "model": {
+    "lambda_home": 2.26,
+    "lambda_away": 0.54,
+    "p_home": 0.758,
+    "p_draw": 0.179,
+    "p_away": 0.064,
+    "top_scorelines": [
+     {
+      "score": "2:0",
+      "p": 0.156
+     },
+     {
+      "score": "1:0",
+      "p": 0.129
+     },
+     {
+      "score": "3:0",
+      "p": 0.117
+     },
+     {
+      "score": "2:1",
+      "p": 0.084
+     }
+    ]
+   },
+   "context": {
+    "neutral": true,
+    "city": "Philadelphia"
+   },
+   "calibration": {
+    "goals_per_elo": 0.0048,
+    "base_total": 2.8,
+    "home_adv_goals": 0.6,
+    "rho": -0.12,
+    "holdout_logloss": 0.8735
+   },
+   "basis_text": "Berechnet aus: Elo 1973 vs 1614 (Δ +359) · Form letzte 5 WWLLW (8:9) vs LLLLD (3:11) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 76%/18%/6%, wahrscheinlichstes Ergebnis 2:0."
+  },
+  "locked_at": "2026-06-12",
+  "first_locked_at": "2026-06-12"
+ }
+}

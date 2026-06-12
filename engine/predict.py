@@ -73,6 +73,46 @@ def load_overrides():
     return ov
 
 
+LEDGER_PATH = os.path.join(PRED_DIR, "ledger.json")
+LOCK_FIELDS = ("pick", "probs", "confidence", "source", "reasoning",
+               "key_factors", "upset_watch", "stat_model", "basis")
+
+
+def load_ledger():
+    if os.path.exists(LEDGER_PATH):
+        return json.load(open(LEDGER_PATH, encoding="utf-8"))
+    return {}
+
+
+def apply_ledger(p, ledger, today):
+    """Tippabgabe bis Anpfiff: Solange ein Spiel NICHT gespielt ist, darf der
+    Tipp aktualisiert werden (Ledger wird mitgefuehrt). Sobald das Ergebnis im
+    Datenbestand ist, gilt unwiderruflich der letzte Vor-Ergebnis-Tipp aus dem
+    Ledger — nachtraegliche Aenderungen sind unmoeglich. Gespielte Partien ohne
+    Vorab-Tipp zaehlen nicht (retro)."""
+    fid = p["fixture_id"]
+    if p["played"]:
+        if fid in ledger:
+            entry = ledger[fid]
+            for k in LOCK_FIELDS:
+                if k in entry:
+                    p[k] = entry[k]
+            p["locked_at"] = entry["locked_at"]
+            p["retro"] = False
+        else:
+            # Spiel war schon vorbei, als der erste Tipp entstand -> ungewertet
+            p["locked_at"] = None
+            p["retro"] = True
+    else:
+        first = ledger.get(fid, {}).get("first_locked_at", today)
+        ledger[fid] = {k: p[k] for k in LOCK_FIELDS}
+        ledger[fid]["locked_at"] = today
+        ledger[fid]["first_locked_at"] = first
+        p["locked_at"] = today
+        p["retro"] = False
+    return p
+
+
 def engine_reasoning(home, away, b):
     ph, pd_, pa = b["model"]["p_home"], b["model"]["p_draw"], b["model"]["p_away"]
     if ph >= pa and ph >= pd_:
@@ -152,18 +192,25 @@ def main():
     fixtures = _load("fixtures_2026.json")
     overrides = load_overrides()
 
+    ledger = load_ledger()
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
     preds = []
     n_oracle = 0
     for fx in fixtures:
         p = build_one(fx, elo, forms, h2h)
         ov = overrides.get(fx["id"])
         if ov:
-            n_oracle += 1
             p["source"] = "Orakel (verfeinert)"
             for k in ("pick", "probs", "confidence", "reasoning", "key_factors", "upset_watch"):
                 if k in ov and ov[k] is not None:
                     p[k] = ov[k]
+        p = apply_ledger(p, ledger, today)
+        if p["source"].startswith("Orakel"):
+            n_oracle += 1
         preds.append(p)
+
+    json.dump(ledger, open(LEDGER_PATH, "w"), ensure_ascii=False, indent=1)
 
     meta = _load("meta.json")
     out = {

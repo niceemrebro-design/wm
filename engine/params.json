@@ -1,9 +1,10 @@
 {
  "goals_per_elo": 0.0048,
- "base_total": 2.7,
+ "base_total": 2.8,
  "home_adv_goals": 0.6,
- "rho": -0.08,
- "calibrated_on": "international 1996-2017, validated 2018+",
- "holdout_logloss": 0.8738,
- "holdout_brier": 0.5133
+ "rho": -0.12,
+ "momentum_elo_per_pt": 0.0,
+ "calibrated_on": "international 1996-2017, validated 2018+ (incl. tournament subset)",
+ "holdout_logloss": 0.8735,
+ "holdout_brier": 0.5131
 }

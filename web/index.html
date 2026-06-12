@@ -85,11 +85,13 @@
 
   <div class="tabs">
     <div class="tab active" data-view="matches" onclick="setView('matches')">Spiele &amp; Tipps</div>
+    <div class="tab" data-view="bilanz" onclick="setView('bilanz')">📋 Bilanz</div>
     <div class="tab" data-view="odds" onclick="setView('odds')">🏆 Titel-Odds</div>
     <div class="tab" data-view="elo" onclick="setView('elo')">📊 Elo-Rangliste</div>
   </div>
 
   <div id="view-matches"><div class="grid" id="cards"></div></div>
+  <div id="view-bilanz" class="hidden"><div class="side" id="bilanz"></div></div>
   <div id="view-odds" class="hidden"><div class="side"><h2>🏆 Weltmeister-Wahrscheinlichkeiten</h2><div class="odds" id="odds"></div></div></div>
   <div id="view-elo" class="hidden"><div class="side"><h2>📊 Kraftrangliste (Elo) — alle 48 Teilnehmer</h2><div class="elo" id="elo"></div></div></div>
 
@@ -178,9 +180,60 @@ if(T && T.teams && T.teams.length){
   odds.innerHTML=`<div class="basisline">Titel-Odds werden aus einer Monte-Carlo-Turniersimulation berechnet — kommt im nächsten Schritt.</div>`;
 }
 
+// Bilanz (Live-Scorecard + Backtest-Track-Record)
+(function(){
+  const el=document.getElementById('bilanz');
+  const sc=D.scorecard, bt=D.backtest;
+  let html='';
+
+  html+=`<h2>📋 Live-Bilanz WM 2026 — schwarz auf weiß</h2>`;
+  if(sc&&sc.summary&&sc.summary.gewertet>0){
+    const s=sc.summary;
+    html+=`<div class="card" style="margin-bottom:14px">
+      <div style="display:flex;gap:24px;flex-wrap:wrap;font-size:14px">
+        <div><b style="font-size:24px;color:var(--gold)">${s.kicktipp_pts}</b><br><span style="color:var(--muted);font-size:11px">Kicktipp-Punkte (4/3/2)</span></div>
+        <div><b style="font-size:24px;color:var(--accent)">${s.exakt}</b><br><span style="color:var(--muted);font-size:11px">exakt getroffen</span></div>
+        <div><b style="font-size:24px">${Math.round((s.tendenz_quote||0)*100)}%</b><br><span style="color:var(--muted);font-size:11px">Punkte-Quote</span></div>
+        <div><b style="font-size:24px">${s.brier_avg??'–'}</b><br><span style="color:var(--muted);font-size:11px">Brier (kleiner=besser)</span></div>
+        <div><b style="font-size:24px">${s.gewertet}</b><br><span style="color:var(--muted);font-size:11px">gewertete Spiele</span></div>
+      </div></div>
+      <div class="btab" style="background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px">
+      ${sc.games.map(g=>`<b>${g.date}</b><span>${g.match} — Tipp ${g.pick}, Ergebnis ${g.result} →
+        <b style="color:${g.pts>=3?'var(--accent)':(g.pts===2?'var(--gold)':'var(--away)')}">${g.cat} (${g.pts} Pkt)</b></span>`).join('')}
+      </div>`;
+  } else {
+    html+=`<p class="basisline">Noch keine gewerteten Spiele — die Bilanz füllt sich automatisch, sobald getippte Partien beendet sind.</p>`;
+  }
+  if(sc&&sc.retro&&sc.retro.length){
+    html+=`<p class="basisline">⚖️ Integrität: ${sc.retro.length} Spiel(e) ungewertet, weil der Tipp erst nach Spielende entstand
+      (${sc.retro.map(r=>`${r.match}: Tipp ${r.pick} / Ergebnis ${r.result}`).join(' · ')}). Gewertet wird nur, was vor Anpfiff im Ledger eingefroren war.</p>`;
+  }
+
+  if(bt&&bt.tournaments){
+    html+=`<h2 style="margin-top:26px">🧪 Track Record — Blind-Backtest gegen echte WMs</h2>
+      <p class="basisline">Die Engine hat die WM 2018 und WM 2022 rückwirkend 'blind' getippt — nur mit dem Elo-Stand vom Tag vor jedem Spiel (kein Blick in die Zukunft), gewertet gegen die echten Ergebnisse.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px">`;
+    for(const [y,s] of Object.entries(bt.tournaments)){
+      html+=`<div class="card"><b style="color:var(--gold)">WM ${y}</b> (${s.n} Spiele)
+        <div class="btab" style="margin-top:8px">
+          <b>Kicktipp</b><span>${s.kicktipp_pts} Pkt (Ø ${s.kicktipp_avg}/Spiel)</span>
+          <b>Tendenz</b><span>${Math.round(s.tendenz_quote*100)}% richtig</span>
+          <b>Verteilung</b><span>${s.exakt}× exakt · ${s.tordifferenz}× Tordiff. · ${s.tendenz}× Tendenz · ${s.daneben}× daneben</span>
+        </div></div>`;
+    }
+    html+=`</div>`;
+    if(bt.total){
+      html+=`<p class="basisline" style="margin-top:10px"><b>Gesamt über ${bt.total.n} echte WM-Spiele:</b>
+        Tendenz ${Math.round(bt.total.tendenz_quote*100)}% · exakt ${Math.round(bt.total.exakt_quote*100)}% · Ø ${bt.total.kicktipp_avg} Kicktipp-Punkte/Spiel —
+        das ist die ehrliche, gemessene Erwartung (zzgl. Orakel-Verfeinerung obendrauf).</p>`;
+    }
+  }
+  el.innerHTML=html;
+})();
+
 // Tabs
 function setView(v){
-  ['matches','odds','elo'].forEach(x=>{
+  ['matches','bilanz','odds','elo'].forEach(x=>{
     document.getElementById('view-'+x).classList.toggle('hidden',x!==v);
     document.querySelector(`.tab[data-view="${x}"]`).classList.toggle('active',x===v);
   });
