@@ -31,9 +31,9 @@
   "city": "Toronto",
   "country": "Canada",
   "neutral": false,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 1,
+  "away_score": 1
  },
  {
   "id": "wc2026-003",
@@ -43,9 +43,9 @@
   "city": "Inglewood",
   "country": "United States",
   "neutral": false,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 4,
+  "away_score": 1
  },
  {
   "id": "wc2026-004",

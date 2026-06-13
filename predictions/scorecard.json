@@ -1,19 +1,44 @@
 {
- "generated_at": "2026-06-12",
+ "generated_at": "2026-06-13",
  "integrity": "Gewertet werden ausschliesslich Tipps, die VOR Anpfiff im Ledger eingefroren wurden (predictions/ledger.json). Nachtraegliche Tipps erscheinen als 'ungewertet'.",
  "summary": {
-  "gewertet": 0,
+  "gewertet": 2,
   "exakt": 0,
   "tordifferenz": 0,
   "tendenz": 0,
-  "daneben": 0,
+  "daneben": 2,
   "kicktipp_pts": 0,
-  "kicktipp_avg": null,
-  "tendenz_quote": null,
-  "brier_avg": null,
+  "kicktipp_avg": 0.0,
+  "tendenz_quote": 0.0,
+  "brier_avg": 0.78,
   "retro_ungewertet": 2
  },
- "games": [],
+ "games": [
+  {
+   "fixture_id": "wc2026-002",
+   "date": "2026-06-12",
+   "match": "Canada vs Bosnia and Herzegovina",
+   "pick": "2:0",
+   "result": "1:1",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-12",
+   "cat": "daneben",
+   "pts": 0,
+   "brier": 0.946
+  },
+  {
+   "fixture_id": "wc2026-003",
+   "date": "2026-06-12",
+   "match": "United States vs Paraguay",
+   "pick": "1:1",
+   "result": "4:1",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-12",
+   "cat": "daneben",
+   "pts": 0,
+   "brier": 0.615
+  }
+ ],
  "retro": [
   {
    "fixture_id": "wc2026-000",

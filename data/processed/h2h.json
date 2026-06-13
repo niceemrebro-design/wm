@@ -74,28 +74,29 @@
   ]
  },
  "wc2026-002": {
-  "meetings": 0,
+  "meetings": 1,
   "home_persp_w": 0,
-  "draw": 0,
+  "draw": 1,
   "home_persp_l": 0,
-  "gf": 0,
-  "ga": 0,
-  "last": []
- },
- "wc2026-003": {
-  "meetings": 9,
-  "home_persp_w": 5,
-  "draw": 2,
-  "home_persp_l": 2,
-  "gf": 12,
-  "ga": 7,
+  "gf": 1,
+  "ga": 1,
   "last": [
    {
-    "date": "2007-07-02",
-    "score": "1:3",
-    "home": "United States",
-    "away": "Paraguay"
-   },
+    "date": "2026-06-12",
+    "score": "1:1",
+    "home": "Canada",
+    "away": "Bosnia and Herzegovina"
+   }
+  ]
+ },
+ "wc2026-003": {
+  "meetings": 10,
+  "home_persp_w": 6,
+  "draw": 2,
+  "home_persp_l": 2,
+  "gf": 16,
+  "ga": 8,
+  "last": [
    {
     "date": "2011-03-29",
     "score": "0:1",
@@ -117,6 +118,12 @@
    {
     "date": "2025-11-15",
     "score": "2:1",
+    "home": "United States",
+    "away": "Paraguay"
+   },
+   {
+    "date": "2026-06-12",
+    "score": "4:1",
     "home": "United States",
     "away": "Paraguay"
    }
