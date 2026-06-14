@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-06-13",
+ "generated_at": "2026-06-14",
  "integrity": "Gewertet werden ausschliesslich Tipps, die VOR Anpfiff im Ledger eingefroren wurden (predictions/ledger.json). Nachtraegliche Tipps erscheinen als 'ungewertet'.",
  "summary": {
-  "gewertet": 2,
+  "gewertet": 6,
   "exakt": 0,
-  "tordifferenz": 0,
+  "tordifferenz": 1,
   "tendenz": 0,
-  "daneben": 2,
-  "kicktipp_pts": 0,
-  "kicktipp_avg": 0.0,
-  "tendenz_quote": 0.0,
-  "brier_avg": 0.78,
+  "daneben": 5,
+  "kicktipp_pts": 3,
+  "kicktipp_avg": 0.5,
+  "tendenz_quote": 0.167,
+  "brier_avg": 0.771,
   "retro_ungewertet": 2
  },
  "games": [
@@ -37,6 +37,54 @@
    "cat": "daneben",
    "pts": 0,
    "brier": 0.615
+  },
+  {
+   "fixture_id": "wc2026-004",
+   "date": "2026-06-13",
+   "match": "Qatar vs Switzerland",
+   "pick": "0:2",
+   "result": "1:1",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-13",
+   "cat": "daneben",
+   "pts": 0,
+   "brier": 1.041
+  },
+  {
+   "fixture_id": "wc2026-005",
+   "date": "2026-06-13",
+   "match": "Brazil vs Morocco",
+   "pick": "2:1",
+   "result": "1:1",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-13",
+   "cat": "daneben",
+   "pts": 0,
+   "brier": 0.814
+  },
+  {
+   "fixture_id": "wc2026-006",
+   "date": "2026-06-13",
+   "match": "Haiti vs Scotland",
+   "pick": "1:2",
+   "result": "0:1",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-13",
+   "cat": "tordifferenz",
+   "pts": 3,
+   "brier": 0.422
+  },
+  {
+   "fixture_id": "wc2026-007",
+   "date": "2026-06-13",
+   "match": "Australia vs Turkey",
+   "pick": "1:2",
+   "result": "2:0",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-13",
+   "cat": "daneben",
+   "pts": 0,
+   "brier": 0.79
   }
  ],
  "retro": [

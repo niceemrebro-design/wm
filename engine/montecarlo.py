@@ -58,7 +58,8 @@ def pois(lam):
             return k - 1
 
 
-def main(N=10000):
+def main(N=10000, seed=2026):
+    random.seed(seed)  # deterministisch -> reproduzierbare Odds, keine Commit-Noise
     elo = _load("elo.json")
     fixtures = _load("fixtures_2026.json")
     parts = sorted(set([f["home"] for f in fixtures] + [f["away"] for f in fixtures]))

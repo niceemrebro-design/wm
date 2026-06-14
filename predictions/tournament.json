@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-13",
+ "generated_at": "2026-06-14",
  "sims": 25000,
  "method": "Monte-Carlo: kalibriertes Poisson-Modell, Gruppenphase exakt (Top 2 + 8 beste Dritte), K.o. als zufälliges Bracket über alle Läufe gemittelt",
  "teams": [
@@ -8,126 +8,126 @@
    "group": "F",
    "elo": 2228.6,
    "avg_pts": 7.76,
-   "p_first": 0.811,
-   "p_second": 0.175,
+   "p_first": 0.809,
+   "p_second": 0.177,
    "p_advance": 0.998,
-   "p_r16": 0.828,
-   "p_qf": 0.671,
-   "p_sf": 0.519,
-   "p_final": 0.385,
-   "p_winner": 0.2778
+   "p_r16": 0.831,
+   "p_qf": 0.665,
+   "p_sf": 0.512,
+   "p_final": 0.378,
+   "p_winner": 0.2712
   },
   {
    "team": "Argentina",
    "group": "A",
    "elo": 2193.7,
-   "avg_pts": 7.22,
-   "p_first": 0.782,
-   "p_second": 0.16,
-   "p_advance": 0.984,
-   "p_r16": 0.788,
-   "p_qf": 0.604,
-   "p_sf": 0.441,
-   "p_final": 0.303,
-   "p_winner": 0.1995
+   "avg_pts": 7.23,
+   "p_first": 0.783,
+   "p_second": 0.159,
+   "p_advance": 0.983,
+   "p_r16": 0.793,
+   "p_qf": 0.612,
+   "p_sf": 0.447,
+   "p_final": 0.313,
+   "p_winner": 0.2075
   },
   {
    "team": "France",
    "group": "K",
    "elo": 2134.1,
-   "avg_pts": 6.49,
-   "p_first": 0.611,
-   "p_second": 0.26,
+   "avg_pts": 6.48,
+   "p_first": 0.615,
+   "p_second": 0.254,
    "p_advance": 0.961,
-   "p_r16": 0.71,
-   "p_qf": 0.495,
+   "p_r16": 0.714,
+   "p_qf": 0.493,
    "p_sf": 0.323,
-   "p_final": 0.193,
-   "p_winner": 0.1042
+   "p_final": 0.192,
+   "p_winner": 0.1053
   },
   {
    "team": "England",
    "group": "H",
    "elo": 2098.9,
-   "avg_pts": 6.62,
+   "avg_pts": 6.63,
    "p_first": 0.606,
-   "p_second": 0.278,
-   "p_advance": 0.975,
-   "p_r16": 0.682,
-   "p_qf": 0.444,
-   "p_sf": 0.269,
+   "p_second": 0.276,
+   "p_advance": 0.976,
+   "p_r16": 0.688,
+   "p_qf": 0.451,
+   "p_sf": 0.272,
    "p_final": 0.148,
-   "p_winner": 0.0726
+   "p_winner": 0.0709
   },
   {
    "team": "Brazil",
    "group": "E",
-   "elo": 2072.1,
-   "avg_pts": 6.15,
-   "p_first": 0.541,
-   "p_second": 0.297,
-   "p_advance": 0.945,
-   "p_r16": 0.632,
-   "p_qf": 0.389,
-   "p_sf": 0.219,
-   "p_final": 0.113,
-   "p_winner": 0.0506
+   "elo": 2065.2,
+   "avg_pts": 6.07,
+   "p_first": 0.514,
+   "p_second": 0.307,
+   "p_advance": 0.941,
+   "p_r16": 0.628,
+   "p_qf": 0.386,
+   "p_sf": 0.216,
+   "p_final": 0.109,
+   "p_winner": 0.05
   },
   {
    "team": "Colombia",
    "group": "G",
    "elo": 2067.6,
-   "avg_pts": 5.88,
-   "p_first": 0.457,
-   "p_second": 0.362,
-   "p_advance": 0.929,
-   "p_r16": 0.615,
+   "avg_pts": 5.86,
+   "p_first": 0.46,
+   "p_second": 0.352,
+   "p_advance": 0.926,
+   "p_r16": 0.616,
    "p_qf": 0.375,
    "p_sf": 0.21,
-   "p_final": 0.107,
-   "p_winner": 0.0462
+   "p_final": 0.104,
+   "p_winner": 0.0446
   },
   {
    "team": "Portugal",
    "group": "G",
    "elo": 2062.6,
    "avg_pts": 5.8,
-   "p_first": 0.446,
-   "p_second": 0.36,
-   "p_advance": 0.922,
-   "p_r16": 0.609,
-   "p_qf": 0.365,
-   "p_sf": 0.202,
+   "p_first": 0.442,
+   "p_second": 0.363,
+   "p_advance": 0.924,
+   "p_r16": 0.607,
+   "p_qf": 0.367,
+   "p_sf": 0.204,
    "p_final": 0.099,
-   "p_winner": 0.0424
+   "p_winner": 0.0428
   },
   {
    "team": "Ecuador",
    "group": "I",
    "elo": 2031.5,
-   "avg_pts": 6.11,
-   "p_first": 0.484,
-   "p_second": 0.349,
-   "p_advance": 0.954,
-   "p_r16": 0.591,
+   "avg_pts": 6.13,
+   "p_first": 0.485,
+   "p_second": 0.352,
+   "p_advance": 0.956,
+   "p_r16": 0.593,
    "p_qf": 0.332,
-   "p_sf": 0.168,
-   "p_final": 0.076,
-   "p_winner": 0.03
+   "p_sf": 0.171,
+   "p_final": 0.077,
+   "p_winner": 0.0294
   },
   {
    "team": "Netherlands",
    "group": "L",
    "elo": 2011.4,
-   "avg_pts": 5.82,
-   "p_first": 0.463,
-   "p_second": 0.339,
-   "p_advance": 0.92,
-   "p_r16": 0.541,
-   "p_qf": 0.285,
-   "p_sf": 0.137,
-   "p_final": 0.057,
-   "p_winner": 0.0204
+   "avg_pts": 5.81,
+   "p_first": 0.464,
+   "p_second": 0.332,
+   "p_advance": 0.917,
+   "p_r16": 0.544,
+   "p_qf": 0.292,
+   "p_sf": 0.139,
+   "p_final": 0.059,
+   "p_winner": 0.0212
   },
   {
    "team": "Germany",
@@ -135,41 +135,83 @@
    "elo": 2003.4,
    "avg_pts": 5.81,
    "p_first": 0.411,
-   "p_second": 0.384,
+   "p_second": 0.385,
    "p_advance": 0.935,
-   "p_r16": 0.542,
-   "p_qf": 0.28,
-   "p_sf": 0.131,
-   "p_final": 0.054,
-   "p_winner": 0.0194
+   "p_r16": 0.543,
+   "p_qf": 0.286,
+   "p_sf": 0.133,
+   "p_final": 0.057,
+   "p_winner": 0.0196
   },
   {
    "team": "Mexico",
    "group": "J",
    "elo": 1995.8,
-   "avg_pts": 7.15,
-   "p_first": 0.741,
-   "p_second": 0.2,
-   "p_advance": 0.986,
-   "p_r16": 0.569,
-   "p_qf": 0.291,
-   "p_sf": 0.132,
-   "p_final": 0.054,
-   "p_winner": 0.0188
+   "avg_pts": 7.14,
+   "p_first": 0.742,
+   "p_second": 0.198,
+   "p_advance": 0.985,
+   "p_r16": 0.562,
+   "p_qf": 0.287,
+   "p_sf": 0.131,
+   "p_final": 0.051,
+   "p_winner": 0.017
+  },
+  {
+   "team": "Morocco",
+   "group": "E",
+   "elo": 1997.1,
+   "avg_pts": 5.25,
+   "p_first": 0.335,
+   "p_second": 0.367,
+   "p_advance": 0.881,
+   "p_r16": 0.503,
+   "p_qf": 0.26,
+   "p_sf": 0.116,
+   "p_final": 0.048,
+   "p_winner": 0.0165
   },
   {
    "team": "Japan",
    "group": "L",
    "elo": 1996.1,
-   "avg_pts": 5.62,
-   "p_first": 0.421,
-   "p_second": 0.356,
+   "avg_pts": 5.63,
+   "p_first": 0.42,
+   "p_second": 0.357,
    "p_advance": 0.906,
-   "p_r16": 0.52,
-   "p_qf": 0.265,
-   "p_sf": 0.12,
-   "p_final": 0.048,
-   "p_winner": 0.016
+   "p_r16": 0.519,
+   "p_qf": 0.269,
+   "p_sf": 0.121,
+   "p_final": 0.049,
+   "p_winner": 0.0161
+  },
+  {
+   "team": "Uruguay",
+   "group": "F",
+   "elo": 1979.2,
+   "avg_pts": 5.29,
+   "p_first": 0.178,
+   "p_second": 0.634,
+   "p_advance": 0.914,
+   "p_r16": 0.506,
+   "p_qf": 0.245,
+   "p_sf": 0.107,
+   "p_final": 0.041,
+   "p_winner": 0.0139
+  },
+  {
+   "team": "Croatia",
+   "group": "H",
+   "elo": 1973.1,
+   "avg_pts": 5.18,
+   "p_first": 0.271,
+   "p_second": 0.417,
+   "p_advance": 0.888,
+   "p_r16": 0.487,
+   "p_qf": 0.229,
+   "p_sf": 0.096,
+   "p_final": 0.036,
+   "p_winner": 0.0126
   },
   {
    "team": "Norway",
@@ -177,332 +219,304 @@
    "elo": 1986.2,
    "avg_pts": 4.65,
    "p_first": 0.232,
-   "p_second": 0.371,
-   "p_advance": 0.811,
-   "p_r16": 0.456,
-   "p_qf": 0.226,
+   "p_second": 0.372,
+   "p_advance": 0.817,
+   "p_r16": 0.455,
+   "p_qf": 0.223,
    "p_sf": 0.098,
    "p_final": 0.038,
-   "p_winner": 0.014
-  },
-  {
-   "team": "Morocco",
-   "group": "E",
-   "elo": 1990.1,
-   "avg_pts": 5.15,
-   "p_first": 0.321,
-   "p_second": 0.373,
-   "p_advance": 0.868,
-   "p_r16": 0.487,
-   "p_qf": 0.247,
-   "p_sf": 0.11,
-   "p_final": 0.043,
-   "p_winner": 0.0139
-  },
-  {
-   "team": "Uruguay",
-   "group": "F",
-   "elo": 1979.2,
-   "avg_pts": 5.27,
-   "p_first": 0.175,
-   "p_second": 0.631,
-   "p_advance": 0.912,
-   "p_r16": 0.5,
-   "p_qf": 0.246,
-   "p_sf": 0.106,
-   "p_final": 0.04,
-   "p_winner": 0.0124
-  },
-  {
-   "team": "Croatia",
-   "group": "H",
-   "elo": 1973.1,
-   "avg_pts": 5.17,
-   "p_first": 0.275,
-   "p_second": 0.41,
-   "p_advance": 0.888,
-   "p_r16": 0.482,
-   "p_qf": 0.232,
-   "p_sf": 0.097,
-   "p_final": 0.037,
-   "p_winner": 0.0119
-  },
-  {
-   "team": "Turkey",
-   "group": "B",
-   "elo": 1979.1,
-   "avg_pts": 4.63,
-   "p_first": 0.314,
-   "p_second": 0.278,
-   "p_advance": 0.772,
-   "p_r16": 0.427,
-   "p_qf": 0.208,
-   "p_sf": 0.088,
-   "p_final": 0.033,
-   "p_winner": 0.011
+   "p_winner": 0.0126
   },
   {
    "team": "Belgium",
    "group": "C",
    "elo": 1950.9,
-   "avg_pts": 5.5,
-   "p_first": 0.448,
-   "p_second": 0.293,
-   "p_advance": 0.884,
-   "p_r16": 0.455,
-   "p_qf": 0.206,
+   "avg_pts": 5.45,
+   "p_first": 0.447,
+   "p_second": 0.287,
+   "p_advance": 0.88,
+   "p_r16": 0.451,
+   "p_qf": 0.203,
    "p_sf": 0.083,
    "p_final": 0.028,
+   "p_winner": 0.008
+  },
+  {
+   "team": "Australia",
+   "group": "B",
+   "elo": 1957.4,
+   "avg_pts": 4.33,
+   "p_first": 0.266,
+   "p_second": 0.275,
+   "p_advance": 0.731,
+   "p_r16": 0.385,
+   "p_qf": 0.177,
+   "p_sf": 0.071,
+   "p_final": 0.025,
    "p_winner": 0.0072
   },
   {
    "team": "Switzerland",
    "group": "D",
-   "elo": 1948.7,
-   "avg_pts": 5.96,
-   "p_first": 0.391,
-   "p_second": 0.463,
-   "p_advance": 0.95,
-   "p_r16": 0.481,
-   "p_qf": 0.209,
-   "p_sf": 0.082,
-   "p_final": 0.027,
-   "p_winner": 0.0064
-  },
-  {
-   "team": "South Korea",
-   "group": "J",
-   "elo": 1906.2,
-   "avg_pts": 4.66,
-   "p_first": 0.183,
+   "elo": 1924.7,
+   "avg_pts": 5.7,
+   "p_first": 0.354,
    "p_second": 0.458,
-   "p_advance": 0.824,
-   "p_r16": 0.369,
-   "p_qf": 0.142,
-   "p_sf": 0.048,
-   "p_final": 0.014,
-   "p_winner": 0.0034
+   "p_advance": 0.928,
+   "p_r16": 0.438,
+   "p_qf": 0.182,
+   "p_sf": 0.067,
+   "p_final": 0.02,
+   "p_winner": 0.0056
   },
   {
-   "team": "Iran",
-   "group": "C",
-   "elo": 1897.8,
-   "avg_pts": 4.82,
-   "p_first": 0.32,
-   "p_second": 0.308,
-   "p_advance": 0.813,
-   "p_r16": 0.355,
-   "p_qf": 0.135,
-   "p_sf": 0.042,
-   "p_final": 0.011,
-   "p_winner": 0.003
-  },
-  {
-   "team": "Australia",
+   "team": "Turkey",
    "group": "B",
-   "elo": 1902.6,
-   "avg_pts": 3.64,
-   "p_first": 0.175,
-   "p_second": 0.234,
-   "p_advance": 0.62,
-   "p_r16": 0.279,
-   "p_qf": 0.107,
-   "p_sf": 0.037,
-   "p_final": 0.011,
-   "p_winner": 0.0029
+   "elo": 1924.4,
+   "avg_pts": 3.93,
+   "p_first": 0.214,
+   "p_second": 0.249,
+   "p_advance": 0.664,
+   "p_r16": 0.315,
+   "p_qf": 0.131,
+   "p_sf": 0.046,
+   "p_final": 0.015,
+   "p_winner": 0.0037
   },
   {
    "team": "Senegal",
    "group": "K",
    "elo": 1915.7,
    "avg_pts": 3.8,
-   "p_first": 0.136,
-   "p_second": 0.281,
-   "p_advance": 0.684,
-   "p_r16": 0.313,
-   "p_qf": 0.124,
+   "p_first": 0.13,
+   "p_second": 0.287,
+   "p_advance": 0.682,
+   "p_r16": 0.315,
+   "p_qf": 0.127,
+   "p_sf": 0.044,
+   "p_final": 0.014,
+   "p_winner": 0.0033
+  },
+  {
+   "team": "Iran",
+   "group": "C",
+   "elo": 1897.8,
+   "avg_pts": 4.8,
+   "p_first": 0.314,
+   "p_second": 0.312,
+   "p_advance": 0.808,
+   "p_r16": 0.358,
+   "p_qf": 0.135,
    "p_sf": 0.042,
    "p_final": 0.013,
-   "p_winner": 0.0029
+   "p_winner": 0.0032
+  },
+  {
+   "team": "South Korea",
+   "group": "J",
+   "elo": 1906.2,
+   "avg_pts": 4.64,
+   "p_first": 0.181,
+   "p_second": 0.455,
+   "p_advance": 0.822,
+   "p_r16": 0.369,
+   "p_qf": 0.145,
+   "p_sf": 0.049,
+   "p_final": 0.013,
+   "p_winner": 0.0032
   },
   {
    "team": "Canada",
    "group": "D",
    "elo": 1883.4,
-   "avg_pts": 6.64,
-   "p_first": 0.567,
-   "p_second": 0.349,
-   "p_advance": 0.977,
-   "p_r16": 0.415,
-   "p_qf": 0.147,
-   "p_sf": 0.044,
-   "p_final": 0.011,
-   "p_winner": 0.0021
-  },
-  {
-   "team": "Algeria",
-   "group": "A",
-   "elo": 1890.3,
-   "avg_pts": 3.63,
-   "p_first": 0.095,
-   "p_second": 0.339,
-   "p_advance": 0.646,
-   "p_r16": 0.278,
-   "p_qf": 0.103,
-   "p_sf": 0.032,
-   "p_final": 0.009,
-   "p_winner": 0.0019
+   "avg_pts": 6.68,
+   "p_first": 0.596,
+   "p_second": 0.32,
+   "p_advance": 0.975,
+   "p_r16": 0.414,
+   "p_qf": 0.151,
+   "p_sf": 0.047,
+   "p_final": 0.012,
+   "p_winner": 0.0026
   },
   {
    "team": "Austria",
    "group": "A",
    "elo": 1890.0,
-   "avg_pts": 3.61,
-   "p_first": 0.094,
-   "p_second": 0.333,
-   "p_advance": 0.642,
-   "p_r16": 0.276,
+   "avg_pts": 3.62,
+   "p_first": 0.093,
+   "p_second": 0.34,
+   "p_advance": 0.649,
+   "p_r16": 0.277,
    "p_qf": 0.103,
    "p_sf": 0.031,
    "p_final": 0.008,
-   "p_winner": 0.0019
+   "p_winner": 0.0022
   },
   {
    "team": "United States",
    "group": "B",
    "elo": 1882.6,
-   "avg_pts": 5.0,
-   "p_first": 0.378,
-   "p_second": 0.283,
-   "p_advance": 0.825,
-   "p_r16": 0.353,
-   "p_qf": 0.128,
-   "p_sf": 0.039,
-   "p_final": 0.01,
-   "p_winner": 0.0019
-  },
-  {
-   "team": "Paraguay",
-   "group": "B",
-   "elo": 1870.7,
-   "avg_pts": 3.25,
-   "p_first": 0.134,
-   "p_second": 0.205,
-   "p_advance": 0.54,
-   "p_r16": 0.216,
-   "p_qf": 0.076,
-   "p_sf": 0.021,
-   "p_final": 0.005,
-   "p_winner": 0.0015
+   "avg_pts": 4.99,
+   "p_first": 0.382,
+   "p_second": 0.272,
+   "p_advance": 0.823,
+   "p_r16": 0.348,
+   "p_qf": 0.124,
+   "p_sf": 0.037,
+   "p_final": 0.009,
+   "p_winner": 0.0021
   },
   {
    "team": "Panama",
    "group": "H",
    "elo": 1863.6,
-   "avg_pts": 3.87,
-   "p_first": 0.115,
-   "p_second": 0.273,
-   "p_advance": 0.718,
-   "p_r16": 0.284,
-   "p_qf": 0.097,
-   "p_sf": 0.028,
-   "p_final": 0.007,
-   "p_winner": 0.0012
+   "avg_pts": 3.86,
+   "p_first": 0.117,
+   "p_second": 0.27,
+   "p_advance": 0.715,
+   "p_r16": 0.282,
+   "p_qf": 0.095,
+   "p_sf": 0.026,
+   "p_final": 0.006,
+   "p_winner": 0.0016
+  },
+  {
+   "team": "Algeria",
+   "group": "A",
+   "elo": 1890.3,
+   "avg_pts": 3.61,
+   "p_first": 0.095,
+   "p_second": 0.336,
+   "p_advance": 0.644,
+   "p_r16": 0.276,
+   "p_qf": 0.102,
+   "p_sf": 0.032,
+   "p_final": 0.008,
+   "p_winner": 0.0015
   },
   {
    "team": "Scotland",
    "group": "E",
-   "elo": 1855.8,
-   "avg_pts": 3.48,
-   "p_first": 0.11,
-   "p_second": 0.237,
-   "p_advance": 0.621,
-   "p_r16": 0.239,
-   "p_qf": 0.078,
+   "elo": 1874.5,
+   "avg_pts": 3.72,
+   "p_first": 0.132,
+   "p_second": 0.252,
+   "p_advance": 0.67,
+   "p_r16": 0.272,
+   "p_qf": 0.097,
+   "p_sf": 0.029,
+   "p_final": 0.008,
+   "p_winner": 0.0014
+  },
+  {
+   "team": "Paraguay",
+   "group": "B",
+   "elo": 1870.7,
+   "avg_pts": 3.26,
+   "p_first": 0.138,
+   "p_second": 0.204,
+   "p_advance": 0.538,
+   "p_r16": 0.219,
+   "p_qf": 0.076,
    "p_sf": 0.022,
    "p_final": 0.006,
-   "p_winner": 0.0012
+   "p_winner": 0.0013
   },
   {
    "team": "Uzbekistan",
    "group": "G",
    "elo": 1822.1,
-   "avg_pts": 2.85,
-   "p_first": 0.063,
-   "p_second": 0.168,
-   "p_advance": 0.486,
-   "p_r16": 0.168,
-   "p_qf": 0.049,
-   "p_sf": 0.013,
+   "avg_pts": 2.86,
+   "p_first": 0.065,
+   "p_second": 0.171,
+   "p_advance": 0.488,
+   "p_r16": 0.166,
+   "p_qf": 0.047,
+   "p_sf": 0.012,
    "p_final": 0.003,
    "p_winner": 0.0006
+  },
+  {
+   "team": "Egypt",
+   "group": "C",
+   "elo": 1812.6,
+   "avg_pts": 3.71,
+   "p_first": 0.166,
+   "p_second": 0.249,
+   "p_advance": 0.643,
+   "p_r16": 0.211,
+   "p_qf": 0.059,
+   "p_sf": 0.014,
+   "p_final": 0.003,
+   "p_winner": 0.0005
   },
   {
    "team": "Ivory Coast",
    "group": "I",
    "elo": 1811.8,
-   "avg_pts": 3.52,
+   "avg_pts": 3.51,
    "p_first": 0.096,
-   "p_second": 0.221,
-   "p_advance": 0.639,
-   "p_r16": 0.211,
+   "p_second": 0.219,
+   "p_advance": 0.64,
+   "p_r16": 0.212,
    "p_qf": 0.058,
-   "p_sf": 0.013,
+   "p_sf": 0.014,
    "p_final": 0.003,
-   "p_winner": 0.0003
+   "p_winner": 0.0005
   },
   {
    "team": "Czech Republic",
    "group": "J",
    "elo": 1783.9,
-   "avg_pts": 3.18,
-   "p_first": 0.061,
-   "p_second": 0.244,
-   "p_advance": 0.567,
-   "p_r16": 0.17,
-   "p_qf": 0.043,
-   "p_sf": 0.008,
-   "p_final": 0.001,
+   "avg_pts": 3.22,
+   "p_first": 0.064,
+   "p_second": 0.248,
+   "p_advance": 0.574,
+   "p_r16": 0.171,
+   "p_qf": 0.042,
+   "p_sf": 0.009,
+   "p_final": 0.002,
    "p_winner": 0.0002
   },
   {
    "team": "DR Congo",
    "group": "G",
    "elo": 1765.5,
-   "avg_pts": 2.2,
-   "p_first": 0.035,
-   "p_second": 0.11,
-   "p_advance": 0.335,
-   "p_r16": 0.093,
+   "avg_pts": 2.19,
+   "p_first": 0.033,
+   "p_second": 0.114,
+   "p_advance": 0.329,
+   "p_r16": 0.091,
    "p_qf": 0.02,
    "p_sf": 0.004,
    "p_final": 0.001,
    "p_winner": 0.0002
   },
   {
-   "team": "Egypt",
-   "group": "C",
-   "elo": 1812.6,
-   "avg_pts": 3.72,
-   "p_first": 0.165,
-   "p_second": 0.25,
-   "p_advance": 0.644,
-   "p_r16": 0.214,
-   "p_qf": 0.058,
-   "p_sf": 0.014,
-   "p_final": 0.002,
-   "p_winner": 0.0002
+   "team": "Jordan",
+   "group": "A",
+   "elo": 1777.7,
+   "avg_pts": 2.29,
+   "p_first": 0.029,
+   "p_second": 0.165,
+   "p_advance": 0.354,
+   "p_r16": 0.106,
+   "p_qf": 0.026,
+   "p_sf": 0.005,
+   "p_final": 0.001,
+   "p_winner": 0.0001
   },
   {
    "team": "Bosnia and Herzegovina",
    "group": "D",
    "elo": 1662.7,
-   "avg_pts": 2.63,
-   "p_first": 0.033,
-   "p_second": 0.132,
-   "p_advance": 0.452,
-   "p_r16": 0.081,
-   "p_qf": 0.012,
+   "avg_pts": 2.61,
+   "p_first": 0.036,
+   "p_second": 0.142,
+   "p_advance": 0.442,
+   "p_r16": 0.076,
+   "p_qf": 0.011,
    "p_sf": 0.001,
    "p_final": 0.0,
    "p_winner": 0.0
@@ -511,13 +525,13 @@
    "team": "Cape Verde",
    "group": "F",
    "elo": 1643.5,
-   "avg_pts": 1.74,
-   "p_first": 0.005,
-   "p_second": 0.076,
-   "p_advance": 0.236,
-   "p_r16": 0.039,
-   "p_qf": 0.006,
-   "p_sf": 0.001,
+   "avg_pts": 1.73,
+   "p_first": 0.004,
+   "p_second": 0.075,
+   "p_advance": 0.234,
+   "p_r16": 0.04,
+   "p_qf": 0.005,
+   "p_sf": 0.0,
    "p_final": 0.0,
    "p_winner": 0.0
   },
@@ -525,12 +539,12 @@
    "team": "Curaçao",
    "group": "I",
    "elo": 1613.6,
-   "avg_pts": 1.36,
-   "p_first": 0.01,
-   "p_second": 0.045,
-   "p_advance": 0.158,
-   "p_r16": 0.023,
-   "p_qf": 0.003,
+   "avg_pts": 1.35,
+   "p_first": 0.009,
+   "p_second": 0.044,
+   "p_advance": 0.156,
+   "p_r16": 0.021,
+   "p_qf": 0.002,
    "p_sf": 0.0,
    "p_final": 0.0,
    "p_winner": 0.0
@@ -540,9 +554,9 @@
    "group": "H",
    "elo": 1614.0,
    "avg_pts": 1.17,
-   "p_first": 0.004,
-   "p_second": 0.038,
-   "p_advance": 0.124,
+   "p_first": 0.006,
+   "p_second": 0.037,
+   "p_advance": 0.12,
    "p_r16": 0.017,
    "p_qf": 0.002,
    "p_sf": 0.0,
@@ -552,14 +566,14 @@
   {
    "team": "Haiti",
    "group": "E",
-   "elo": 1718.6,
-   "avg_pts": 1.92,
-   "p_first": 0.028,
-   "p_second": 0.092,
-   "p_advance": 0.272,
-   "p_r16": 0.064,
-   "p_qf": 0.013,
-   "p_sf": 0.002,
+   "elo": 1699.9,
+   "avg_pts": 1.68,
+   "p_first": 0.019,
+   "p_second": 0.074,
+   "p_advance": 0.218,
+   "p_r16": 0.048,
+   "p_qf": 0.007,
+   "p_sf": 0.001,
    "p_final": 0.0,
    "p_winner": 0.0
   },
@@ -567,54 +581,40 @@
    "team": "Iraq",
    "group": "K",
    "elo": 1740.0,
-   "avg_pts": 1.79,
-   "p_first": 0.021,
-   "p_second": 0.088,
-   "p_advance": 0.245,
-   "p_r16": 0.065,
-   "p_qf": 0.013,
+   "avg_pts": 1.78,
+   "p_first": 0.023,
+   "p_second": 0.087,
+   "p_advance": 0.241,
+   "p_r16": 0.061,
+   "p_qf": 0.012,
    "p_sf": 0.002,
    "p_final": 0.0,
-   "p_winner": 0.0
-  },
-  {
-   "team": "Jordan",
-   "group": "A",
-   "elo": 1777.7,
-   "avg_pts": 2.3,
-   "p_first": 0.029,
-   "p_second": 0.168,
-   "p_advance": 0.36,
-   "p_r16": 0.104,
-   "p_qf": 0.025,
-   "p_sf": 0.005,
-   "p_final": 0.001,
    "p_winner": 0.0
   },
   {
    "team": "New Zealand",
    "group": "C",
    "elo": 1720.2,
-   "avg_pts": 2.55,
-   "p_first": 0.067,
-   "p_second": 0.149,
-   "p_advance": 0.395,
-   "p_r16": 0.09,
+   "avg_pts": 2.6,
+   "p_first": 0.073,
+   "p_second": 0.152,
+   "p_advance": 0.407,
+   "p_r16": 0.094,
    "p_qf": 0.016,
-   "p_sf": 0.003,
+   "p_sf": 0.002,
    "p_final": 0.0,
    "p_winner": 0.0
   },
   {
    "team": "Qatar",
    "group": "D",
-   "elo": 1566.8,
-   "avg_pts": 1.64,
-   "p_first": 0.009,
-   "p_second": 0.056,
-   "p_advance": 0.217,
-   "p_r16": 0.023,
-   "p_qf": 0.001,
+   "elo": 1590.8,
+   "avg_pts": 1.85,
+   "p_first": 0.014,
+   "p_second": 0.079,
+   "p_advance": 0.26,
+   "p_r16": 0.034,
+   "p_qf": 0.004,
    "p_sf": 0.0,
    "p_final": 0.0,
    "p_winner": 0.0
@@ -623,12 +623,12 @@
    "team": "Saudi Arabia",
    "group": "F",
    "elo": 1697.1,
-   "avg_pts": 2.23,
-   "p_first": 0.008,
-   "p_second": 0.119,
+   "avg_pts": 2.24,
+   "p_first": 0.009,
+   "p_second": 0.115,
    "p_advance": 0.347,
    "p_r16": 0.073,
-   "p_qf": 0.012,
+   "p_qf": 0.013,
    "p_sf": 0.002,
    "p_final": 0.0,
    "p_winner": 0.0
@@ -637,12 +637,12 @@
    "team": "South Africa",
    "group": "J",
    "elo": 1660.6,
-   "avg_pts": 1.82,
-   "p_first": 0.015,
-   "p_second": 0.098,
-   "p_advance": 0.254,
-   "p_r16": 0.047,
-   "p_qf": 0.007,
+   "avg_pts": 1.83,
+   "p_first": 0.014,
+   "p_second": 0.099,
+   "p_advance": 0.255,
+   "p_r16": 0.045,
+   "p_qf": 0.005,
    "p_sf": 0.001,
    "p_final": 0.0,
    "p_winner": 0.0
@@ -651,26 +651,26 @@
    "team": "Sweden",
    "group": "L",
    "elo": 1772.2,
-   "avg_pts": 2.83,
+   "avg_pts": 2.85,
    "p_first": 0.069,
-   "p_second": 0.17,
-   "p_advance": 0.481,
-   "p_r16": 0.134,
+   "p_second": 0.176,
+   "p_advance": 0.479,
+   "p_r16": 0.137,
    "p_qf": 0.032,
    "p_sf": 0.007,
-   "p_final": 0.0,
+   "p_final": 0.001,
    "p_winner": 0.0
   },
   {
    "team": "Tunisia",
    "group": "L",
    "elo": 1732.5,
-   "avg_pts": 2.41,
+   "avg_pts": 2.39,
    "p_first": 0.047,
    "p_second": 0.135,
-   "p_advance": 0.379,
-   "p_r16": 0.094,
-   "p_qf": 0.018,
+   "p_advance": 0.376,
+   "p_r16": 0.09,
+   "p_qf": 0.019,
    "p_sf": 0.003,
    "p_final": 0.0,
    "p_winner": 0.0
@@ -680,111 +680,111 @@
   "A": [
    {
     "team": "Argentina",
-    "avg_pts": 7.22,
-    "p_advance": 0.984
-   },
-   {
-    "team": "Algeria",
-    "avg_pts": 3.63,
-    "p_advance": 0.646
+    "avg_pts": 7.23,
+    "p_advance": 0.983
    },
    {
     "team": "Austria",
+    "avg_pts": 3.62,
+    "p_advance": 0.649
+   },
+   {
+    "team": "Algeria",
     "avg_pts": 3.61,
-    "p_advance": 0.642
+    "p_advance": 0.644
    },
    {
     "team": "Jordan",
-    "avg_pts": 2.3,
-    "p_advance": 0.36
+    "avg_pts": 2.29,
+    "p_advance": 0.354
    }
   ],
   "B": [
    {
     "team": "United States",
-    "avg_pts": 5.0,
-    "p_advance": 0.825
-   },
-   {
-    "team": "Turkey",
-    "avg_pts": 4.63,
-    "p_advance": 0.772
+    "avg_pts": 4.99,
+    "p_advance": 0.823
    },
    {
     "team": "Australia",
-    "avg_pts": 3.64,
-    "p_advance": 0.62
+    "avg_pts": 4.33,
+    "p_advance": 0.731
+   },
+   {
+    "team": "Turkey",
+    "avg_pts": 3.93,
+    "p_advance": 0.664
    },
    {
     "team": "Paraguay",
-    "avg_pts": 3.25,
-    "p_advance": 0.54
+    "avg_pts": 3.26,
+    "p_advance": 0.538
    }
   ],
   "C": [
    {
     "team": "Belgium",
-    "avg_pts": 5.5,
-    "p_advance": 0.884
+    "avg_pts": 5.45,
+    "p_advance": 0.88
    },
    {
     "team": "Iran",
-    "avg_pts": 4.82,
-    "p_advance": 0.813
+    "avg_pts": 4.8,
+    "p_advance": 0.808
    },
    {
     "team": "Egypt",
-    "avg_pts": 3.72,
-    "p_advance": 0.644
+    "avg_pts": 3.71,
+    "p_advance": 0.643
    },
    {
     "team": "New Zealand",
-    "avg_pts": 2.55,
-    "p_advance": 0.395
+    "avg_pts": 2.6,
+    "p_advance": 0.407
    }
   ],
   "D": [
    {
     "team": "Canada",
-    "avg_pts": 6.64,
-    "p_advance": 0.977
+    "avg_pts": 6.68,
+    "p_advance": 0.975
    },
    {
     "team": "Switzerland",
-    "avg_pts": 5.96,
-    "p_advance": 0.95
+    "avg_pts": 5.7,
+    "p_advance": 0.928
    },
    {
     "team": "Bosnia and Herzegovina",
-    "avg_pts": 2.63,
-    "p_advance": 0.452
+    "avg_pts": 2.61,
+    "p_advance": 0.442
    },
    {
     "team": "Qatar",
-    "avg_pts": 1.64,
-    "p_advance": 0.217
+    "avg_pts": 1.85,
+    "p_advance": 0.26
    }
   ],
   "E": [
    {
     "team": "Brazil",
-    "avg_pts": 6.15,
-    "p_advance": 0.945
+    "avg_pts": 6.07,
+    "p_advance": 0.941
    },
    {
     "team": "Morocco",
-    "avg_pts": 5.15,
-    "p_advance": 0.868
+    "avg_pts": 5.25,
+    "p_advance": 0.881
    },
    {
     "team": "Scotland",
-    "avg_pts": 3.48,
-    "p_advance": 0.621
+    "avg_pts": 3.72,
+    "p_advance": 0.67
    },
    {
     "team": "Haiti",
-    "avg_pts": 1.92,
-    "p_advance": 0.272
+    "avg_pts": 1.68,
+    "p_advance": 0.218
    }
   ],
   "F": [
@@ -795,69 +795,69 @@
    },
    {
     "team": "Uruguay",
-    "avg_pts": 5.27,
-    "p_advance": 0.912
+    "avg_pts": 5.29,
+    "p_advance": 0.914
    },
    {
     "team": "Saudi Arabia",
-    "avg_pts": 2.23,
+    "avg_pts": 2.24,
     "p_advance": 0.347
    },
    {
     "team": "Cape Verde",
-    "avg_pts": 1.74,
-    "p_advance": 0.236
+    "avg_pts": 1.73,
+    "p_advance": 0.234
    }
   ],
   "G": [
    {
     "team": "Colombia",
-    "avg_pts": 5.88,
-    "p_advance": 0.929
+    "avg_pts": 5.86,
+    "p_advance": 0.926
    },
    {
     "team": "Portugal",
     "avg_pts": 5.8,
-    "p_advance": 0.922
+    "p_advance": 0.924
    },
    {
     "team": "Uzbekistan",
-    "avg_pts": 2.85,
-    "p_advance": 0.486
+    "avg_pts": 2.86,
+    "p_advance": 0.488
    },
    {
     "team": "DR Congo",
-    "avg_pts": 2.2,
-    "p_advance": 0.335
+    "avg_pts": 2.19,
+    "p_advance": 0.329
    }
   ],
   "H": [
    {
     "team": "England",
-    "avg_pts": 6.62,
-    "p_advance": 0.975
+    "avg_pts": 6.63,
+    "p_advance": 0.976
    },
    {
     "team": "Croatia",
-    "avg_pts": 5.17,
+    "avg_pts": 5.18,
     "p_advance": 0.888
    },
    {
     "team": "Panama",
-    "avg_pts": 3.87,
-    "p_advance": 0.718
+    "avg_pts": 3.86,
+    "p_advance": 0.715
    },
    {
     "team": "Ghana",
     "avg_pts": 1.17,
-    "p_advance": 0.124
+    "p_advance": 0.12
    }
   ],
   "I": [
    {
     "team": "Ecuador",
-    "avg_pts": 6.11,
-    "p_advance": 0.954
+    "avg_pts": 6.13,
+    "p_advance": 0.956
    },
    {
     "team": "Germany",
@@ -866,79 +866,79 @@
    },
    {
     "team": "Ivory Coast",
-    "avg_pts": 3.52,
-    "p_advance": 0.639
+    "avg_pts": 3.51,
+    "p_advance": 0.64
    },
    {
     "team": "Curaçao",
-    "avg_pts": 1.36,
-    "p_advance": 0.158
+    "avg_pts": 1.35,
+    "p_advance": 0.156
    }
   ],
   "J": [
    {
     "team": "Mexico",
-    "avg_pts": 7.15,
-    "p_advance": 0.986
+    "avg_pts": 7.14,
+    "p_advance": 0.985
    },
    {
     "team": "South Korea",
-    "avg_pts": 4.66,
-    "p_advance": 0.824
+    "avg_pts": 4.64,
+    "p_advance": 0.822
    },
    {
     "team": "Czech Republic",
-    "avg_pts": 3.18,
-    "p_advance": 0.567
+    "avg_pts": 3.22,
+    "p_advance": 0.574
    },
    {
     "team": "South Africa",
-    "avg_pts": 1.82,
-    "p_advance": 0.254
+    "avg_pts": 1.83,
+    "p_advance": 0.255
    }
   ],
   "K": [
    {
     "team": "France",
-    "avg_pts": 6.49,
+    "avg_pts": 6.48,
     "p_advance": 0.961
    },
    {
     "team": "Norway",
     "avg_pts": 4.65,
-    "p_advance": 0.811
+    "p_advance": 0.817
    },
    {
     "team": "Senegal",
     "avg_pts": 3.8,
-    "p_advance": 0.684
+    "p_advance": 0.682
    },
    {
     "team": "Iraq",
-    "avg_pts": 1.79,
-    "p_advance": 0.245
+    "avg_pts": 1.78,
+    "p_advance": 0.241
    }
   ],
   "L": [
    {
     "team": "Netherlands",
-    "avg_pts": 5.82,
-    "p_advance": 0.92
+    "avg_pts": 5.81,
+    "p_advance": 0.917
    },
    {
     "team": "Japan",
-    "avg_pts": 5.62,
+    "avg_pts": 5.63,
     "p_advance": 0.906
    },
    {
     "team": "Sweden",
-    "avg_pts": 2.83,
-    "p_advance": 0.481
+    "avg_pts": 2.85,
+    "p_advance": 0.479
    },
    {
     "team": "Tunisia",
-    "avg_pts": 2.41,
-    "p_advance": 0.379
+    "avg_pts": 2.39,
+    "p_advance": 0.376
    }
   ]
  }

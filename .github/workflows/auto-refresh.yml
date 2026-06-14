@@ -1,0 +1,48 @@
+name: Auto-Refresh Orakel
+
+# Läuft serverseitig auf GitHub — zieht Daten, rechnet die komplette Kette
+# (Wissensspeicher → Vorhersagen → Bilanz → Turniersim → Web) und pusht NUR,
+# wenn sich tatsächlich etwas geändert hat. Vercel deployt dann automatisch.
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"   # alle 2 Stunden
+  workflow_dispatch: {}        # zusätzlich jederzeit manuell auslösbar (Actions-Tab)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Abhängigkeiten installieren
+        run: pip install -r requirements.txt
+
+      - name: Refresh-Pipeline laufen lassen
+        run: python engine/refresh.py
+
+      - name: Committen & pushen, falls geändert
+        run: |
+          git config user.name "wm-orakel-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen — nichts zu committen."
+          else
+            git commit -m "Auto-Refresh: Daten & Bilanz aktualisiert ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push origin HEAD:main
+          fi

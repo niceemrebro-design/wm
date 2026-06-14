@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-06-13",
+ "generated_at": "2026-06-14",
  "oracle": "Claude (Claude Code) — Multi-Agenten-Orakel + kalibriertes Statistik-Modell",
  "data": {
-  "built_at": "2026-06-13T18:58:26.224262+00:00",
+  "built_at": "2026-06-14T09:41:35.227586+00:00",
   "source": "martj42/international_results",
-  "n_historical_matches": 49409,
+  "n_historical_matches": 49413,
   "history_range": [
    "1872-11-30",
-   "2026-06-12"
+   "2026-06-13"
   ],
   "n_fixtures_2026": 72,
   "n_participants": 48
@@ -464,8 +464,11 @@
    "away": "Switzerland",
    "city": "Santa Clara",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 1,
+    "away": 1
+   },
    "pick": {
     "home": 0,
     "away": 2
@@ -569,8 +572,11 @@
    "away": "Morocco",
    "city": "East Rutherford",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 1,
+    "away": 1
+   },
    "pick": {
     "home": 2,
     "away": 1
@@ -674,8 +680,11 @@
    "away": "Scotland",
    "city": "Foxborough",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 0,
+    "away": 1
+   },
    "pick": {
     "home": 1,
     "away": 2
@@ -778,8 +787,11 @@
    "away": "Turkey",
    "city": "Vancouver",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 2,
+    "away": 0
+   },
    "pick": {
     "home": 1,
     "away": 2
@@ -978,7 +990,7 @@
     "lambda_away": 1.3,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -1083,7 +1095,7 @@
     "lambda_away": 1.36,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -1188,7 +1200,7 @@
     "lambda_away": 0.46,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -1292,7 +1304,7 @@
     "lambda_away": 1.93,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -1397,7 +1409,7 @@
     "lambda_away": 1.07,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -1502,7 +1514,7 @@
     "lambda_away": 0.97,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -1607,7 +1619,7 @@
     "lambda_away": 0.18,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -1712,7 +1724,7 @@
     "lambda_away": 2.08,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -1817,7 +1829,7 @@
     "lambda_away": 1.13,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -1922,7 +1934,7 @@
     "lambda_away": 0.67,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -2027,7 +2039,7 @@
     "lambda_away": 0.88,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -2132,7 +2144,7 @@
     "lambda_away": 1.99,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -2237,7 +2249,7 @@
     "lambda_away": 0.69,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -2342,7 +2354,7 @@
     "lambda_away": 1.99,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -2447,7 +2459,7 @@
     "lambda_away": 1.1,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -2552,7 +2564,7 @@
     "lambda_away": 2.0,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -2657,7 +2669,7 @@
     "lambda_away": 1.1,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -2762,7 +2774,7 @@
     "lambda_away": 0.88,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -2779,32 +2791,32 @@
     "away": 0
    },
    "probs": {
-    "home": 0.682,
-    "draw": 0.213,
-    "away": 0.105
+    "home": 0.656,
+    "draw": 0.223,
+    "away": 0.121
    },
    "confidence": "hoch",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Switzerland ist nach Elo und Form favorisiert. Berechnet aus: Elo 1949 vs 1663 (Δ +286) · Form letzte 5 DLDWD (9:7) vs DDDDD (4:4) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 68%/21%/10%, wahrscheinlichstes Ergebnis 2:0.",
+   "reasoning": "Modellbasierte Einschätzung: Switzerland ist nach Elo und Form favorisiert. Berechnet aus: Elo 1925 vs 1663 (Δ +262) · Form letzte 5 LDWDD (9:7) vs DDDDD (4:4) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 66%/22%/12%, wahrscheinlichstes Ergebnis 2:0.",
    "key_factors": [
-    "Elo 1949 vs 1663 (Δ +286)",
+    "Elo 1925 vs 1663 (Δ +262)",
     "Form L5 6 vs 5 Punkte",
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
    "basis": {
     "elo": {
-     "Switzerland": 1948.7,
+     "Switzerland": 1924.7,
      "Bosnia and Herzegovina": 1662.7,
-     "diff": 286.0
+     "diff": 262.0
     },
     "form": {
      "Switzerland": {
-      "seq5": "DLDWD",
+      "seq5": "LDWDD",
       "pts5": 6,
       "gf5": 9,
       "ga5": 7,
-      "pts10": 19,
+      "pts10": 17,
       "n": 10
      },
      "Bosnia and Herzegovina": {
@@ -2822,27 +2834,27 @@
      "goals": "0:2"
     },
     "model": {
-     "lambda_home": 2.09,
-     "lambda_away": 0.71,
-     "p_home": 0.682,
-     "p_draw": 0.213,
-     "p_away": 0.105,
+     "lambda_home": 2.03,
+     "lambda_away": 0.77,
+     "p_home": 0.656,
+     "p_draw": 0.223,
+     "p_away": 0.121,
      "top_scorelines": [
       {
        "score": "2:0",
-       "p": 0.132
+       "p": 0.125
       },
       {
        "score": "1:0",
-       "p": 0.116
+       "p": 0.112
       },
       {
        "score": "1:1",
-       "p": 0.101
+       "p": 0.107
       },
       {
        "score": "2:1",
-       "p": 0.094
+       "p": 0.097
       }
      ]
     },
@@ -2857,17 +2869,17 @@
      "rho": -0.12,
      "holdout_logloss": 0.8735
     },
-    "basis_text": "Berechnet aus: Elo 1949 vs 1663 (Δ +286) · Form letzte 5 DLDWD (9:7) vs DDDDD (4:4) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 68%/21%/10%, wahrscheinlichstes Ergebnis 2:0."
+    "basis_text": "Berechnet aus: Elo 1925 vs 1663 (Δ +262) · Form letzte 5 LDWDD (9:7) vs DDDDD (4:4) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 66%/22%/12%, wahrscheinlichstes Ergebnis 2:0."
    },
    "stat_model": {
-    "p_home": 0.682,
-    "p_draw": 0.213,
-    "p_away": 0.105,
-    "lambda_home": 2.09,
-    "lambda_away": 0.71,
+    "p_home": 0.656,
+    "p_draw": 0.223,
+    "p_away": 0.121,
+    "lambda_home": 2.03,
+    "lambda_away": 0.77,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -2884,24 +2896,24 @@
     "away": 0
    },
    "probs": {
-    "home": 0.835,
-    "draw": 0.136,
-    "away": 0.03
+    "home": 0.813,
+    "draw": 0.148,
+    "away": 0.038
    },
    "confidence": "hoch",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Canada ist nach Elo und Form favorisiert. Berechnet aus: Elo 1883 vs 1567 (Δ +317) · Form letzte 5 DDWDD (6:4) vs LDLLD (1:6) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 83%/14%/3%, wahrscheinlichstes Ergebnis 2:0.",
+   "reasoning": "Modellbasierte Einschätzung: Canada ist nach Elo und Form favorisiert. Berechnet aus: Elo 1883 vs 1591 (Δ +293) · Form letzte 5 DDWDD (6:4) vs DLLDD (2:6) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 81%/15%/4%, wahrscheinlichstes Ergebnis 2:0.",
    "key_factors": [
-    "Elo 1883 vs 1567 (Δ +317)",
-    "Form L5 7 vs 2 Punkte",
+    "Elo 1883 vs 1591 (Δ +293)",
+    "Form L5 7 vs 3 Punkte",
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
    "basis": {
     "elo": {
      "Canada": 1883.4,
-     "Qatar": 1566.8,
-     "diff": 316.6
+     "Qatar": 1590.8,
+     "diff": 292.6
     },
     "form": {
      "Canada": {
@@ -2913,9 +2925,9 @@
       "n": 10
      },
      "Qatar": {
-      "seq5": "LDLLD",
-      "pts5": 2,
-      "gf5": 1,
+      "seq5": "DLLDD",
+      "pts5": 3,
+      "gf5": 2,
       "ga5": 6,
       "pts10": 7,
       "n": 10
@@ -2927,27 +2939,27 @@
      "goals": "2:0"
     },
     "model": {
-     "lambda_home": 2.46,
-     "lambda_away": 0.34,
-     "p_home": 0.835,
-     "p_draw": 0.136,
-     "p_away": 0.03,
+     "lambda_home": 2.4,
+     "lambda_away": 0.4,
+     "p_home": 0.813,
+     "p_draw": 0.148,
+     "p_away": 0.038,
      "top_scorelines": [
       {
        "score": "2:0",
-       "p": 0.184
+       "p": 0.176
       },
       {
        "score": "3:0",
-       "p": 0.151
+       "p": 0.141
       },
       {
        "score": "1:0",
-       "p": 0.144
+       "p": 0.139
       },
       {
        "score": "4:0",
-       "p": 0.093
+       "p": 0.084
       }
      ]
     },
@@ -2962,17 +2974,17 @@
      "rho": -0.12,
      "holdout_logloss": 0.8735
     },
-    "basis_text": "Berechnet aus: Elo 1883 vs 1567 (Δ +317) · Form letzte 5 DDWDD (6:4) vs LDLLD (1:6) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 83%/14%/3%, wahrscheinlichstes Ergebnis 2:0."
+    "basis_text": "Berechnet aus: Elo 1883 vs 1591 (Δ +293) · Form letzte 5 DDWDD (6:4) vs DLLDD (2:6) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 81%/15%/4%, wahrscheinlichstes Ergebnis 2:0."
    },
    "stat_model": {
-    "p_home": 0.835,
-    "p_draw": 0.136,
-    "p_away": 0.03,
-    "lambda_home": 2.46,
-    "lambda_away": 0.34,
+    "p_home": 0.813,
+    "p_draw": 0.148,
+    "p_away": 0.038,
+    "lambda_home": 2.4,
+    "lambda_away": 0.4,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -2989,32 +3001,32 @@
     "away": 1
    },
    "probs": {
-    "home": 0.481,
-    "draw": 0.271,
-    "away": 0.248
+    "home": 0.419,
+    "draw": 0.279,
+    "away": 0.302
    },
-   "confidence": "mittel",
+   "confidence": "niedrig-mittel",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Turkey ist nach Elo und Form favorisiert. Berechnet aus: Elo 1979 vs 1871 (Δ +108) · Form letzte 5 DWWWW (10:3) vs WWLWL (9:7) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 48%/27%/25%, wahrscheinlichstes Ergebnis 1:1.",
+   "reasoning": "Modellbasierte Einschätzung: Turkey ist nach Elo und Form favorisiert. Berechnet aus: Elo 1924 vs 1871 (Δ +54) · Form letzte 5 WWWWL (8:3) vs WWLWL (9:7) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 42%/28%/30%, wahrscheinlichstes Ergebnis 1:1.",
    "key_factors": [
-    "Elo 1979 vs 1871 (Δ +108)",
-    "Form L5 13 vs 9 Punkte",
+    "Elo 1924 vs 1871 (Δ +54)",
+    "Form L5 12 vs 9 Punkte",
     "kein direktes H2H"
    ],
    "upset_watch": null,
    "basis": {
     "elo": {
-     "Turkey": 1979.1,
+     "Turkey": 1924.4,
      "Paraguay": 1870.7,
-     "diff": 108.4
+     "diff": 53.7
     },
     "form": {
      "Turkey": {
-      "seq5": "DWWWW",
-      "pts5": 13,
-      "gf5": 10,
+      "seq5": "WWWWL",
+      "pts5": 12,
+      "gf5": 8,
       "ga5": 3,
-      "pts10": 25,
+      "pts10": 22,
       "n": 10
      },
      "Paraguay": {
@@ -3032,27 +3044,27 @@
      "goals": "0:0"
     },
     "model": {
-     "lambda_home": 1.66,
-     "lambda_away": 1.14,
-     "p_home": 0.481,
-     "p_draw": 0.271,
-     "p_away": 0.248,
+     "lambda_home": 1.53,
+     "lambda_away": 1.27,
+     "p_home": 0.419,
+     "p_draw": 0.279,
+     "p_away": 0.302,
      "top_scorelines": [
       {
        "score": "1:1",
-       "p": 0.129
+       "p": 0.132
       },
       {
        "score": "2:1",
-       "p": 0.096
+       "p": 0.09
       },
       {
        "score": "1:0",
-       "p": 0.087
+       "p": 0.079
       },
       {
-       "score": "2:0",
-       "p": 0.084
+       "score": "1:2",
+       "p": 0.075
       }
      ]
     },
@@ -3067,17 +3079,17 @@
      "rho": -0.12,
      "holdout_logloss": 0.8735
     },
-    "basis_text": "Berechnet aus: Elo 1979 vs 1871 (Δ +108) · Form letzte 5 DWWWW (10:3) vs WWLWL (9:7) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 48%/27%/25%, wahrscheinlichstes Ergebnis 1:1."
+    "basis_text": "Berechnet aus: Elo 1924 vs 1871 (Δ +54) · Form letzte 5 WWWWL (8:3) vs WWLWL (9:7) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 42%/28%/30%, wahrscheinlichstes Ergebnis 1:1."
    },
    "stat_model": {
-    "p_home": 0.481,
-    "p_draw": 0.271,
-    "p_away": 0.248,
-    "lambda_home": 1.66,
-    "lambda_away": 1.14,
+    "p_home": 0.419,
+    "p_draw": 0.279,
+    "p_away": 0.302,
+    "lambda_home": 1.53,
+    "lambda_away": 1.27,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -3094,40 +3106,40 @@
     "away": 2
    },
    "probs": {
-    "home": 0.224,
-    "draw": 0.265,
-    "away": 0.511
+    "home": 0.234,
+    "draw": 0.268,
+    "away": 0.498
    },
-   "confidence": "mittel-hoch",
+   "confidence": "mittel",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Morocco ist nach Elo und Form favorisiert. Berechnet aus: Elo 1856 vs 1990 (Δ -134) · Form letzte 5 WLLWW (12:5) vs DWWWD (13:3) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 22%/27%/51%, wahrscheinlichstes Ergebnis 1:1.",
+   "reasoning": "Modellbasierte Einschätzung: Morocco ist nach Elo und Form favorisiert. Berechnet aus: Elo 1874 vs 1997 (Δ -123) · Form letzte 5 LLWWW (9:3) vs WWWDD (13:3) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 23%/27%/50%, wahrscheinlichstes Ergebnis 1:1.",
    "key_factors": [
-    "Elo 1856 vs 1990 (Δ -134)",
+    "Elo 1874 vs 1997 (Δ -123)",
     "Form L5 9 vs 11 Punkte",
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
    "basis": {
     "elo": {
-     "Scotland": 1855.8,
-     "Morocco": 1990.1,
-     "diff": -134.3
+     "Scotland": 1874.5,
+     "Morocco": 1997.1,
+     "diff": -122.6
     },
     "form": {
      "Scotland": {
-      "seq5": "WLLWW",
+      "seq5": "LLWWW",
       "pts5": 9,
-      "gf5": 12,
-      "ga5": 5,
-      "pts10": 19,
+      "gf5": 9,
+      "ga5": 3,
+      "pts10": 21,
       "n": 10
      },
      "Morocco": {
-      "seq5": "DWWWD",
+      "seq5": "WWWDD",
       "pts5": 11,
       "gf5": 13,
       "ga5": 3,
-      "pts10": 24,
+      "pts10": 22,
       "n": 10
      }
     },
@@ -3137,15 +3149,15 @@
      "goals": "0:3"
     },
     "model": {
-     "lambda_home": 1.08,
-     "lambda_away": 1.72,
-     "p_home": 0.224,
-     "p_draw": 0.265,
-     "p_away": 0.511,
+     "lambda_home": 1.11,
+     "lambda_away": 1.69,
+     "p_home": 0.234,
+     "p_draw": 0.268,
+     "p_away": 0.498,
      "top_scorelines": [
       {
        "score": "1:1",
-       "p": 0.126
+       "p": 0.128
       },
       {
        "score": "1:2",
@@ -3153,11 +3165,11 @@
       },
       {
        "score": "0:1",
-       "p": 0.091
+       "p": 0.089
       },
       {
        "score": "0:2",
-       "p": 0.09
+       "p": 0.087
       }
      ]
     },
@@ -3172,17 +3184,17 @@
      "rho": -0.12,
      "holdout_logloss": 0.8735
     },
-    "basis_text": "Berechnet aus: Elo 1856 vs 1990 (Δ -134) · Form letzte 5 WLLWW (12:5) vs DWWWD (13:3) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 22%/27%/51%, wahrscheinlichstes Ergebnis 1:1."
+    "basis_text": "Berechnet aus: Elo 1874 vs 1997 (Δ -123) · Form letzte 5 LLWWW (9:3) vs WWWDD (13:3) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 23%/27%/50%, wahrscheinlichstes Ergebnis 1:1."
    },
    "stat_model": {
-    "p_home": 0.224,
-    "p_draw": 0.265,
-    "p_away": 0.511,
-    "lambda_home": 1.08,
-    "lambda_away": 1.72,
+    "p_home": 0.234,
+    "p_draw": 0.268,
+    "p_away": 0.498,
+    "lambda_home": 1.11,
+    "lambda_away": 1.69,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -3199,40 +3211,40 @@
     "away": 0
    },
    "probs": {
-    "home": 0.752,
-    "draw": 0.181,
-    "away": 0.066
+    "home": 0.764,
+    "draw": 0.175,
+    "away": 0.061
    },
    "confidence": "hoch",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Brazil ist nach Elo und Form favorisiert. Berechnet aus: Elo 2072 vs 1719 (Δ +354) · Form letzte 5 DLWWW (13:7) vs WLDWL (8:4) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 75%/18%/7%, wahrscheinlichstes Ergebnis 2:0.",
+   "reasoning": "Modellbasierte Einschätzung: Brazil ist nach Elo und Form favorisiert. Berechnet aus: Elo 2065 vs 1700 (Δ +365) · Form letzte 5 LWWWD (13:7) vs LDWLL (6:5) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 76%/18%/6%, wahrscheinlichstes Ergebnis 2:0.",
    "key_factors": [
-    "Elo 2072 vs 1719 (Δ +354)",
-    "Form L5 10 vs 7 Punkte",
+    "Elo 2065 vs 1700 (Δ +365)",
+    "Form L5 10 vs 4 Punkte",
     "H2H 3 Spiele"
    ],
    "upset_watch": null,
    "basis": {
     "elo": {
-     "Brazil": 2072.1,
-     "Haiti": 1718.6,
-     "diff": 353.5
+     "Brazil": 2065.2,
+     "Haiti": 1699.9,
+     "diff": 365.3
     },
     "form": {
      "Brazil": {
-      "seq5": "DLWWW",
+      "seq5": "LWWWD",
       "pts5": 10,
       "gf5": 13,
       "ga5": 7,
-      "pts10": 19,
+      "pts10": 17,
       "n": 10
      },
      "Haiti": {
-      "seq5": "WLDWL",
-      "pts5": 7,
-      "gf5": 8,
-      "ga5": 4,
-      "pts10": 15,
+      "seq5": "LDWLL",
+      "pts5": 4,
+      "gf5": 6,
+      "ga5": 5,
+      "pts10": 14,
       "n": 10
      }
     },
@@ -3242,27 +3254,27 @@
      "goals": "17:1"
     },
     "model": {
-     "lambda_home": 2.25,
-     "lambda_away": 0.55,
-     "p_home": 0.752,
-     "p_draw": 0.181,
-     "p_away": 0.066,
+     "lambda_home": 2.28,
+     "lambda_away": 0.52,
+     "p_home": 0.764,
+     "p_draw": 0.175,
+     "p_away": 0.061,
      "top_scorelines": [
       {
        "score": "2:0",
-       "p": 0.154
+       "p": 0.158
       },
       {
        "score": "1:0",
-       "p": 0.128
+       "p": 0.13
       },
       {
        "score": "3:0",
-       "p": 0.115
+       "p": 0.12
       },
       {
        "score": "2:1",
-       "p": 0.085
+       "p": 0.083
       }
      ]
     },
@@ -3277,17 +3289,17 @@
      "rho": -0.12,
      "holdout_logloss": 0.8735
     },
-    "basis_text": "Berechnet aus: Elo 2072 vs 1719 (Δ +354) · Form letzte 5 DLWWW (13:7) vs WLDWL (8:4) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 75%/18%/7%, wahrscheinlichstes Ergebnis 2:0."
+    "basis_text": "Berechnet aus: Elo 2065 vs 1700 (Δ +365) · Form letzte 5 LWWWD (13:7) vs LDWLL (6:5) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 76%/18%/6%, wahrscheinlichstes Ergebnis 2:0."
    },
    "stat_model": {
-    "p_home": 0.752,
-    "p_draw": 0.181,
-    "p_away": 0.066,
-    "lambda_home": 2.25,
-    "lambda_away": 0.55,
+    "p_home": 0.764,
+    "p_draw": 0.175,
+    "p_away": 0.061,
+    "lambda_home": 2.28,
+    "lambda_away": 0.52,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -3304,24 +3316,24 @@
     "away": 1
    },
    "probs": {
-    "home": 0.477,
-    "draw": 0.272,
-    "away": 0.251
+    "home": 0.415,
+    "draw": 0.279,
+    "away": 0.306
    },
-   "confidence": "mittel",
+   "confidence": "niedrig-mittel",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: United States ist nach Elo und Form favorisiert. Berechnet aus: Elo 1883 vs 1903 (Δ -20) · Form letzte 5 LLWLW (10:12) vs LWWLD (7:6) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 48%/27%/25%, wahrscheinlichstes Ergebnis 1:1.",
+   "reasoning": "Modellbasierte Einschätzung: United States ist nach Elo und Form favorisiert. Berechnet aus: Elo 1883 vs 1957 (Δ -75) · Form letzte 5 LLWLW (10:12) vs WWLDW (9:3) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 41%/28%/31%, wahrscheinlichstes Ergebnis 1:1.",
    "key_factors": [
-    "Elo 1883 vs 1903 (Δ -20)",
-    "Form L5 6 vs 7 Punkte",
+    "Elo 1883 vs 1957 (Δ -75)",
+    "Form L5 6 vs 10 Punkte",
     "H2H 4 Spiele"
    ],
    "upset_watch": null,
    "basis": {
     "elo": {
      "United States": 1882.6,
-     "Australia": 1902.6,
-     "diff": -20.0
+     "Australia": 1957.4,
+     "diff": -74.8
     },
     "form": {
      "United States": {
@@ -3333,10 +3345,10 @@
       "n": 10
      },
      "Australia": {
-      "seq5": "LWWLD",
-      "pts5": 7,
-      "gf5": 7,
-      "ga5": 6,
+      "seq5": "WWLDW",
+      "pts5": 10,
+      "gf5": 9,
+      "ga5": 3,
       "pts10": 16,
       "n": 10
      }
@@ -3347,27 +3359,27 @@
      "goals": "5:3"
     },
     "model": {
-     "lambda_home": 1.65,
-     "lambda_away": 1.15,
-     "p_home": 0.477,
-     "p_draw": 0.272,
-     "p_away": 0.251,
+     "lambda_home": 1.52,
+     "lambda_away": 1.28,
+     "p_home": 0.415,
+     "p_draw": 0.279,
+     "p_away": 0.306,
      "top_scorelines": [
       {
        "score": "1:1",
-       "p": 0.129
+       "p": 0.133
       },
       {
        "score": "2:1",
-       "p": 0.095
+       "p": 0.09
       },
       {
        "score": "1:0",
-       "p": 0.087
+       "p": 0.078
       },
       {
-       "score": "2:0",
-       "p": 0.083
+       "score": "1:2",
+       "p": 0.076
       }
      ]
     },
@@ -3382,17 +3394,17 @@
      "rho": -0.12,
      "holdout_logloss": 0.8735
     },
-    "basis_text": "Berechnet aus: Elo 1883 vs 1903 (Δ -20) · Form letzte 5 LLWLW (10:12) vs LWWLD (7:6) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 48%/27%/25%, wahrscheinlichstes Ergebnis 1:1."
+    "basis_text": "Berechnet aus: Elo 1883 vs 1957 (Δ -75) · Form letzte 5 LLWLW (10:12) vs WWLDW (9:3) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 41%/28%/31%, wahrscheinlichstes Ergebnis 1:1."
    },
    "stat_model": {
-    "p_home": 0.477,
-    "p_draw": 0.272,
-    "p_away": 0.251,
-    "lambda_home": 1.65,
-    "lambda_away": 1.15,
+    "p_home": 0.415,
+    "p_draw": 0.279,
+    "p_away": 0.306,
+    "lambda_home": 1.52,
+    "lambda_away": 1.28,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -3497,7 +3509,7 @@
     "lambda_away": 0.83,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -3602,7 +3614,7 @@
     "lambda_away": 2.03,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -3707,7 +3719,7 @@
     "lambda_away": 0.94,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -3812,7 +3824,7 @@
     "lambda_away": 0.4,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -3917,7 +3929,7 @@
     "lambda_away": 1.27,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -4022,7 +4034,7 @@
     "lambda_away": 1.62,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -4127,7 +4139,7 @@
     "lambda_away": 0.18,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -4232,7 +4244,7 @@
     "lambda_away": 0.59,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -4337,7 +4349,7 @@
     "lambda_away": 0.45,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -4442,7 +4454,7 @@
     "lambda_away": 1.23,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -4547,7 +4559,7 @@
     "lambda_away": 0.67,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -4652,7 +4664,7 @@
     "lambda_away": 1.67,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -4757,7 +4769,7 @@
     "lambda_away": 0.82,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -4862,7 +4874,7 @@
     "lambda_away": 0.67,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -4967,7 +4979,7 @@
     "lambda_away": 0.24,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -5072,7 +5084,7 @@
     "lambda_away": 1.66,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -5089,40 +5101,40 @@
     "away": 0
    },
    "probs": {
-    "home": 0.666,
-    "draw": 0.219,
-    "away": 0.114
+    "home": 0.694,
+    "draw": 0.208,
+    "away": 0.098
    },
    "confidence": "hoch",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Morocco ist nach Elo und Form favorisiert. Berechnet aus: Elo 1990 vs 1719 (Δ +272) · Form letzte 5 DWWWD (13:3) vs WLDWL (8:4) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 67%/22%/11%, wahrscheinlichstes Ergebnis 2:0.",
+   "reasoning": "Modellbasierte Einschätzung: Morocco ist nach Elo und Form favorisiert. Berechnet aus: Elo 1997 vs 1700 (Δ +297) · Form letzte 5 WWWDD (13:3) vs LDWLL (6:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 69%/21%/10%, wahrscheinlichstes Ergebnis 2:0.",
    "key_factors": [
-    "Elo 1990 vs 1719 (Δ +272)",
-    "Form L5 11 vs 7 Punkte",
+    "Elo 1997 vs 1700 (Δ +297)",
+    "Form L5 11 vs 4 Punkte",
     "kein direktes H2H"
    ],
    "upset_watch": null,
    "basis": {
     "elo": {
-     "Morocco": 1990.1,
-     "Haiti": 1718.6,
-     "diff": 271.5
+     "Morocco": 1997.1,
+     "Haiti": 1699.9,
+     "diff": 297.2
     },
     "form": {
      "Morocco": {
-      "seq5": "DWWWD",
+      "seq5": "WWWDD",
       "pts5": 11,
       "gf5": 13,
       "ga5": 3,
-      "pts10": 24,
+      "pts10": 22,
       "n": 10
      },
      "Haiti": {
-      "seq5": "WLDWL",
-      "pts5": 7,
-      "gf5": 8,
-      "ga5": 4,
-      "pts10": 15,
+      "seq5": "LDWLL",
+      "pts5": 4,
+      "gf5": 6,
+      "ga5": 5,
+      "pts10": 14,
       "n": 10
      }
     },
@@ -5132,26 +5144,26 @@
      "goals": "0:0"
     },
     "model": {
-     "lambda_home": 2.05,
-     "lambda_away": 0.75,
-     "p_home": 0.666,
-     "p_draw": 0.219,
-     "p_away": 0.114,
+     "lambda_home": 2.11,
+     "lambda_away": 0.69,
+     "p_home": 0.694,
+     "p_draw": 0.208,
+     "p_away": 0.098,
      "top_scorelines": [
       {
        "score": "2:0",
-       "p": 0.128
+       "p": 0.136
       },
       {
        "score": "1:0",
-       "p": 0.114
+       "p": 0.118
       },
       {
        "score": "1:1",
-       "p": 0.105
+       "p": 0.099
       },
       {
-       "score": "2:1",
+       "score": "3:0",
        "p": 0.096
       }
      ]
@@ -5167,17 +5179,17 @@
      "rho": -0.12,
      "holdout_logloss": 0.8735
     },
-    "basis_text": "Berechnet aus: Elo 1990 vs 1719 (Δ +272) · Form letzte 5 DWWWD (13:3) vs WLDWL (8:4) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 67%/22%/11%, wahrscheinlichstes Ergebnis 2:0."
+    "basis_text": "Berechnet aus: Elo 1997 vs 1700 (Δ +297) · Form letzte 5 WWWDD (13:3) vs LDWLL (6:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 69%/21%/10%, wahrscheinlichstes Ergebnis 2:0."
    },
    "stat_model": {
-    "p_home": 0.666,
-    "p_draw": 0.219,
-    "p_away": 0.114,
-    "lambda_home": 2.05,
-    "lambda_away": 0.75,
+    "p_home": 0.694,
+    "p_draw": 0.208,
+    "p_away": 0.098,
+    "lambda_home": 2.11,
+    "lambda_away": 0.69,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -5194,24 +5206,24 @@
     "away": 1
    },
    "probs": {
-    "home": 0.467,
-    "draw": 0.273,
-    "away": 0.26
+    "home": 0.439,
+    "draw": 0.277,
+    "away": 0.284
    },
    "confidence": "mittel",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Bosnia and Herzegovina ist nach Elo und Form favorisiert. Berechnet aus: Elo 1663 vs 1567 (Δ +96) · Form letzte 5 DDDDD (4:4) vs LDLLD (1:6) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 47%/27%/26%, wahrscheinlichstes Ergebnis 1:1.",
+   "reasoning": "Modellbasierte Einschätzung: Bosnia and Herzegovina ist nach Elo und Form favorisiert. Berechnet aus: Elo 1663 vs 1591 (Δ +72) · Form letzte 5 DDDDD (4:4) vs DLLDD (2:6) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 44%/28%/28%, wahrscheinlichstes Ergebnis 1:1.",
    "key_factors": [
-    "Elo 1663 vs 1567 (Δ +96)",
-    "Form L5 5 vs 2 Punkte",
+    "Elo 1663 vs 1591 (Δ +72)",
+    "Form L5 5 vs 3 Punkte",
     "H2H 2 Spiele"
    ],
    "upset_watch": null,
    "basis": {
     "elo": {
      "Bosnia and Herzegovina": 1662.7,
-     "Qatar": 1566.8,
-     "diff": 95.9
+     "Qatar": 1590.8,
+     "diff": 71.9
     },
     "form": {
      "Bosnia and Herzegovina": {
@@ -5223,9 +5235,9 @@
       "n": 10
      },
      "Qatar": {
-      "seq5": "LDLLD",
-      "pts5": 2,
-      "gf5": 1,
+      "seq5": "DLLDD",
+      "pts5": 3,
+      "gf5": 2,
       "ga5": 6,
       "pts10": 7,
       "n": 10
@@ -5237,27 +5249,27 @@
      "goals": "1:3"
     },
     "model": {
-     "lambda_home": 1.63,
-     "lambda_away": 1.17,
-     "p_home": 0.467,
-     "p_draw": 0.273,
-     "p_away": 0.26,
+     "lambda_home": 1.57,
+     "lambda_away": 1.23,
+     "p_home": 0.439,
+     "p_draw": 0.277,
+     "p_away": 0.284,
      "top_scorelines": [
       {
        "score": "1:1",
-       "p": 0.13
+       "p": 0.131
       },
       {
        "score": "2:1",
-       "p": 0.095
+       "p": 0.092
       },
       {
        "score": "1:0",
-       "p": 0.085
+       "p": 0.082
       },
       {
        "score": "2:0",
-       "p": 0.081
+       "p": 0.075
       }
      ]
     },
@@ -5272,17 +5284,17 @@
      "rho": -0.12,
      "holdout_logloss": 0.8735
     },
-    "basis_text": "Berechnet aus: Elo 1663 vs 1567 (Δ +96) · Form letzte 5 DDDDD (4:4) vs LDLLD (1:6) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 47%/27%/26%, wahrscheinlichstes Ergebnis 1:1."
+    "basis_text": "Berechnet aus: Elo 1663 vs 1591 (Δ +72) · Form letzte 5 DDDDD (4:4) vs DLLDD (2:6) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 44%/28%/28%, wahrscheinlichstes Ergebnis 1:1."
    },
    "stat_model": {
-    "p_home": 0.467,
-    "p_draw": 0.273,
-    "p_away": 0.26,
-    "lambda_home": 1.63,
-    "lambda_away": 1.17,
+    "p_home": 0.439,
+    "p_draw": 0.277,
+    "p_away": 0.284,
+    "lambda_home": 1.57,
+    "lambda_away": 1.23,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -5299,40 +5311,40 @@
     "away": 2
    },
    "probs": {
-    "home": 0.154,
-    "draw": 0.241,
-    "away": 0.605
+    "home": 0.175,
+    "draw": 0.25,
+    "away": 0.576
    },
-   "confidence": "hoch",
+   "confidence": "mittel-hoch",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Brazil ist nach Elo und Form favorisiert. Berechnet aus: Elo 1856 vs 2072 (Δ -216) · Form letzte 5 WLLWW (12:5) vs DLWWW (13:7) · H2H 10 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 15%/24%/60%, wahrscheinlichstes Ergebnis 1:1.",
+   "reasoning": "Modellbasierte Einschätzung: Brazil ist nach Elo und Form favorisiert. Berechnet aus: Elo 1874 vs 2065 (Δ -191) · Form letzte 5 LLWWW (9:3) vs LWWWD (13:7) · H2H 10 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 17%/25%/58%, wahrscheinlichstes Ergebnis 1:1.",
    "key_factors": [
-    "Elo 1856 vs 2072 (Δ -216)",
+    "Elo 1874 vs 2065 (Δ -191)",
     "Form L5 9 vs 10 Punkte",
     "H2H 10 Spiele"
    ],
    "upset_watch": null,
    "basis": {
     "elo": {
-     "Scotland": 1855.8,
-     "Brazil": 2072.1,
-     "diff": -216.3
+     "Scotland": 1874.5,
+     "Brazil": 2065.2,
+     "diff": -190.7
     },
     "form": {
      "Scotland": {
-      "seq5": "WLLWW",
+      "seq5": "LLWWW",
       "pts5": 9,
-      "gf5": 12,
-      "ga5": 5,
-      "pts10": 19,
+      "gf5": 9,
+      "ga5": 3,
+      "pts10": 21,
       "n": 10
      },
      "Brazil": {
-      "seq5": "DLWWW",
+      "seq5": "LWWWD",
       "pts5": 10,
       "gf5": 13,
       "ga5": 7,
-      "pts10": 19,
+      "pts10": 17,
       "n": 10
      }
     },
@@ -5342,23 +5354,23 @@
      "goals": "3:16"
     },
     "model": {
-     "lambda_home": 0.88,
-     "lambda_away": 1.92,
-     "p_home": 0.154,
-     "p_draw": 0.241,
-     "p_away": 0.605,
+     "lambda_home": 0.94,
+     "lambda_away": 1.86,
+     "p_home": 0.175,
+     "p_draw": 0.25,
+     "p_away": 0.576,
      "top_scorelines": [
       {
        "score": "1:1",
-       "p": 0.115
+       "p": 0.119
       },
       {
        "score": "0:2",
-       "p": 0.112
+       "p": 0.105
       },
       {
        "score": "0:1",
-       "p": 0.104
+       "p": 0.1
       },
       {
        "score": "1:2",
@@ -5377,17 +5389,17 @@
      "rho": -0.12,
      "holdout_logloss": 0.8735
     },
-    "basis_text": "Berechnet aus: Elo 1856 vs 2072 (Δ -216) · Form letzte 5 WLLWW (12:5) vs DLWWW (13:7) · H2H 10 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 15%/24%/60%, wahrscheinlichstes Ergebnis 1:1."
+    "basis_text": "Berechnet aus: Elo 1874 vs 2065 (Δ -191) · Form letzte 5 LLWWW (9:3) vs LWWWD (13:7) · H2H 10 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 17%/25%/58%, wahrscheinlichstes Ergebnis 1:1."
    },
    "stat_model": {
-    "p_home": 0.154,
-    "p_draw": 0.241,
-    "p_away": 0.605,
-    "lambda_home": 0.88,
-    "lambda_away": 1.92,
+    "p_home": 0.175,
+    "p_draw": 0.25,
+    "p_away": 0.576,
+    "lambda_home": 0.94,
+    "lambda_away": 1.86,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -5492,7 +5504,7 @@
     "lambda_away": 1.99,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -5597,7 +5609,7 @@
     "lambda_away": 0.59,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -5614,15 +5626,15 @@
     "away": 1
    },
    "probs": {
-    "home": 0.426,
-    "draw": 0.278,
-    "away": 0.296
+    "home": 0.453,
+    "draw": 0.275,
+    "away": 0.272
    },
    "confidence": "mittel",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Canada ist nach Elo und Form favorisiert. Berechnet aus: Elo 1883 vs 1949 (Δ -65) · Form letzte 5 DDWDD (6:4) vs DLDWD (9:7) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 43%/28%/30%, wahrscheinlichstes Ergebnis 1:1.",
+   "reasoning": "Modellbasierte Einschätzung: Canada ist nach Elo und Form favorisiert. Berechnet aus: Elo 1883 vs 1925 (Δ -41) · Form letzte 5 DDWDD (6:4) vs LDWDD (9:7) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 45%/28%/27%, wahrscheinlichstes Ergebnis 1:1.",
    "key_factors": [
-    "Elo 1883 vs 1949 (Δ -65)",
+    "Elo 1883 vs 1925 (Δ -41)",
     "Form L5 7 vs 6 Punkte",
     "H2H 1 Spiele"
    ],
@@ -5630,8 +5642,8 @@
    "basis": {
     "elo": {
      "Canada": 1883.4,
-     "Switzerland": 1948.7,
-     "diff": -65.3
+     "Switzerland": 1924.7,
+     "diff": -41.3
     },
     "form": {
      "Canada": {
@@ -5643,11 +5655,11 @@
       "n": 10
      },
      "Switzerland": {
-      "seq5": "DLDWD",
+      "seq5": "LDWDD",
       "pts5": 6,
       "gf5": 9,
       "ga5": 7,
-      "pts10": 19,
+      "pts10": 17,
       "n": 10
      }
     },
@@ -5657,27 +5669,27 @@
      "goals": "3:1"
     },
     "model": {
-     "lambda_home": 1.54,
-     "lambda_away": 1.26,
-     "p_home": 0.426,
-     "p_draw": 0.278,
-     "p_away": 0.296,
+     "lambda_home": 1.6,
+     "lambda_away": 1.2,
+     "p_home": 0.453,
+     "p_draw": 0.275,
+     "p_away": 0.272,
      "top_scorelines": [
       {
        "score": "1:1",
-       "p": 0.132
+       "p": 0.131
       },
       {
        "score": "2:1",
-       "p": 0.091
+       "p": 0.093
       },
       {
        "score": "1:0",
-       "p": 0.08
+       "p": 0.083
       },
       {
-       "score": "0:0",
-       "p": 0.075
+       "score": "2:0",
+       "p": 0.078
       }
      ]
     },
@@ -5692,17 +5704,17 @@
      "rho": -0.12,
      "holdout_logloss": 0.8735
     },
-    "basis_text": "Berechnet aus: Elo 1883 vs 1949 (Δ -65) · Form letzte 5 DDWDD (6:4) vs DLDWD (9:7) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 43%/28%/30%, wahrscheinlichstes Ergebnis 1:1."
+    "basis_text": "Berechnet aus: Elo 1883 vs 1925 (Δ -41) · Form letzte 5 DDWDD (6:4) vs LDWDD (9:7) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 45%/28%/27%, wahrscheinlichstes Ergebnis 1:1."
    },
    "stat_model": {
-    "p_home": 0.426,
-    "p_draw": 0.278,
-    "p_away": 0.296,
-    "lambda_home": 1.54,
-    "lambda_away": 1.26,
+    "p_home": 0.453,
+    "p_draw": 0.275,
+    "p_away": 0.272,
+    "lambda_home": 1.6,
+    "lambda_away": 1.2,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -5719,24 +5731,24 @@
     "away": 1
    },
    "probs": {
-    "home": 0.391,
-    "draw": 0.281,
-    "away": 0.329
+    "home": 0.452,
+    "draw": 0.275,
+    "away": 0.272
    },
-   "confidence": "niedrig-mittel",
+   "confidence": "mittel",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: United States ist nach Elo und Form favorisiert. Berechnet aus: Elo 1883 vs 1979 (Δ -96) · Form letzte 5 LLWLW (10:12) vs DWWWW (10:3) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 39%/28%/33%, wahrscheinlichstes Ergebnis 1:1.",
+   "reasoning": "Modellbasierte Einschätzung: United States ist nach Elo und Form favorisiert. Berechnet aus: Elo 1883 vs 1924 (Δ -42) · Form letzte 5 LLWLW (10:12) vs WWWWL (8:3) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 45%/28%/27%, wahrscheinlichstes Ergebnis 1:1.",
    "key_factors": [
-    "Elo 1883 vs 1979 (Δ -96)",
-    "Form L5 6 vs 13 Punkte",
+    "Elo 1883 vs 1924 (Δ -42)",
+    "Form L5 6 vs 12 Punkte",
     "H2H 5 Spiele"
    ],
    "upset_watch": null,
    "basis": {
     "elo": {
      "United States": 1882.6,
-     "Turkey": 1979.1,
-     "diff": -96.5
+     "Turkey": 1924.4,
+     "diff": -41.8
     },
     "form": {
      "United States": {
@@ -5748,11 +5760,11 @@
       "n": 10
      },
      "Turkey": {
-      "seq5": "DWWWW",
-      "pts5": 13,
-      "gf5": 10,
+      "seq5": "WWWWL",
+      "pts5": 12,
+      "gf5": 8,
       "ga5": 3,
-      "pts10": 25,
+      "pts10": 22,
       "n": 10
      }
     },
@@ -5762,27 +5774,27 @@
      "goals": "7:7"
     },
     "model": {
-     "lambda_home": 1.47,
-     "lambda_away": 1.33,
-     "p_home": 0.391,
-     "p_draw": 0.281,
-     "p_away": 0.329,
+     "lambda_home": 1.6,
+     "lambda_away": 1.2,
+     "p_home": 0.452,
+     "p_draw": 0.275,
+     "p_away": 0.272,
      "top_scorelines": [
       {
        "score": "1:1",
-       "p": 0.133
+       "p": 0.131
       },
       {
        "score": "2:1",
-       "p": 0.087
+       "p": 0.093
       },
       {
-       "score": "1:2",
-       "p": 0.079
+       "score": "1:0",
+       "p": 0.083
       },
       {
-       "score": "0:0",
-       "p": 0.075
+       "score": "2:0",
+       "p": 0.078
       }
      ]
     },
@@ -5797,17 +5809,17 @@
      "rho": -0.12,
      "holdout_logloss": 0.8735
     },
-    "basis_text": "Berechnet aus: Elo 1883 vs 1979 (Δ -96) · Form letzte 5 LLWLW (10:12) vs DWWWW (10:3) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 39%/28%/33%, wahrscheinlichstes Ergebnis 1:1."
+    "basis_text": "Berechnet aus: Elo 1883 vs 1924 (Δ -42) · Form letzte 5 LLWLW (10:12) vs WWWWL (8:3) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 45%/28%/27%, wahrscheinlichstes Ergebnis 1:1."
    },
    "stat_model": {
-    "p_home": 0.391,
-    "p_draw": 0.281,
-    "p_away": 0.329,
-    "lambda_home": 1.47,
-    "lambda_away": 1.33,
+    "p_home": 0.452,
+    "p_draw": 0.275,
+    "p_away": 0.272,
+    "lambda_home": 1.6,
+    "lambda_away": 1.2,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -5824,24 +5836,24 @@
     "away": 2
    },
    "probs": {
-    "home": 0.325,
-    "draw": 0.28,
-    "away": 0.394
+    "home": 0.269,
+    "draw": 0.275,
+    "away": 0.456
    },
-   "confidence": "niedrig-mittel",
+   "confidence": "mittel",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Australia ist nach Elo und Form favorisiert. Berechnet aus: Elo 1871 vs 1903 (Δ -32) · Form letzte 5 WWLWL (9:7) vs LWWLD (7:6) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 33%/28%/39%, wahrscheinlichstes Ergebnis 1:1.",
+   "reasoning": "Modellbasierte Einschätzung: Australia ist nach Elo und Form favorisiert. Berechnet aus: Elo 1871 vs 1957 (Δ -87) · Form letzte 5 WWLWL (9:7) vs WWLDW (9:3) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 27%/27%/46%, wahrscheinlichstes Ergebnis 1:1.",
    "key_factors": [
-    "Elo 1871 vs 1903 (Δ -32)",
-    "Form L5 9 vs 7 Punkte",
+    "Elo 1871 vs 1957 (Δ -87)",
+    "Form L5 9 vs 10 Punkte",
     "H2H 5 Spiele"
    ],
    "upset_watch": null,
    "basis": {
     "elo": {
      "Paraguay": 1870.7,
-     "Australia": 1902.6,
-     "diff": -31.9
+     "Australia": 1957.4,
+     "diff": -86.7
     },
     "form": {
      "Paraguay": {
@@ -5853,10 +5865,10 @@
       "n": 10
      },
      "Australia": {
-      "seq5": "LWWLD",
-      "pts5": 7,
-      "gf5": 7,
-      "ga5": 6,
+      "seq5": "WWLDW",
+      "pts5": 10,
+      "gf5": 9,
+      "ga5": 3,
       "pts10": 16,
       "n": 10
      }
@@ -5867,27 +5879,27 @@
      "goals": "2:4"
     },
     "model": {
-     "lambda_home": 1.32,
-     "lambda_away": 1.48,
-     "p_home": 0.325,
-     "p_draw": 0.28,
-     "p_away": 0.394,
+     "lambda_home": 1.19,
+     "lambda_away": 1.61,
+     "p_home": 0.269,
+     "p_draw": 0.275,
+     "p_away": 0.456,
      "top_scorelines": [
       {
        "score": "1:1",
-       "p": 0.133
+       "p": 0.131
       },
       {
        "score": "1:2",
-       "p": 0.088
-      },
-      {
-       "score": "2:1",
-       "p": 0.079
+       "p": 0.094
       },
       {
        "score": "0:1",
-       "p": 0.076
+       "p": 0.084
+      },
+      {
+       "score": "0:2",
+       "p": 0.079
       }
      ]
     },
@@ -5902,17 +5914,17 @@
      "rho": -0.12,
      "holdout_logloss": 0.8735
     },
-    "basis_text": "Berechnet aus: Elo 1871 vs 1903 (Δ -32) · Form letzte 5 WWLWL (9:7) vs LWWLD (7:6) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 33%/28%/39%, wahrscheinlichstes Ergebnis 1:1."
+    "basis_text": "Berechnet aus: Elo 1871 vs 1957 (Δ -87) · Form letzte 5 WWLWL (9:7) vs WWLDW (9:3) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 27%/27%/46%, wahrscheinlichstes Ergebnis 1:1."
    },
    "stat_model": {
-    "p_home": 0.325,
-    "p_draw": 0.28,
-    "p_away": 0.394,
-    "lambda_home": 1.32,
-    "lambda_away": 1.48,
+    "p_home": 0.269,
+    "p_draw": 0.275,
+    "p_away": 0.456,
+    "lambda_home": 1.19,
+    "lambda_away": 1.61,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -6017,7 +6029,7 @@
     "lambda_away": 1.88,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -6122,7 +6134,7 @@
     "lambda_away": 1.33,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -6227,7 +6239,7 @@
     "lambda_away": 0.86,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -6332,7 +6344,7 @@
     "lambda_away": 2.07,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -6437,7 +6449,7 @@
     "lambda_away": 0.98,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -6542,7 +6554,7 @@
     "lambda_away": 1.75,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -6647,7 +6659,7 @@
     "lambda_away": 2.0,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -6752,7 +6764,7 @@
     "lambda_away": 1.95,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -6857,7 +6869,7 @@
     "lambda_away": 1.6,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -6962,7 +6974,7 @@
     "lambda_away": 1.53,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -7067,7 +7079,7 @@
     "lambda_away": 1.96,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -7172,7 +7184,7 @@
     "lambda_away": 1.4,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -7277,7 +7289,7 @@
     "lambda_away": 2.4,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -7382,7 +7394,7 @@
     "lambda_away": 1.39,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -7487,7 +7499,7 @@
     "lambda_away": 1.54,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   },
   {
@@ -7592,7 +7604,7 @@
     "lambda_away": 0.54,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-13",
+   "locked_at": "2026-06-14",
    "retro": false
   }
  ]
