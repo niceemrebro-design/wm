@@ -2,16 +2,16 @@
  "generated_at": "2026-06-15",
  "integrity": "Nur vor Anpfiff eingefrorene Tipps zaehlen (predictions/ledger.json). Markt-Tipps gespielter Spiele aus eingefrorenen Lambdas rekonstruiert.",
  "summary": {
-  "gewertet": 6,
-  "tipps_gesamt": 18,
-  "tipps_treffer": 11,
-  "tipps_quote": 0.611,
-  "bester_tipp_quote": 0.5,
-  "markt_1x2_quote": 0.333,
-  "markt_dc_quote": 1.0,
+  "gewertet": 10,
+  "tipps_gesamt": 30,
+  "tipps_treffer": 19,
+  "tipps_quote": 0.633,
+  "bester_tipp_quote": 0.6,
+  "markt_1x2_quote": 0.4,
+  "markt_dc_quote": 0.8,
   "exakt": 0,
-  "kicktipp_pts": 3,
-  "kicktipp_avg": 0.5,
+  "kicktipp_pts": 10,
+  "kicktipp_avg": 1.0,
   "retro_ungewertet": 2
  },
  "games": [
@@ -204,6 +204,134 @@
    "best_hit": true,
    "hit_1x2": false,
    "hit_dc": true,
+   "exact_cat": "daneben",
+   "exact_pts": 0
+  },
+  {
+   "date": "2026-06-14",
+   "match": "Sweden vs Tunisia",
+   "result": "5:1",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-15",
+   "tips": [
+    {
+     "label": "Über 1,5 Tore",
+     "key": "O15",
+     "p": 0.783,
+     "hit": true
+    },
+    {
+     "label": "Kein Remis (einer gewinnt)",
+     "key": "12",
+     "p": 0.72,
+     "hit": true
+    },
+    {
+     "label": "Beide Teams treffen",
+     "key": "BTTS_yes",
+     "p": 0.579,
+     "hit": true
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tendenz",
+   "exact_pts": 2
+  },
+  {
+   "date": "2026-06-14",
+   "match": "Netherlands vs Japan",
+   "result": "2:2",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-15",
+   "tips": [
+    {
+     "label": "Über 1,5 Tore",
+     "key": "O15",
+     "p": 0.783,
+     "hit": true
+    },
+    {
+     "label": "Kein Remis (einer gewinnt)",
+     "key": "12",
+     "p": 0.719,
+     "hit": false
+    },
+    {
+     "label": "Beide Teams treffen",
+     "key": "BTTS_yes",
+     "p": 0.582,
+     "hit": true
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": false,
+   "hit_dc": false,
+   "exact_cat": "tordifferenz",
+   "exact_pts": 3
+  },
+  {
+   "date": "2026-06-14",
+   "match": "Germany vs Curaçao",
+   "result": "7:1",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-15",
+   "tips": [
+    {
+     "label": "Germany gewinnt",
+     "key": "1",
+     "p": 0.789,
+     "hit": true
+    },
+    {
+     "label": "Über 1,5 Tore",
+     "key": "O15",
+     "p": 0.777,
+     "hit": true
+    },
+    {
+     "label": "Germany über 1,5 Tore",
+     "key": "home_o15",
+     "p": 0.678,
+     "hit": true
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tendenz",
+   "exact_pts": 2
+  },
+  {
+   "date": "2026-06-14",
+   "match": "Ivory Coast vs Ecuador",
+   "result": "1:0",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-15",
+   "tips": [
+    {
+     "label": "Über 1,5 Tore",
+     "key": "O15",
+     "p": 0.781,
+     "hit": false
+    },
+    {
+     "label": "Ecuador gewinnt",
+     "key": "2",
+     "p": 0.61,
+     "hit": false
+    },
+    {
+     "label": "Ecuador über 1,5 Tore",
+     "key": "away_o15",
+     "p": 0.575,
+     "hit": false
+    }
+   ],
+   "best_hit": false,
+   "hit_1x2": false,
+   "hit_dc": false,
    "exact_cat": "daneben",
    "exact_pts": 0
   }
