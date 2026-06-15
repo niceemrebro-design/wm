@@ -179,11 +179,6 @@ function card(p){
 }
 function groupedCards(list){
   let html='', last=null;
-  list.forEach(p=>{
-    if(p.date!==last){last=p.date; html+=`<div class="daterow">${dateLabel(p.date)}</div><div class="grid">`+' ';}
-  });
-  // simpler: build with manual grouping
-  html=''; last=null;
   list.forEach((p,i)=>{
     if(p.date!==last){ if(last!==null) html+=`</div>`; last=p.date; html+=`<div class="daterow">${dateLabel(p.date)}</div><div class="grid">`; }
     html+=card(p);
