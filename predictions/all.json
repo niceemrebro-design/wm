@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-14",
+ "generated_at": "2026-06-15",
  "oracle": "Claude (Claude Code) — Multi-Agenten-Orakel + kalibriertes Statistik-Modell",
  "data": {
   "built_at": "2026-06-14T09:41:35.227586+00:00",
@@ -55,6 +55,43 @@
     "H2H 5 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "1",
+     "p": 0.85,
+     "label": "Mexico gewinnt"
+    },
+    {
+     "key": "O15",
+     "p": 0.774,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "BTTS_no",
+     "p": 0.76,
+     "label": "Nicht beide treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.85,
+    "X": 0.126,
+    "2": 0.024,
+    "1X": 0.976,
+    "X2": 0.15,
+    "12": 0.874,
+    "DNB1": 0.973,
+    "DNB2": 0.027,
+    "BTTS_yes": 0.24,
+    "BTTS_no": 0.76,
+    "home_o15": 0.713,
+    "away_o15": 0.036,
+    "O15": 0.774,
+    "U15": 0.226,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.307,
+    "U35": 0.693
+   },
    "basis": {
     "elo": {
      "Mexico": 1995.8,
@@ -163,6 +200,43 @@
     "H2H 4 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1X",
+     "p": 0.765,
+     "label": "South Korea oder Remis"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.56,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.497,
+    "X": 0.268,
+    "2": 0.235,
+    "1X": 0.765,
+    "X2": 0.503,
+    "12": 0.732,
+    "DNB1": 0.679,
+    "DNB2": 0.321,
+    "BTTS_yes": 0.56,
+    "BTTS_no": 0.44,
+    "home_o15": 0.505,
+    "away_o15": 0.303,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "South Korea": 1906.2,
@@ -271,6 +345,43 @@
     "Bosnien offensiv harmlos"
    ],
    "upset_watch": "Bosniens Remis-Serie ist das realistischste Überraschungsszenario — ein 1:1 wäre nicht schockierend.",
+   "top_tips": [
+    {
+     "key": "1",
+     "p": 0.789,
+     "label": "Canada gewinnt"
+    },
+    {
+     "key": "O15",
+     "p": 0.777,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.678,
+     "label": "Canada über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.789,
+    "X": 0.162,
+    "2": 0.049,
+    "1X": 0.951,
+    "X2": 0.211,
+    "12": 0.838,
+    "DNB1": 0.942,
+    "DNB2": 0.058,
+    "BTTS_yes": 0.341,
+    "BTTS_no": 0.659,
+    "home_o15": 0.678,
+    "away_o15": 0.078,
+    "O15": 0.777,
+    "U15": 0.223,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Canada": 1906.9,
@@ -379,6 +490,43 @@
     "Paraguay auswärtsstark"
    ],
    "upset_watch": "Die Familie tippt reflexhaft USA — der Wert liegt im Remis oder sogar Paraguay-Sieg.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "12",
+     "p": 0.72,
+     "label": "Kein Remis (einer gewinnt)"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.58,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.396,
+    "X": 0.28,
+    "2": 0.324,
+    "1X": 0.676,
+    "X2": 0.604,
+    "12": 0.72,
+    "DNB1": 0.55,
+    "DNB2": 0.45,
+    "BTTS_yes": 0.58,
+    "BTTS_no": 0.42,
+    "home_o15": 0.435,
+    "away_o15": 0.38,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "United States": 1831.6,
@@ -487,6 +635,43 @@
     "Schweizer Klasse"
    ],
    "upset_watch": "Schweizer Remis-Hang (zuletzt viele 0:0/1:1) plus mauerndes Katar könnte es eng halten — 1:0 oder 0:1 deckelt die Konfidenz.",
+   "top_tips": [
+    {
+     "key": "2",
+     "p": 0.781,
+     "label": "Switzerland gewinnt"
+    },
+    {
+     "key": "O15",
+     "p": 0.777,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "away_o15",
+     "p": 0.674,
+     "label": "Switzerland über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.052,
+    "X": 0.166,
+    "2": 0.781,
+    "1X": 0.219,
+    "X2": 0.948,
+    "12": 0.834,
+    "DNB1": 0.063,
+    "DNB2": 0.937,
+    "BTTS_yes": 0.352,
+    "BTTS_no": 0.648,
+    "home_o15": 0.084,
+    "away_o15": 0.674,
+    "O15": 0.777,
+    "U15": 0.223,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Qatar": 1566.8,
@@ -595,6 +780,43 @@
     "neutraler Platz nivelliert"
    ],
    "upset_watch": "1:1 oder ein Marokko-Sieg sind hochlebendig — die klassische Falle für Tipper, die Brasilien blind hoch tippen.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1X",
+     "p": 0.728,
+     "label": "Brazil oder Remis"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.572,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.453,
+    "X": 0.275,
+    "2": 0.272,
+    "1X": 0.728,
+    "X2": 0.547,
+    "12": 0.725,
+    "DNB1": 0.624,
+    "DNB2": 0.376,
+    "BTTS_yes": 0.572,
+    "BTTS_no": 0.428,
+    "home_o15": 0.475,
+    "away_o15": 0.337,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Brazil": 2072.1,
@@ -702,6 +924,43 @@
     "Schottland aber unkonstant"
    ],
    "upset_watch": "Haiti kann ein Remis klauen, wenn Schottland wieder pomadig auftritt.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.782,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "X2",
+     "p": 0.779,
+     "label": "Scotland oder Remis"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.554,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.221,
+    "X": 0.265,
+    "2": 0.515,
+    "1X": 0.485,
+    "X2": 0.779,
+    "12": 0.735,
+    "DNB1": 0.3,
+    "DNB2": 0.7,
+    "BTTS_yes": 0.554,
+    "BTTS_no": 0.446,
+    "home_o15": 0.29,
+    "away_o15": 0.516,
+    "O15": 0.782,
+    "U15": 0.218,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Haiti": 1718.6,
@@ -810,6 +1069,43 @@
     "Australien offensiv limitiert"
    ],
    "upset_watch": "Enge Kiste — ein 1:1 ist sehr realistisch, Australien ist kein Selbstläufer.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "12",
+     "p": 0.724,
+     "label": "Kein Remis (einer gewinnt)"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.574,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.281,
+    "X": 0.276,
+    "2": 0.443,
+    "1X": 0.557,
+    "X2": 0.719,
+    "12": 0.724,
+    "DNB1": 0.388,
+    "DNB2": 0.612,
+    "BTTS_yes": 0.574,
+    "BTTS_no": 0.426,
+    "home_o15": 0.345,
+    "away_o15": 0.469,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Australia": 1902.6,
@@ -915,6 +1211,43 @@
     "H2H Schweden 2-1-1"
    ],
    "upset_watch": "Wenn Tunesien mauert, droht ein zähes 1:1 oder 1:0.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "12",
+     "p": 0.72,
+     "label": "Kein Remis (einer gewinnt)"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.58,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.403,
+    "X": 0.28,
+    "2": 0.317,
+    "1X": 0.683,
+    "X2": 0.597,
+    "12": 0.72,
+    "DNB1": 0.56,
+    "DNB2": 0.44,
+    "BTTS_yes": 0.58,
+    "BTTS_no": 0.42,
+    "home_o15": 0.441,
+    "away_o15": 0.375,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Sweden": 1772.2,
@@ -990,7 +1323,7 @@
     "lambda_away": 1.3,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -1020,6 +1353,43 @@
     "Statistik = Münzwurf"
    ],
    "upset_watch": "Ein Japan-Sieg ist hochlebendig, kein echter 'Upset' — ein Remis ist der Mindestwert. Wer hier Oranje hoch tippt, verschenkt Punkte.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "12",
+     "p": 0.719,
+     "label": "Kein Remis (einer gewinnt)"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.582,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.376,
+    "X": 0.281,
+    "2": 0.343,
+    "1X": 0.657,
+    "X2": 0.624,
+    "12": 0.719,
+    "DNB1": 0.523,
+    "DNB2": 0.477,
+    "BTTS_yes": 0.582,
+    "BTTS_no": 0.418,
+    "home_o15": 0.421,
+    "away_o15": 0.395,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Netherlands": 2011.4,
@@ -1095,7 +1465,7 @@
     "lambda_away": 1.36,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -1125,6 +1495,43 @@
     "Curaçao defensiv überfordert"
    ],
    "upset_watch": "Nur eigene Nachlässigkeit könnte Deutschland bremsen — sportlich praktisch ausgeschlossen.",
+   "top_tips": [
+    {
+     "key": "1",
+     "p": 0.788,
+     "label": "Germany gewinnt"
+    },
+    {
+     "key": "O15",
+     "p": 0.777,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.677,
+     "label": "Germany über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.788,
+    "X": 0.163,
+    "2": 0.049,
+    "1X": 0.951,
+    "X2": 0.212,
+    "12": 0.837,
+    "DNB1": 0.941,
+    "DNB2": 0.059,
+    "BTTS_yes": 0.343,
+    "BTTS_no": 0.657,
+    "home_o15": 0.677,
+    "away_o15": 0.08,
+    "O15": 0.777,
+    "U15": 0.223,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Germany": 2003.4,
@@ -1200,7 +1607,7 @@
     "lambda_away": 0.46,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -1229,6 +1636,43 @@
     "Elfenbeinküste in Top-Form (2:1 in Frankreich)"
    ],
    "upset_watch": "Bei diesem ivorischen Lauf sind Remis oder sogar Sieg lebendig — kein sicherer Ecuador-Tipp.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.781,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "2",
+     "p": 0.609,
+     "label": "Ecuador gewinnt"
+    },
+    {
+     "key": "away_o15",
+     "p": 0.574,
+     "label": "Ecuador über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.152,
+    "X": 0.24,
+    "2": 0.609,
+    "1X": 0.391,
+    "X2": 0.848,
+    "12": 0.76,
+    "DNB1": 0.199,
+    "DNB2": 0.801,
+    "BTTS_yes": 0.51,
+    "BTTS_no": 0.49,
+    "home_o15": 0.218,
+    "away_o15": 0.574,
+    "O15": 0.781,
+    "U15": 0.219,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Ivory Coast": 1811.8,
@@ -1304,7 +1748,7 @@
     "lambda_away": 1.93,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -1334,6 +1778,43 @@
     "H2H spricht für Ägypten (3-1)"
    ],
    "upset_watch": "Ägypten ist ein klassischer 1:1-Kandidat: tief stehen, kontern. Wer Belgien hoch tippt, riskiert viel.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.782,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1X",
+     "p": 0.78,
+     "label": "Belgium oder Remis"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.554,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.516,
+    "X": 0.264,
+    "2": 0.22,
+    "1X": 0.78,
+    "X2": 0.484,
+    "12": 0.736,
+    "DNB1": 0.701,
+    "DNB2": 0.299,
+    "BTTS_yes": 0.554,
+    "BTTS_no": 0.446,
+    "home_o15": 0.517,
+    "away_o15": 0.289,
+    "O15": 0.782,
+    "U15": 0.218,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Belgium": 1950.9,
@@ -1409,7 +1890,7 @@
     "lambda_away": 1.07,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -1439,6 +1920,43 @@
     "Elo +178"
    ],
    "upset_watch": "Der Iran tut sich gegen Mauertaktik manchmal schwer — ein zähes 1:0 ist die realistischste Abweichung.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.782,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.561,
+     "label": "Iran gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.545,
+     "label": "Iran über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.561,
+    "X": 0.254,
+    "2": 0.186,
+    "1X": 0.814,
+    "X2": 0.439,
+    "12": 0.746,
+    "DNB1": 0.751,
+    "DNB2": 0.249,
+    "BTTS_yes": 0.535,
+    "BTTS_no": 0.465,
+    "home_o15": 0.545,
+    "away_o15": 0.255,
+    "O15": 0.782,
+    "U15": 0.218,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Iran": 1897.8,
@@ -1514,7 +2032,7 @@
     "lambda_away": 0.97,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -1544,6 +2062,43 @@
     "Generalproben träge (leichter Dämpfer)"
    ],
    "upset_watch": "Spaniens Schongang-Remis-Serie ist der einzige Haken — falls sie schlafwandeln, wird es 'nur' 2:0 oder 1:0. Kap-Verde-Punktgewinn wäre eine Mega-Sensation.",
+   "top_tips": [
+    {
+     "key": "1",
+     "p": 0.905,
+     "label": "Spain gewinnt"
+    },
+    {
+     "key": "BTTS_no",
+     "p": 0.842,
+     "label": "Nicht beide treffen"
+    },
+    {
+     "key": "O15",
+     "p": 0.801,
+     "label": "Über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.905,
+    "X": 0.086,
+    "2": 0.01,
+    "1X": 0.99,
+    "X2": 0.095,
+    "12": 0.914,
+    "DNB1": 0.99,
+    "DNB2": 0.01,
+    "BTTS_yes": 0.158,
+    "BTTS_no": 0.842,
+    "home_o15": 0.769,
+    "away_o15": 0.014,
+    "O15": 0.801,
+    "U15": 0.199,
+    "O25": 0.572,
+    "U25": 0.428,
+    "O35": 0.348,
+    "U35": 0.652
+   },
    "basis": {
     "elo": {
      "Spain": 2228.6,
@@ -1619,7 +2174,7 @@
     "lambda_away": 0.18,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -1649,6 +2204,43 @@
     "Saudi-Form desolat"
    ],
    "upset_watch": "Geschichtsstunde: Saudi-Arabien schlug 2022 den späteren Weltmeister Argentinien. Tief stehen + Konter können Uruguay quälen — 0:0/1:1 nicht abwegig.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.78,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "2",
+     "p": 0.678,
+     "label": "Uruguay gewinnt"
+    },
+    {
+     "key": "away_o15",
+     "p": 0.614,
+     "label": "Uruguay über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.107,
+    "X": 0.215,
+    "2": 0.678,
+    "1X": 0.322,
+    "X2": 0.893,
+    "12": 0.785,
+    "DNB1": 0.137,
+    "DNB2": 0.863,
+    "BTTS_yes": 0.461,
+    "BTTS_no": 0.539,
+    "home_o15": 0.164,
+    "away_o15": 0.614,
+    "O15": 0.78,
+    "U15": 0.22,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Saudi Arabia": 1697.1,
@@ -1724,7 +2316,7 @@
     "lambda_away": 2.08,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -1754,6 +2346,43 @@
     "Pressing vs. limitierten Aufbau"
    ],
    "upset_watch": "Jordanien hat bei der WM 2022/Asien-Cup-Ära Kampfgeist gezeigt — ein frühes Gegentor könnte Österreich nervös machen, mehr aber nicht.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1X",
+     "p": 0.756,
+     "label": "Austria oder Remis"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.563,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.486,
+    "X": 0.27,
+    "2": 0.244,
+    "1X": 0.756,
+    "X2": 0.514,
+    "12": 0.73,
+    "DNB1": 0.665,
+    "DNB2": 0.335,
+    "BTTS_yes": 0.563,
+    "BTTS_no": 0.437,
+    "home_o15": 0.497,
+    "away_o15": 0.312,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Austria": 1890.0,
@@ -1829,7 +2458,7 @@
     "lambda_away": 1.13,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -1859,6 +2488,43 @@
     "Titelverteidiger-Routine"
    ],
    "upset_watch": "Algerien ist gefährlicher als sein Ruf — das 1:0 in Amsterdam war kein Zufall. Ein 1:1 ist das realistische Überraschungsszenario.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.779,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.701,
+     "label": "Argentina gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.627,
+     "label": "Argentina über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.701,
+    "X": 0.205,
+    "2": 0.094,
+    "1X": 0.906,
+    "X2": 0.299,
+    "12": 0.795,
+    "DNB1": 0.881,
+    "DNB2": 0.119,
+    "BTTS_yes": 0.441,
+    "BTTS_no": 0.559,
+    "home_o15": 0.627,
+    "away_o15": 0.146,
+    "O15": 0.779,
+    "U15": 0.221,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Argentina": 2193.7,
@@ -1934,7 +2600,7 @@
     "lambda_away": 0.67,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -1964,6 +2630,43 @@
     "Qualität trotzdem klar pro Frankreich"
    ],
    "upset_watch": "Senegal-Sieg oder Remis ist deutlich lebendiger, als die halbe Familie denkt. Wer Frankreich hoch tippt, ignoriert ein 24-Jahre-Muster.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.781,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.607,
+     "label": "France gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.573,
+     "label": "France über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.607,
+    "X": 0.24,
+    "2": 0.153,
+    "1X": 0.847,
+    "X2": 0.393,
+    "12": 0.76,
+    "DNB1": 0.799,
+    "DNB2": 0.201,
+    "BTTS_yes": 0.511,
+    "BTTS_no": 0.489,
+    "home_o15": 0.573,
+    "away_o15": 0.219,
+    "O15": 0.781,
+    "U15": 0.219,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "France": 2134.1,
@@ -2039,7 +2742,7 @@
     "lambda_away": 0.88,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -2069,6 +2772,43 @@
     "Irak limitiert"
    ],
    "upset_watch": "Der Irak hielt Spanien bei 1:1 — Bus parken können sie. Ein zähes 0:1 ist realistischer als ein Irak-Punkt.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.781,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "2",
+     "p": 0.638,
+     "label": "Norway gewinnt"
+    },
+    {
+     "key": "away_o15",
+     "p": 0.591,
+     "label": "Norway über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.132,
+    "X": 0.23,
+    "2": 0.638,
+    "1X": 0.362,
+    "X2": 0.868,
+    "12": 0.77,
+    "DNB1": 0.171,
+    "DNB2": 0.829,
+    "BTTS_yes": 0.491,
+    "BTTS_no": 0.509,
+    "home_o15": 0.194,
+    "away_o15": 0.591,
+    "O15": 0.781,
+    "U15": 0.219,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Iraq": 1740.0,
@@ -2144,7 +2884,7 @@
     "lambda_away": 1.99,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -2174,6 +2914,43 @@
     "DRC offensiv limitiert"
    ],
    "upset_watch": "Einziges Risiko: Portugal-Schlendrian nach frühem Führungstreffer — dann bleibt es 'nur' 1:0/2:1.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.779,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.694,
+     "label": "Portugal gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.624,
+     "label": "Portugal über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.694,
+    "X": 0.208,
+    "2": 0.098,
+    "1X": 0.902,
+    "X2": 0.306,
+    "12": 0.792,
+    "DNB1": 0.876,
+    "DNB2": 0.124,
+    "BTTS_yes": 0.447,
+    "BTTS_no": 0.553,
+    "home_o15": 0.624,
+    "away_o15": 0.151,
+    "O15": 0.779,
+    "U15": 0.221,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Portugal": 2062.6,
@@ -2249,7 +3026,7 @@
     "lambda_away": 0.69,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -2279,6 +3056,43 @@
     "Kolumbien formstark"
    ],
    "upset_watch": "Usbekistan ist diszipliniert und hat WM-Euphorie — mehr als ein Achtungs-1:2 ist aber kaum drin.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.781,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "2",
+     "p": 0.638,
+     "label": "Colombia gewinnt"
+    },
+    {
+     "key": "away_o15",
+     "p": 0.591,
+     "label": "Colombia über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.132,
+    "X": 0.23,
+    "2": 0.638,
+    "1X": 0.362,
+    "X2": 0.868,
+    "12": 0.77,
+    "DNB1": 0.172,
+    "DNB2": 0.828,
+    "BTTS_yes": 0.491,
+    "BTTS_no": 0.509,
+    "home_o15": 0.195,
+    "away_o15": 0.591,
+    "O15": 0.781,
+    "U15": 0.219,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Uzbekistan": 1822.1,
@@ -2354,7 +3168,7 @@
     "lambda_away": 1.99,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -2384,6 +3198,43 @@
     "H2H 6-2-3 für England"
    ],
    "upset_watch": "Kroatien bei Turnieren abzuschreiben war historisch IMMER ein Fehler — das Remis ist hochlebendig. Englands 0:1 gegen Japan zeigt die Anfälligkeit.",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1X",
+     "p": 0.769,
+     "label": "England oder Remis"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.559,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.501,
+    "X": 0.267,
+    "2": 0.231,
+    "1X": 0.769,
+    "X2": 0.499,
+    "12": 0.733,
+    "DNB1": 0.684,
+    "DNB2": 0.316,
+    "BTTS_yes": 0.559,
+    "BTTS_no": 0.441,
+    "home_o15": 0.507,
+    "away_o15": 0.3,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "England": 2098.9,
@@ -2459,7 +3310,7 @@
     "lambda_away": 1.1,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -2489,6 +3340,43 @@
     "echtes Drei-Wege-Spiel"
    ],
    "upset_watch": "Das ist das offenste Spiel der Welle — Ghana-Sieg und Remis sind beide absolut lebendig. Hier auf Nummer sicher tippen (1:1 wäre die Defensiv-Variante).",
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.781,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "2",
+     "p": 0.642,
+     "label": "Panama gewinnt"
+    },
+    {
+     "key": "away_o15",
+     "p": 0.594,
+     "label": "Panama über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.13,
+    "X": 0.228,
+    "2": 0.642,
+    "1X": 0.358,
+    "X2": 0.87,
+    "12": 0.772,
+    "DNB1": 0.168,
+    "DNB2": 0.832,
+    "BTTS_yes": 0.488,
+    "BTTS_no": 0.512,
+    "home_o15": 0.192,
+    "away_o15": 0.594,
+    "O15": 0.781,
+    "U15": 0.219,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Ghana": 1614.0,
@@ -2564,7 +3452,7 @@
     "lambda_away": 2.0,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -2594,6 +3482,43 @@
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1X",
+     "p": 0.766,
+     "label": "Czech Republic oder Remis"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.56,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.498,
+    "X": 0.268,
+    "2": 0.234,
+    "1X": 0.766,
+    "X2": 0.502,
+    "12": 0.732,
+    "DNB1": 0.681,
+    "DNB2": 0.319,
+    "BTTS_yes": 0.56,
+    "BTTS_no": 0.44,
+    "home_o15": 0.505,
+    "away_o15": 0.302,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Czech Republic": 1783.9,
@@ -2669,7 +3594,7 @@
     "lambda_away": 1.1,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -2699,6 +3624,43 @@
     "H2H 14 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.781,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.603,
+     "label": "Mexico gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.57,
+     "label": "Mexico über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.603,
+    "X": 0.241,
+    "2": 0.156,
+    "1X": 0.844,
+    "X2": 0.397,
+    "12": 0.759,
+    "DNB1": 0.795,
+    "DNB2": 0.205,
+    "BTTS_yes": 0.513,
+    "BTTS_no": 0.487,
+    "home_o15": 0.57,
+    "away_o15": 0.222,
+    "O15": 0.781,
+    "U15": 0.219,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Mexico": 1995.8,
@@ -2774,7 +3736,7 @@
     "lambda_away": 0.88,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -2804,6 +3766,43 @@
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.78,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.656,
+     "label": "Switzerland gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.602,
+     "label": "Switzerland über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.656,
+    "X": 0.223,
+    "2": 0.121,
+    "1X": 0.879,
+    "X2": 0.344,
+    "12": 0.777,
+    "DNB1": 0.844,
+    "DNB2": 0.156,
+    "BTTS_yes": 0.478,
+    "BTTS_no": 0.522,
+    "home_o15": 0.602,
+    "away_o15": 0.181,
+    "O15": 0.78,
+    "U15": 0.22,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Switzerland": 1924.7,
@@ -2879,7 +3878,7 @@
     "lambda_away": 0.77,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -2909,6 +3908,43 @@
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "1",
+     "p": 0.813,
+     "label": "Canada gewinnt"
+    },
+    {
+     "key": "O15",
+     "p": 0.776,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "BTTS_no",
+     "p": 0.695,
+     "label": "Nicht beide treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.813,
+    "X": 0.148,
+    "2": 0.038,
+    "1X": 0.962,
+    "X2": 0.187,
+    "12": 0.852,
+    "DNB1": 0.955,
+    "DNB2": 0.045,
+    "BTTS_yes": 0.305,
+    "BTTS_no": 0.695,
+    "home_o15": 0.692,
+    "away_o15": 0.061,
+    "O15": 0.776,
+    "U15": 0.224,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.307,
+    "U35": 0.693
+   },
    "basis": {
     "elo": {
      "Canada": 1883.4,
@@ -2984,7 +4020,7 @@
     "lambda_away": 0.4,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -3014,6 +4050,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "12",
+     "p": 0.721,
+     "label": "Kein Remis (einer gewinnt)"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.578,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.419,
+    "X": 0.279,
+    "2": 0.302,
+    "1X": 0.698,
+    "X2": 0.581,
+    "12": 0.721,
+    "DNB1": 0.581,
+    "DNB2": 0.419,
+    "BTTS_yes": 0.578,
+    "BTTS_no": 0.422,
+    "home_o15": 0.452,
+    "away_o15": 0.363,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Turkey": 1924.4,
@@ -3089,7 +4162,7 @@
     "lambda_away": 1.27,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -3119,6 +4192,43 @@
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "X2",
+     "p": 0.766,
+     "label": "Morocco oder Remis"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.56,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.234,
+    "X": 0.268,
+    "2": 0.498,
+    "1X": 0.502,
+    "X2": 0.766,
+    "12": 0.732,
+    "DNB1": 0.32,
+    "DNB2": 0.68,
+    "BTTS_yes": 0.56,
+    "BTTS_no": 0.44,
+    "home_o15": 0.303,
+    "away_o15": 0.505,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Scotland": 1874.5,
@@ -3194,7 +4304,7 @@
     "lambda_away": 1.69,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -3224,6 +4334,43 @@
     "H2H 3 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.777,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.764,
+     "label": "Brazil gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.664,
+     "label": "Brazil über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.764,
+    "X": 0.175,
+    "2": 0.061,
+    "1X": 0.939,
+    "X2": 0.236,
+    "12": 0.825,
+    "DNB1": 0.926,
+    "DNB2": 0.074,
+    "BTTS_yes": 0.374,
+    "BTTS_no": 0.626,
+    "home_o15": 0.664,
+    "away_o15": 0.097,
+    "O15": 0.777,
+    "U15": 0.223,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Brazil": 2065.2,
@@ -3299,7 +4446,7 @@
     "lambda_away": 0.52,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -3329,6 +4476,43 @@
     "H2H 4 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "12",
+     "p": 0.721,
+     "label": "Kein Remis (einer gewinnt)"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.578,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.415,
+    "X": 0.279,
+    "2": 0.306,
+    "1X": 0.694,
+    "X2": 0.585,
+    "12": 0.721,
+    "DNB1": 0.576,
+    "DNB2": 0.424,
+    "BTTS_yes": 0.578,
+    "BTTS_no": 0.422,
+    "home_o15": 0.449,
+    "away_o15": 0.366,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "United States": 1882.6,
@@ -3404,7 +4588,7 @@
     "lambda_away": 1.28,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -3434,6 +4618,43 @@
     "H2H 25 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.781,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.631,
+     "label": "Netherlands gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.587,
+     "label": "Netherlands über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.631,
+    "X": 0.232,
+    "2": 0.137,
+    "1X": 0.863,
+    "X2": 0.369,
+    "12": 0.768,
+    "DNB1": 0.822,
+    "DNB2": 0.178,
+    "BTTS_yes": 0.496,
+    "BTTS_no": 0.504,
+    "home_o15": 0.587,
+    "away_o15": 0.201,
+    "O15": 0.781,
+    "U15": 0.219,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Netherlands": 2011.4,
@@ -3509,7 +4730,7 @@
     "lambda_away": 0.83,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -3539,6 +4760,43 @@
     "H2H 5 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.78,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "2",
+     "p": 0.658,
+     "label": "Japan gewinnt"
+    },
+    {
+     "key": "away_o15",
+     "p": 0.603,
+     "label": "Japan über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.12,
+    "X": 0.223,
+    "2": 0.658,
+    "1X": 0.342,
+    "X2": 0.88,
+    "12": 0.777,
+    "DNB1": 0.154,
+    "DNB2": 0.846,
+    "BTTS_yes": 0.477,
+    "BTTS_no": 0.523,
+    "home_o15": 0.18,
+    "away_o15": 0.603,
+    "O15": 0.78,
+    "U15": 0.22,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Tunisia": 1732.5,
@@ -3614,7 +4872,7 @@
     "lambda_away": 2.03,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -3644,6 +4902,43 @@
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.782,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.577,
+     "label": "Germany gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.555,
+     "label": "Germany über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.577,
+    "X": 0.249,
+    "2": 0.174,
+    "1X": 0.826,
+    "X2": 0.423,
+    "12": 0.751,
+    "DNB1": 0.768,
+    "DNB2": 0.232,
+    "BTTS_yes": 0.527,
+    "BTTS_no": 0.473,
+    "home_o15": 0.555,
+    "away_o15": 0.242,
+    "O15": 0.782,
+    "U15": 0.218,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Germany": 2003.4,
@@ -3719,7 +5014,7 @@
     "lambda_away": 0.94,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -3749,6 +5044,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "1",
+     "p": 0.814,
+     "label": "Ecuador gewinnt"
+    },
+    {
+     "key": "O15",
+     "p": 0.776,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "BTTS_no",
+     "p": 0.695,
+     "label": "Nicht beide treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.814,
+    "X": 0.148,
+    "2": 0.038,
+    "1X": 0.962,
+    "X2": 0.186,
+    "12": 0.852,
+    "DNB1": 0.955,
+    "DNB2": 0.045,
+    "BTTS_yes": 0.305,
+    "BTTS_no": 0.695,
+    "home_o15": 0.692,
+    "away_o15": 0.061,
+    "O15": 0.776,
+    "U15": 0.224,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.307,
+    "U35": 0.693
+   },
    "basis": {
     "elo": {
      "Ecuador": 2031.5,
@@ -3824,7 +5156,7 @@
     "lambda_away": 0.4,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -3854,6 +5186,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "12",
+     "p": 0.721,
+     "label": "Kein Remis (einer gewinnt)"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.578,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.418,
+    "X": 0.279,
+    "2": 0.303,
+    "1X": 0.697,
+    "X2": 0.582,
+    "12": 0.721,
+    "DNB1": 0.58,
+    "DNB2": 0.42,
+    "BTTS_yes": 0.578,
+    "BTTS_no": 0.422,
+    "home_o15": 0.451,
+    "away_o15": 0.363,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Belgium": 1950.9,
@@ -3929,7 +5298,7 @@
     "lambda_away": 1.27,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -3959,6 +5328,43 @@
     "H2H 3 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "X2",
+     "p": 0.737,
+     "label": "Egypt oder Remis"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.569,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.263,
+    "X": 0.274,
+    "2": 0.463,
+    "1X": 0.537,
+    "X2": 0.737,
+    "12": 0.726,
+    "DNB1": 0.363,
+    "DNB2": 0.637,
+    "BTTS_yes": 0.569,
+    "BTTS_no": 0.431,
+    "home_o15": 0.329,
+    "away_o15": 0.482,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "New Zealand": 1720.2,
@@ -4034,7 +5440,7 @@
     "lambda_away": 1.62,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -4064,6 +5470,43 @@
     "H2H 3 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "1",
+     "p": 0.894,
+     "label": "Spain gewinnt"
+    },
+    {
+     "key": "BTTS_no",
+     "p": 0.843,
+     "label": "Nicht beide treffen"
+    },
+    {
+     "key": "O15",
+     "p": 0.781,
+     "label": "Über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.894,
+    "X": 0.096,
+    "2": 0.011,
+    "1X": 0.989,
+    "X2": 0.106,
+    "12": 0.904,
+    "DNB1": 0.988,
+    "DNB2": 0.012,
+    "BTTS_yes": 0.157,
+    "BTTS_no": 0.843,
+    "home_o15": 0.746,
+    "away_o15": 0.014,
+    "O15": 0.781,
+    "U15": 0.219,
+    "O25": 0.543,
+    "U25": 0.457,
+    "O35": 0.319,
+    "U35": 0.681
+   },
    "basis": {
     "elo": {
      "Spain": 2228.6,
@@ -4139,7 +5582,7 @@
     "lambda_away": 0.18,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -4169,6 +5612,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.778,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.734,
+     "label": "Uruguay gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.647,
+     "label": "Uruguay über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.734,
+    "X": 0.19,
+    "2": 0.076,
+    "1X": 0.924,
+    "X2": 0.266,
+    "12": 0.81,
+    "DNB1": 0.907,
+    "DNB2": 0.093,
+    "BTTS_yes": 0.408,
+    "BTTS_no": 0.592,
+    "home_o15": 0.647,
+    "away_o15": 0.12,
+    "O15": 0.778,
+    "U15": 0.222,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Uruguay": 1979.2,
@@ -4244,7 +5724,7 @@
     "lambda_away": 0.59,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -4274,6 +5754,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "1",
+     "p": 0.792,
+     "label": "France gewinnt"
+    },
+    {
+     "key": "O15",
+     "p": 0.777,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.679,
+     "label": "France über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.792,
+    "X": 0.161,
+    "2": 0.048,
+    "1X": 0.952,
+    "X2": 0.208,
+    "12": 0.839,
+    "DNB1": 0.943,
+    "DNB2": 0.057,
+    "BTTS_yes": 0.338,
+    "BTTS_no": 0.662,
+    "home_o15": 0.679,
+    "away_o15": 0.077,
+    "O15": 0.777,
+    "U15": 0.223,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "France": 2134.1,
@@ -4349,7 +5866,7 @@
     "lambda_away": 0.45,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -4379,6 +5896,43 @@
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "12",
+     "p": 0.723,
+     "label": "Kein Remis (einer gewinnt)"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.575,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.438,
+    "X": 0.277,
+    "2": 0.285,
+    "1X": 0.715,
+    "X2": 0.562,
+    "12": 0.723,
+    "DNB1": 0.606,
+    "DNB2": 0.394,
+    "BTTS_yes": 0.575,
+    "BTTS_no": 0.425,
+    "home_o15": 0.465,
+    "away_o15": 0.348,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Norway": 1986.2,
@@ -4454,7 +6008,7 @@
     "lambda_away": 1.23,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -4484,6 +6038,43 @@
     "H2H 2 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.779,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.701,
+     "label": "Argentina gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.628,
+     "label": "Argentina über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.701,
+    "X": 0.205,
+    "2": 0.094,
+    "1X": 0.906,
+    "X2": 0.299,
+    "12": 0.795,
+    "DNB1": 0.882,
+    "DNB2": 0.118,
+    "BTTS_yes": 0.441,
+    "BTTS_no": 0.559,
+    "home_o15": 0.628,
+    "away_o15": 0.146,
+    "O15": 0.779,
+    "U15": 0.221,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Argentina": 2193.7,
@@ -4559,7 +6150,7 @@
     "lambda_away": 0.67,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -4589,6 +6180,43 @@
     "H2H 2 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "X2",
+     "p": 0.756,
+     "label": "Algeria oder Remis"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.563,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.244,
+    "X": 0.27,
+    "2": 0.486,
+    "1X": 0.514,
+    "X2": 0.756,
+    "12": 0.73,
+    "DNB1": 0.334,
+    "DNB2": 0.666,
+    "BTTS_yes": 0.563,
+    "BTTS_no": 0.437,
+    "home_o15": 0.312,
+    "away_o15": 0.497,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Jordan": 1777.7,
@@ -4664,7 +6292,7 @@
     "lambda_away": 1.67,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -4694,6 +6322,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.781,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.632,
+     "label": "Portugal gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.588,
+     "label": "Portugal über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.632,
+    "X": 0.232,
+    "2": 0.136,
+    "1X": 0.864,
+    "X2": 0.368,
+    "12": 0.768,
+    "DNB1": 0.823,
+    "DNB2": 0.177,
+    "BTTS_yes": 0.495,
+    "BTTS_no": 0.505,
+    "home_o15": 0.588,
+    "away_o15": 0.199,
+    "O15": 0.781,
+    "U15": 0.219,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Portugal": 2062.6,
@@ -4769,7 +6434,7 @@
     "lambda_away": 0.82,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -4799,6 +6464,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.779,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.699,
+     "label": "Colombia gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.627,
+     "label": "Colombia über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.699,
+    "X": 0.206,
+    "2": 0.095,
+    "1X": 0.905,
+    "X2": 0.301,
+    "12": 0.794,
+    "DNB1": 0.88,
+    "DNB2": 0.12,
+    "BTTS_yes": 0.443,
+    "BTTS_no": 0.557,
+    "home_o15": 0.627,
+    "away_o15": 0.147,
+    "O15": 0.779,
+    "U15": 0.221,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Colombia": 2067.6,
@@ -4874,7 +6576,7 @@
     "lambda_away": 0.67,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -4904,6 +6606,43 @@
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "1",
+     "p": 0.87,
+     "label": "England gewinnt"
+    },
+    {
+     "key": "BTTS_no",
+     "p": 0.801,
+     "label": "Nicht beide treffen"
+    },
+    {
+     "key": "O15",
+     "p": 0.773,
+     "label": "Über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.87,
+    "X": 0.113,
+    "2": 0.017,
+    "1X": 0.983,
+    "X2": 0.13,
+    "12": 0.887,
+    "DNB1": 0.981,
+    "DNB2": 0.019,
+    "BTTS_yes": 0.199,
+    "BTTS_no": 0.801,
+    "home_o15": 0.725,
+    "away_o15": 0.024,
+    "O15": 0.773,
+    "U15": 0.227,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.307,
+    "U35": 0.693
+   },
    "basis": {
     "elo": {
      "England": 2098.9,
@@ -4979,7 +6718,7 @@
     "lambda_away": 0.24,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -5009,6 +6748,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "X2",
+     "p": 0.753,
+     "label": "Croatia oder Remis"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.564,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.247,
+    "X": 0.271,
+    "2": 0.483,
+    "1X": 0.517,
+    "X2": 0.753,
+    "12": 0.729,
+    "DNB1": 0.338,
+    "DNB2": 0.662,
+    "BTTS_yes": 0.564,
+    "BTTS_no": 0.436,
+    "home_o15": 0.315,
+    "away_o15": 0.495,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Panama": 1863.6,
@@ -5084,7 +6860,7 @@
     "lambda_away": 1.66,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -5114,6 +6890,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.779,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.694,
+     "label": "Morocco gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.624,
+     "label": "Morocco über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.694,
+    "X": 0.208,
+    "2": 0.098,
+    "1X": 0.902,
+    "X2": 0.306,
+    "12": 0.792,
+    "DNB1": 0.876,
+    "DNB2": 0.124,
+    "BTTS_yes": 0.447,
+    "BTTS_no": 0.553,
+    "home_o15": 0.624,
+    "away_o15": 0.151,
+    "O15": 0.779,
+    "U15": 0.221,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Morocco": 1997.1,
@@ -5189,7 +7002,7 @@
     "lambda_away": 0.69,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -5219,6 +7032,43 @@
     "H2H 2 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "12",
+     "p": 0.723,
+     "label": "Kein Remis (einer gewinnt)"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.574,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.439,
+    "X": 0.277,
+    "2": 0.284,
+    "1X": 0.716,
+    "X2": 0.561,
+    "12": 0.723,
+    "DNB1": 0.608,
+    "DNB2": 0.392,
+    "BTTS_yes": 0.574,
+    "BTTS_no": 0.426,
+    "home_o15": 0.466,
+    "away_o15": 0.347,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Bosnia and Herzegovina": 1662.7,
@@ -5294,7 +7144,7 @@
     "lambda_away": 1.23,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -5324,6 +7174,43 @@
     "H2H 10 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.782,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "2",
+     "p": 0.576,
+     "label": "Brazil gewinnt"
+    },
+    {
+     "key": "away_o15",
+     "p": 0.554,
+     "label": "Brazil über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.175,
+    "X": 0.25,
+    "2": 0.576,
+    "1X": 0.424,
+    "X2": 0.825,
+    "12": 0.75,
+    "DNB1": 0.233,
+    "DNB2": 0.767,
+    "BTTS_yes": 0.528,
+    "BTTS_no": 0.472,
+    "home_o15": 0.243,
+    "away_o15": 0.554,
+    "O15": 0.782,
+    "U15": 0.218,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Scotland": 1874.5,
@@ -5399,7 +7286,7 @@
     "lambda_away": 1.86,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -5429,6 +7316,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.781,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "2",
+     "p": 0.638,
+     "label": "South Korea gewinnt"
+    },
+    {
+     "key": "away_o15",
+     "p": 0.591,
+     "label": "South Korea über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.132,
+    "X": 0.23,
+    "2": 0.638,
+    "1X": 0.362,
+    "X2": 0.868,
+    "12": 0.77,
+    "DNB1": 0.172,
+    "DNB2": 0.828,
+    "BTTS_yes": 0.491,
+    "BTTS_no": 0.509,
+    "home_o15": 0.195,
+    "away_o15": 0.591,
+    "O15": 0.781,
+    "U15": 0.219,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "South Africa": 1660.6,
@@ -5504,7 +7428,7 @@
     "lambda_away": 1.99,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -5534,6 +7458,43 @@
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.778,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.735,
+     "label": "Mexico gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.647,
+     "label": "Mexico über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.735,
+    "X": 0.189,
+    "2": 0.075,
+    "1X": 0.925,
+    "X2": 0.265,
+    "12": 0.811,
+    "DNB1": 0.907,
+    "DNB2": 0.093,
+    "BTTS_yes": 0.407,
+    "BTTS_no": 0.593,
+    "home_o15": 0.647,
+    "away_o15": 0.119,
+    "O15": 0.778,
+    "U15": 0.222,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Mexico": 1995.8,
@@ -5609,7 +7570,7 @@
     "lambda_away": 0.59,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -5639,6 +7600,43 @@
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1X",
+     "p": 0.728,
+     "label": "Canada oder Remis"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.572,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.453,
+    "X": 0.275,
+    "2": 0.272,
+    "1X": 0.728,
+    "X2": 0.547,
+    "12": 0.725,
+    "DNB1": 0.625,
+    "DNB2": 0.375,
+    "BTTS_yes": 0.572,
+    "BTTS_no": 0.428,
+    "home_o15": 0.475,
+    "away_o15": 0.337,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Canada": 1883.4,
@@ -5714,7 +7712,7 @@
     "lambda_away": 1.2,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -5744,6 +7742,43 @@
     "H2H 5 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1X",
+     "p": 0.728,
+     "label": "United States oder Remis"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.572,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.452,
+    "X": 0.275,
+    "2": 0.272,
+    "1X": 0.728,
+    "X2": 0.548,
+    "12": 0.725,
+    "DNB1": 0.624,
+    "DNB2": 0.376,
+    "BTTS_yes": 0.572,
+    "BTTS_no": 0.428,
+    "home_o15": 0.475,
+    "away_o15": 0.337,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "United States": 1882.6,
@@ -5819,7 +7854,7 @@
     "lambda_away": 1.2,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -5849,6 +7884,43 @@
     "H2H 5 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "X2",
+     "p": 0.731,
+     "label": "Australia oder Remis"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.571,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.269,
+    "X": 0.275,
+    "2": 0.456,
+    "1X": 0.544,
+    "X2": 0.731,
+    "12": 0.725,
+    "DNB1": 0.371,
+    "DNB2": 0.629,
+    "BTTS_yes": 0.571,
+    "BTTS_no": 0.429,
+    "home_o15": 0.334,
+    "away_o15": 0.478,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Paraguay": 1870.7,
@@ -5924,7 +7996,7 @@
     "lambda_away": 1.61,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -5954,6 +8026,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.782,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "2",
+     "p": 0.584,
+     "label": "Ivory Coast gewinnt"
+    },
+    {
+     "key": "away_o15",
+     "p": 0.559,
+     "label": "Ivory Coast über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.169,
+    "X": 0.247,
+    "2": 0.584,
+    "1X": 0.416,
+    "X2": 0.831,
+    "12": 0.753,
+    "DNB1": 0.224,
+    "DNB2": 0.776,
+    "BTTS_yes": 0.523,
+    "BTTS_no": 0.477,
+    "home_o15": 0.236,
+    "away_o15": 0.559,
+    "O15": 0.782,
+    "U15": 0.218,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Curaçao": 1613.6,
@@ -6029,7 +8138,7 @@
     "lambda_away": 1.88,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -6059,6 +8168,43 @@
     "H2H 2 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "12",
+     "p": 0.719,
+     "label": "Kein Remis (einer gewinnt)"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.581,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.39,
+    "X": 0.281,
+    "2": 0.329,
+    "1X": 0.671,
+    "X2": 0.61,
+    "12": 0.719,
+    "DNB1": 0.542,
+    "DNB2": 0.458,
+    "BTTS_yes": 0.581,
+    "BTTS_no": 0.419,
+    "home_o15": 0.431,
+    "away_o15": 0.385,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Ecuador": 2031.5,
@@ -6134,7 +8280,7 @@
     "lambda_away": 1.33,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -6164,6 +8310,43 @@
     "H2H 4 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.781,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.614,
+     "label": "Japan gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.577,
+     "label": "Japan über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.614,
+    "X": 0.238,
+    "2": 0.148,
+    "1X": 0.852,
+    "X2": 0.386,
+    "12": 0.762,
+    "DNB1": 0.805,
+    "DNB2": 0.195,
+    "BTTS_yes": 0.507,
+    "BTTS_no": 0.493,
+    "home_o15": 0.577,
+    "away_o15": 0.214,
+    "O15": 0.781,
+    "U15": 0.219,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Japan": 1996.1,
@@ -6239,7 +8422,7 @@
     "lambda_away": 0.86,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -6269,6 +8452,43 @@
     "H2H 3 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.78,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "2",
+     "p": 0.674,
+     "label": "Netherlands gewinnt"
+    },
+    {
+     "key": "away_o15",
+     "p": 0.612,
+     "label": "Netherlands über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.11,
+    "X": 0.216,
+    "2": 0.674,
+    "1X": 0.326,
+    "X2": 0.89,
+    "12": 0.784,
+    "DNB1": 0.14,
+    "DNB2": 0.86,
+    "BTTS_yes": 0.464,
+    "BTTS_no": 0.536,
+    "home_o15": 0.167,
+    "away_o15": 0.612,
+    "O15": 0.78,
+    "U15": 0.22,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Tunisia": 1732.5,
@@ -6344,7 +8564,7 @@
     "lambda_away": 2.07,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -6374,6 +8594,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.782,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.559,
+     "label": "Senegal gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.544,
+     "label": "Senegal über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.559,
+    "X": 0.254,
+    "2": 0.187,
+    "1X": 0.813,
+    "X2": 0.441,
+    "12": 0.746,
+    "DNB1": 0.749,
+    "DNB2": 0.251,
+    "BTTS_yes": 0.536,
+    "BTTS_no": 0.464,
+    "home_o15": 0.544,
+    "away_o15": 0.256,
+    "O15": 0.782,
+    "U15": 0.218,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Senegal": 1915.7,
@@ -6449,7 +8706,7 @@
     "lambda_away": 0.98,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -6479,6 +8736,43 @@
     "H2H 16 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "X2",
+     "p": 0.789,
+     "label": "France oder Remis"
+    },
+    {
+     "key": "O15",
+     "p": 0.782,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.55,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.211,
+    "X": 0.262,
+    "2": 0.527,
+    "1X": 0.473,
+    "X2": 0.789,
+    "12": 0.738,
+    "DNB1": 0.286,
+    "DNB2": 0.714,
+    "BTTS_yes": 0.55,
+    "BTTS_no": 0.45,
+    "home_o15": 0.281,
+    "away_o15": 0.524,
+    "O15": 0.782,
+    "U15": 0.218,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Norway": 1986.2,
@@ -6554,7 +8848,7 @@
     "lambda_away": 1.75,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -6584,6 +8878,43 @@
     "H2H 10 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.781,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "2",
+     "p": 0.642,
+     "label": "Spain gewinnt"
+    },
+    {
+     "key": "away_o15",
+     "p": 0.594,
+     "label": "Spain über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.13,
+    "X": 0.228,
+    "2": 0.642,
+    "1X": 0.358,
+    "X2": 0.87,
+    "12": 0.772,
+    "DNB1": 0.168,
+    "DNB2": 0.832,
+    "BTTS_yes": 0.488,
+    "BTTS_no": 0.512,
+    "home_o15": 0.192,
+    "away_o15": 0.594,
+    "O15": 0.781,
+    "U15": 0.219,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Uruguay": 1979.2,
@@ -6659,7 +8990,7 @@
     "lambda_away": 2.0,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -6689,6 +9020,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.781,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "2",
+     "p": 0.621,
+     "label": "Belgium gewinnt"
+    },
+    {
+     "key": "away_o15",
+     "p": 0.581,
+     "label": "Belgium über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.143,
+    "X": 0.236,
+    "2": 0.621,
+    "1X": 0.379,
+    "X2": 0.857,
+    "12": 0.764,
+    "DNB1": 0.187,
+    "DNB2": 0.813,
+    "BTTS_yes": 0.502,
+    "BTTS_no": 0.498,
+    "home_o15": 0.208,
+    "away_o15": 0.581,
+    "O15": 0.781,
+    "U15": 0.219,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "New Zealand": 1720.2,
@@ -6764,7 +9132,7 @@
     "lambda_away": 1.95,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -6794,6 +9162,43 @@
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "X2",
+     "p": 0.73,
+     "label": "Iran oder Remis"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.571,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.27,
+    "X": 0.275,
+    "2": 0.455,
+    "1X": 0.545,
+    "X2": 0.73,
+    "12": 0.725,
+    "DNB1": 0.373,
+    "DNB2": 0.627,
+    "BTTS_yes": 0.571,
+    "BTTS_no": 0.429,
+    "home_o15": 0.336,
+    "away_o15": 0.476,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Egypt": 1812.6,
@@ -6869,7 +9274,7 @@
     "lambda_away": 1.6,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -6899,6 +9304,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "12",
+     "p": 0.721,
+     "label": "Kein Remis (einer gewinnt)"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.578,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.302,
+    "X": 0.279,
+    "2": 0.419,
+    "1X": 0.581,
+    "X2": 0.698,
+    "12": 0.721,
+    "DNB1": 0.419,
+    "DNB2": 0.581,
+    "BTTS_yes": 0.578,
+    "BTTS_no": 0.422,
+    "home_o15": 0.363,
+    "away_o15": 0.452,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Cape Verde": 1643.5,
@@ -6974,7 +9416,7 @@
     "lambda_away": 1.53,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -7004,6 +9446,43 @@
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.781,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "2",
+     "p": 0.626,
+     "label": "England gewinnt"
+    },
+    {
+     "key": "away_o15",
+     "p": 0.584,
+     "label": "England über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.14,
+    "X": 0.234,
+    "2": 0.626,
+    "1X": 0.374,
+    "X2": 0.86,
+    "12": 0.766,
+    "DNB1": 0.183,
+    "DNB2": 0.817,
+    "BTTS_yes": 0.499,
+    "BTTS_no": 0.501,
+    "home_o15": 0.204,
+    "away_o15": 0.584,
+    "O15": 0.781,
+    "U15": 0.219,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Panama": 1863.6,
@@ -7079,7 +9558,7 @@
     "lambda_away": 1.96,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -7109,6 +9588,43 @@
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "12",
+     "p": 0.719,
+     "label": "Kein Remis (einer gewinnt)"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.582,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.36,
+    "X": 0.281,
+    "2": 0.359,
+    "1X": 0.641,
+    "X2": 0.64,
+    "12": 0.719,
+    "DNB1": 0.5,
+    "DNB2": 0.5,
+    "BTTS_yes": 0.582,
+    "BTTS_no": 0.418,
+    "home_o15": 0.408,
+    "away_o15": 0.408,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Algeria": 1890.3,
@@ -7184,7 +9700,7 @@
     "lambda_away": 1.4,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -7214,6 +9730,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "2",
+     "p": 0.812,
+     "label": "Argentina gewinnt"
+    },
+    {
+     "key": "O15",
+     "p": 0.776,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "BTTS_no",
+     "p": 0.692,
+     "label": "Nicht beide treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.039,
+    "X": 0.149,
+    "2": 0.812,
+    "1X": 0.188,
+    "X2": 0.961,
+    "12": 0.851,
+    "DNB1": 0.046,
+    "DNB2": 0.954,
+    "BTTS_yes": 0.308,
+    "BTTS_no": 0.692,
+    "home_o15": 0.062,
+    "away_o15": 0.691,
+    "O15": 0.776,
+    "U15": 0.224,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.307,
+    "U35": 0.693
+   },
    "basis": {
     "elo": {
      "Jordan": 1777.7,
@@ -7289,7 +9842,7 @@
     "lambda_away": 2.4,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -7319,6 +9872,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "12",
+     "p": 0.719,
+     "label": "Kein Remis (einer gewinnt)"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.582,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.365,
+    "X": 0.281,
+    "2": 0.354,
+    "1X": 0.646,
+    "X2": 0.635,
+    "12": 0.719,
+    "DNB1": 0.508,
+    "DNB2": 0.492,
+    "BTTS_yes": 0.582,
+    "BTTS_no": 0.418,
+    "home_o15": 0.412,
+    "away_o15": 0.404,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Colombia": 2067.6,
@@ -7394,7 +9984,7 @@
     "lambda_away": 1.39,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -7424,6 +10014,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.783,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "12",
+     "p": 0.721,
+     "label": "Kein Remis (einer gewinnt)"
+    },
+    {
+     "key": "BTTS_yes",
+     "p": 0.577,
+     "label": "Beide Teams treffen"
+    }
+   ],
+   "markets": {
+    "1": 0.299,
+    "X": 0.279,
+    "2": 0.422,
+    "1X": 0.578,
+    "X2": 0.701,
+    "12": 0.721,
+    "DNB1": 0.415,
+    "DNB2": 0.585,
+    "BTTS_yes": 0.577,
+    "BTTS_no": 0.423,
+    "home_o15": 0.36,
+    "away_o15": 0.454,
+    "O15": 0.783,
+    "U15": 0.217,
+    "O25": 0.531,
+    "U25": 0.469,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "DR Congo": 1765.5,
@@ -7499,7 +10126,7 @@
     "lambda_away": 1.54,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   },
   {
@@ -7529,6 +10156,43 @@
     "kein direktes H2H"
    ],
    "upset_watch": null,
+   "top_tips": [
+    {
+     "key": "O15",
+     "p": 0.778,
+     "label": "Über 1,5 Tore"
+    },
+    {
+     "key": "1",
+     "p": 0.758,
+     "label": "Croatia gewinnt"
+    },
+    {
+     "key": "home_o15",
+     "p": 0.66,
+     "label": "Croatia über 1,5 Tore"
+    }
+   ],
+   "markets": {
+    "1": 0.758,
+    "X": 0.179,
+    "2": 0.064,
+    "1X": 0.936,
+    "X2": 0.242,
+    "12": 0.821,
+    "DNB1": 0.922,
+    "DNB2": 0.078,
+    "BTTS_yes": 0.382,
+    "BTTS_no": 0.618,
+    "home_o15": 0.66,
+    "away_o15": 0.102,
+    "O15": 0.778,
+    "U15": 0.222,
+    "O25": 0.53,
+    "U25": 0.47,
+    "O35": 0.308,
+    "U35": 0.692
+   },
    "basis": {
     "elo": {
      "Croatia": 1973.1,
@@ -7604,7 +10268,7 @@
     "lambda_away": 0.54,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-14",
+   "locked_at": "2026-06-15",
    "retro": false
   }
  ]

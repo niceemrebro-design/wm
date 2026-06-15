@@ -18,7 +18,7 @@
   header .sub{color:var(--muted);font-size:14px;margin-bottom:6px}
   .meta{color:var(--muted);font-size:12px}
   .meta b{color:var(--accent)}
-  .tabs{display:flex;gap:8px;margin:18px 0 4px}
+  .tabs{display:flex;gap:8px;margin:18px 0 4px;flex-wrap:wrap}
   .tab{background:var(--card);border:1px solid var(--line);color:var(--muted);
     padding:7px 14px;border-radius:10px;cursor:pointer;font-size:13px;font-weight:600}
   .tab.active{color:var(--txt);border-color:var(--accent)}
@@ -26,51 +26,53 @@
   @media(min-width:760px){.grid{grid-template-columns:1fr 1fr}}
   .daterow{grid-column:1/-1;margin:14px 0 2px;color:var(--gold);font-weight:600;font-size:14px;
     text-transform:uppercase;letter-spacing:1px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 16px 14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
   .top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
-  .teams{font-weight:600;font-size:16px}
+  .teams{font-weight:700;font-size:16px}
   .city{color:var(--muted);font-size:12px;margin-top:2px}
-  .score{font-size:30px;font-weight:800;letter-spacing:1px;white-space:nowrap;text-align:right}
-  .badges{display:flex;gap:6px;justify-content:flex-end;margin-top:4px;flex-wrap:wrap}
+  .badges{display:flex;gap:6px;justify-content:flex-end;flex-wrap:wrap}
   .conf,.src{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;
     padding:3px 7px;border-radius:999px;white-space:nowrap}
   .c-hoch{background:#123b2a;color:#5fe0a3} .c-mittelhoch{background:#103436;color:#56d6c8}
   .c-mittel{background:#16294a;color:#7fb0ff} .c-niedrigmittel{background:#3a3216;color:#e9c66a}
   .c-niedrig{background:#322a2a;color:#d7a08f}
   .src-o{background:#2a2140;color:var(--purple)} .src-e{background:#1d2733;color:#86a0bb}
-  .bar{display:flex;height:8px;border-radius:6px;overflow:hidden;margin:12px 0 6px}
-  .bar span{display:block} .bar .h{background:var(--home)} .bar .d{background:var(--draw)} .bar .a{background:var(--away)}
-  .pl{display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}
-  .reason{font-size:13.5px;color:#d4dbe6;margin:10px 0 0}
+  .tipshead{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin:12px 0 4px}
+  .tip{padding:8px 0;border-bottom:1px solid var(--line)}
+  .tip:last-child{border-bottom:none}
+  .tip-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+  .tip-label{font-weight:600;font-size:14.5px}
+  .tip-rank{color:var(--muted);font-weight:700;margin-right:7px}
+  .tip-p{font-weight:800;font-size:16px;color:var(--accent);font-variant-numeric:tabular-nums;white-space:nowrap}
+  .tip-bar{height:5px;background:#22304a;border-radius:4px;overflow:hidden;margin-top:5px}
+  .tip-bar span{display:block;height:100%;background:var(--accent)}
+  .hitmark{font-size:13px;margin-left:7px}
+  .reason{font-size:13px;color:#c7d0dc;margin:12px 0 0}
   .chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
   .chip{font-size:11px;background:var(--card2);border:1px solid var(--line);color:#bcc7d6;padding:3px 8px;border-radius:8px}
   .upset{font-size:12.5px;background:#241a12;border-left:3px solid var(--away);
     padding:8px 10px;border-radius:0 8px 8px 0;color:#ecc9b6;margin-top:8px}
   .upset b{color:var(--away)}
-  .result{margin-top:8px;font-size:13px;font-weight:700}
+  .result{margin-top:10px;font-size:13px;font-weight:700;padding:7px 10px;border-radius:8px;background:var(--card2)}
   .hit{color:var(--accent)} .miss{color:var(--away)}
-  .basisline{font-size:11.5px;color:#9fb0c4;margin:10px 0 0;font-style:italic}
-  details.basis{margin-top:8px;border-top:1px dashed var(--line);padding-top:8px}
+  details.basis{margin-top:10px;border-top:1px dashed var(--line);padding-top:8px}
   details.basis summary{cursor:pointer;font-size:12px;color:var(--accent);font-weight:600;list-style:none}
   details.basis summary::-webkit-details-marker{display:none}
-  details.basis summary::before{content:"▸ "}
-  details.basis[open] summary::before{content:"▾ "}
+  details.basis summary::before{content:"▸ "} details.basis[open] summary::before{content:"▾ "}
   .btab{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:11.5px;color:#c2cdda;margin-top:10px}
   .btab b{color:var(--muted);font-weight:600;white-space:nowrap}
-  .side{margin-top:34px}
+  .side{margin-top:18px}
   .side h2{font-size:16px;margin:0 0 10px}
-  .elo{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px}
-  .erow{display:flex;justify-content:space-between;background:var(--card);border:1px solid var(--line);
-    border-radius:8px;padding:6px 10px;font-size:13px}
+  .kpis{display:flex;gap:22px;flex-wrap:wrap}
+  .kpi b{font-size:26px;display:block}
+  .kpi span{color:var(--muted);font-size:11px}
+  .elo,.odds{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:6px}
+  .erow,.orow{display:flex;justify-content:space-between;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:13px}
   .erow .r{color:var(--muted);width:22px} .erow .v{color:var(--gold);font-variant-numeric:tabular-nums}
-  .odds{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px}
-  .orow{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px}
-  .orow .t{font-weight:600;font-size:14px} .orow .p{color:var(--gold);font-size:13px}
-  .obar{height:6px;background:#22304a;border-radius:4px;overflow:hidden;margin-top:5px}
-  .obar span{display:block;height:100%;background:var(--gold)}
+  .orow{flex-direction:column;gap:4px}
+  .orow .t{font-weight:600} .orow .p{color:var(--gold)}
+  .obar{height:6px;background:#22304a;border-radius:4px;overflow:hidden} .obar span{display:block;height:100%;background:var(--gold)}
   footer{color:var(--muted);font-size:11px;margin-top:40px;text-align:center}
-  .legend{font-size:11px;color:var(--muted);margin-top:6px}
-  .legend b.h{color:var(--home)} .legend b.d{color:var(--draw)} .legend b.a{color:var(--away)}
   .hidden{display:none}
 </style>
 </head>
@@ -78,16 +80,15 @@
 <div class="wrap">
   <header>
     <h1>⚽ WM 2026 — Orakel</h1>
-    <div class="sub">KI-gestützte Vorhersagen auf Basis von 154 Jahren Fußball-Historie. Die KI urteilt, die Statistik ist ihr Werkzeug.</div>
+    <div class="sub">Die 3 wahrscheinlichsten Wett-Tipps pro Spiel (BWIN-Stil) auf Basis von 154 Jahren Fußball-Historie. Die KI urteilt, die Statistik ist ihr Werkzeug.</div>
     <div class="meta" id="meta"></div>
-    <div class="legend">Wahrscheinlichkeit: <b class="h">Heim</b> · <b class="d">Remis</b> · <b class="a">Auswärts</b> · Quelle: <span style="color:var(--purple)">Orakel</span> (verfeinert) / <span style="color:#86a0bb">Engine</span> (Modell)</div>
   </header>
 
   <div class="tabs">
-    <div class="tab active" data-view="matches" onclick="setView('matches')">Spiele &amp; Tipps</div>
+    <div class="tab active" data-view="matches" onclick="setView('matches')">⚽ Tipps</div>
     <div class="tab" data-view="bilanz" onclick="setView('bilanz')">📋 Bilanz</div>
     <div class="tab" data-view="odds" onclick="setView('odds')">🏆 Titel-Odds</div>
-    <div class="tab" data-view="elo" onclick="setView('elo')">📊 Elo-Rangliste</div>
+    <div class="tab" data-view="elo" onclick="setView('elo')">📊 Elo</div>
   </div>
 
   <div id="view-matches"><div class="grid" id="cards"></div></div>
@@ -105,43 +106,64 @@ const confClass = c => 'c-' + (c||'').replace(/ä/g,'a').replace(/[^a-z]/gi,'');
 const pct = x => Math.round((x||0)*100) + '%';
 const r0 = x => Math.round(x);
 
+function marketHit(key, rh, ra){
+  const tot=rh+ra;
+  const d={'1':rh>ra,'X':rh===ra,'2':ra>rh,'1X':rh>=ra,'X2':ra>=rh,'12':rh!==ra,
+    'BTTS_yes':rh>=1&&ra>=1,'BTTS_no':!(rh>=1&&ra>=1),'home_o15':rh>=2,'away_o15':ra>=2};
+  if(key in d) return d[key];
+  if(key[0]==='O') return tot>parseFloat(key[1]+'.'+key.slice(2));
+  if(key[0]==='U') return tot<parseFloat(key[1]+'.'+key.slice(2));
+  return null;
+}
+
+function tipsHtml(p){
+  const tips=p.top_tips||[]; const res=p.result;
+  return `<div class="tipshead">Die 3 wahrscheinlichsten Tipps</div>` + tips.map((t,i)=>{
+    let mark='';
+    if(res){const h=marketHit(t.key,res.home,res.away); if(h!==null) mark=`<span class="hitmark">${h?'✅':'❌'}</span>`;}
+    return `<div class="tip"><div class="tip-top">
+      <div class="tip-label"><span class="tip-rank">${i+1}</span>${t.label}${mark}</div>
+      <div class="tip-p">${pct(t.p)}</div></div>
+      <div class="tip-bar"><span style="width:${pct(t.p)}"></span></div></div>`;
+  }).join('');
+}
+
 function basisHtml(p){
   const b=p.basis||{}, m=b.model||{}, c=b.calibration||{}, h=p.home, a=p.away;
   const fh=(b.form||{})[h]||{}, fa=(b.form||{})[a]||{};
-  const tl=(m.top_scorelines||[]).map(t=>`${t.score} (${pct(t.p)})`).join(', ');
-  return `<p class="basisline">${b.basis_text||''}</p>
-  <details class="basis"><summary>Basis &amp; Berechnung im Detail</summary>
+  const mk=p.markets||{};
+  return `<details class="basis"><summary>Basis & Berechnung im Detail</summary>
     <div class="btab">
+      <b>1X2</b><span>Heim ${pct(mk['1'])} · Remis ${pct(mk['X'])} · Auswärts ${pct(mk['2'])}</span>
+      <b>Doppelte Chance</b><span>1X ${pct(mk['1X'])} · X2 ${pct(mk['X2'])} · 12 ${pct(mk['12'])}</span>
+      <b>Über/Unter</b><span>Ü1,5 ${pct(mk['O15'])} · Ü2,5 ${pct(mk['O25'])} · Ü3,5 ${pct(mk['O35'])}</span>
+      <b>Beide treffen</b><span>Ja ${pct(mk['BTTS_yes'])} · Nein ${pct(mk['BTTS_no'])}</span>
+      <b>Modell-Ergebnis</b><span>${p.pick?`${p.pick.home}:${p.pick.away}`:'–'} (λ ${m.lambda_home}–${m.lambda_away})</span>
       <b>Elo</b><span>${h}: ${r0(b.elo[h])} · ${a}: ${r0(b.elo[a])} · Δ ${b.elo.diff>0?'+':''}${r0(b.elo.diff)}</span>
-      <b>Form L5</b><span>${h}: ${fh.seq5||'–'} (${fh.gf5}:${fh.ga5}, ${fh.pts5} Pkt) · ${a}: ${fa.seq5||'–'} (${fa.gf5}:${fa.ga5}, ${fa.pts5} Pkt)</span>
+      <b>Form L5</b><span>${h}: ${fh.seq5||'–'} (${fh.gf5}:${fh.ga5}) · ${a}: ${fa.seq5||'–'} (${fa.gf5}:${fa.ga5})</span>
       <b>H2H</b><span>${b.h2h.meetings} Begegnungen${b.h2h.meetings?` · aus ${h}-Sicht ${b.h2h.home_persp} · Tore ${b.h2h.goals}`:''}</span>
-      <b>Modell</b><span>P ${pct(m.p_home)}/${pct(m.p_draw)}/${pct(m.p_away)} · λ ${m.lambda_home}–${m.lambda_away} · Ergebnisse: ${tl}</span>
-      <b>Kalibrierung</b><span>goals/Elo ${c.goals_per_elo} · Basis-Tore ${c.base_total} · ρ ${c.rho} · Holdout-LogLoss ${c.holdout_logloss}</span>
-    </div>
-  </details>`;
+      <b>Kalibrierung</b><span>goals/Elo ${c.goals_per_elo} · ρ ${c.rho} · Holdout-LogLoss ${c.holdout_logloss}</span>
+    </div></details>`;
 }
 
 function card(p){
-  const isO = (p.source||'').startsWith('Orakel');
+  const isO=(p.source||'').startsWith('Orakel');
   let resHtml='';
   if(p.result){
-    const ok = p.result.home===p.pick.home && p.result.away===p.pick.away;
-    const tend = Math.sign(p.pick.home-p.pick.away)===Math.sign(p.result.home-p.result.away);
-    resHtml=`<div class="result ${ok||tend?'hit':'miss'}">Endstand: ${p.result.home}:${p.result.away} — ${ok?'✅ exakt':(tend?'➗ Tendenz richtig':'❌ daneben')}</div>`;
+    const hits=(p.top_tips||[]).map(t=>marketHit(t.key,p.result.home,p.result.away));
+    const nHit=hits.filter(h=>h===true).length, nG=hits.filter(h=>h!==null).length;
+    resHtml=`<div class="result ${nHit>=2?'hit':(nHit===0?'miss':'')}">Endstand ${p.result.home}:${p.result.away} — <b>${nHit}/${nG}</b> Top-Tipps getroffen</div>`;
   }
   return `<div class="card">
     <div class="top">
       <div><div class="teams">${p.home} <span style="color:var(--muted)">vs</span> ${p.away}</div><div class="city">${p.city||''}</div></div>
-      <div><div class="score">${p.pick.home}:${p.pick.away}</div>
-        <div class="badges"><span class="src ${isO?'src-o':'src-e'}">${isO?'Orakel':'Engine'}</span>
-        <span class="conf ${confClass(p.confidence)}">${p.confidence}</span></div></div>
+      <div class="badges"><span class="src ${isO?'src-o':'src-e'}">${isO?'Orakel':'Engine'}</span>
+        <span class="conf ${confClass(p.confidence)}">${p.confidence}</span></div>
     </div>
-    <div class="bar"><span class="h" style="width:${pct(p.probs.home)}"></span><span class="d" style="width:${pct(p.probs.draw)}"></span><span class="a" style="width:${pct(p.probs.away)}"></span></div>
-    <div class="pl"><span>${pct(p.probs.home)}</span><span>${pct(p.probs.draw)}</span><span>${pct(p.probs.away)}</span></div>
-    <div class="reason">${p.reasoning||''}</div>
-    <div class="chips">${(p.key_factors||[]).map(f=>`<span class="chip">${f}</span>`).join('')}</div>
-    ${p.upset_watch?`<div class="upset"><b>Überraschungs-Radar:</b> ${p.upset_watch}</div>`:''}
+    ${tipsHtml(p)}
     ${resHtml}
+    ${p.reasoning?`<div class="reason">${p.reasoning}</div>`:''}
+    ${(p.upset_watch)?`<div class="upset"><b>Überraschungs-Radar:</b> ${p.upset_watch}</div>`:''}
     ${basisHtml(p)}
   </div>`;
 }
@@ -151,97 +173,70 @@ const m=D.meta||{}, par=D.params||{};
 document.getElementById('meta').innerHTML =
   `Datenbasis: <b>${(m.n_historical_matches||0).toLocaleString('de-DE')}</b> Länderspiele `
   +`(${(m.history_range||[])[0]}–${(m.history_range||[])[1]}) · ${m.n_participants||48} Teilnehmer`
-  +(par.holdout_logloss?` · Modell kalibriert (Holdout-LogLoss ${par.holdout_logloss})`:'')
-  +` · ${D.n_oracle_refined||0} Spiele Orakel-verfeinert`;
+  +(par.holdout_logloss?` · Modell kalibriert`:'')+` · ${D.n_oracle_refined||0} Spiele Orakel-verfeinert`;
 
-// Cards grouped by date
-const cardsEl=document.getElementById('cards');
-let lastDate=null;
+// Cards by date
+const cardsEl=document.getElementById('cards'); let last=null;
 const fmt=d=>{try{return new Date(d+'T00:00:00').toLocaleDateString('de-DE',{weekday:'long',day:'2-digit',month:'long'})}catch(e){return d}};
 (D.predictions||[]).forEach(p=>{
-  if(p.date!==lastDate){lastDate=p.date;cardsEl.insertAdjacentHTML('beforeend',`<div class="daterow">${fmt(p.date)}</div>`);}
+  if(p.date!==last){last=p.date;cardsEl.insertAdjacentHTML('beforeend',`<div class="daterow">${fmt(p.date)}</div>`);}
   cardsEl.insertAdjacentHTML('beforeend',card(p));
 });
-if(!(D.predictions||[]).length) cardsEl.innerHTML='<div class="daterow">Noch keine Vorhersagen.</div>';
+
+// Bilanz
+(function(){
+  const el=document.getElementById('bilanz'); const sc=D.scorecard, bt=D.backtest; let html='';
+  html+=`<h2>📋 Live-Bilanz WM 2026 — schwarz auf weiß</h2>`;
+  if(sc&&sc.summary&&sc.summary.gewertet>0){
+    const s=sc.summary;
+    html+=`<div class="card" style="margin-bottom:14px"><div class="kpis">
+      <div class="kpi"><b style="color:var(--accent)">${Math.round((s.markt_dc_quote||0)*100)}%</b><span>Doppelte Chance</span></div>
+      <div class="kpi"><b style="color:var(--gold)">${Math.round((s.tipps_quote||0)*100)}%</b><span>Top-Tipps gesamt (${s.tipps_treffer}/${s.tipps_gesamt})</span></div>
+      <div class="kpi"><b>${Math.round((s.bester_tipp_quote||0)*100)}%</b><span>bester Tipp/Spiel</span></div>
+      <div class="kpi"><b>${Math.round((s.markt_1x2_quote||0)*100)}%</b><span>Spielausgang (1X2)</span></div>
+      <div class="kpi"><b>${s.gewertet}</b><span>gewertete Spiele</span></div>
+    </div></div>
+    <div class="btab" style="background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px">
+    ${sc.games.map(g=>{const marks=(g.tips||[]).map(t=>t.hit?'✅':'❌').join(' ');
+      return `<b>${g.date}</b><span>${g.match} ${g.result} — ${marks}</span>`;}).join('')}</div>`;
+  } else { html+=`<p class="reason">Noch keine gewerteten Spiele — die Bilanz füllt sich automatisch.</p>`; }
+  if(sc&&sc.retro&&sc.retro.length){
+    html+=`<p class="reason">⚖️ ${sc.retro.length} Spiel(e) ungewertet (Tipp entstand nach Spielende) — Integrität: gewertet wird nur, was vor Anpfiff eingefroren war.</p>`;
+  }
+  if(bt&&bt.total){
+    const t=bt.total;
+    html+=`<h2 style="margin-top:26px">🧪 Track Record — Blind-Backtest gegen WM 2018 + 2022</h2>
+      <p class="reason">${t.n} echte WM-Spiele, blind getippt (nur mit dem Elo-Stand vom Vortag). Das ist die ehrliche, gemessene Erwartung:</p>
+      <div class="card"><div class="kpis">
+        <div class="kpi"><b style="color:var(--accent)">${Math.round(t.hit_dc*100)}%</b><span>Doppelte Chance</span></div>
+        <div class="kpi"><b style="color:var(--gold)">${Math.round(t.top1*100)}%</b><span>bester Tipp/Spiel</span></div>
+        <div class="kpi"><b>${Math.round(t.top3_avg*100)}%</b><span>alle 3 Tipps (Schnitt)</span></div>
+        <div class="kpi"><b>${Math.round(t.hit_1x2*100)}%</b><span>1X2</span></div>
+        <div class="kpi"><b>${Math.round(t.hit_ou25*100)}%</b><span>Über/Unter 2,5</span></div>
+      </div>
+      <p class="reason" style="margin-top:10px">Zum Vergleich — exaktes Ergebnis trifft nur ${Math.round(t.exakt_quote*100)}%. Genau deshalb tippen wir Märkte statt exakte Resultate.</p></div>`;
+  }
+  el.innerHTML=html;
+})();
 
 // Elo
 document.getElementById('elo').innerHTML=(D.elo_top||[]).map((e,i)=>
   `<div class="erow"><span class="r">${i+1}</span><span>${e.team}</span><span class="v">${r0(e.elo)}</span></div>`).join('');
 
-// Title odds
-const odds=document.getElementById('odds');
-const T=D.tournament;
-if(T && T.teams && T.teams.length){
-  const max=Math.max(...T.teams.map(t=>t.p_winner||0))||1;
+// Titel-Odds
+const odds=document.getElementById('odds'); const T=D.tournament;
+if(T&&T.teams&&T.teams.length){
+  const mx=Math.max(...T.teams.map(t=>t.p_winner||0))||1;
   odds.innerHTML=T.teams.slice(0,16).map(t=>
-    `<div class="orow"><div style="display:flex;justify-content:space-between"><span class="t">${t.team}</span><span class="p">${(t.p_winner*100).toFixed(1)}%</span></div>
-     <div class="obar"><span style="width:${(t.p_winner/max*100).toFixed(0)}%"></span></div></div>`).join('');
-} else {
-  odds.innerHTML=`<div class="basisline">Titel-Odds werden aus einer Monte-Carlo-Turniersimulation berechnet — kommt im nächsten Schritt.</div>`;
-}
+    `<div class="orow"><div style="display:flex;justify-content:space-between;width:100%"><span class="t">${t.team}</span><span class="p">${(t.p_winner*100).toFixed(1)}%</span></div>
+     <div class="obar" style="width:100%"><span style="width:${(t.p_winner/mx*100).toFixed(0)}%"></span></div></div>`).join('');
+} else { odds.innerHTML=`<p class="reason">Titel-Odds aus Monte-Carlo-Simulation — folgt.</p>`; }
 
-// Bilanz (Live-Scorecard + Backtest-Track-Record)
-(function(){
-  const el=document.getElementById('bilanz');
-  const sc=D.scorecard, bt=D.backtest;
-  let html='';
+function setView(v){['matches','bilanz','odds','elo'].forEach(x=>{
+  document.getElementById('view-'+x).classList.toggle('hidden',x!==v);
+  document.querySelector(`.tab[data-view="${x}"]`).classList.toggle('active',x===v);});}
 
-  html+=`<h2>📋 Live-Bilanz WM 2026 — schwarz auf weiß</h2>`;
-  if(sc&&sc.summary&&sc.summary.gewertet>0){
-    const s=sc.summary;
-    html+=`<div class="card" style="margin-bottom:14px">
-      <div style="display:flex;gap:24px;flex-wrap:wrap;font-size:14px">
-        <div><b style="font-size:24px;color:var(--gold)">${s.kicktipp_pts}</b><br><span style="color:var(--muted);font-size:11px">Kicktipp-Punkte (4/3/2)</span></div>
-        <div><b style="font-size:24px;color:var(--accent)">${s.exakt}</b><br><span style="color:var(--muted);font-size:11px">exakt getroffen</span></div>
-        <div><b style="font-size:24px">${Math.round((s.tendenz_quote||0)*100)}%</b><br><span style="color:var(--muted);font-size:11px">Punkte-Quote</span></div>
-        <div><b style="font-size:24px">${s.brier_avg??'–'}</b><br><span style="color:var(--muted);font-size:11px">Brier (kleiner=besser)</span></div>
-        <div><b style="font-size:24px">${s.gewertet}</b><br><span style="color:var(--muted);font-size:11px">gewertete Spiele</span></div>
-      </div></div>
-      <div class="btab" style="background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px">
-      ${sc.games.map(g=>`<b>${g.date}</b><span>${g.match} — Tipp ${g.pick}, Ergebnis ${g.result} →
-        <b style="color:${g.pts>=3?'var(--accent)':(g.pts===2?'var(--gold)':'var(--away)')}">${g.cat} (${g.pts} Pkt)</b></span>`).join('')}
-      </div>`;
-  } else {
-    html+=`<p class="basisline">Noch keine gewerteten Spiele — die Bilanz füllt sich automatisch, sobald getippte Partien beendet sind.</p>`;
-  }
-  if(sc&&sc.retro&&sc.retro.length){
-    html+=`<p class="basisline">⚖️ Integrität: ${sc.retro.length} Spiel(e) ungewertet, weil der Tipp erst nach Spielende entstand
-      (${sc.retro.map(r=>`${r.match}: Tipp ${r.pick} / Ergebnis ${r.result}`).join(' · ')}). Gewertet wird nur, was vor Anpfiff im Ledger eingefroren war.</p>`;
-  }
-
-  if(bt&&bt.tournaments){
-    html+=`<h2 style="margin-top:26px">🧪 Track Record — Blind-Backtest gegen echte WMs</h2>
-      <p class="basisline">Die Engine hat die WM 2018 und WM 2022 rückwirkend 'blind' getippt — nur mit dem Elo-Stand vom Tag vor jedem Spiel (kein Blick in die Zukunft), gewertet gegen die echten Ergebnisse.</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px">`;
-    for(const [y,s] of Object.entries(bt.tournaments)){
-      html+=`<div class="card"><b style="color:var(--gold)">WM ${y}</b> (${s.n} Spiele)
-        <div class="btab" style="margin-top:8px">
-          <b>Kicktipp</b><span>${s.kicktipp_pts} Pkt (Ø ${s.kicktipp_avg}/Spiel)</span>
-          <b>Tendenz</b><span>${Math.round(s.tendenz_quote*100)}% richtig</span>
-          <b>Verteilung</b><span>${s.exakt}× exakt · ${s.tordifferenz}× Tordiff. · ${s.tendenz}× Tendenz · ${s.daneben}× daneben</span>
-        </div></div>`;
-    }
-    html+=`</div>`;
-    if(bt.total){
-      html+=`<p class="basisline" style="margin-top:10px"><b>Gesamt über ${bt.total.n} echte WM-Spiele:</b>
-        Tendenz ${Math.round(bt.total.tendenz_quote*100)}% · exakt ${Math.round(bt.total.exakt_quote*100)}% · Ø ${bt.total.kicktipp_avg} Kicktipp-Punkte/Spiel —
-        das ist die ehrliche, gemessene Erwartung (zzgl. Orakel-Verfeinerung obendrauf).</p>`;
-    }
-  }
-  el.innerHTML=html;
-})();
-
-// Tabs
-function setView(v){
-  ['matches','bilanz','odds','elo'].forEach(x=>{
-    document.getElementById('view-'+x).classList.toggle('hidden',x!==v);
-    document.querySelector(`.tab[data-view="${x}"]`).classList.toggle('active',x===v);
-  });
-}
-
-// Footer
-document.getElementById('foot').innerHTML=
-  `${D.oracle||'Claude-Orakel'} · Stand ${D.generated_at||''}<br>Nur für den privaten Gebrauch. 🤫`;
+document.getElementById('foot').innerHTML=`${D.oracle||'Claude-Orakel'} · Stand ${D.generated_at||''}<br>Nur für den privaten Gebrauch. 🤫`;
 </script>
 </body>
 </html>

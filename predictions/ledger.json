@@ -674,7 +674,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1772 vs 1732 (Δ +40) · Form letzte 5 DWWLD (10:9) vs DWDLL (2:7) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 40%/28%/32%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "12",
+    "p": 0.72,
+    "label": "Kein Remis (einer gewinnt)"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.58,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.403,
+   "X": 0.28,
+   "2": 0.317,
+   "1X": 0.683,
+   "X2": 0.597,
+   "12": 0.72,
+   "DNB1": 0.56,
+   "DNB2": 0.44,
+   "BTTS_yes": 0.58,
+   "BTTS_no": 0.42,
+   "home_o15": 0.441,
+   "away_o15": 0.375,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-009": {
@@ -771,7 +808,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2011 vs 1996 (Δ +15) · Form letzte 5 WWDLW (9:4) vs WWWWW (8:0) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 38%/28%/34%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "12",
+    "p": 0.719,
+    "label": "Kein Remis (einer gewinnt)"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.582,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.376,
+   "X": 0.281,
+   "2": 0.343,
+   "1X": 0.657,
+   "X2": 0.624,
+   "12": 0.719,
+   "DNB1": 0.523,
+   "DNB2": 0.477,
+   "BTTS_yes": 0.582,
+   "BTTS_no": 0.418,
+   "home_o15": 0.421,
+   "away_o15": 0.395,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-010": {
@@ -868,7 +942,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2003 vs 1614 (Δ +390) · Form letzte 5 WWWWW (18:5) vs DLLLW (6:11) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 79%/16%/5%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "1",
+    "p": 0.788,
+    "label": "Germany gewinnt"
+   },
+   {
+    "key": "O15",
+    "p": 0.777,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.677,
+    "label": "Germany über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.788,
+   "X": 0.163,
+   "2": 0.049,
+   "1X": 0.951,
+   "X2": 0.212,
+   "12": 0.837,
+   "DNB1": 0.941,
+   "DNB2": 0.059,
+   "BTTS_yes": 0.343,
+   "BTTS_no": 0.657,
+   "home_o15": 0.677,
+   "away_o15": 0.08,
+   "O15": 0.777,
+   "U15": 0.223,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-011": {
@@ -964,7 +1075,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1812 vs 2032 (Δ -220) · Form letzte 5 WLWWW (12:4) vs WDDWW (9:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 15%/24%/61%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.781,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "2",
+    "p": 0.609,
+    "label": "Ecuador gewinnt"
+   },
+   {
+    "key": "away_o15",
+    "p": 0.574,
+    "label": "Ecuador über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.152,
+   "X": 0.24,
+   "2": 0.609,
+   "1X": 0.391,
+   "X2": 0.848,
+   "12": 0.76,
+   "DNB1": 0.199,
+   "DNB2": 0.801,
+   "BTTS_yes": 0.51,
+   "BTTS_no": 0.49,
+   "home_o15": 0.218,
+   "away_o15": 0.574,
+   "O15": 0.781,
+   "U15": 0.219,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-012": {
@@ -1061,7 +1209,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1951 vs 1813 (Δ +138) · Form letzte 5 WWDWW (20:3) vs DWDWL (6:2) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 52%/26%/22%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.782,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1X",
+    "p": 0.78,
+    "label": "Belgium oder Remis"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.554,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.516,
+   "X": 0.264,
+   "2": 0.22,
+   "1X": 0.78,
+   "X2": 0.484,
+   "12": 0.736,
+   "DNB1": 0.701,
+   "DNB2": 0.299,
+   "BTTS_yes": 0.554,
+   "BTTS_no": 0.446,
+   "home_o15": 0.517,
+   "away_o15": 0.289,
+   "O15": 0.782,
+   "U15": 0.218,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-013": {
@@ -1158,7 +1343,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1898 vs 1720 (Δ +178) · Form letzte 5 DLWWW (11:3) vs LLWLL (4:10) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 56%/25%/19%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.782,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.561,
+    "label": "Iran gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.545,
+    "label": "Iran über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.561,
+   "X": 0.254,
+   "2": 0.186,
+   "1X": 0.814,
+   "X2": 0.439,
+   "12": 0.746,
+   "DNB1": 0.751,
+   "DNB2": 0.249,
+   "BTTS_yes": 0.535,
+   "BTTS_no": 0.465,
+   "home_o15": 0.545,
+   "away_o15": 0.255,
+   "O15": 0.782,
+   "U15": 0.218,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-014": {
@@ -1255,7 +1477,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2229 vs 1644 (Δ +585) · Form letzte 5 DWDDW (9:4) vs DLDWL (7:9) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 90%/9%/1%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "1",
+    "p": 0.905,
+    "label": "Spain gewinnt"
+   },
+   {
+    "key": "BTTS_no",
+    "p": 0.842,
+    "label": "Nicht beide treffen"
+   },
+   {
+    "key": "O15",
+    "p": 0.801,
+    "label": "Über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.905,
+   "X": 0.086,
+   "2": 0.01,
+   "1X": 0.99,
+   "X2": 0.095,
+   "12": 0.914,
+   "DNB1": 0.99,
+   "DNB2": 0.01,
+   "BTTS_yes": 0.158,
+   "BTTS_no": 0.842,
+   "home_o15": 0.769,
+   "away_o15": 0.014,
+   "O15": 0.801,
+   "U15": 0.199,
+   "O25": 0.572,
+   "U25": 0.428,
+   "O35": 0.348,
+   "U35": 0.652
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-015": {
@@ -1352,7 +1611,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1697 vs 1979 (Δ -282) · Form letzte 5 LLLWD (5:8) vs WDLDD (4:7) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 11%/21%/68%, wahrscheinlichstes Ergebnis 0:2."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.78,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "2",
+    "p": 0.678,
+    "label": "Uruguay gewinnt"
+   },
+   {
+    "key": "away_o15",
+    "p": 0.614,
+    "label": "Uruguay über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.107,
+   "X": 0.215,
+   "2": 0.678,
+   "1X": 0.322,
+   "X2": 0.893,
+   "12": 0.785,
+   "DNB1": 0.137,
+   "DNB2": 0.863,
+   "BTTS_yes": 0.461,
+   "BTTS_no": 0.539,
+   "home_o15": 0.164,
+   "away_o15": 0.614,
+   "O15": 0.78,
+   "U15": 0.22,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-016": {
@@ -1449,7 +1745,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1890 vs 1778 (Δ +112) · Form letzte 5 WDWWW (10:2) vs LDDLL (7:13) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 49%/27%/24%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1X",
+    "p": 0.756,
+    "label": "Austria oder Remis"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.563,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.486,
+   "X": 0.27,
+   "2": 0.244,
+   "1X": 0.756,
+   "X2": 0.514,
+   "12": 0.73,
+   "DNB1": 0.665,
+   "DNB2": 0.335,
+   "BTTS_yes": 0.563,
+   "BTTS_no": 0.437,
+   "home_o15": 0.497,
+   "away_o15": 0.312,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-017": {
@@ -1546,7 +1879,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2194 vs 1890 (Δ +303) · Form letzte 5 WWWWW (14:1) vs LWDWW (12:2) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 70%/21%/9%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.779,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.701,
+    "label": "Argentina gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.627,
+    "label": "Argentina über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.701,
+   "X": 0.205,
+   "2": 0.094,
+   "1X": 0.906,
+   "X2": 0.299,
+   "12": 0.795,
+   "DNB1": 0.881,
+   "DNB2": 0.119,
+   "BTTS_yes": 0.441,
+   "BTTS_no": 0.559,
+   "home_o15": 0.627,
+   "away_o15": 0.146,
+   "O15": 0.779,
+   "U15": 0.221,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-018": {
@@ -1643,7 +2013,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2134 vs 1916 (Δ +218) · Form letzte 5 WWWLW (12:6) vs LWWLD (7:7) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 61%/24%/15%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.781,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.607,
+    "label": "France gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.573,
+    "label": "France über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.607,
+   "X": 0.24,
+   "2": 0.153,
+   "1X": 0.847,
+   "X2": 0.393,
+   "12": 0.76,
+   "DNB1": 0.799,
+   "DNB2": 0.201,
+   "BTTS_yes": 0.511,
+   "BTTS_no": 0.489,
+   "home_o15": 0.573,
+   "away_o15": 0.219,
+   "O15": 0.781,
+   "U15": 0.219,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-019": {
@@ -1740,7 +2147,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1740 vs 1986 (Δ -246) · Form letzte 5 LWWDL (4:5) vs WLDWD (9:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 13%/23%/64%, wahrscheinlichstes Ergebnis 0:2."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.781,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "2",
+    "p": 0.638,
+    "label": "Norway gewinnt"
+   },
+   {
+    "key": "away_o15",
+    "p": 0.591,
+    "label": "Norway über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.132,
+   "X": 0.23,
+   "2": 0.638,
+   "1X": 0.362,
+   "X2": 0.868,
+   "12": 0.77,
+   "DNB1": 0.171,
+   "DNB2": 0.829,
+   "BTTS_yes": 0.491,
+   "BTTS_no": 0.509,
+   "home_o15": 0.194,
+   "away_o15": 0.591,
+   "O15": 0.781,
+   "U15": 0.219,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-020": {
@@ -1837,7 +2281,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2063 vs 1766 (Δ +297) · Form letzte 5 WDWWW (15:3) vs LWWDL (4:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 69%/21%/10%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.779,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.694,
+    "label": "Portugal gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.624,
+    "label": "Portugal über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.694,
+   "X": 0.208,
+   "2": 0.098,
+   "1X": 0.902,
+   "X2": 0.306,
+   "12": 0.792,
+   "DNB1": 0.876,
+   "DNB2": 0.124,
+   "BTTS_yes": 0.447,
+   "BTTS_no": 0.553,
+   "home_o15": 0.624,
+   "away_o15": 0.151,
+   "O15": 0.779,
+   "U15": 0.221,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-021": {
@@ -1934,7 +2415,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1822 vs 2068 (Δ -246) · Form letzte 5 DWDLL (6:7) vs WLLWW (10:6) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 13%/23%/64%, wahrscheinlichstes Ergebnis 0:2."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.781,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "2",
+    "p": 0.638,
+    "label": "Colombia gewinnt"
+   },
+   {
+    "key": "away_o15",
+    "p": 0.591,
+    "label": "Colombia über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.132,
+   "X": 0.23,
+   "2": 0.638,
+   "1X": 0.362,
+   "X2": 0.868,
+   "12": 0.77,
+   "DNB1": 0.172,
+   "DNB2": 0.828,
+   "BTTS_yes": 0.491,
+   "BTTS_no": 0.509,
+   "home_o15": 0.195,
+   "away_o15": 0.591,
+   "O15": 0.781,
+   "U15": 0.219,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-022": {
@@ -2031,7 +2549,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2099 vs 1973 (Δ +126) · Form letzte 5 WDLWW (7:2) vs WWLLW (8:9) · H2H 11 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 50%/27%/23%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1X",
+    "p": 0.769,
+    "label": "England oder Remis"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.559,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.501,
+   "X": 0.267,
+   "2": 0.231,
+   "1X": 0.769,
+   "X2": 0.499,
+   "12": 0.733,
+   "DNB1": 0.684,
+   "DNB2": 0.316,
+   "BTTS_yes": 0.559,
+   "BTTS_no": 0.441,
+   "home_o15": 0.507,
+   "away_o15": 0.3,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-023": {
@@ -2128,7 +2683,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1614 vs 1864 (Δ -250) · Form letzte 5 LLLLD (3:11) vs DWLWD (10:11) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 13%/23%/64%, wahrscheinlichstes Ergebnis 0:2."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.781,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "2",
+    "p": 0.642,
+    "label": "Panama gewinnt"
+   },
+   {
+    "key": "away_o15",
+    "p": 0.594,
+    "label": "Panama über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.13,
+   "X": 0.228,
+   "2": 0.642,
+   "1X": 0.358,
+   "X2": 0.87,
+   "12": 0.772,
+   "DNB1": 0.168,
+   "DNB2": 0.832,
+   "BTTS_yes": 0.488,
+   "BTTS_no": 0.512,
+   "home_o15": 0.192,
+   "away_o15": 0.594,
+   "O15": 0.781,
+   "U15": 0.219,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-024": {
@@ -2225,7 +2817,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1784 vs 1661 (Δ +123) · Form letzte 5 DDWWL (12:8) vs DLDWL (3:5) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 50%/27%/23%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1X",
+    "p": 0.766,
+    "label": "Czech Republic oder Remis"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.56,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.498,
+   "X": 0.268,
+   "2": 0.234,
+   "1X": 0.766,
+   "X2": 0.502,
+   "12": 0.732,
+   "DNB1": 0.681,
+   "DNB2": 0.319,
+   "BTTS_yes": 0.56,
+   "BTTS_no": 0.44,
+   "home_o15": 0.505,
+   "away_o15": 0.302,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-025": {
@@ -2322,7 +2951,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1996 vs 1906 (Δ +90) · Form letzte 5 DWWWW (11:2) vs LLWWW (8:6) · H2H 14 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 60%/24%/16%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.781,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.603,
+    "label": "Mexico gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.57,
+    "label": "Mexico über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.603,
+   "X": 0.241,
+   "2": 0.156,
+   "1X": 0.844,
+   "X2": 0.397,
+   "12": 0.759,
+   "DNB1": 0.795,
+   "DNB2": 0.205,
+   "BTTS_yes": 0.513,
+   "BTTS_no": 0.487,
+   "home_o15": 0.57,
+   "away_o15": 0.222,
+   "O15": 0.781,
+   "U15": 0.219,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-026": {
@@ -2419,7 +3085,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1925 vs 1663 (Δ +262) · Form letzte 5 LDWDD (9:7) vs DDDDD (4:4) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 66%/22%/12%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.78,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.656,
+    "label": "Switzerland gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.602,
+    "label": "Switzerland über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.656,
+   "X": 0.223,
+   "2": 0.121,
+   "1X": 0.879,
+   "X2": 0.344,
+   "12": 0.777,
+   "DNB1": 0.844,
+   "DNB2": 0.156,
+   "BTTS_yes": 0.478,
+   "BTTS_no": 0.522,
+   "home_o15": 0.602,
+   "away_o15": 0.181,
+   "O15": 0.78,
+   "U15": 0.22,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-027": {
@@ -2516,7 +3219,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1883 vs 1591 (Δ +293) · Form letzte 5 DDWDD (6:4) vs DLLDD (2:6) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 81%/15%/4%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "1",
+    "p": 0.813,
+    "label": "Canada gewinnt"
+   },
+   {
+    "key": "O15",
+    "p": 0.776,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "BTTS_no",
+    "p": 0.695,
+    "label": "Nicht beide treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.813,
+   "X": 0.148,
+   "2": 0.038,
+   "1X": 0.962,
+   "X2": 0.187,
+   "12": 0.852,
+   "DNB1": 0.955,
+   "DNB2": 0.045,
+   "BTTS_yes": 0.305,
+   "BTTS_no": 0.695,
+   "home_o15": 0.692,
+   "away_o15": 0.061,
+   "O15": 0.776,
+   "U15": 0.224,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.307,
+   "U35": 0.693
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-028": {
@@ -2613,7 +3353,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1924 vs 1871 (Δ +54) · Form letzte 5 WWWWL (8:3) vs WWLWL (9:7) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 42%/28%/30%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "12",
+    "p": 0.721,
+    "label": "Kein Remis (einer gewinnt)"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.578,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.419,
+   "X": 0.279,
+   "2": 0.302,
+   "1X": 0.698,
+   "X2": 0.581,
+   "12": 0.721,
+   "DNB1": 0.581,
+   "DNB2": 0.419,
+   "BTTS_yes": 0.578,
+   "BTTS_no": 0.422,
+   "home_o15": 0.452,
+   "away_o15": 0.363,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-029": {
@@ -2710,7 +3487,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1874 vs 1997 (Δ -123) · Form letzte 5 LLWWW (9:3) vs WWWDD (13:3) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 23%/27%/50%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "X2",
+    "p": 0.766,
+    "label": "Morocco oder Remis"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.56,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.234,
+   "X": 0.268,
+   "2": 0.498,
+   "1X": 0.502,
+   "X2": 0.766,
+   "12": 0.732,
+   "DNB1": 0.32,
+   "DNB2": 0.68,
+   "BTTS_yes": 0.56,
+   "BTTS_no": 0.44,
+   "home_o15": 0.303,
+   "away_o15": 0.505,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-030": {
@@ -2807,7 +3621,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2065 vs 1700 (Δ +365) · Form letzte 5 LWWWD (13:7) vs LDWLL (6:5) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 76%/18%/6%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.777,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.764,
+    "label": "Brazil gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.664,
+    "label": "Brazil über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.764,
+   "X": 0.175,
+   "2": 0.061,
+   "1X": 0.939,
+   "X2": 0.236,
+   "12": 0.825,
+   "DNB1": 0.926,
+   "DNB2": 0.074,
+   "BTTS_yes": 0.374,
+   "BTTS_no": 0.626,
+   "home_o15": 0.664,
+   "away_o15": 0.097,
+   "O15": 0.777,
+   "U15": 0.223,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-031": {
@@ -2904,7 +3755,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1883 vs 1957 (Δ -75) · Form letzte 5 LLWLW (10:12) vs WWLDW (9:3) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 41%/28%/31%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "12",
+    "p": 0.721,
+    "label": "Kein Remis (einer gewinnt)"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.578,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.415,
+   "X": 0.279,
+   "2": 0.306,
+   "1X": 0.694,
+   "X2": 0.585,
+   "12": 0.721,
+   "DNB1": 0.576,
+   "DNB2": 0.424,
+   "BTTS_yes": 0.578,
+   "BTTS_no": 0.422,
+   "home_o15": 0.449,
+   "away_o15": 0.366,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-032": {
@@ -3001,7 +3889,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2011 vs 1772 (Δ +239) · Form letzte 5 WWDLW (9:4) vs DWWLD (10:9) · H2H 25 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 63%/23%/14%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.781,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.631,
+    "label": "Netherlands gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.587,
+    "label": "Netherlands über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.631,
+   "X": 0.232,
+   "2": 0.137,
+   "1X": 0.863,
+   "X2": 0.369,
+   "12": 0.768,
+   "DNB1": 0.822,
+   "DNB2": 0.178,
+   "BTTS_yes": 0.496,
+   "BTTS_no": 0.504,
+   "home_o15": 0.587,
+   "away_o15": 0.201,
+   "O15": 0.781,
+   "U15": 0.219,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-033": {
@@ -3098,7 +4023,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1732 vs 1996 (Δ -264) · Form letzte 5 DWDLL (2:7) vs WWWWW (8:0) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 12%/22%/66%, wahrscheinlichstes Ergebnis 0:2."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.78,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "2",
+    "p": 0.658,
+    "label": "Japan gewinnt"
+   },
+   {
+    "key": "away_o15",
+    "p": 0.603,
+    "label": "Japan über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.12,
+   "X": 0.223,
+   "2": 0.658,
+   "1X": 0.342,
+   "X2": 0.88,
+   "12": 0.777,
+   "DNB1": 0.154,
+   "DNB2": 0.846,
+   "BTTS_yes": 0.477,
+   "BTTS_no": 0.523,
+   "home_o15": 0.18,
+   "away_o15": 0.603,
+   "O15": 0.78,
+   "U15": 0.22,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-034": {
@@ -3195,7 +4157,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2003 vs 1812 (Δ +192) · Form letzte 5 WWWWW (18:5) vs WLWWW (12:4) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 58%/25%/17%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.782,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.577,
+    "label": "Germany gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.555,
+    "label": "Germany über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.577,
+   "X": 0.249,
+   "2": 0.174,
+   "1X": 0.826,
+   "X2": 0.423,
+   "12": 0.751,
+   "DNB1": 0.768,
+   "DNB2": 0.232,
+   "BTTS_yes": 0.527,
+   "BTTS_no": 0.473,
+   "home_o15": 0.555,
+   "away_o15": 0.242,
+   "O15": 0.782,
+   "U15": 0.218,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-035": {
@@ -3292,7 +4291,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2032 vs 1614 (Δ +418) · Form letzte 5 WDDWW (9:3) vs DLLLW (6:11) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 81%/15%/4%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "1",
+    "p": 0.814,
+    "label": "Ecuador gewinnt"
+   },
+   {
+    "key": "O15",
+    "p": 0.776,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "BTTS_no",
+    "p": 0.695,
+    "label": "Nicht beide treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.814,
+   "X": 0.148,
+   "2": 0.038,
+   "1X": 0.962,
+   "X2": 0.186,
+   "12": 0.852,
+   "DNB1": 0.955,
+   "DNB2": 0.045,
+   "BTTS_yes": 0.305,
+   "BTTS_no": 0.695,
+   "home_o15": 0.692,
+   "away_o15": 0.061,
+   "O15": 0.776,
+   "U15": 0.224,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.307,
+   "U35": 0.693
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-036": {
@@ -3389,7 +4425,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1951 vs 1898 (Δ +53) · Form letzte 5 WWDWW (20:3) vs DLWWW (11:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 42%/28%/30%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "12",
+    "p": 0.721,
+    "label": "Kein Remis (einer gewinnt)"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.578,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.418,
+   "X": 0.279,
+   "2": 0.303,
+   "1X": 0.697,
+   "X2": 0.582,
+   "12": 0.721,
+   "DNB1": 0.58,
+   "DNB2": 0.42,
+   "BTTS_yes": 0.578,
+   "BTTS_no": 0.422,
+   "home_o15": 0.451,
+   "away_o15": 0.363,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-037": {
@@ -3486,7 +4559,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1720 vs 1813 (Δ -92) · Form letzte 5 LLWLL (4:10) vs DWDWL (6:2) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 26%/27%/46%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "X2",
+    "p": 0.737,
+    "label": "Egypt oder Remis"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.569,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.263,
+   "X": 0.274,
+   "2": 0.463,
+   "1X": 0.537,
+   "X2": 0.737,
+   "12": 0.726,
+   "DNB1": 0.363,
+   "DNB2": 0.637,
+   "BTTS_yes": 0.569,
+   "BTTS_no": 0.431,
+   "home_o15": 0.329,
+   "away_o15": 0.482,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-038": {
@@ -3583,7 +4693,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2229 vs 1697 (Δ +532) · Form letzte 5 DWDDW (9:4) vs LLLWD (5:8) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 89%/10%/1%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "1",
+    "p": 0.894,
+    "label": "Spain gewinnt"
+   },
+   {
+    "key": "BTTS_no",
+    "p": 0.843,
+    "label": "Nicht beide treffen"
+   },
+   {
+    "key": "O15",
+    "p": 0.781,
+    "label": "Über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.894,
+   "X": 0.096,
+   "2": 0.011,
+   "1X": 0.989,
+   "X2": 0.106,
+   "12": 0.904,
+   "DNB1": 0.988,
+   "DNB2": 0.012,
+   "BTTS_yes": 0.157,
+   "BTTS_no": 0.843,
+   "home_o15": 0.746,
+   "away_o15": 0.014,
+   "O15": 0.781,
+   "U15": 0.219,
+   "O25": 0.543,
+   "U25": 0.457,
+   "O35": 0.319,
+   "U35": 0.681
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-039": {
@@ -3680,7 +4827,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1979 vs 1644 (Δ +336) · Form letzte 5 WDLDD (4:7) vs DLDWL (7:9) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 73%/19%/8%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.778,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.734,
+    "label": "Uruguay gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.647,
+    "label": "Uruguay über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.734,
+   "X": 0.19,
+   "2": 0.076,
+   "1X": 0.924,
+   "X2": 0.266,
+   "12": 0.81,
+   "DNB1": 0.907,
+   "DNB2": 0.093,
+   "BTTS_yes": 0.408,
+   "BTTS_no": 0.592,
+   "home_o15": 0.647,
+   "away_o15": 0.12,
+   "O15": 0.778,
+   "U15": 0.222,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-040": {
@@ -3777,7 +4961,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2134 vs 1740 (Δ +394) · Form letzte 5 WWWLW (12:6) vs LWWDL (4:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 79%/16%/5%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "1",
+    "p": 0.792,
+    "label": "France gewinnt"
+   },
+   {
+    "key": "O15",
+    "p": 0.777,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.679,
+    "label": "France über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.792,
+   "X": 0.161,
+   "2": 0.048,
+   "1X": 0.952,
+   "X2": 0.208,
+   "12": 0.839,
+   "DNB1": 0.943,
+   "DNB2": 0.057,
+   "BTTS_yes": 0.338,
+   "BTTS_no": 0.662,
+   "home_o15": 0.679,
+   "away_o15": 0.077,
+   "O15": 0.777,
+   "U15": 0.223,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-041": {
@@ -3874,7 +5095,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1986 vs 1916 (Δ +70) · Form letzte 5 WLDWD (9:5) vs LWWLD (7:7) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 44%/28%/29%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "12",
+    "p": 0.723,
+    "label": "Kein Remis (einer gewinnt)"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.575,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.438,
+   "X": 0.277,
+   "2": 0.285,
+   "1X": 0.715,
+   "X2": 0.562,
+   "12": 0.723,
+   "DNB1": 0.606,
+   "DNB2": 0.394,
+   "BTTS_yes": 0.575,
+   "BTTS_no": 0.425,
+   "home_o15": 0.465,
+   "away_o15": 0.348,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-042": {
@@ -3971,7 +5229,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2194 vs 1890 (Δ +304) · Form letzte 5 WWWWW (14:1) vs WDWWW (10:2) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 70%/21%/9%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.779,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.701,
+    "label": "Argentina gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.628,
+    "label": "Argentina über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.701,
+   "X": 0.205,
+   "2": 0.094,
+   "1X": 0.906,
+   "X2": 0.299,
+   "12": 0.795,
+   "DNB1": 0.882,
+   "DNB2": 0.118,
+   "BTTS_yes": 0.441,
+   "BTTS_no": 0.559,
+   "home_o15": 0.628,
+   "away_o15": 0.146,
+   "O15": 0.779,
+   "U15": 0.221,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-043": {
@@ -4068,7 +5363,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1778 vs 1890 (Δ -113) · Form letzte 5 LDDLL (7:13) vs LWDWW (12:2) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 24%/27%/49%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "X2",
+    "p": 0.756,
+    "label": "Algeria oder Remis"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.563,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.244,
+   "X": 0.27,
+   "2": 0.486,
+   "1X": 0.514,
+   "X2": 0.756,
+   "12": 0.73,
+   "DNB1": 0.334,
+   "DNB2": 0.666,
+   "BTTS_yes": 0.563,
+   "BTTS_no": 0.437,
+   "home_o15": 0.312,
+   "away_o15": 0.497,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-044": {
@@ -4165,7 +5497,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2063 vs 1822 (Δ +240) · Form letzte 5 WDWWW (15:3) vs DWDLL (6:7) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 63%/23%/14%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.781,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.632,
+    "label": "Portugal gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.588,
+    "label": "Portugal über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.632,
+   "X": 0.232,
+   "2": 0.136,
+   "1X": 0.864,
+   "X2": 0.368,
+   "12": 0.768,
+   "DNB1": 0.823,
+   "DNB2": 0.177,
+   "BTTS_yes": 0.495,
+   "BTTS_no": 0.505,
+   "home_o15": 0.588,
+   "away_o15": 0.199,
+   "O15": 0.781,
+   "U15": 0.219,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-045": {
@@ -4262,7 +5631,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2068 vs 1766 (Δ +302) · Form letzte 5 WLLWW (10:6) vs LWWDL (4:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 70%/21%/9%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.779,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.699,
+    "label": "Colombia gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.627,
+    "label": "Colombia über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.699,
+   "X": 0.206,
+   "2": 0.095,
+   "1X": 0.905,
+   "X2": 0.301,
+   "12": 0.794,
+   "DNB1": 0.88,
+   "DNB2": 0.12,
+   "BTTS_yes": 0.443,
+   "BTTS_no": 0.557,
+   "home_o15": 0.627,
+   "away_o15": 0.147,
+   "O15": 0.779,
+   "U15": 0.221,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-046": {
@@ -4359,7 +5765,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2099 vs 1614 (Δ +485) · Form letzte 5 WDLWW (7:2) vs LLLLD (3:11) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 87%/11%/2%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "1",
+    "p": 0.87,
+    "label": "England gewinnt"
+   },
+   {
+    "key": "BTTS_no",
+    "p": 0.801,
+    "label": "Nicht beide treffen"
+   },
+   {
+    "key": "O15",
+    "p": 0.773,
+    "label": "Über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.87,
+   "X": 0.113,
+   "2": 0.017,
+   "1X": 0.983,
+   "X2": 0.13,
+   "12": 0.887,
+   "DNB1": 0.981,
+   "DNB2": 0.019,
+   "BTTS_yes": 0.199,
+   "BTTS_no": 0.801,
+   "home_o15": 0.725,
+   "away_o15": 0.024,
+   "O15": 0.773,
+   "U15": 0.227,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.307,
+   "U35": 0.693
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-047": {
@@ -4456,7 +5899,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1864 vs 1973 (Δ -110) · Form letzte 5 DWLWD (10:11) vs WWLLW (8:9) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 25%/27%/48%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "X2",
+    "p": 0.753,
+    "label": "Croatia oder Remis"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.564,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.247,
+   "X": 0.271,
+   "2": 0.483,
+   "1X": 0.517,
+   "X2": 0.753,
+   "12": 0.729,
+   "DNB1": 0.338,
+   "DNB2": 0.662,
+   "BTTS_yes": 0.564,
+   "BTTS_no": 0.436,
+   "home_o15": 0.315,
+   "away_o15": 0.495,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-048": {
@@ -4553,7 +6033,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1997 vs 1700 (Δ +297) · Form letzte 5 WWWDD (13:3) vs LDWLL (6:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 69%/21%/10%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.779,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.694,
+    "label": "Morocco gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.624,
+    "label": "Morocco über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.694,
+   "X": 0.208,
+   "2": 0.098,
+   "1X": 0.902,
+   "X2": 0.306,
+   "12": 0.792,
+   "DNB1": 0.876,
+   "DNB2": 0.124,
+   "BTTS_yes": 0.447,
+   "BTTS_no": 0.553,
+   "home_o15": 0.624,
+   "away_o15": 0.151,
+   "O15": 0.779,
+   "U15": 0.221,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-049": {
@@ -4650,7 +6167,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1663 vs 1591 (Δ +72) · Form letzte 5 DDDDD (4:4) vs DLLDD (2:6) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 44%/28%/28%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "12",
+    "p": 0.723,
+    "label": "Kein Remis (einer gewinnt)"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.574,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.439,
+   "X": 0.277,
+   "2": 0.284,
+   "1X": 0.716,
+   "X2": 0.561,
+   "12": 0.723,
+   "DNB1": 0.608,
+   "DNB2": 0.392,
+   "BTTS_yes": 0.574,
+   "BTTS_no": 0.426,
+   "home_o15": 0.466,
+   "away_o15": 0.347,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-050": {
@@ -4747,7 +6301,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1874 vs 2065 (Δ -191) · Form letzte 5 LLWWW (9:3) vs LWWWD (13:7) · H2H 10 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 17%/25%/58%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.782,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "2",
+    "p": 0.576,
+    "label": "Brazil gewinnt"
+   },
+   {
+    "key": "away_o15",
+    "p": 0.554,
+    "label": "Brazil über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.175,
+   "X": 0.25,
+   "2": 0.576,
+   "1X": 0.424,
+   "X2": 0.825,
+   "12": 0.75,
+   "DNB1": 0.233,
+   "DNB2": 0.767,
+   "BTTS_yes": 0.528,
+   "BTTS_no": 0.472,
+   "home_o15": 0.243,
+   "away_o15": 0.554,
+   "O15": 0.782,
+   "U15": 0.218,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-051": {
@@ -4844,7 +6435,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1661 vs 1906 (Δ -246) · Form letzte 5 DLDWL (3:5) vs LLWWW (8:6) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 13%/23%/64%, wahrscheinlichstes Ergebnis 0:2."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.781,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "2",
+    "p": 0.638,
+    "label": "South Korea gewinnt"
+   },
+   {
+    "key": "away_o15",
+    "p": 0.591,
+    "label": "South Korea über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.132,
+   "X": 0.23,
+   "2": 0.638,
+   "1X": 0.362,
+   "X2": 0.868,
+   "12": 0.77,
+   "DNB1": 0.172,
+   "DNB2": 0.828,
+   "BTTS_yes": 0.491,
+   "BTTS_no": 0.509,
+   "home_o15": 0.195,
+   "away_o15": 0.591,
+   "O15": 0.781,
+   "U15": 0.219,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-052": {
@@ -4941,7 +6569,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1996 vs 1784 (Δ +212) · Form letzte 5 DWWWW (11:2) vs DDWWL (12:8) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 74%/19%/8%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.778,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.735,
+    "label": "Mexico gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.647,
+    "label": "Mexico über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.735,
+   "X": 0.189,
+   "2": 0.075,
+   "1X": 0.925,
+   "X2": 0.265,
+   "12": 0.811,
+   "DNB1": 0.907,
+   "DNB2": 0.093,
+   "BTTS_yes": 0.407,
+   "BTTS_no": 0.593,
+   "home_o15": 0.647,
+   "away_o15": 0.119,
+   "O15": 0.778,
+   "U15": 0.222,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-053": {
@@ -5038,7 +6703,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1883 vs 1925 (Δ -41) · Form letzte 5 DDWDD (6:4) vs LDWDD (9:7) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 45%/28%/27%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1X",
+    "p": 0.728,
+    "label": "Canada oder Remis"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.572,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.453,
+   "X": 0.275,
+   "2": 0.272,
+   "1X": 0.728,
+   "X2": 0.547,
+   "12": 0.725,
+   "DNB1": 0.625,
+   "DNB2": 0.375,
+   "BTTS_yes": 0.572,
+   "BTTS_no": 0.428,
+   "home_o15": 0.475,
+   "away_o15": 0.337,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-054": {
@@ -5135,7 +6837,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1883 vs 1924 (Δ -42) · Form letzte 5 LLWLW (10:12) vs WWWWL (8:3) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 45%/28%/27%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1X",
+    "p": 0.728,
+    "label": "United States oder Remis"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.572,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.452,
+   "X": 0.275,
+   "2": 0.272,
+   "1X": 0.728,
+   "X2": 0.548,
+   "12": 0.725,
+   "DNB1": 0.624,
+   "DNB2": 0.376,
+   "BTTS_yes": 0.572,
+   "BTTS_no": 0.428,
+   "home_o15": 0.475,
+   "away_o15": 0.337,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-055": {
@@ -5232,7 +6971,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1871 vs 1957 (Δ -87) · Form letzte 5 WWLWL (9:7) vs WWLDW (9:3) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 27%/27%/46%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "X2",
+    "p": 0.731,
+    "label": "Australia oder Remis"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.571,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.269,
+   "X": 0.275,
+   "2": 0.456,
+   "1X": 0.544,
+   "X2": 0.731,
+   "12": 0.725,
+   "DNB1": 0.371,
+   "DNB2": 0.629,
+   "BTTS_yes": 0.571,
+   "BTTS_no": 0.429,
+   "home_o15": 0.334,
+   "away_o15": 0.478,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-056": {
@@ -5329,7 +7105,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1614 vs 1812 (Δ -198) · Form letzte 5 DLLLW (6:11) vs WLWWW (12:4) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 17%/25%/58%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.782,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "2",
+    "p": 0.584,
+    "label": "Ivory Coast gewinnt"
+   },
+   {
+    "key": "away_o15",
+    "p": 0.559,
+    "label": "Ivory Coast über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.169,
+   "X": 0.247,
+   "2": 0.584,
+   "1X": 0.416,
+   "X2": 0.831,
+   "12": 0.753,
+   "DNB1": 0.224,
+   "DNB2": 0.776,
+   "BTTS_yes": 0.523,
+   "BTTS_no": 0.477,
+   "home_o15": 0.236,
+   "away_o15": 0.559,
+   "O15": 0.782,
+   "U15": 0.218,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-057": {
@@ -5426,7 +7239,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2032 vs 2003 (Δ +28) · Form letzte 5 WDDWW (9:3) vs WWWWW (18:5) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 39%/28%/33%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "12",
+    "p": 0.719,
+    "label": "Kein Remis (einer gewinnt)"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.581,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.39,
+   "X": 0.281,
+   "2": 0.329,
+   "1X": 0.671,
+   "X2": 0.61,
+   "12": 0.719,
+   "DNB1": 0.542,
+   "DNB2": 0.458,
+   "BTTS_yes": 0.581,
+   "BTTS_no": 0.419,
+   "home_o15": 0.431,
+   "away_o15": 0.385,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-058": {
@@ -5523,7 +7373,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1996 vs 1772 (Δ +224) · Form letzte 5 WWWWW (8:0) vs DWWLD (10:9) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 61%/24%/15%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.781,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.614,
+    "label": "Japan gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.577,
+    "label": "Japan über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.614,
+   "X": 0.238,
+   "2": 0.148,
+   "1X": 0.852,
+   "X2": 0.386,
+   "12": 0.762,
+   "DNB1": 0.805,
+   "DNB2": 0.195,
+   "BTTS_yes": 0.507,
+   "BTTS_no": 0.493,
+   "home_o15": 0.577,
+   "away_o15": 0.214,
+   "O15": 0.781,
+   "U15": 0.219,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-059": {
@@ -5620,7 +7507,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1732 vs 2011 (Δ -279) · Form letzte 5 DWDLL (2:7) vs WWDLW (9:4) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 11%/22%/67%, wahrscheinlichstes Ergebnis 0:2."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.78,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "2",
+    "p": 0.674,
+    "label": "Netherlands gewinnt"
+   },
+   {
+    "key": "away_o15",
+    "p": 0.612,
+    "label": "Netherlands über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.11,
+   "X": 0.216,
+   "2": 0.674,
+   "1X": 0.326,
+   "X2": 0.89,
+   "12": 0.784,
+   "DNB1": 0.14,
+   "DNB2": 0.86,
+   "BTTS_yes": 0.464,
+   "BTTS_no": 0.536,
+   "home_o15": 0.167,
+   "away_o15": 0.612,
+   "O15": 0.78,
+   "U15": 0.22,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-060": {
@@ -5717,7 +7641,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1916 vs 1740 (Δ +176) · Form letzte 5 LWWLD (7:7) vs LWWDL (4:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 56%/25%/19%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.782,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.559,
+    "label": "Senegal gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.544,
+    "label": "Senegal über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.559,
+   "X": 0.254,
+   "2": 0.187,
+   "1X": 0.813,
+   "X2": 0.441,
+   "12": 0.746,
+   "DNB1": 0.749,
+   "DNB2": 0.251,
+   "BTTS_yes": 0.536,
+   "BTTS_no": 0.464,
+   "home_o15": 0.544,
+   "away_o15": 0.256,
+   "O15": 0.782,
+   "U15": 0.218,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-061": {
@@ -5814,7 +7775,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1986 vs 2134 (Δ -148) · Form letzte 5 WLDWD (9:5) vs WWWLW (12:6) · H2H 16 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 21%/26%/53%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "X2",
+    "p": 0.789,
+    "label": "France oder Remis"
+   },
+   {
+    "key": "O15",
+    "p": 0.782,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.55,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.211,
+   "X": 0.262,
+   "2": 0.527,
+   "1X": 0.473,
+   "X2": 0.789,
+   "12": 0.738,
+   "DNB1": 0.286,
+   "DNB2": 0.714,
+   "BTTS_yes": 0.55,
+   "BTTS_no": 0.45,
+   "home_o15": 0.281,
+   "away_o15": 0.524,
+   "O15": 0.782,
+   "U15": 0.218,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-062": {
@@ -5911,7 +7909,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1979 vs 2229 (Δ -249) · Form letzte 5 WDLDD (4:7) vs DWDDW (9:4) · H2H 10 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 13%/23%/64%, wahrscheinlichstes Ergebnis 0:2."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.781,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "2",
+    "p": 0.642,
+    "label": "Spain gewinnt"
+   },
+   {
+    "key": "away_o15",
+    "p": 0.594,
+    "label": "Spain über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.13,
+   "X": 0.228,
+   "2": 0.642,
+   "1X": 0.358,
+   "X2": 0.87,
+   "12": 0.772,
+   "DNB1": 0.168,
+   "DNB2": 0.832,
+   "BTTS_yes": 0.488,
+   "BTTS_no": 0.512,
+   "home_o15": 0.192,
+   "away_o15": 0.594,
+   "O15": 0.781,
+   "U15": 0.219,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-063": {
@@ -6008,7 +8043,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1720 vs 1951 (Δ -231) · Form letzte 5 LLWLL (4:10) vs WWDWW (20:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 14%/24%/62%, wahrscheinlichstes Ergebnis 0:2."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.781,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "2",
+    "p": 0.621,
+    "label": "Belgium gewinnt"
+   },
+   {
+    "key": "away_o15",
+    "p": 0.581,
+    "label": "Belgium über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.143,
+   "X": 0.236,
+   "2": 0.621,
+   "1X": 0.379,
+   "X2": 0.857,
+   "12": 0.764,
+   "DNB1": 0.187,
+   "DNB2": 0.813,
+   "BTTS_yes": 0.502,
+   "BTTS_no": 0.498,
+   "home_o15": 0.208,
+   "away_o15": 0.581,
+   "O15": 0.781,
+   "U15": 0.219,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-064": {
@@ -6105,7 +8177,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1813 vs 1898 (Δ -85) · Form letzte 5 DWDWL (6:2) vs DLWWW (11:3) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 27%/27%/45%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "X2",
+    "p": 0.73,
+    "label": "Iran oder Remis"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.571,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.27,
+   "X": 0.275,
+   "2": 0.455,
+   "1X": 0.545,
+   "X2": 0.73,
+   "12": 0.725,
+   "DNB1": 0.373,
+   "DNB2": 0.627,
+   "BTTS_yes": 0.571,
+   "BTTS_no": 0.429,
+   "home_o15": 0.336,
+   "away_o15": 0.476,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-065": {
@@ -6202,7 +8311,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1644 vs 1697 (Δ -54) · Form letzte 5 DLDWL (7:9) vs LLLWD (5:8) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 30%/28%/42%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "12",
+    "p": 0.721,
+    "label": "Kein Remis (einer gewinnt)"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.578,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.302,
+   "X": 0.279,
+   "2": 0.419,
+   "1X": 0.581,
+   "X2": 0.698,
+   "12": 0.721,
+   "DNB1": 0.419,
+   "DNB2": 0.581,
+   "BTTS_yes": 0.578,
+   "BTTS_no": 0.422,
+   "home_o15": 0.363,
+   "away_o15": 0.452,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-066": {
@@ -6299,7 +8445,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1864 vs 2099 (Δ -235) · Form letzte 5 DWLWD (10:11) vs WDLWW (7:2) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 14%/23%/63%, wahrscheinlichstes Ergebnis 0:2."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.781,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "2",
+    "p": 0.626,
+    "label": "England gewinnt"
+   },
+   {
+    "key": "away_o15",
+    "p": 0.584,
+    "label": "England über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.14,
+   "X": 0.234,
+   "2": 0.626,
+   "1X": 0.374,
+   "X2": 0.86,
+   "12": 0.766,
+   "DNB1": 0.183,
+   "DNB2": 0.817,
+   "BTTS_yes": 0.499,
+   "BTTS_no": 0.501,
+   "home_o15": 0.204,
+   "away_o15": 0.584,
+   "O15": 0.781,
+   "U15": 0.219,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-067": {
@@ -6396,7 +8579,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1890 vs 1890 (Δ +0) · Form letzte 5 LWDWW (12:2) vs WDWWW (10:2) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 36%/28%/36%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "12",
+    "p": 0.719,
+    "label": "Kein Remis (einer gewinnt)"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.582,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.36,
+   "X": 0.281,
+   "2": 0.359,
+   "1X": 0.641,
+   "X2": 0.64,
+   "12": 0.719,
+   "DNB1": 0.5,
+   "DNB2": 0.5,
+   "BTTS_yes": 0.582,
+   "BTTS_no": 0.418,
+   "home_o15": 0.408,
+   "away_o15": 0.408,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-068": {
@@ -6493,7 +8713,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1778 vs 2194 (Δ -416) · Form letzte 5 LDDLL (7:13) vs WWWWW (14:1) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 4%/15%/81%, wahrscheinlichstes Ergebnis 0:2."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "2",
+    "p": 0.812,
+    "label": "Argentina gewinnt"
+   },
+   {
+    "key": "O15",
+    "p": 0.776,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "BTTS_no",
+    "p": 0.692,
+    "label": "Nicht beide treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.039,
+   "X": 0.149,
+   "2": 0.812,
+   "1X": 0.188,
+   "X2": 0.961,
+   "12": 0.851,
+   "DNB1": 0.046,
+   "DNB2": 0.954,
+   "BTTS_yes": 0.308,
+   "BTTS_no": 0.692,
+   "home_o15": 0.062,
+   "away_o15": 0.691,
+   "O15": 0.776,
+   "U15": 0.224,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.307,
+   "U35": 0.693
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-069": {
@@ -6590,7 +8847,44 @@
    },
    "basis_text": "Berechnet aus: Elo 2068 vs 2063 (Δ +5) · Form letzte 5 WLLWW (10:6) vs WDWWW (15:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 36%/28%/35%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "12",
+    "p": 0.719,
+    "label": "Kein Remis (einer gewinnt)"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.582,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.365,
+   "X": 0.281,
+   "2": 0.354,
+   "1X": 0.646,
+   "X2": 0.635,
+   "12": 0.719,
+   "DNB1": 0.508,
+   "DNB2": 0.492,
+   "BTTS_yes": 0.582,
+   "BTTS_no": 0.418,
+   "home_o15": 0.412,
+   "away_o15": 0.404,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-070": {
@@ -6687,7 +8981,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1766 vs 1822 (Δ -57) · Form letzte 5 LWWDL (4:3) vs DWDLL (6:7) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 30%/28%/42%, wahrscheinlichstes Ergebnis 1:1."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.783,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "12",
+    "p": 0.721,
+    "label": "Kein Remis (einer gewinnt)"
+   },
+   {
+    "key": "BTTS_yes",
+    "p": 0.577,
+    "label": "Beide Teams treffen"
+   }
+  ],
+  "markets": {
+   "1": 0.299,
+   "X": 0.279,
+   "2": 0.422,
+   "1X": 0.578,
+   "X2": 0.701,
+   "12": 0.721,
+   "DNB1": 0.415,
+   "DNB2": 0.585,
+   "BTTS_yes": 0.577,
+   "BTTS_no": 0.423,
+   "home_o15": 0.36,
+   "away_o15": 0.454,
+   "O15": 0.783,
+   "U15": 0.217,
+   "O25": 0.531,
+   "U25": 0.469,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  },
  "wc2026-071": {
@@ -6784,7 +9115,44 @@
    },
    "basis_text": "Berechnet aus: Elo 1973 vs 1614 (Δ +359) · Form letzte 5 WWLLW (8:9) vs LLLLD (3:11) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 76%/18%/6%, wahrscheinlichstes Ergebnis 2:0."
   },
-  "locked_at": "2026-06-14",
+  "top_tips": [
+   {
+    "key": "O15",
+    "p": 0.778,
+    "label": "Über 1,5 Tore"
+   },
+   {
+    "key": "1",
+    "p": 0.758,
+    "label": "Croatia gewinnt"
+   },
+   {
+    "key": "home_o15",
+    "p": 0.66,
+    "label": "Croatia über 1,5 Tore"
+   }
+  ],
+  "markets": {
+   "1": 0.758,
+   "X": 0.179,
+   "2": 0.064,
+   "1X": 0.936,
+   "X2": 0.242,
+   "12": 0.821,
+   "DNB1": 0.922,
+   "DNB2": 0.078,
+   "BTTS_yes": 0.382,
+   "BTTS_no": 0.618,
+   "home_o15": 0.66,
+   "away_o15": 0.102,
+   "O15": 0.778,
+   "U15": 0.222,
+   "O25": 0.53,
+   "U25": 0.47,
+   "O35": 0.308,
+   "U35": 0.692
+  },
+  "locked_at": "2026-06-15",
   "first_locked_at": "2026-06-12"
  }
 }

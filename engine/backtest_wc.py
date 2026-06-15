@@ -1,15 +1,16 @@
 """
-WM-Backtest: Die Engine tippt die WM 2018 und WM 2022 'blind' — mit exakt dem
-Elo-Stand vom Tag vor jedem Spiel (kein Look-ahead) und den kalibrierten
-Parametern. Danach wird gegen die echten Ergebnisse gewertet.
+WM-Backtest (Blind, kein Look-ahead): Die Engine tippt WM 2018 + 2022 mit dem
+Elo-Stand vom Tag vor jedem Spiel und den kalibrierten Parametern.
 
-Wertung je Spiel (Tipp = wahrscheinlichstes Ergebnis des Modells):
-  exakt getroffen / richtige Tordifferenz / richtige Tendenz / daneben
-  + Kicktipp-Punkte (4/3/2/0) + Brier/LogLoss der Wahrscheinlichkeiten.
+Bewertet wird BEIDES:
+  A) das alte Format: exaktes Ergebnis (Kicktipp 4/3/2/0)
+  B) die Wett-Maerkte (BWIN-Stil): 1X2, Ueber/Unter 2,5, Beide treffen,
+     Doppelte Chance — plus die Trefferquote der 3 Top-Tipps.
 
-Output: predictions/backtest.json  (Track Record fuer die Website)
+Output: predictions/backtest.json
 """
 import json
+import math
 import os
 from datetime import datetime, timezone
 
@@ -19,9 +20,10 @@ from util import results_csv_path, PRED_DIR, is_neutral
 from elo import START, HOME_ADV_ELO, k_factor, gd_multiplier
 from predict import pick_scoreline
 import model
+import markets as mk
 
 
-def grade(pick, res):
+def grade_exact(pick, res):
     ph, pa = pick
     rh, ra = res
     if (ph, pa) == (rh, ra):
@@ -52,18 +54,27 @@ def main():
             lh, la = model.elo_to_lambdas(Rh, Ra, neutral)
             M = model.score_matrix(lh, la)
             ph, pd_, pa = model.outcome_probs(M)
-            # identische Strategie wie predict.py: wahrscheinlichste TENDENZ,
-            # darin das wahrscheinlichste Ergebnis
+            m = mk.markets_from_matrix(M)
             outcome_pick = max(range(3), key=lambda k: (ph, pd_, pa)[k])
             pi, pj = pick_scoreline(M, outcome_pick)
-            out = 0 if hs > as_ else (1 if hs == as_ else 2)
-            p_out = (ph, pd_, pa)[out]
-            cat, pts = grade((pi, pj), (hs, as_))
-            tend_ok = [ph, pd_, pa].index(max(ph, pd_, pa)) == out
+            cat, pts = grade_exact((pi, pj), (hs, as_))
+
+            # Markt-Tipps
+            tip_1x2 = ["1", "X", "2"][outcome_pick]
+            tip_ou = "O25" if m["O25"] >= 0.5 else "U25"
+            tip_btts = "BTTS_yes" if m["BTTS_yes"] >= 0.5 else "BTTS_no"
+            tip_dc = max(("1X", "X2", "12"), key=lambda k: m[k])
+            tops = mk.top_tips(m, h, a)
+
             targets[r.date.year].append({
-                "match": f"{h} {hs}:{as_} {a}", "pick": f"{pi}:{pj}",
-                "probs": [round(ph, 3), round(pd_, 3), round(pa, 3)],
-                "cat": cat, "pts": pts, "tend_ok": tend_ok, "p_out": p_out,
+                "cat": cat, "pts": pts,
+                "hit_1x2": mk.market_hit(tip_1x2, hs, as_),
+                "hit_ou": mk.market_hit(tip_ou, hs, as_),
+                "hit_btts": mk.market_hit(tip_btts, hs, as_),
+                "hit_dc": mk.market_hit(tip_dc, hs, as_),
+                "top_hits": sum(1 for t in tops if mk.market_hit(t["key"], hs, as_)),
+                "top_n": len(tops),
+                "top1_hit": mk.market_hit(tops[0]["key"], hs, as_),
             })
 
         hadv = 0.0 if neutral else HOME_ADV_ELO
@@ -74,50 +85,60 @@ def main():
         R[h] = Rh + d
         R[a] = Ra - d
 
-    import math
-    tournaments = {}
+    def rate(games, field):
+        vals = [g[field] for g in games if g[field] is not None]
+        return round(sum(vals) / len(vals), 3) if vals else None
+
+    out_tour = {}
+    allg = []
     for year, games in targets.items():
+        allg += games
         n = len(games)
-        summary = {
+        out_tour[str(year)] = {
             "n": n,
             "exakt": sum(1 for g in games if g["cat"] == "exakt"),
-            "tordifferenz": sum(1 for g in games if g["cat"] == "tordifferenz"),
-            "tendenz": sum(1 for g in games if g["cat"] == "tendenz"),
-            "daneben": sum(1 for g in games if g["cat"] == "daneben"),
-            "tendenz_quote": round(sum(g["tend_ok"] for g in games) / n, 3),
             "kicktipp_pts": sum(g["pts"] for g in games),
             "kicktipp_avg": round(sum(g["pts"] for g in games) / n, 2),
-            "logloss": round(-sum(math.log(max(g["p_out"], 1e-9)) for g in games) / n, 4),
+            "hit_1x2": rate(games, "hit_1x2"),
+            "hit_ou25": rate(games, "hit_ou"),
+            "hit_btts": rate(games, "hit_btts"),
+            "hit_dc": rate(games, "hit_dc"),
+            "top1": rate(games, "top1_hit"),
+            "top3_avg": round(sum(g["top_hits"] for g in games) / sum(g["top_n"] for g in games), 3),
         }
-        tournaments[str(year)] = {"summary": summary, "games": games}
-        print(f"WM {year} ({n} Spiele): exakt {summary['exakt']} | TD {summary['tordifferenz']} "
-              f"| Tendenz {summary['tendenz']} | daneben {summary['daneben']} "
-              f"|| Tendenz-Quote {summary['tendenz_quote']*100:.1f}% "
-              f"| Kicktipp {summary['kicktipp_pts']} Pkt (Ø {summary['kicktipp_avg']}/Spiel)")
 
-    both = [g for t in tournaments.values() for g in t["games"]]
-    n = len(both)
+    n = len(allg)
     total = {
         "n": n,
-        "tendenz_quote": round(sum(g["tend_ok"] for g in both) / n, 3),
-        "exakt_quote": round(sum(1 for g in both if g["cat"] == "exakt") / n, 3),
-        "kicktipp_avg": round(sum(g["pts"] for g in both) / n, 2),
+        "hit_1x2": rate(allg, "hit_1x2"),
+        "hit_ou25": rate(allg, "hit_ou"),
+        "hit_btts": rate(allg, "hit_btts"),
+        "hit_dc": rate(allg, "hit_dc"),
+        "top1": rate(allg, "top1_hit"),
+        "top3_avg": round(sum(g["top_hits"] for g in allg) / sum(g["top_n"] for g in allg), 3),
+        "kicktipp_avg": round(sum(g["pts"] for g in allg) / n, 2),
+        "exakt_quote": round(sum(1 for g in allg if g["cat"] == "exakt") / n, 3),
     }
-    print(f"GESAMT: Tendenz {total['tendenz_quote']*100:.1f}% | exakt {total['exakt_quote']*100:.1f}% "
-          f"| Ø {total['kicktipp_avg']} Kicktipp-Punkte/Spiel")
 
     out = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-        "method": ("Blind-Backtest: Pre-Match-Elo (kein Look-ahead), kalibriertes Modell, "
-                   "Tipp = wahrscheinlichstes Ergebnis, gewertet gegen echte Resultate"),
+        "method": "Blind-Backtest WM 2018+2022 (Pre-Match-Elo, kalibriertes Modell)",
         "params": model.CALIBRATION,
-        "tournaments": {y: t["summary"] for y, t in tournaments.items()},
-        "total": total,
-        "games": {y: t["games"] for y, t in tournaments.items()},
+        "tournaments": out_tour, "total": total,
     }
-    json.dump(out, open(os.path.join(PRED_DIR, "backtest.json"), "w"),
-              ensure_ascii=False, indent=1)
-    print("-> predictions/backtest.json")
+    json.dump(out, open(os.path.join(PRED_DIR, "backtest.json"), "w"), ensure_ascii=False, indent=1)
+
+    print(f"WM 2018+2022 — {n} echte Spiele, blind getippt:\n")
+    print(f"  WETT-MÄRKTE (BWIN-Stil) — Trefferquote:")
+    print(f"    Doppelte Chance (1X/X2/12):  {total['hit_dc']*100:.1f}%")
+    print(f"    Über/Unter 2,5 Tore:         {total['hit_ou25']*100:.1f}%")
+    print(f"    Beide treffen (BTTS):        {total['hit_btts']*100:.1f}%")
+    print(f"    Spielausgang (1X2):          {total['hit_1x2']*100:.1f}%")
+    print(f"    Bester Top-Tipp je Spiel:    {total['top1']*100:.1f}%")
+    print(f"    Alle 3 Top-Tipps gemittelt:  {total['top3_avg']*100:.1f}%")
+    print(f"\n  Zum Vergleich — exaktes Ergebnis: nur {total['exakt_quote']*100:.1f}% "
+          f"(Kicktipp Ø {total['kicktipp_avg']}/Spiel)")
+    print("\n-> predictions/backtest.json")
 
 
 if __name__ == "__main__":

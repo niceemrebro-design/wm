@@ -1,112 +1,229 @@
 {
- "generated_at": "2026-06-14",
- "integrity": "Gewertet werden ausschliesslich Tipps, die VOR Anpfiff im Ledger eingefroren wurden (predictions/ledger.json). Nachtraegliche Tipps erscheinen als 'ungewertet'.",
+ "generated_at": "2026-06-15",
+ "integrity": "Nur vor Anpfiff eingefrorene Tipps zaehlen (predictions/ledger.json). Markt-Tipps gespielter Spiele aus eingefrorenen Lambdas rekonstruiert.",
  "summary": {
   "gewertet": 6,
+  "tipps_gesamt": 18,
+  "tipps_treffer": 11,
+  "tipps_quote": 0.611,
+  "bester_tipp_quote": 0.5,
+  "markt_1x2_quote": 0.333,
+  "markt_dc_quote": 1.0,
   "exakt": 0,
-  "tordifferenz": 1,
-  "tendenz": 0,
-  "daneben": 5,
   "kicktipp_pts": 3,
   "kicktipp_avg": 0.5,
-  "tendenz_quote": 0.167,
-  "brier_avg": 0.771,
   "retro_ungewertet": 2
  },
  "games": [
   {
-   "fixture_id": "wc2026-002",
    "date": "2026-06-12",
    "match": "Canada vs Bosnia and Herzegovina",
-   "pick": "2:0",
    "result": "1:1",
    "source": "Orakel (verfeinert)",
    "locked_at": "2026-06-12",
-   "cat": "daneben",
-   "pts": 0,
-   "brier": 0.946
+   "tips": [
+    {
+     "label": "Canada gewinnt",
+     "key": "1",
+     "p": 0.789,
+     "hit": false
+    },
+    {
+     "label": "Über 1,5 Tore",
+     "key": "O15",
+     "p": 0.777,
+     "hit": true
+    },
+    {
+     "label": "Canada über 1,5 Tore",
+     "key": "home_o15",
+     "p": 0.678,
+     "hit": false
+    }
+   ],
+   "best_hit": false,
+   "hit_1x2": false,
+   "hit_dc": true,
+   "exact_cat": "daneben",
+   "exact_pts": 0
   },
   {
-   "fixture_id": "wc2026-003",
    "date": "2026-06-12",
    "match": "United States vs Paraguay",
-   "pick": "1:1",
    "result": "4:1",
    "source": "Orakel (verfeinert)",
    "locked_at": "2026-06-12",
-   "cat": "daneben",
-   "pts": 0,
-   "brier": 0.615
+   "tips": [
+    {
+     "label": "Über 1,5 Tore",
+     "key": "O15",
+     "p": 0.783,
+     "hit": true
+    },
+    {
+     "label": "Kein Remis (einer gewinnt)",
+     "key": "12",
+     "p": 0.72,
+     "hit": true
+    },
+    {
+     "label": "Beide Teams treffen",
+     "key": "BTTS_yes",
+     "p": 0.58,
+     "hit": true
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "daneben",
+   "exact_pts": 0
   },
   {
-   "fixture_id": "wc2026-004",
    "date": "2026-06-13",
    "match": "Qatar vs Switzerland",
-   "pick": "0:2",
    "result": "1:1",
    "source": "Orakel (verfeinert)",
    "locked_at": "2026-06-13",
-   "cat": "daneben",
-   "pts": 0,
-   "brier": 1.041
+   "tips": [
+    {
+     "label": "Switzerland gewinnt",
+     "key": "2",
+     "p": 0.781,
+     "hit": false
+    },
+    {
+     "label": "Über 1,5 Tore",
+     "key": "O15",
+     "p": 0.777,
+     "hit": true
+    },
+    {
+     "label": "Switzerland über 1,5 Tore",
+     "key": "away_o15",
+     "p": 0.674,
+     "hit": false
+    }
+   ],
+   "best_hit": false,
+   "hit_1x2": false,
+   "hit_dc": true,
+   "exact_cat": "daneben",
+   "exact_pts": 0
   },
   {
-   "fixture_id": "wc2026-005",
    "date": "2026-06-13",
    "match": "Brazil vs Morocco",
-   "pick": "2:1",
    "result": "1:1",
    "source": "Orakel (verfeinert)",
    "locked_at": "2026-06-13",
-   "cat": "daneben",
-   "pts": 0,
-   "brier": 0.814
+   "tips": [
+    {
+     "label": "Über 1,5 Tore",
+     "key": "O15",
+     "p": 0.783,
+     "hit": true
+    },
+    {
+     "label": "Brazil oder Remis",
+     "key": "1X",
+     "p": 0.728,
+     "hit": true
+    },
+    {
+     "label": "Beide Teams treffen",
+     "key": "BTTS_yes",
+     "p": 0.572,
+     "hit": true
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": false,
+   "hit_dc": true,
+   "exact_cat": "daneben",
+   "exact_pts": 0
   },
   {
-   "fixture_id": "wc2026-006",
    "date": "2026-06-13",
    "match": "Haiti vs Scotland",
-   "pick": "1:2",
    "result": "0:1",
    "source": "Orakel (verfeinert)",
    "locked_at": "2026-06-13",
-   "cat": "tordifferenz",
-   "pts": 3,
-   "brier": 0.422
+   "tips": [
+    {
+     "label": "Über 1,5 Tore",
+     "key": "O15",
+     "p": 0.782,
+     "hit": false
+    },
+    {
+     "label": "Scotland oder Remis",
+     "key": "X2",
+     "p": 0.779,
+     "hit": true
+    },
+    {
+     "label": "Beide Teams treffen",
+     "key": "BTTS_yes",
+     "p": 0.554,
+     "hit": false
+    }
+   ],
+   "best_hit": false,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tordifferenz",
+   "exact_pts": 3
   },
   {
-   "fixture_id": "wc2026-007",
    "date": "2026-06-13",
    "match": "Australia vs Turkey",
-   "pick": "1:2",
    "result": "2:0",
    "source": "Orakel (verfeinert)",
    "locked_at": "2026-06-13",
-   "cat": "daneben",
-   "pts": 0,
-   "brier": 0.79
+   "tips": [
+    {
+     "label": "Über 1,5 Tore",
+     "key": "O15",
+     "p": 0.783,
+     "hit": true
+    },
+    {
+     "label": "Kein Remis (einer gewinnt)",
+     "key": "12",
+     "p": 0.724,
+     "hit": true
+    },
+    {
+     "label": "Beide Teams treffen",
+     "key": "BTTS_yes",
+     "p": 0.574,
+     "hit": false
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": false,
+   "hit_dc": true,
+   "exact_cat": "daneben",
+   "exact_pts": 0
   }
  ],
  "retro": [
   {
-   "fixture_id": "wc2026-000",
    "date": "2026-06-11",
    "match": "Mexico vs South Africa",
-   "pick": "2:0",
    "result": "2:0",
    "source": "Engine",
    "locked_at": null,
-   "cat": "ungewertet (Tipp nach Spielende)"
+   "note": "ungewertet (Tipp nach Spielende)"
   },
   {
-   "fixture_id": "wc2026-001",
    "date": "2026-06-11",
    "match": "South Korea vs Czech Republic",
-   "pick": "2:1",
    "result": "2:1",
    "source": "Engine",
    "locked_at": null,
-   "cat": "ungewertet (Tipp nach Spielende)"
+   "note": "ungewertet (Tipp nach Spielende)"
   }
  ]
 }

@@ -20,6 +20,7 @@ from datetime import datetime, timezone
 
 from util import DATA_PROC, PRED_DIR
 import model
+import markets as mk
 
 
 def _load(name):
@@ -75,7 +76,8 @@ def load_overrides():
 
 LEDGER_PATH = os.path.join(PRED_DIR, "ledger.json")
 LOCK_FIELDS = ("pick", "probs", "confidence", "source", "reasoning",
-               "key_factors", "upset_watch", "stat_model", "basis")
+               "key_factors", "upset_watch", "stat_model", "basis",
+               "top_tips", "markets")
 
 
 def load_ledger():
@@ -97,6 +99,14 @@ def apply_ledger(p, ledger, today):
             for k in LOCK_FIELDS:
                 if k in entry:
                     p[k] = entry[k]
+            # Markt-Tipps aus den EINGEFRORENEN Lambdas rekonstruieren (auch fuer
+            # alte Ledger-Eintraege ohne top_tips) -> Wertung nutzt nur Vor-Anpfiff-Infos.
+            lm = (entry.get("basis") or {}).get("model") or {}
+            if "lambda_home" in lm and "lambda_away" in lm:
+                M = model.score_matrix(lm["lambda_home"], lm["lambda_away"])
+                mkts = mk.markets_from_matrix(M)
+                p["markets"] = {k: round(v, 3) for k, v in mkts.items()}
+                p["top_tips"] = mk.top_tips(mkts, p["home"], p["away"])
             p["locked_at"] = entry["locked_at"]
             p["retro"] = False
         else:
@@ -134,6 +144,8 @@ def build_one(fx, elo, forms, h2h):
     tops = [{"score": f"{i}:{j}", "p": round(p, 3)} for (i, j), p in model.top_scorelines(M, 4)]
     outcome = max(range(3), key=lambda k: (ph, pd_, pa)[k])
     pi, pj = pick_scoreline(M, outcome)
+    mkts = mk.markets_from_matrix(M)
+    tips = mk.top_tips(mkts, h, a)
 
     fh, fa = form_summary(forms.get(h, [])), form_summary(forms.get(a, []))
     hh = h2h.get(fx["id"], {})
@@ -178,6 +190,8 @@ def build_one(fx, elo, forms, h2h):
             (f"H2H {hh.get('meetings')} Spiele" if hh.get("meetings") else "kein direktes H2H"),
         ],
         "upset_watch": None,
+        "top_tips": tips,
+        "markets": {k: round(v, 3) for k, v in mkts.items()},
         "basis": basis,
         "stat_model": {"p_home": round(ph, 3), "p_draw": round(pd_, 3), "p_away": round(pa, 3),
                        "lambda_home": round(lh, 2), "lambda_away": round(la, 2),
