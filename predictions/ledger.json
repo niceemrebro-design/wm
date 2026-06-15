@@ -3801,48 +3801,48 @@
    "away": 0
   },
   "probs": {
-   "home": 0.631,
-   "draw": 0.232,
-   "away": 0.137
+   "home": 0.573,
+   "draw": 0.25,
+   "away": 0.177
   },
-  "confidence": "hoch",
+  "confidence": "mittel-hoch",
   "source": "Engine",
-  "reasoning": "Modellbasierte Einschätzung: Netherlands ist nach Elo und Form favorisiert. Berechnet aus: Elo 2011 vs 1772 (Δ +239) · Form letzte 5 WWDLW (9:4) vs DWWLD (10:9) · H2H 25 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 63%/23%/14%, wahrscheinlichstes Ergebnis 2:0.",
+  "reasoning": "Modellbasierte Einschätzung: Netherlands ist nach Elo und Form favorisiert. Berechnet aus: Elo 2010 vs 1822 (Δ +188) · Form letzte 5 WDLWD (7:6) vs WWLDW (14:9) · H2H 25 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 57%/25%/18%, wahrscheinlichstes Ergebnis 1:1.",
   "key_factors": [
-   "Elo 2011 vs 1772 (Δ +239)",
-   "Form L5 10 vs 8 Punkte",
+   "Elo 2010 vs 1822 (Δ +188)",
+   "Form L5 8 vs 10 Punkte",
    "H2H 25 Spiele"
   ],
   "upset_watch": null,
   "stat_model": {
-   "p_home": 0.631,
-   "p_draw": 0.232,
-   "p_away": 0.137,
-   "lambda_home": 1.97,
-   "lambda_away": 0.83,
-   "top_scoreline": "2:0"
+   "p_home": 0.573,
+   "p_draw": 0.25,
+   "p_away": 0.177,
+   "lambda_home": 1.85,
+   "lambda_away": 0.95,
+   "top_scoreline": "1:1"
   },
   "basis": {
    "elo": {
-    "Netherlands": 2011.4,
-    "Sweden": 1772.2,
-    "diff": 239.2
+    "Netherlands": 2010.1,
+    "Sweden": 1822.1,
+    "diff": 188.0
    },
    "form": {
     "Netherlands": {
-     "seq5": "WWDLW",
-     "pts5": 10,
-     "gf5": 9,
-     "ga5": 4,
+     "seq5": "WDLWD",
+     "pts5": 8,
+     "gf5": 7,
+     "ga5": 6,
      "pts10": 21,
      "n": 10
     },
     "Sweden": {
-     "seq5": "DWWLD",
-     "pts5": 8,
-     "gf5": 10,
+     "seq5": "WWLDW",
+     "pts5": 10,
+     "gf5": 14,
      "ga5": 9,
-     "pts10": 9,
+     "pts10": 11,
      "n": 10
     }
    },
@@ -3852,27 +3852,27 @@
     "goals": "47:48"
    },
    "model": {
-    "lambda_home": 1.97,
-    "lambda_away": 0.83,
-    "p_home": 0.631,
-    "p_draw": 0.232,
-    "p_away": 0.137,
+    "lambda_home": 1.85,
+    "lambda_away": 0.95,
+    "p_home": 0.573,
+    "p_draw": 0.25,
+    "p_away": 0.177,
     "top_scorelines": [
      {
-      "score": "2:0",
-      "p": 0.119
+      "score": "1:1",
+      "p": 0.12
      },
      {
-      "score": "1:1",
-      "p": 0.111
+      "score": "2:0",
+      "p": 0.104
      },
      {
       "score": "1:0",
-      "p": 0.108
+      "p": 0.1
      },
      {
       "score": "2:1",
-      "p": 0.098
+      "p": 0.099
      }
     ]
    },
@@ -3887,7 +3887,7 @@
     "rho": -0.12,
     "holdout_logloss": 0.8735
    },
-   "basis_text": "Berechnet aus: Elo 2011 vs 1772 (Δ +239) · Form letzte 5 WWDLW (9:4) vs DWWLD (10:9) · H2H 25 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 63%/23%/14%, wahrscheinlichstes Ergebnis 2:0."
+   "basis_text": "Berechnet aus: Elo 2010 vs 1822 (Δ +188) · Form letzte 5 WDLWD (7:6) vs WWLDW (14:9) · H2H 25 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 57%/25%/18%, wahrscheinlichstes Ergebnis 1:1."
   },
   "top_tips": [
    {
@@ -3935,48 +3935,48 @@
    "away": 2
   },
   "probs": {
-   "home": 0.12,
-   "draw": 0.223,
-   "away": 0.658
+   "home": 0.087,
+   "draw": 0.2,
+   "away": 0.713
   },
   "confidence": "hoch",
   "source": "Engine",
-  "reasoning": "Modellbasierte Einschätzung: Japan ist nach Elo und Form favorisiert. Berechnet aus: Elo 1732 vs 1996 (Δ -264) · Form letzte 5 DWDLL (2:7) vs WWWWW (8:0) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 12%/22%/66%, wahrscheinlichstes Ergebnis 0:2.",
+  "reasoning": "Modellbasierte Einschätzung: Japan ist nach Elo und Form favorisiert. Berechnet aus: Elo 1683 vs 1997 (Δ -315) · Form letzte 5 WDLLL (2:11) vs WWWWD (8:2) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 9%/20%/71%, wahrscheinlichstes Ergebnis 0:2.",
   "key_factors": [
-   "Elo 1732 vs 1996 (Δ -264)",
-   "Form L5 5 vs 15 Punkte",
+   "Elo 1683 vs 1997 (Δ -315)",
+   "Form L5 4 vs 13 Punkte",
    "H2H 5 Spiele"
   ],
   "upset_watch": null,
   "stat_model": {
-   "p_home": 0.12,
-   "p_draw": 0.223,
-   "p_away": 0.658,
-   "lambda_home": 0.77,
-   "lambda_away": 2.03,
+   "p_home": 0.087,
+   "p_draw": 0.2,
+   "p_away": 0.713,
+   "lambda_home": 0.64,
+   "lambda_away": 2.16,
    "top_scoreline": "0:2"
   },
   "basis": {
    "elo": {
-    "Tunisia": 1732.5,
-    "Japan": 1996.1,
-    "diff": -263.6
+    "Tunisia": 1682.6,
+    "Japan": 1997.4,
+    "diff": -314.8
    },
    "form": {
     "Tunisia": {
-     "seq5": "DWDLL",
-     "pts5": 5,
+     "seq5": "WDLLL",
+     "pts5": 4,
      "gf5": 2,
-     "ga5": 7,
-     "pts10": 13,
+     "ga5": 11,
+     "pts10": 12,
      "n": 10
     },
     "Japan": {
-     "seq5": "WWWWW",
-     "pts5": 15,
+     "seq5": "WWWWD",
+     "pts5": 13,
      "gf5": 8,
-     "ga5": 0,
-     "pts10": 23,
+     "ga5": 2,
+     "pts10": 21,
      "n": 10
     }
    },
@@ -3986,27 +3986,27 @@
     "goals": "3:6"
    },
    "model": {
-    "lambda_home": 0.77,
-    "lambda_away": 2.03,
-    "p_home": 0.12,
-    "p_draw": 0.223,
-    "p_away": 0.658,
+    "lambda_home": 0.64,
+    "lambda_away": 2.16,
+    "p_home": 0.087,
+    "p_draw": 0.2,
+    "p_away": 0.713,
     "top_scorelines": [
      {
       "score": "0:2",
-      "p": 0.126
+      "p": 0.141
      },
      {
       "score": "0:1",
-      "p": 0.112
+      "p": 0.121
+     },
+     {
+      "score": "0:3",
+      "p": 0.102
      },
      {
       "score": "1:1",
-      "p": 0.106
-     },
-     {
-      "score": "1:2",
-      "p": 0.096
+      "p": 0.095
      }
     ]
    },
@@ -4021,7 +4021,7 @@
     "rho": -0.12,
     "holdout_logloss": 0.8735
    },
-   "basis_text": "Berechnet aus: Elo 1732 vs 1996 (Δ -264) · Form letzte 5 DWDLL (2:7) vs WWWWW (8:0) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 12%/22%/66%, wahrscheinlichstes Ergebnis 0:2."
+   "basis_text": "Berechnet aus: Elo 1683 vs 1997 (Δ -315) · Form letzte 5 WDLLL (2:11) vs WWWWD (8:2) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 9%/20%/71%, wahrscheinlichstes Ergebnis 0:2."
   },
   "top_tips": [
    {
@@ -4066,51 +4066,51 @@
  "wc2026-034": {
   "pick": {
    "home": 2,
-   "away": 0
+   "away": 1
   },
   "probs": {
-   "home": 0.577,
-   "draw": 0.249,
-   "away": 0.174
+   "home": 0.537,
+   "draw": 0.26,
+   "away": 0.203
   },
   "confidence": "mittel-hoch",
   "source": "Engine",
-  "reasoning": "Modellbasierte Einschätzung: Germany ist nach Elo und Form favorisiert. Berechnet aus: Elo 2003 vs 1812 (Δ +192) · Form letzte 5 WWWWW (18:5) vs WLWWW (12:4) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 58%/25%/17%, wahrscheinlichstes Ergebnis 1:1.",
+  "reasoning": "Modellbasierte Einschätzung: Germany ist nach Elo und Form favorisiert. Berechnet aus: Elo 2016 vs 1859 (Δ +157) · Form letzte 5 WWWWW (19:6) vs LWWWW (10:4) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 54%/26%/20%, wahrscheinlichstes Ergebnis 1:1.",
   "key_factors": [
-   "Elo 2003 vs 1812 (Δ +192)",
+   "Elo 2016 vs 1859 (Δ +157)",
    "Form L5 15 vs 12 Punkte",
    "H2H 1 Spiele"
   ],
   "upset_watch": null,
   "stat_model": {
-   "p_home": 0.577,
-   "p_draw": 0.249,
-   "p_away": 0.174,
-   "lambda_home": 1.86,
-   "lambda_away": 0.94,
+   "p_home": 0.537,
+   "p_draw": 0.26,
+   "p_away": 0.203,
+   "lambda_home": 1.78,
+   "lambda_away": 1.02,
    "top_scoreline": "1:1"
   },
   "basis": {
    "elo": {
-    "Germany": 2003.4,
-    "Ivory Coast": 1811.8,
-    "diff": 191.6
+    "Germany": 2015.6,
+    "Ivory Coast": 1858.6,
+    "diff": 157.0
    },
    "form": {
     "Germany": {
      "seq5": "WWWWW",
      "pts5": 15,
-     "gf5": 18,
-     "ga5": 5,
-     "pts10": 27,
+     "gf5": 19,
+     "ga5": 6,
+     "pts10": 30,
      "n": 10
     },
     "Ivory Coast": {
-     "seq5": "WLWWW",
+     "seq5": "LWWWW",
      "pts5": 12,
-     "gf5": 12,
+     "gf5": 10,
      "ga5": 4,
-     "pts10": 22,
+     "pts10": 25,
      "n": 10
     }
    },
@@ -4120,27 +4120,27 @@
     "goals": "2:2"
    },
    "model": {
-    "lambda_home": 1.86,
-    "lambda_away": 0.94,
-    "p_home": 0.577,
-    "p_draw": 0.249,
-    "p_away": 0.174,
+    "lambda_home": 1.78,
+    "lambda_away": 1.02,
+    "p_home": 0.537,
+    "p_draw": 0.26,
+    "p_away": 0.203,
     "top_scorelines": [
      {
       "score": "1:1",
-      "p": 0.119
-     },
-     {
-      "score": "2:0",
-      "p": 0.105
-     },
-     {
-      "score": "1:0",
-      "p": 0.1
+      "p": 0.124
      },
      {
       "score": "2:1",
-      "p": 0.099
+      "p": 0.098
+     },
+     {
+      "score": "2:0",
+      "p": 0.096
+     },
+     {
+      "score": "1:0",
+      "p": 0.095
      }
     ]
    },
@@ -4155,7 +4155,7 @@
     "rho": -0.12,
     "holdout_logloss": 0.8735
    },
-   "basis_text": "Berechnet aus: Elo 2003 vs 1812 (Δ +192) · Form letzte 5 WWWWW (18:5) vs WLWWW (12:4) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 58%/25%/17%, wahrscheinlichstes Ergebnis 1:1."
+   "basis_text": "Berechnet aus: Elo 2016 vs 1859 (Δ +157) · Form letzte 5 WWWWW (19:6) vs LWWWW (10:4) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 54%/26%/20%, wahrscheinlichstes Ergebnis 1:1."
   },
   "top_tips": [
    {
@@ -4203,48 +4203,48 @@
    "away": 0
   },
   "probs": {
-   "home": 0.814,
-   "draw": 0.148,
-   "away": 0.038
+   "home": 0.782,
+   "draw": 0.166,
+   "away": 0.052
   },
   "confidence": "hoch",
   "source": "Engine",
-  "reasoning": "Modellbasierte Einschätzung: Ecuador ist nach Elo und Form favorisiert. Berechnet aus: Elo 2032 vs 1614 (Δ +418) · Form letzte 5 WDDWW (9:3) vs DLLLW (6:11) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 81%/15%/4%, wahrscheinlichstes Ergebnis 2:0.",
+  "reasoning": "Modellbasierte Einschätzung: Ecuador ist nach Elo und Form favorisiert. Berechnet aus: Elo 1985 vs 1601 (Δ +383) · Form letzte 5 DDWWL (7:4) vs LLLWL (7:18) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 78%/17%/5%, wahrscheinlichstes Ergebnis 2:0.",
   "key_factors": [
-   "Elo 2032 vs 1614 (Δ +418)",
-   "Form L5 11 vs 4 Punkte",
+   "Elo 1985 vs 1601 (Δ +383)",
+   "Form L5 8 vs 3 Punkte",
    "kein direktes H2H"
   ],
   "upset_watch": null,
   "stat_model": {
-   "p_home": 0.814,
-   "p_draw": 0.148,
-   "p_away": 0.038,
-   "lambda_home": 2.4,
-   "lambda_away": 0.4,
+   "p_home": 0.782,
+   "p_draw": 0.166,
+   "p_away": 0.052,
+   "lambda_home": 2.32,
+   "lambda_away": 0.48,
    "top_scoreline": "2:0"
   },
   "basis": {
    "elo": {
-    "Ecuador": 2031.5,
-    "Curaçao": 1613.6,
-    "diff": 417.9
+    "Ecuador": 1984.7,
+    "Curaçao": 1601.3,
+    "diff": 383.4
    },
    "form": {
     "Ecuador": {
-     "seq5": "WDDWW",
-     "pts5": 11,
-     "gf5": 9,
-     "ga5": 3,
-     "pts10": 18,
+     "seq5": "DDWWL",
+     "pts5": 8,
+     "gf5": 7,
+     "ga5": 4,
+     "pts10": 17,
      "n": 10
     },
     "Curaçao": {
-     "seq5": "DLLLW",
-     "pts5": 4,
-     "gf5": 6,
-     "ga5": 11,
-     "pts10": 15,
+     "seq5": "LLLWL",
+     "pts5": 3,
+     "gf5": 7,
+     "ga5": 18,
+     "pts10": 14,
      "n": 10
     }
    },
@@ -4254,27 +4254,27 @@
     "goals": "0:0"
    },
    "model": {
-    "lambda_home": 2.4,
-    "lambda_away": 0.4,
-    "p_home": 0.814,
-    "p_draw": 0.148,
-    "p_away": 0.038,
+    "lambda_home": 2.32,
+    "lambda_away": 0.48,
+    "p_home": 0.782,
+    "p_draw": 0.166,
+    "p_away": 0.052,
     "top_scorelines": [
      {
       "score": "2:0",
-      "p": 0.176
-     },
-     {
-      "score": "3:0",
-      "p": 0.141
+      "p": 0.164
      },
      {
       "score": "1:0",
-      "p": 0.139
+      "p": 0.133
      },
      {
-      "score": "4:0",
-      "p": 0.085
+      "score": "3:0",
+      "p": 0.127
+     },
+     {
+      "score": "2:1",
+      "p": 0.079
      }
     ]
    },
@@ -4289,7 +4289,7 @@
     "rho": -0.12,
     "holdout_logloss": 0.8735
    },
-   "basis_text": "Berechnet aus: Elo 2032 vs 1614 (Δ +418) · Form letzte 5 WDDWW (9:3) vs DLLLW (6:11) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 81%/15%/4%, wahrscheinlichstes Ergebnis 2:0."
+   "basis_text": "Berechnet aus: Elo 1985 vs 1601 (Δ +383) · Form letzte 5 DDWWL (7:4) vs LLLWL (7:18) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 78%/17%/5%, wahrscheinlichstes Ergebnis 2:0."
   },
   "top_tips": [
    {
@@ -7017,48 +7017,48 @@
    "away": 2
   },
   "probs": {
-   "home": 0.169,
-   "draw": 0.247,
-   "away": 0.584
+   "home": 0.124,
+   "draw": 0.225,
+   "away": 0.651
   },
-  "confidence": "mittel-hoch",
+  "confidence": "hoch",
   "source": "Engine",
-  "reasoning": "Modellbasierte Einschätzung: Ivory Coast ist nach Elo und Form favorisiert. Berechnet aus: Elo 1614 vs 1812 (Δ -198) · Form letzte 5 DLLLW (6:11) vs WLWWW (12:4) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 17%/25%/58%, wahrscheinlichstes Ergebnis 1:1.",
+  "reasoning": "Modellbasierte Einschätzung: Ivory Coast ist nach Elo und Form favorisiert. Berechnet aus: Elo 1601 vs 1859 (Δ -257) · Form letzte 5 LLLWL (7:18) vs LWWWW (10:4) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 12%/23%/65%, wahrscheinlichstes Ergebnis 0:2.",
   "key_factors": [
-   "Elo 1614 vs 1812 (Δ -198)",
-   "Form L5 4 vs 12 Punkte",
+   "Elo 1601 vs 1859 (Δ -257)",
+   "Form L5 3 vs 12 Punkte",
    "kein direktes H2H"
   ],
   "upset_watch": null,
   "stat_model": {
-   "p_home": 0.169,
-   "p_draw": 0.247,
-   "p_away": 0.584,
-   "lambda_home": 0.92,
-   "lambda_away": 1.88,
-   "top_scoreline": "1:1"
+   "p_home": 0.124,
+   "p_draw": 0.225,
+   "p_away": 0.651,
+   "lambda_home": 0.78,
+   "lambda_away": 2.02,
+   "top_scoreline": "0:2"
   },
   "basis": {
    "elo": {
-    "Curaçao": 1613.6,
-    "Ivory Coast": 1811.8,
-    "diff": -198.2
+    "Curaçao": 1601.3,
+    "Ivory Coast": 1858.6,
+    "diff": -257.3
    },
    "form": {
     "Curaçao": {
-     "seq5": "DLLLW",
-     "pts5": 4,
-     "gf5": 6,
-     "ga5": 11,
-     "pts10": 15,
+     "seq5": "LLLWL",
+     "pts5": 3,
+     "gf5": 7,
+     "ga5": 18,
+     "pts10": 14,
      "n": 10
     },
     "Ivory Coast": {
-     "seq5": "WLWWW",
+     "seq5": "LWWWW",
      "pts5": 12,
-     "gf5": 12,
+     "gf5": 10,
      "ga5": 4,
-     "pts10": 22,
+     "pts10": 25,
      "n": 10
     }
    },
@@ -7068,27 +7068,27 @@
     "goals": "0:0"
    },
    "model": {
-    "lambda_home": 0.92,
-    "lambda_away": 1.88,
-    "p_home": 0.169,
-    "p_draw": 0.247,
-    "p_away": 0.584,
+    "lambda_home": 0.78,
+    "lambda_away": 2.02,
+    "p_home": 0.124,
+    "p_draw": 0.225,
+    "p_away": 0.651,
     "top_scorelines": [
      {
-      "score": "1:1",
-      "p": 0.118
-     },
-     {
       "score": "0:2",
-      "p": 0.107
+      "p": 0.124
      },
      {
       "score": "0:1",
-      "p": 0.101
+      "p": 0.111
+     },
+     {
+      "score": "1:1",
+      "p": 0.108
      },
      {
       "score": "1:2",
-      "p": 0.099
+      "p": 0.097
      }
     ]
    },
@@ -7103,7 +7103,7 @@
     "rho": -0.12,
     "holdout_logloss": 0.8735
    },
-   "basis_text": "Berechnet aus: Elo 1614 vs 1812 (Δ -198) · Form letzte 5 DLLLW (6:11) vs WLWWW (12:4) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 17%/25%/58%, wahrscheinlichstes Ergebnis 1:1."
+   "basis_text": "Berechnet aus: Elo 1601 vs 1859 (Δ -257) · Form letzte 5 LLLWL (7:18) vs LWWWW (10:4) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 12%/23%/65%, wahrscheinlichstes Ergebnis 0:2."
   },
   "top_tips": [
    {
@@ -7147,52 +7147,52 @@
  },
  "wc2026-057": {
   "pick": {
-   "home": 2,
-   "away": 1
+   "home": 1,
+   "away": 2
   },
   "probs": {
-   "home": 0.39,
+   "home": 0.326,
    "draw": 0.281,
-   "away": 0.329
+   "away": 0.393
   },
   "confidence": "niedrig-mittel",
   "source": "Engine",
-  "reasoning": "Modellbasierte Einschätzung: Ecuador ist nach Elo und Form favorisiert. Berechnet aus: Elo 2032 vs 2003 (Δ +28) · Form letzte 5 WDDWW (9:3) vs WWWWW (18:5) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 39%/28%/33%, wahrscheinlichstes Ergebnis 1:1.",
+  "reasoning": "Modellbasierte Einschätzung: Germany ist nach Elo und Form favorisiert. Berechnet aus: Elo 1985 vs 2016 (Δ -31) · Form letzte 5 DDWWL (7:4) vs WWWWW (19:6) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 33%/28%/39%, wahrscheinlichstes Ergebnis 1:1.",
   "key_factors": [
-   "Elo 2032 vs 2003 (Δ +28)",
-   "Form L5 11 vs 15 Punkte",
+   "Elo 1985 vs 2016 (Δ -31)",
+   "Form L5 8 vs 15 Punkte",
    "H2H 2 Spiele"
   ],
   "upset_watch": null,
   "stat_model": {
-   "p_home": 0.39,
+   "p_home": 0.326,
    "p_draw": 0.281,
-   "p_away": 0.329,
-   "lambda_home": 1.47,
-   "lambda_away": 1.33,
+   "p_away": 0.393,
+   "lambda_home": 1.33,
+   "lambda_away": 1.47,
    "top_scoreline": "1:1"
   },
   "basis": {
    "elo": {
-    "Ecuador": 2031.5,
-    "Germany": 2003.4,
-    "diff": 28.1
+    "Ecuador": 1984.7,
+    "Germany": 2015.6,
+    "diff": -30.9
    },
    "form": {
     "Ecuador": {
-     "seq5": "WDDWW",
-     "pts5": 11,
-     "gf5": 9,
-     "ga5": 3,
-     "pts10": 18,
+     "seq5": "DDWWL",
+     "pts5": 8,
+     "gf5": 7,
+     "ga5": 4,
+     "pts10": 17,
      "n": 10
     },
     "Germany": {
      "seq5": "WWWWW",
      "pts5": 15,
-     "gf5": 18,
-     "ga5": 5,
-     "pts10": 27,
+     "gf5": 19,
+     "ga5": 6,
+     "pts10": 30,
      "n": 10
     }
    },
@@ -7202,26 +7202,26 @@
     "goals": "2:7"
    },
    "model": {
-    "lambda_home": 1.47,
-    "lambda_away": 1.33,
-    "p_home": 0.39,
+    "lambda_home": 1.33,
+    "lambda_away": 1.47,
+    "p_home": 0.326,
     "p_draw": 0.281,
-    "p_away": 0.329,
+    "p_away": 0.393,
     "top_scorelines": [
      {
       "score": "1:1",
       "p": 0.133
      },
      {
-      "score": "2:1",
-      "p": 0.087
+      "score": "1:2",
+      "p": 0.088
      },
      {
-      "score": "1:2",
+      "score": "2:1",
       "p": 0.079
      },
      {
-      "score": "0:0",
+      "score": "0:1",
       "p": 0.075
      }
     ]
@@ -7237,7 +7237,7 @@
     "rho": -0.12,
     "holdout_logloss": 0.8735
    },
-   "basis_text": "Berechnet aus: Elo 2032 vs 2003 (Δ +28) · Form letzte 5 WDDWW (9:3) vs WWWWW (18:5) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 39%/28%/33%, wahrscheinlichstes Ergebnis 1:1."
+   "basis_text": "Berechnet aus: Elo 1985 vs 2016 (Δ -31) · Form letzte 5 DDWWL (7:4) vs WWWWW (19:6) · H2H 2 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 33%/28%/39%, wahrscheinlichstes Ergebnis 1:1."
   },
   "top_tips": [
    {
@@ -7285,48 +7285,48 @@
    "away": 0
   },
   "probs": {
-   "home": 0.614,
-   "draw": 0.238,
-   "away": 0.148
+   "home": 0.558,
+   "draw": 0.254,
+   "away": 0.187
   },
-  "confidence": "hoch",
+  "confidence": "mittel-hoch",
   "source": "Engine",
-  "reasoning": "Modellbasierte Einschätzung: Japan ist nach Elo und Form favorisiert. Berechnet aus: Elo 1996 vs 1772 (Δ +224) · Form letzte 5 WWWWW (8:0) vs DWWLD (10:9) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 61%/24%/15%, wahrscheinlichstes Ergebnis 2:0.",
+  "reasoning": "Modellbasierte Einschätzung: Japan ist nach Elo und Form favorisiert. Berechnet aus: Elo 1997 vs 1822 (Δ +175) · Form letzte 5 WWWWD (8:2) vs WWLDW (14:9) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 56%/25%/19%, wahrscheinlichstes Ergebnis 1:1.",
   "key_factors": [
-   "Elo 1996 vs 1772 (Δ +224)",
-   "Form L5 15 vs 8 Punkte",
+   "Elo 1997 vs 1822 (Δ +175)",
+   "Form L5 13 vs 10 Punkte",
    "H2H 4 Spiele"
   ],
   "upset_watch": null,
   "stat_model": {
-   "p_home": 0.614,
-   "p_draw": 0.238,
-   "p_away": 0.148,
-   "lambda_home": 1.94,
-   "lambda_away": 0.86,
-   "top_scoreline": "2:0"
+   "p_home": 0.558,
+   "p_draw": 0.254,
+   "p_away": 0.187,
+   "lambda_home": 1.82,
+   "lambda_away": 0.98,
+   "top_scoreline": "1:1"
   },
   "basis": {
    "elo": {
-    "Japan": 1996.1,
-    "Sweden": 1772.2,
-    "diff": 223.9
+    "Japan": 1997.4,
+    "Sweden": 1822.1,
+    "diff": 175.3
    },
    "form": {
     "Japan": {
-     "seq5": "WWWWW",
-     "pts5": 15,
+     "seq5": "WWWWD",
+     "pts5": 13,
      "gf5": 8,
-     "ga5": 0,
-     "pts10": 23,
+     "ga5": 2,
+     "pts10": 21,
      "n": 10
     },
     "Sweden": {
-     "seq5": "DWWLD",
-     "pts5": 8,
-     "gf5": 10,
+     "seq5": "WWLDW",
+     "pts5": 10,
+     "gf5": 14,
      "ga5": 9,
-     "pts10": 9,
+     "pts10": 11,
      "n": 10
     }
    },
@@ -7336,26 +7336,26 @@
     "goals": "4:5"
    },
    "model": {
-    "lambda_home": 1.94,
-    "lambda_away": 0.86,
-    "p_home": 0.614,
-    "p_draw": 0.238,
-    "p_away": 0.148,
+    "lambda_home": 1.82,
+    "lambda_away": 0.98,
+    "p_home": 0.558,
+    "p_draw": 0.254,
+    "p_away": 0.187,
     "top_scorelines": [
      {
-      "score": "2:0",
-      "p": 0.114
-     },
-     {
       "score": "1:1",
-      "p": 0.114
+      "p": 0.121
      },
      {
-      "score": "1:0",
-      "p": 0.106
+      "score": "2:0",
+      "p": 0.101
      },
      {
       "score": "2:1",
+      "p": 0.099
+     },
+     {
+      "score": "1:0",
       "p": 0.098
      }
     ]
@@ -7371,7 +7371,7 @@
     "rho": -0.12,
     "holdout_logloss": 0.8735
    },
-   "basis_text": "Berechnet aus: Elo 1996 vs 1772 (Δ +224) · Form letzte 5 WWWWW (8:0) vs DWWLD (10:9) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 61%/24%/15%, wahrscheinlichstes Ergebnis 2:0."
+   "basis_text": "Berechnet aus: Elo 1997 vs 1822 (Δ +175) · Form letzte 5 WWWWD (8:2) vs WWLDW (14:9) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 56%/25%/19%, wahrscheinlichstes Ergebnis 1:1."
   },
   "top_tips": [
    {
@@ -7419,47 +7419,47 @@
    "away": 2
   },
   "probs": {
-   "home": 0.11,
-   "draw": 0.216,
-   "away": 0.674
+   "home": 0.08,
+   "draw": 0.194,
+   "away": 0.726
   },
   "confidence": "hoch",
   "source": "Engine",
-  "reasoning": "Modellbasierte Einschätzung: Netherlands ist nach Elo und Form favorisiert. Berechnet aus: Elo 1732 vs 2011 (Δ -279) · Form letzte 5 DWDLL (2:7) vs WWDLW (9:4) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 11%/22%/67%, wahrscheinlichstes Ergebnis 0:2.",
+  "reasoning": "Modellbasierte Einschätzung: Netherlands ist nach Elo und Form favorisiert. Berechnet aus: Elo 1683 vs 2010 (Δ -328) · Form letzte 5 WDLLL (2:11) vs WDLWD (7:6) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 8%/19%/73%, wahrscheinlichstes Ergebnis 0:2.",
   "key_factors": [
-   "Elo 1732 vs 2011 (Δ -279)",
-   "Form L5 5 vs 10 Punkte",
+   "Elo 1683 vs 2010 (Δ -328)",
+   "Form L5 4 vs 8 Punkte",
    "H2H 3 Spiele"
   ],
   "upset_watch": null,
   "stat_model": {
-   "p_home": 0.11,
-   "p_draw": 0.216,
-   "p_away": 0.674,
-   "lambda_home": 0.73,
-   "lambda_away": 2.07,
+   "p_home": 0.08,
+   "p_draw": 0.194,
+   "p_away": 0.726,
+   "lambda_home": 0.61,
+   "lambda_away": 2.19,
    "top_scoreline": "0:2"
   },
   "basis": {
    "elo": {
-    "Tunisia": 1732.5,
-    "Netherlands": 2011.4,
-    "diff": -278.9
+    "Tunisia": 1682.6,
+    "Netherlands": 2010.1,
+    "diff": -327.5
    },
    "form": {
     "Tunisia": {
-     "seq5": "DWDLL",
-     "pts5": 5,
+     "seq5": "WDLLL",
+     "pts5": 4,
      "gf5": 2,
-     "ga5": 7,
-     "pts10": 13,
+     "ga5": 11,
+     "pts10": 12,
      "n": 10
     },
     "Netherlands": {
-     "seq5": "WWDLW",
-     "pts5": 10,
-     "gf5": 9,
-     "ga5": 4,
+     "seq5": "WDLWD",
+     "pts5": 8,
+     "gf5": 7,
+     "ga5": 6,
      "pts10": 21,
      "n": 10
     }
@@ -7470,27 +7470,27 @@
     "goals": "3:7"
    },
    "model": {
-    "lambda_home": 0.73,
-    "lambda_away": 2.07,
-    "p_home": 0.11,
-    "p_draw": 0.216,
-    "p_away": 0.674,
+    "lambda_home": 0.61,
+    "lambda_away": 2.19,
+    "p_home": 0.08,
+    "p_draw": 0.194,
+    "p_away": 0.726,
     "top_scorelines": [
      {
       "score": "0:2",
-      "p": 0.13
+      "p": 0.145
      },
      {
       "score": "0:1",
-      "p": 0.115
+      "p": 0.123
+     },
+     {
+      "score": "0:3",
+      "p": 0.106
      },
      {
       "score": "1:1",
-      "p": 0.103
-     },
-     {
-      "score": "1:2",
-      "p": 0.095
+      "p": 0.091
      }
     ]
    },
@@ -7505,7 +7505,7 @@
     "rho": -0.12,
     "holdout_logloss": 0.8735
    },
-   "basis_text": "Berechnet aus: Elo 1732 vs 2011 (Δ -279) · Form letzte 5 DWDLL (2:7) vs WWDLW (9:4) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 11%/22%/67%, wahrscheinlichstes Ergebnis 0:2."
+   "basis_text": "Berechnet aus: Elo 1683 vs 2010 (Δ -328) · Form letzte 5 WDLLL (2:11) vs WDLWD (7:6) · H2H 3 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 8%/19%/73%, wahrscheinlichstes Ergebnis 0:2."
   },
   "top_tips": [
    {
