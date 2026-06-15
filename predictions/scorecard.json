@@ -2,15 +2,15 @@
  "generated_at": "2026-06-15",
  "integrity": "Gewertet werden ausschliesslich Tipps, die VOR Anpfiff im Ledger eingefroren wurden (predictions/ledger.json). Nachtraegliche Tipps erscheinen als 'ungewertet'.",
  "summary": {
-  "gewertet": 6,
+  "gewertet": 10,
   "exakt": 0,
-  "tordifferenz": 1,
-  "tendenz": 0,
-  "daneben": 5,
-  "kicktipp_pts": 3,
-  "kicktipp_avg": 0.5,
-  "tendenz_quote": 0.167,
-  "brier_avg": 0.771,
+  "tordifferenz": 2,
+  "tendenz": 2,
+  "daneben": 6,
+  "kicktipp_pts": 10,
+  "kicktipp_avg": 1.0,
+  "tendenz_quote": 0.4,
+  "brier_avg": 0.692,
   "retro_ungewertet": 2
  },
  "games": [
@@ -85,6 +85,54 @@
    "cat": "daneben",
    "pts": 0,
    "brier": 0.79
+  },
+  {
+   "fixture_id": "wc2026-008",
+   "date": "2026-06-14",
+   "match": "Sweden vs Tunisia",
+   "pick": "2:1",
+   "result": "5:1",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-15",
+   "cat": "tendenz",
+   "pts": 2,
+   "brier": 0.505
+  },
+  {
+   "fixture_id": "wc2026-009",
+   "date": "2026-06-14",
+   "match": "Netherlands vs Japan",
+   "pick": "1:1",
+   "result": "2:2",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-15",
+   "cat": "tordifferenz",
+   "pts": 3,
+   "brier": 0.714
+  },
+  {
+   "fixture_id": "wc2026-010",
+   "date": "2026-06-14",
+   "match": "Germany vs Curaçao",
+   "pick": "3:0",
+   "result": "7:1",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-15",
+   "cat": "tendenz",
+   "pts": 2,
+   "brier": 0.142
+  },
+  {
+   "fixture_id": "wc2026-011",
+   "date": "2026-06-14",
+   "match": "Ivory Coast vs Ecuador",
+   "pick": "0:1",
+   "result": "1:0",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-15",
+   "cat": "daneben",
+   "pts": 0,
+   "brier": 0.933
   }
  ],
  "retro": [

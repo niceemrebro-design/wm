@@ -1013,15 +1013,6 @@
  ],
  "Curaçao": [
   {
-   "date": "2025-09-05",
-   "opp": "Trinidad and Tobago",
-   "gf": 0,
-   "ga": 0,
-   "res": "D",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-09-09",
    "opp": "Bermuda",
    "gf": 3,
@@ -1101,6 +1092,15 @@
    "res": "W",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-14",
+   "opp": "Germany",
+   "gf": 1,
+   "ga": 7,
+   "res": "L",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Czech Republic": [
@@ -1289,15 +1289,6 @@
  ],
  "Ecuador": [
   {
-   "date": "2025-09-04",
-   "opp": "Paraguay",
-   "gf": 0,
-   "ga": 0,
-   "res": "D",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-09-09",
    "opp": "Argentina",
    "gf": 1,
@@ -1377,6 +1368,15 @@
    "res": "W",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-14",
+   "opp": "Ivory Coast",
+   "gf": 0,
+   "ga": 1,
+   "res": "L",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Egypt": [
@@ -1657,15 +1657,6 @@
  ],
  "Germany": [
   {
-   "date": "2025-09-04",
-   "opp": "Slovakia",
-   "gf": 0,
-   "ga": 2,
-   "res": "L",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-09-07",
    "opp": "Northern Ireland",
    "gf": 3,
@@ -1745,6 +1736,15 @@
    "res": "W",
    "venue": "A",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-14",
+   "opp": "Curaçao",
+   "gf": 7,
+   "ga": 1,
+   "res": "W",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ],
  "Ghana": [
@@ -2117,15 +2117,6 @@
  ],
  "Ivory Coast": [
   {
-   "date": "2025-11-14",
-   "opp": "Saudi Arabia",
-   "gf": 0,
-   "ga": 1,
-   "res": "L",
-   "venue": "A",
-   "comp": "Friendly"
-  },
-  {
    "date": "2025-11-18",
    "opp": "Oman",
    "gf": 2,
@@ -2205,18 +2196,18 @@
    "res": "W",
    "venue": "A",
    "comp": "Friendly"
-  }
- ],
- "Japan": [
+  },
   {
-   "date": "2025-06-10",
-   "opp": "Indonesia",
-   "gf": 6,
+   "date": "2026-06-14",
+   "opp": "Ecuador",
+   "gf": 1,
    "ga": 0,
    "res": "W",
    "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
+   "comp": "FIFA World Cup"
+  }
+ ],
+ "Japan": [
   {
    "date": "2025-09-06",
    "opp": "Mexico",
@@ -2297,6 +2288,15 @@
    "res": "W",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-14",
+   "opp": "Netherlands",
+   "gf": 2,
+   "ga": 2,
+   "res": "D",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Jordan": [
@@ -2577,15 +2577,6 @@
  ],
  "Netherlands": [
   {
-   "date": "2025-09-04",
-   "opp": "Poland",
-   "gf": 1,
-   "ga": 1,
-   "res": "D",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-09-07",
    "opp": "Lithuania",
    "gf": 3,
@@ -2665,6 +2656,15 @@
    "res": "W",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-14",
+   "opp": "Japan",
+   "gf": 2,
+   "ga": 2,
+   "res": "D",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ],
  "New Zealand": [
@@ -3773,15 +3773,6 @@
  ],
  "Sweden": [
   {
-   "date": "2025-09-05",
-   "opp": "Slovenia",
-   "gf": 2,
-   "ga": 2,
-   "res": "D",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-09-08",
    "opp": "Kosovo",
    "gf": 0,
@@ -3861,6 +3852,15 @@
    "res": "D",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-14",
+   "opp": "Tunisia",
+   "gf": 5,
+   "ga": 1,
+   "res": "W",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ],
  "Switzerland": [
@@ -3957,15 +3957,6 @@
  ],
  "Tunisia": [
   {
-   "date": "2025-12-04",
-   "opp": "Palestine",
-   "gf": 2,
-   "ga": 2,
-   "res": "D",
-   "venue": "A",
-   "comp": "Arab Cup"
-  },
-  {
    "date": "2025-12-07",
    "opp": "Qatar",
    "gf": 3,
@@ -4045,6 +4036,15 @@
    "res": "L",
    "venue": "A",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-14",
+   "opp": "Sweden",
+   "gf": 1,
+   "ga": 5,
+   "res": "L",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Turkey": [
