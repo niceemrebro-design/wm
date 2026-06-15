@@ -74,15 +74,16 @@ def _best_in(m, keys, cap=0.93):
     return max(pool, key=lambda c: c[1])
 
 
-def outcome_tip(m):
-    """Klarer Sieger-Tipp wenn deutlich favorisiert, sonst sichere Doppelte Chance."""
+def outcome_tip(m, dc_trivial=0.93):
+    """Ausgang-Tipp: Doppelte Chance ist der genaueste Markt (Backtest ~79 %),
+    daher Standard — ausser sie waere trivial (> dc_trivial, z.B. 'Spanien oder
+    Remis 99 %'), dann der aussagekraeftigere Sieger-Tipp."""
     p1, px, p2 = m["1"], m["X"], m["2"]
-    if max(p1, p2) >= 0.55:
-        key = "1" if p1 >= p2 else "2"
-    else:
-        least = min((("1", p1), ("X", px), ("2", p2)), key=lambda x: x[1])[0]
-        key = {"1": "X2", "X": "12", "2": "1X"}[least]
-    return key, m[key]
+    least = min((("1", p1), ("X", px), ("2", p2)), key=lambda x: x[1])[0]
+    dc = {"1": "X2", "X": "12", "2": "1X"}[least]
+    if m[dc] > dc_trivial:
+        return ("1", p1) if p1 >= p2 else ("2", p2)
+    return dc, m[dc]
 
 
 def top_tips(m, home, away, k=3):

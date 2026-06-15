@@ -3,49 +3,49 @@
  "method": "Blind-Backtest WM 2018+2022 (Pre-Match-Elo, kalibriertes Modell)",
  "params": {
   "goals_per_elo": 0.0048,
-  "base_total": 2.8,
+  "base_total": 2.5,
   "home_adv_goals": 0.6,
   "rho": -0.12,
   "momentum_elo_per_pt": 0.0,
-  "calibrated_on": "international 1996-2017, validated 2018+ (incl. tournament subset)",
-  "holdout_logloss": 0.8735,
-  "holdout_brier": 0.5131
+  "calibrated_on": "international 1996-2017; base_total auf Turnier-O/U justiert; Holdout 2018+",
+  "holdout_logloss": 0.8751,
+  "holdout_ou_brier_tournament": 0.2152
  },
  "tournaments": {
   "2018": {
    "n": 64,
-   "exakt": 6,
-   "kicktipp_pts": 89,
-   "kicktipp_avg": 1.39,
+   "exakt": 11,
+   "kicktipp_pts": 101,
+   "kicktipp_avg": 1.58,
    "hit_1x2": 0.547,
-   "hit_ou25": 0.484,
-   "hit_btts": 0.516,
+   "hit_ou25": 0.516,
+   "hit_btts": 0.453,
    "hit_dc": 0.828,
-   "top1": 0.75,
-   "top3_avg": 0.677
+   "top1": 0.828,
+   "top3_avg": 0.693
   },
   "2022": {
    "n": 64,
-   "exakt": 11,
-   "kicktipp_pts": 94,
-   "kicktipp_avg": 1.47,
+   "exakt": 6,
+   "kicktipp_pts": 86,
+   "kicktipp_avg": 1.34,
    "hit_1x2": 0.531,
-   "hit_ou25": 0.469,
-   "hit_btts": 0.547,
-   "hit_dc": 0.734,
+   "hit_ou25": 0.516,
+   "hit_btts": 0.562,
+   "hit_dc": 0.75,
    "top1": 0.734,
-   "top3_avg": 0.651
+   "top3_avg": 0.682
   }
  },
  "total": {
   "n": 128,
   "hit_1x2": 0.539,
-  "hit_ou25": 0.477,
-  "hit_btts": 0.531,
-  "hit_dc": 0.781,
-  "top1": 0.742,
-  "top3_avg": 0.664,
-  "kicktipp_avg": 1.43,
+  "hit_ou25": 0.516,
+  "hit_btts": 0.508,
+  "hit_dc": 0.789,
+  "top1": 0.781,
+  "top3_avg": 0.688,
+  "kicktipp_avg": 1.46,
   "exakt_quote": 0.133
  }
 }

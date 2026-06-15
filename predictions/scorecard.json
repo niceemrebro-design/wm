@@ -311,15 +311,15 @@
    "locked_at": "2026-06-15",
    "tips": [
     {
-     "label": "Über 1,5 Tore",
-     "key": "O15",
-     "p": 0.781,
+     "label": "Ecuador oder Remis",
+     "key": "X2",
+     "p": 0.849,
      "hit": false
     },
     {
-     "label": "Ecuador gewinnt",
-     "key": "2",
-     "p": 0.61,
+     "label": "Über 1,5 Tore",
+     "key": "O15",
+     "p": 0.781,
      "hit": false
     },
     {
