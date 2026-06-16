@@ -4,7 +4,7 @@
   "matches": 33
  },
  "Afghanistan": {
-  "elo": 1154.6,
+  "elo": 1153.5,
   "matches": 147
  },
  "Albania": {
@@ -116,8 +116,8 @@
   "matches": 315
  },
  "Belgium": {
-  "elo": 1950.9,
-  "matches": 853
+  "elo": 1939.5,
+  "matches": 854
  },
  "Belize": {
   "elo": 1288.6,
@@ -200,8 +200,8 @@
   "matches": 4
  },
  "Cape Verde": {
-  "elo": 1643.5,
-  "matches": 235
+  "elo": 1671.5,
+  "matches": 236
  },
  "Cascadia": {
   "elo": 1545.4,
@@ -348,8 +348,8 @@
   "matches": 592
  },
  "Egypt": {
-  "elo": 1812.6,
-  "matches": 756
+  "elo": 1823.9,
+  "matches": 757
  },
  "El Salvador": {
   "elo": 1498.9,
@@ -544,8 +544,8 @@
   "matches": 728
  },
  "Iran": {
-  "elo": 1897.8,
-  "matches": 612
+  "elo": 1883.7,
+  "matches": 613
  },
  "Iraq": {
   "elo": 1740.0,
@@ -692,7 +692,7 @@
   "matches": 835
  },
  "Maldives": {
-  "elo": 978.7,
+  "elo": 979.3,
   "matches": 233
  },
  "Mali": {
@@ -800,8 +800,8 @@
   "matches": 265
  },
  "New Zealand": {
-  "elo": 1720.2,
-  "matches": 416
+  "elo": 1734.3,
+  "matches": 417
  },
  "Nicaragua": {
   "elo": 1512.6,
@@ -864,7 +864,7 @@
   "matches": 45
  },
  "Pakistan": {
-  "elo": 1112.5,
+  "elo": 1113.1,
   "matches": 251
  },
  "Palau": {
@@ -1016,8 +1016,8 @@
   "matches": 4
  },
  "Saudi Arabia": {
-  "elo": 1697.1,
-  "matches": 741
+  "elo": 1717.2,
+  "matches": 742
  },
  "Saugeais": {
   "elo": 1493.5,
@@ -1108,8 +1108,8 @@
   "matches": 3
  },
  "Spain": {
-  "elo": 2228.6,
-  "matches": 783
+  "elo": 2200.6,
+  "matches": 784
  },
  "Sri Lanka": {
   "elo": 1016.3,
@@ -1248,8 +1248,8 @@
   "matches": 78
  },
  "Uruguay": {
-  "elo": 1979.2,
-  "matches": 970
+  "elo": 1959.0,
+  "matches": 971
  },
  "Uzbekistan": {
   "elo": 1822.1,

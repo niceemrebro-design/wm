@@ -336,12 +336,12 @@
   ]
  },
  "wc2026-012": {
-  "meetings": 4,
+  "meetings": 5,
   "home_persp_w": 1,
-  "draw": 0,
+  "draw": 1,
   "home_persp_l": 3,
-  "gf": 4,
-  "ga": 7,
+  "gf": 5,
+  "ga": 8,
   "last": [
    {
     "date": "1999-03-30",
@@ -366,16 +366,22 @@
     "score": "2:1",
     "home": "Egypt",
     "away": "Belgium"
+   },
+   {
+    "date": "2026-06-15",
+    "score": "1:1",
+    "home": "Belgium",
+    "away": "Egypt"
    }
   ]
  },
  "wc2026-013": {
-  "meetings": 2,
+  "meetings": 3,
   "home_persp_w": 1,
-  "draw": 1,
+  "draw": 2,
   "home_persp_l": 0,
-  "gf": 3,
-  "ga": 0,
+  "gf": 5,
+  "ga": 2,
   "last": [
    {
     "date": "1973-08-12",
@@ -388,25 +394,38 @@
     "score": "3:0",
     "home": "Iran",
     "away": "New Zealand"
+   },
+   {
+    "date": "2026-06-15",
+    "score": "2:2",
+    "home": "Iran",
+    "away": "New Zealand"
    }
   ]
  },
  "wc2026-014": {
-  "meetings": 0,
+  "meetings": 1,
   "home_persp_w": 0,
-  "draw": 0,
+  "draw": 1,
   "home_persp_l": 0,
   "gf": 0,
   "ga": 0,
-  "last": []
+  "last": [
+   {
+    "date": "2026-06-15",
+    "score": "0:0",
+    "home": "Spain",
+    "away": "Cape Verde"
+   }
+  ]
  },
  "wc2026-015": {
-  "meetings": 3,
+  "meetings": 4,
   "home_persp_w": 1,
-  "draw": 1,
+  "draw": 2,
   "home_persp_l": 1,
-  "gf": 4,
-  "ga": 4,
+  "gf": 5,
+  "ga": 5,
   "last": [
    {
     "date": "2002-03-27",
@@ -425,6 +444,12 @@
     "score": "1:0",
     "home": "Uruguay",
     "away": "Saudi Arabia"
+   },
+   {
+    "date": "2026-06-15",
+    "score": "1:1",
+    "home": "Saudi Arabia",
+    "away": "Uruguay"
    }
   ]
  },

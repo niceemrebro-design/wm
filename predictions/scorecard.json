@@ -2,16 +2,16 @@
  "generated_at": "2026-06-16",
  "integrity": "Nur vor Anpfiff eingefrorene Tipps zaehlen (predictions/ledger.json). Markt-Tipps gespielter Spiele aus eingefrorenen Lambdas rekonstruiert.",
  "summary": {
-  "gewertet": 10,
-  "tipps_gesamt": 30,
-  "tipps_treffer": 19,
-  "tipps_quote": 0.633,
-  "bester_tipp_quote": 0.6,
-  "markt_1x2_quote": 0.4,
-  "markt_dc_quote": 0.8,
+  "gewertet": 14,
+  "tipps_gesamt": 42,
+  "tipps_treffer": 25,
+  "tipps_quote": 0.595,
+  "bester_tipp_quote": 0.643,
+  "markt_1x2_quote": 0.286,
+  "markt_dc_quote": 0.857,
   "exakt": 0,
   "kicktipp_pts": 10,
-  "kicktipp_avg": 1.0,
+  "kicktipp_avg": 0.71,
   "retro_ungewertet": 2
  },
  "games": [
@@ -332,6 +332,134 @@
    "best_hit": false,
    "hit_1x2": false,
    "hit_dc": false,
+   "exact_cat": "daneben",
+   "exact_pts": 0
+  },
+  {
+   "date": "2026-06-15",
+   "match": "Belgium vs Egypt",
+   "result": "1:1",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-16",
+   "tips": [
+    {
+     "label": "Belgium oder Remis",
+     "key": "1X",
+     "p": 0.795,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.508,
+     "hit": false
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": false,
+   "hit_dc": true,
+   "exact_cat": "daneben",
+   "exact_pts": 0
+  },
+  {
+   "date": "2026-06-15",
+   "match": "Iran vs New Zealand",
+   "result": "2:2",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-16",
+   "tips": [
+    {
+     "label": "Iran oder Remis",
+     "key": "1X",
+     "p": 0.832,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": false
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.531,
+     "hit": false
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": false,
+   "hit_dc": true,
+   "exact_cat": "daneben",
+   "exact_pts": 0
+  },
+  {
+   "date": "2026-06-15",
+   "match": "Spain vs Cape Verde",
+   "result": "0:0",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-16",
+   "tips": [
+    {
+     "label": "Spain gewinnt",
+     "key": "1",
+     "p": 0.891,
+     "hit": false
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.844,
+     "hit": true
+    },
+    {
+     "label": "Über 1,5 Tore",
+     "key": "O15",
+     "p": 0.777,
+     "hit": false
+    }
+   ],
+   "best_hit": false,
+   "hit_1x2": false,
+   "hit_dc": true,
+   "exact_cat": "daneben",
+   "exact_pts": 0
+  },
+  {
+   "date": "2026-06-15",
+   "match": "Saudi Arabia vs Uruguay",
+   "result": "1:1",
+   "source": "Orakel (verfeinert)",
+   "locked_at": "2026-06-16",
+   "tips": [
+    {
+     "label": "Uruguay oder Remis",
+     "key": "X2",
+     "p": 0.91,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.618,
+     "hit": false
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": false,
+   "hit_dc": true,
    "exact_cat": "daneben",
    "exact_pts": 0
   }

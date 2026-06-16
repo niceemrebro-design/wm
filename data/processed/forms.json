@@ -369,15 +369,6 @@
  ],
  "Belgium": [
   {
-   "date": "2025-09-04",
-   "opp": "Liechtenstein",
-   "gf": 6,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-09-07",
    "opp": "Kazakhstan",
    "gf": 6,
@@ -457,6 +448,15 @@
    "res": "W",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-15",
+   "opp": "Egypt",
+   "gf": 1,
+   "ga": 1,
+   "res": "D",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ],
  "Bosnia and Herzegovina": [
@@ -737,15 +737,6 @@
  ],
  "Cape Verde": [
   {
-   "date": "2025-09-04",
-   "opp": "Mauritius",
-   "gf": 2,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-09-09",
    "opp": "Cameroon",
    "gf": 1,
@@ -825,6 +816,15 @@
    "res": "L",
    "venue": "A",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-15",
+   "opp": "Spain",
+   "gf": 0,
+   "ga": 0,
+   "res": "D",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Colombia": [
@@ -1381,15 +1381,6 @@
  ],
  "Egypt": [
   {
-   "date": "2025-12-26",
-   "opp": "South Africa",
-   "gf": 1,
-   "ga": 0,
-   "res": "W",
-   "venue": "H",
-   "comp": "African Cup of Nations"
-  },
-  {
    "date": "2025-12-29",
    "opp": "Angola",
    "gf": 0,
@@ -1469,6 +1460,15 @@
    "res": "L",
    "venue": "A",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-15",
+   "opp": "Belgium",
+   "gf": 1,
+   "ga": 1,
+   "res": "D",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "England": [
@@ -1933,15 +1933,6 @@
  ],
  "Iran": [
   {
-   "date": "2025-06-05",
-   "opp": "Qatar",
-   "gf": 0,
-   "ga": 1,
-   "res": "L",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-06-10",
    "opp": "North Korea",
    "gf": 3,
@@ -2021,6 +2012,15 @@
    "res": "W",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-15",
+   "opp": "New Zealand",
+   "gf": 2,
+   "ga": 2,
+   "res": "D",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ],
  "Iraq": [
@@ -2669,15 +2669,6 @@
  ],
  "New Zealand": [
   {
-   "date": "2025-09-05",
-   "opp": "Australia",
-   "gf": 0,
-   "ga": 1,
-   "res": "L",
-   "venue": "A",
-   "comp": "Soccer Ashes"
-  },
-  {
    "date": "2025-09-09",
    "opp": "Australia",
    "gf": 1,
@@ -2757,6 +2748,15 @@
    "res": "L",
    "venue": "A",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-15",
+   "opp": "Iran",
+   "gf": 2,
+   "ga": 2,
+   "res": "D",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Norway": [
@@ -3221,15 +3221,6 @@
  ],
  "Saudi Arabia": [
   {
-   "date": "2025-12-02",
-   "opp": "Oman",
-   "gf": 2,
-   "ga": 1,
-   "res": "W",
-   "venue": "H",
-   "comp": "Arab Cup"
-  },
-  {
    "date": "2025-12-05",
    "opp": "Comoros",
    "gf": 3,
@@ -3309,6 +3300,15 @@
    "res": "D",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-15",
+   "opp": "Uruguay",
+   "gf": 1,
+   "ga": 1,
+   "res": "D",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ],
  "Scotland": [
@@ -3681,15 +3681,6 @@
  ],
  "Spain": [
   {
-   "date": "2025-09-04",
-   "opp": "Bulgaria",
-   "gf": 3,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-09-07",
    "opp": "Turkey",
    "gf": 6,
@@ -3769,6 +3760,15 @@
    "res": "W",
    "venue": "A",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-15",
+   "opp": "Cape Verde",
+   "gf": 0,
+   "ga": 0,
+   "res": "D",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ],
  "Sweden": [
@@ -4233,15 +4233,6 @@
  ],
  "Uruguay": [
   {
-   "date": "2025-06-05",
-   "opp": "Paraguay",
-   "gf": 0,
-   "ga": 2,
-   "res": "L",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-06-10",
    "opp": "Venezuela",
    "gf": 2,
@@ -4321,6 +4312,15 @@
    "res": "D",
    "venue": "A",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-15",
+   "opp": "Saudi Arabia",
+   "gf": 1,
+   "ga": 1,
+   "res": "D",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Uzbekistan": [
