@@ -9,6 +9,7 @@ import json
 import os
 
 from util import DATA_PROC, PRED_DIR, REPO_ROOT
+import kombi
 
 WEB = os.path.join(REPO_ROOT, "web")
 
@@ -37,6 +38,9 @@ def main():
     if backtest:
         backtest.pop("games", None)  # Detail-Listen nicht in die Web-Daten
 
+    upcoming = [p for p in allp.get("predictions", []) if not p.get("played")]
+    kombis = kombi.build_kombis(upcoming)
+
     data = {
         "meta": allp.get("data", {}),
         "params": allp.get("params"),
@@ -48,6 +52,7 @@ def main():
         "tournament": tour,
         "scorecard": scorecard,
         "backtest": backtest,
+        "kombis": kombis,
     }
     with open(os.path.join(WEB, "data.js"), "w", encoding="utf-8") as f:
         f.write("window.WM_DATA = " + json.dumps(data, ensure_ascii=False) + ";\n")

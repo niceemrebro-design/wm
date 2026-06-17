@@ -75,6 +75,18 @@
   .orow{display:flex;flex-direction:column;gap:4px} .orow .t{font-weight:600} .orow .p{color:var(--gold)}
   .obar{height:6px;background:#22304a;border-radius:4px;overflow:hidden} .obar span{display:block;height:100%;background:var(--gold)}
   footer{color:var(--muted);font-size:11px;margin-top:34px;text-align:center}
+  .stakebox{margin:8px 0 14px;font-size:14px;color:var(--muted)}
+  .stakebox input{width:74px;background:var(--card2);border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:6px 8px;font-size:15px;font-weight:700;margin:0 4px}
+  .kombi{margin-bottom:12px}
+  .kombi-head{display:flex;justify-content:space-between;align-items:baseline}
+  .kombi-name{font-weight:800;font-size:17px} .kombi-odds{font-weight:800;color:var(--gold);font-size:16px}
+  .kombi-sub{color:var(--muted);font-size:12px;margin:2px 0 8px}
+  .kombi-leg{display:grid;grid-template-columns:40px 1fr auto;gap:1px 8px;padding:7px 0;border-top:1px solid var(--line)}
+  .kl-date{grid-row:1/3;align-self:center;color:var(--muted);font-size:11px}
+  .kl-match{grid-column:2;grid-row:1;color:var(--muted);font-size:12px}
+  .kl-tip{grid-column:2;grid-row:2;font-weight:600;font-size:14px}
+  .kl-p{grid-column:3;grid-row:1/3;align-self:center;font-weight:700;font-variant-numeric:tabular-nums}
+  .kombi-foot{display:flex;justify-content:space-between;margin-top:9px;padding-top:9px;border-top:1px solid var(--line);font-size:13px}
   .hidden{display:none}
 </style>
 </head>
@@ -87,6 +99,7 @@
 
   <div class="tabs">
     <div class="tab active" data-view="matches" onclick="setView('matches')">🎟️ Tipps</div>
+    <div class="tab" data-view="kombis" onclick="setView('kombis')">🎰 Kombis</div>
     <div class="tab" data-view="bilanz" onclick="setView('bilanz')">📋 Bilanz</div>
     <div class="tab" data-view="odds" onclick="setView('odds')">🏆 Titel-Odds</div>
     <div class="tab" data-view="elo" onclick="setView('elo')">📊 Elo</div>
@@ -98,6 +111,7 @@
     <button class="pastbtn" id="pastBtn" onclick="togglePast()"></button>
     <div id="pastWrap" class="hidden"></div>
   </div>
+  <div id="view-kombis" class="hidden"><div class="side" id="kombis"></div></div>
   <div id="view-bilanz" class="hidden"><div class="side" id="bilanz"></div></div>
   <div id="view-odds" class="hidden"><div class="side"><h2>🏆 Weltmeister-Wahrscheinlichkeiten</h2><div class="odds" id="odds"></div></div></div>
   <div id="view-elo" class="hidden"><div class="side"><h2>📊 Kraftrangliste (Elo) — alle 48 Teilnehmer</h2><div class="elo" id="elo"></div></div></div>
@@ -254,7 +268,25 @@ if(T&&T.teams&&T.teams.length){const mx=Math.max(...T.teams.map(t=>t.p_winner||0
   odds.innerHTML=T.teams.slice(0,16).map(t=>`<div class="orow"><div style="display:flex;justify-content:space-between;width:100%"><span class="t">${t.team}</span><span class="p">${(t.p_winner*100).toFixed(1)}%</span></div><div class="obar" style="width:100%"><span style="width:${(t.p_winner/mx*100).toFixed(0)}%"></span></div></div>`).join('');
 } else odds.innerHTML=`<p class="reason">Titel-Odds folgen.</p>`;
 
-function setView(v){['matches','bilanz','odds','elo'].forEach(x=>{
+// Kombis (Akkumulator-Wetten)
+(function(){
+  const el=document.getElementById('kombis'); const ks=D.kombis||[];
+  if(!ks.length){el.innerHTML=`<h2>🎰 Kombi-Wetten</h2><p class="reason">Aktuell keine Kombis — sobald anstehende Spiele vorliegen, erscheinen hier fertige Kombischeine.</p>`;return;}
+  let h=`<h2>🎰 Kombi-Wetten für BWIN</h2>
+    <p class="reason">3 fertige Kombischeine (ein Tipp pro Spiel). Gesamtchance = Wahrscheinlichkeiten multipliziert. Faire Quote = Break-even — echte BWIN-Quoten liegen wegen der Marge etwas darunter.</p>
+    <div class="stakebox">Einsatz <input id="stake" type="number" min="1" step="1" value="10"> €</div>`;
+  ks.forEach(k=>{
+    h+=`<div class="card kombi"><div class="kombi-head"><span class="kombi-name">${k.name}</span><span class="kombi-odds">Quote ~${k.fair_odds}×</span></div>
+      <div class="kombi-sub">${k.desc}</div>
+      ${k.legs.map(l=>`<div class="kombi-leg"><span class="kl-date">${l.date.slice(5)}</span><span class="kl-match">${l.match}</span><span class="kl-tip">${l.label}</span><span class="kl-p" style="color:${ampel(l.p).c}">${pct(l.p)}</span></div>`).join('')}
+      <div class="kombi-foot"><span>Gesamtchance <b style="color:${ampel(k.combined_p).c}">${pct(k.combined_p)}</b> · ${k.legs.length} Legs</span><span>Auszahlung <b class="payout" data-odds="${k.fair_odds}" style="color:var(--gold)">${(10*k.fair_odds).toFixed(2)}€</b></span></div></div>`;
+  });
+  el.innerHTML=h;
+  const inp=document.getElementById('stake');
+  if(inp) inp.addEventListener('input',()=>{const v=parseFloat(inp.value)||0; document.querySelectorAll('.payout').forEach(s=>{s.textContent=(v*parseFloat(s.dataset.odds)).toFixed(2)+'€';});});
+})();
+
+function setView(v){['matches','kombis','bilanz','odds','elo'].forEach(x=>{
   document.getElementById('view-'+x).classList.toggle('hidden',x!==v);
   document.querySelector(`.tab[data-view="${x}"]`).classList.toggle('active',x===v);});}
 
