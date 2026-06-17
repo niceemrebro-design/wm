@@ -1,15 +1,6 @@
 {
  "Algeria": [
   {
-   "date": "2025-12-12",
-   "opp": "United Arab Emirates",
-   "gf": 1,
-   "ga": 1,
-   "res": "D",
-   "venue": "H",
-   "comp": "Arab Cup"
-  },
-  {
    "date": "2025-12-24",
    "opp": "Sudan",
    "gf": 3,
@@ -89,18 +80,18 @@
    "res": "W",
    "venue": "A",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-16",
+   "opp": "Argentina",
+   "gf": 0,
+   "ga": 3,
+   "res": "L",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Argentina": [
-  {
-   "date": "2025-06-10",
-   "opp": "Colombia",
-   "gf": 1,
-   "ga": 1,
-   "res": "D",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
   {
    "date": "2025-09-04",
    "opp": "Venezuela",
@@ -181,6 +172,15 @@
    "res": "W",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-16",
+   "opp": "Algeria",
+   "gf": 3,
+   "ga": 0,
+   "res": "W",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ],
  "Australia": [
@@ -277,15 +277,6 @@
  ],
  "Austria": [
   {
-   "date": "2025-06-10",
-   "opp": "San Marino",
-   "gf": 4,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-09-06",
    "opp": "Cyprus",
    "gf": 1,
@@ -365,6 +356,15 @@
    "res": "W",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-16",
+   "opp": "Jordan",
+   "gf": 3,
+   "ga": 1,
+   "res": "W",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ],
  "Belgium": [
@@ -1565,15 +1565,6 @@
  ],
  "France": [
   {
-   "date": "2025-09-05",
-   "opp": "Ukraine",
-   "gf": 2,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-09-09",
    "opp": "Iceland",
    "gf": 2,
@@ -1653,6 +1644,15 @@
    "res": "W",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-16",
+   "opp": "Senegal",
+   "gf": 3,
+   "ga": 1,
+   "res": "W",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ],
  "Germany": [
@@ -2025,15 +2025,6 @@
  ],
  "Iraq": [
   {
-   "date": "2025-11-13",
-   "opp": "United Arab Emirates",
-   "gf": 1,
-   "ga": 1,
-   "res": "D",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-11-18",
    "opp": "United Arab Emirates",
    "gf": 2,
@@ -2113,6 +2104,15 @@
    "res": "L",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-16",
+   "opp": "Norway",
+   "gf": 1,
+   "ga": 4,
+   "res": "L",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ],
  "Ivory Coast": [
@@ -2301,15 +2301,6 @@
  ],
  "Jordan": [
   {
-   "date": "2025-12-03",
-   "opp": "United Arab Emirates",
-   "gf": 2,
-   "ga": 1,
-   "res": "W",
-   "venue": "H",
-   "comp": "Arab Cup"
-  },
-  {
    "date": "2025-12-06",
    "opp": "Kuwait",
    "gf": 3,
@@ -2389,6 +2380,15 @@
    "res": "L",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-16",
+   "opp": "Austria",
+   "gf": 1,
+   "ga": 3,
+   "res": "L",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Mexico": [
@@ -2761,15 +2761,6 @@
  ],
  "Norway": [
   {
-   "date": "2025-09-04",
-   "opp": "Finland",
-   "gf": 1,
-   "ga": 0,
-   "res": "W",
-   "venue": "H",
-   "comp": "Friendly"
-  },
-  {
    "date": "2025-09-09",
    "opp": "Moldova",
    "gf": 11,
@@ -2849,6 +2840,15 @@
    "res": "D",
    "venue": "A",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-16",
+   "opp": "Iraq",
+   "gf": 4,
+   "ga": 1,
+   "res": "W",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Panama": [
@@ -3405,15 +3405,6 @@
  ],
  "Senegal": [
   {
-   "date": "2025-12-27",
-   "opp": "DR Congo",
-   "gf": 1,
-   "ga": 1,
-   "res": "D",
-   "venue": "H",
-   "comp": "African Cup of Nations"
-  },
-  {
    "date": "2025-12-30",
    "opp": "Benin",
    "gf": 3,
@@ -3493,6 +3484,15 @@
    "res": "D",
    "venue": "A",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-16",
+   "opp": "France",
+   "gf": 1,
+   "ga": 3,
+   "res": "L",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "South Africa": [

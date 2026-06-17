@@ -454,20 +454,27 @@
   ]
  },
  "wc2026-016": {
-  "meetings": 0,
-  "home_persp_w": 0,
-  "draw": 0,
-  "home_persp_l": 0,
-  "gf": 0,
-  "ga": 0,
-  "last": []
- },
- "wc2026-017": {
   "meetings": 1,
   "home_persp_w": 1,
   "draw": 0,
   "home_persp_l": 0,
-  "gf": 4,
+  "gf": 3,
+  "ga": 1,
+  "last": [
+   {
+    "date": "2026-06-16",
+    "score": "3:1",
+    "home": "Austria",
+    "away": "Jordan"
+   }
+  ]
+ },
+ "wc2026-017": {
+  "meetings": 2,
+  "home_persp_w": 2,
+  "draw": 0,
+  "home_persp_l": 0,
+  "gf": 7,
   "ga": 3,
   "last": [
    {
@@ -475,16 +482,22 @@
     "score": "3:4",
     "home": "Algeria",
     "away": "Argentina"
+   },
+   {
+    "date": "2026-06-16",
+    "score": "3:0",
+    "home": "Argentina",
+    "away": "Algeria"
    }
   ]
  },
  "wc2026-018": {
-  "meetings": 2,
-  "home_persp_w": 0,
+  "meetings": 3,
+  "home_persp_w": 1,
   "draw": 0,
   "home_persp_l": 2,
-  "gf": 0,
-  "ga": 3,
+  "gf": 3,
+  "ga": 4,
   "last": [
    {
     "date": "1963-04-18",
@@ -497,17 +510,30 @@
     "score": "0:1",
     "home": "France",
     "away": "Senegal"
+   },
+   {
+    "date": "2026-06-16",
+    "score": "3:1",
+    "home": "France",
+    "away": "Senegal"
    }
   ]
  },
  "wc2026-019": {
-  "meetings": 0,
+  "meetings": 1,
   "home_persp_w": 0,
   "draw": 0,
-  "home_persp_l": 0,
-  "gf": 0,
-  "ga": 0,
-  "last": []
+  "home_persp_l": 1,
+  "gf": 1,
+  "ga": 4,
+  "last": [
+   {
+    "date": "2026-06-16",
+    "score": "1:4",
+    "home": "Iraq",
+    "away": "Norway"
+   }
+  ]
  },
  "wc2026-020": {
   "meetings": 0,
