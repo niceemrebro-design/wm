@@ -829,15 +829,6 @@
  ],
  "Colombia": [
   {
-   "date": "2025-09-04",
-   "opp": "Bolivia",
-   "gf": 3,
-   "ga": 0,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-09-09",
    "opp": "Venezuela",
    "gf": 6,
@@ -917,18 +908,18 @@
    "res": "W",
    "venue": "A",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-17",
+   "opp": "Uzbekistan",
+   "gf": 3,
+   "ga": 1,
+   "res": "W",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Croatia": [
-  {
-   "date": "2025-09-05",
-   "opp": "Faroe Islands",
-   "gf": 1,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
   {
    "date": "2025-09-08",
    "opp": "Montenegro",
@@ -1009,6 +1000,15 @@
    "res": "W",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-17",
+   "opp": "England",
+   "gf": 2,
+   "ga": 4,
+   "res": "L",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Curaçao": [
@@ -1197,15 +1197,6 @@
  ],
  "DR Congo": [
   {
-   "date": "2025-11-13",
-   "opp": "Cameroon",
-   "gf": 1,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-11-16",
    "opp": "Nigeria",
    "gf": 1,
@@ -1285,6 +1276,15 @@
    "res": "L",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-17",
+   "opp": "Portugal",
+   "gf": 1,
+   "ga": 1,
+   "res": "D",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Ecuador": [
@@ -1473,15 +1473,6 @@
  ],
  "England": [
   {
-   "date": "2025-09-06",
-   "opp": "Andorra",
-   "gf": 2,
-   "ga": 0,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-09-09",
    "opp": "Serbia",
    "gf": 5,
@@ -1561,6 +1552,15 @@
    "res": "W",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-17",
+   "opp": "Croatia",
+   "gf": 4,
+   "ga": 2,
+   "res": "W",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ],
  "France": [
@@ -1749,15 +1749,6 @@
  ],
  "Ghana": [
   {
-   "date": "2025-09-04",
-   "opp": "Chad",
-   "gf": 1,
-   "ga": 1,
-   "res": "D",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-09-08",
    "opp": "Mali",
    "gf": 1,
@@ -1837,6 +1828,15 @@
    "res": "D",
    "venue": "A",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-17",
+   "opp": "Panama",
+   "gf": 1,
+   "ga": 0,
+   "res": "W",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ],
  "Haiti": [
@@ -2853,15 +2853,6 @@
  ],
  "Panama": [
   {
-   "date": "2025-10-14",
-   "opp": "Suriname",
-   "gf": 1,
-   "ga": 1,
-   "res": "D",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-11-13",
    "opp": "Guatemala",
    "gf": 3,
@@ -2941,6 +2932,15 @@
    "res": "D",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-17",
+   "opp": "Ghana",
+   "gf": 0,
+   "ga": 1,
+   "res": "L",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Paraguay": [
@@ -3037,15 +3037,6 @@
  ],
  "Portugal": [
   {
-   "date": "2025-09-06",
-   "opp": "Armenia",
-   "gf": 5,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-09-09",
    "opp": "Hungary",
    "gf": 3,
@@ -3125,6 +3116,15 @@
    "res": "W",
    "venue": "H",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-17",
+   "opp": "DR Congo",
+   "gf": 1,
+   "ga": 1,
+   "res": "D",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ],
  "Qatar": [
@@ -4325,15 +4325,6 @@
  ],
  "Uzbekistan": [
   {
-   "date": "2025-06-10",
-   "opp": "Qatar",
-   "gf": 3,
-   "ga": 0,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-10",
    "opp": "Kuwait",
    "gf": 2,
@@ -4413,6 +4404,15 @@
    "res": "L",
    "venue": "A",
    "comp": "Friendly"
+  },
+  {
+   "date": "2026-06-17",
+   "opp": "Colombia",
+   "gf": 1,
+   "ga": 3,
+   "res": "L",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ]
 }

@@ -247,9 +247,9 @@
   "city": "Houston",
   "country": "United States",
   "neutral": true,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 1,
+  "away_score": 1
  },
  {
   "id": "wc2026-021",
@@ -259,9 +259,9 @@
   "city": "Mexico City",
   "country": "Mexico",
   "neutral": true,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 1,
+  "away_score": 3
  },
  {
   "id": "wc2026-022",
@@ -271,9 +271,9 @@
   "city": "Arlington",
   "country": "United States",
   "neutral": true,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 4,
+  "away_score": 2
  },
  {
   "id": "wc2026-023",
@@ -283,9 +283,9 @@
   "city": "Toronto",
   "country": "Canada",
   "neutral": true,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 1,
+  "away_score": 0
  },
  {
   "id": "wc2026-024",

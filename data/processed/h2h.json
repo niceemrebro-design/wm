@@ -536,37 +536,45 @@
   ]
  },
  "wc2026-020": {
-  "meetings": 0,
+  "meetings": 1,
   "home_persp_w": 0,
-  "draw": 0,
+  "draw": 1,
   "home_persp_l": 0,
-  "gf": 0,
-  "ga": 0,
-  "last": []
- },
- "wc2026-021": {
-  "meetings": 0,
-  "home_persp_w": 0,
-  "draw": 0,
-  "home_persp_l": 0,
-  "gf": 0,
-  "ga": 0,
-  "last": []
- },
- "wc2026-022": {
-  "meetings": 11,
-  "home_persp_w": 6,
-  "draw": 2,
-  "home_persp_l": 3,
-  "gf": 22,
-  "ga": 13,
+  "gf": 1,
+  "ga": 1,
   "last": [
    {
-    "date": "2009-09-09",
-    "score": "5:1",
-    "home": "England",
-    "away": "Croatia"
-   },
+    "date": "2026-06-17",
+    "score": "1:1",
+    "home": "Portugal",
+    "away": "DR Congo"
+   }
+  ]
+ },
+ "wc2026-021": {
+  "meetings": 1,
+  "home_persp_w": 0,
+  "draw": 0,
+  "home_persp_l": 1,
+  "gf": 1,
+  "ga": 3,
+  "last": [
+   {
+    "date": "2026-06-17",
+    "score": "1:3",
+    "home": "Uzbekistan",
+    "away": "Colombia"
+   }
+  ]
+ },
+ "wc2026-022": {
+  "meetings": 12,
+  "home_persp_w": 7,
+  "draw": 2,
+  "home_persp_l": 3,
+  "gf": 26,
+  "ga": 15,
+  "last": [
    {
     "date": "2018-07-11",
     "score": "2:1",
@@ -590,17 +598,30 @@
     "score": "1:0",
     "home": "England",
     "away": "Croatia"
+   },
+   {
+    "date": "2026-06-17",
+    "score": "4:2",
+    "home": "England",
+    "away": "Croatia"
    }
   ]
  },
  "wc2026-023": {
-  "meetings": 0,
-  "home_persp_w": 0,
+  "meetings": 1,
+  "home_persp_w": 1,
   "draw": 0,
   "home_persp_l": 0,
-  "gf": 0,
+  "gf": 1,
   "ga": 0,
-  "last": []
+  "last": [
+   {
+    "date": "2026-06-17",
+    "score": "1:0",
+    "home": "Ghana",
+    "away": "Panama"
+   }
+  ]
  },
  "wc2026-024": {
   "meetings": 1,
