@@ -624,35 +624,35 @@
   ]
  },
  "wc2026-024": {
-  "meetings": 1,
+  "meetings": 2,
   "home_persp_w": 0,
-  "draw": 1,
+  "draw": 2,
   "home_persp_l": 0,
-  "gf": 2,
-  "ga": 2,
+  "gf": 3,
+  "ga": 3,
   "last": [
    {
     "date": "1997-12-13",
     "score": "2:2",
     "home": "South Africa",
     "away": "Czech Republic"
+   },
+   {
+    "date": "2026-06-18",
+    "score": "1:1",
+    "home": "Czech Republic",
+    "away": "South Africa"
    }
   ]
  },
  "wc2026-025": {
-  "meetings": 14,
-  "home_persp_w": 8,
+  "meetings": 15,
+  "home_persp_w": 9,
   "draw": 3,
   "home_persp_l": 3,
-  "gf": 28,
+  "gf": 29,
   "ga": 15,
   "last": [
-   {
-    "date": "2006-02-15",
-    "score": "0:1",
-    "home": "Mexico",
-    "away": "South Korea"
-   },
    {
     "date": "2014-01-29",
     "score": "4:0",
@@ -676,36 +676,54 @@
     "score": "2:2",
     "home": "Mexico",
     "away": "South Korea"
+   },
+   {
+    "date": "2026-06-18",
+    "score": "1:0",
+    "home": "Mexico",
+    "away": "South Korea"
    }
   ]
  },
  "wc2026-026": {
-  "meetings": 1,
-  "home_persp_w": 0,
+  "meetings": 2,
+  "home_persp_w": 1,
   "draw": 0,
   "home_persp_l": 1,
-  "gf": 0,
-  "ga": 2,
+  "gf": 4,
+  "ga": 3,
   "last": [
    {
     "date": "2016-03-29",
     "score": "0:2",
     "home": "Switzerland",
     "away": "Bosnia and Herzegovina"
+   },
+   {
+    "date": "2026-06-18",
+    "score": "4:1",
+    "home": "Switzerland",
+    "away": "Bosnia and Herzegovina"
    }
   ]
  },
  "wc2026-027": {
-  "meetings": 1,
-  "home_persp_w": 1,
+  "meetings": 2,
+  "home_persp_w": 2,
   "draw": 0,
   "home_persp_l": 0,
-  "gf": 2,
+  "gf": 8,
   "ga": 0,
   "last": [
    {
     "date": "2022-09-23",
     "score": "2:0",
+    "home": "Canada",
+    "away": "Qatar"
+   },
+   {
+    "date": "2026-06-18",
+    "score": "6:0",
     "home": "Canada",
     "away": "Qatar"
    }

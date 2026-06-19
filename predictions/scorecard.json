@@ -2,16 +2,16 @@
  "generated_at": "2026-06-19",
  "integrity": "Nur vor Anpfiff eingefrorene Tipps zaehlen (predictions/ledger.json). Markt-Tipps gespielter Spiele aus eingefrorenen Lambdas rekonstruiert.",
  "summary": {
-  "gewertet": 22,
-  "tipps_gesamt": 66,
-  "tipps_treffer": 38,
-  "tipps_quote": 0.576,
-  "bester_tipp_quote": 0.727,
-  "markt_1x2_quote": 0.455,
-  "markt_dc_quote": 0.864,
-  "exakt": 0,
-  "kicktipp_pts": 24,
-  "kicktipp_avg": 1.09,
+  "gewertet": 26,
+  "tipps_gesamt": 78,
+  "tipps_treffer": 46,
+  "tipps_quote": 0.59,
+  "bester_tipp_quote": 0.769,
+  "markt_1x2_quote": 0.5,
+  "markt_dc_quote": 0.885,
+  "exakt": 1,
+  "kicktipp_pts": 32,
+  "kicktipp_avg": 1.23,
   "retro_ungewertet": 2
  },
  "games": [
@@ -718,6 +718,134 @@
    "hit_dc": false,
    "exact_cat": "daneben",
    "exact_pts": 0
+  },
+  {
+   "date": "2026-06-18",
+   "match": "Czech Republic vs South Africa",
+   "result": "1:1",
+   "source": "Engine",
+   "locked_at": "2026-06-19",
+   "tips": [
+    {
+     "label": "Czech Republic oder Remis",
+     "key": "1X",
+     "p": 0.783,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.502,
+     "hit": false
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": false,
+   "hit_dc": true,
+   "exact_cat": "daneben",
+   "exact_pts": 0
+  },
+  {
+   "date": "2026-06-18",
+   "match": "Mexico vs South Korea",
+   "result": "1:0",
+   "source": "Engine",
+   "locked_at": "2026-06-19",
+   "tips": [
+    {
+     "label": "Mexico oder Remis",
+     "key": "1X",
+     "p": 0.863,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.557,
+     "hit": true
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "exakt",
+   "exact_pts": 4
+  },
+  {
+   "date": "2026-06-18",
+   "match": "Switzerland vs Bosnia and Herzegovina",
+   "result": "4:1",
+   "source": "Engine",
+   "locked_at": "2026-06-19",
+   "tips": [
+    {
+     "label": "Switzerland oder Remis",
+     "key": "1X",
+     "p": 0.897,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": false
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.597,
+     "hit": false
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tendenz",
+   "exact_pts": 2
+  },
+  {
+   "date": "2026-06-18",
+   "match": "Canada vs Qatar",
+   "result": "6:0",
+   "source": "Engine",
+   "locked_at": "2026-06-19",
+   "tips": [
+    {
+     "label": "Canada gewinnt",
+     "key": "1",
+     "p": 0.829,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.797,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": false
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tendenz",
+   "exact_pts": 2
   }
  ],
  "retro": [

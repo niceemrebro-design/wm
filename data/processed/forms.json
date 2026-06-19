@@ -461,15 +461,6 @@
  ],
  "Bosnia and Herzegovina": [
   {
-   "date": "2025-09-09",
-   "opp": "Austria",
-   "gf": 1,
-   "ga": 2,
-   "res": "L",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-09",
    "opp": "Cyprus",
    "gf": 2,
@@ -547,6 +538,15 @@
    "gf": 1,
    "ga": 1,
    "res": "D",
+   "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-18",
+   "opp": "Switzerland",
+   "gf": 1,
+   "ga": 4,
+   "res": "L",
    "venue": "A",
    "comp": "FIFA World Cup"
   }
@@ -645,15 +645,6 @@
  ],
  "Canada": [
   {
-   "date": "2025-09-09",
-   "opp": "Wales",
-   "gf": 1,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "Friendly"
-  },
-  {
    "date": "2025-10-10",
    "opp": "Australia",
    "gf": 0,
@@ -731,6 +722,15 @@
    "gf": 1,
    "ga": 1,
    "res": "D",
+   "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-18",
+   "opp": "Qatar",
+   "gf": 6,
+   "ga": 0,
+   "res": "W",
    "venue": "H",
    "comp": "FIFA World Cup"
   }
@@ -1105,15 +1105,6 @@
  ],
  "Czech Republic": [
   {
-   "date": "2025-09-08",
-   "opp": "Saudi Arabia",
-   "gf": 1,
-   "ga": 1,
-   "res": "D",
-   "venue": "H",
-   "comp": "Friendly"
-  },
-  {
    "date": "2025-10-09",
    "opp": "Croatia",
    "gf": 0,
@@ -1192,6 +1183,15 @@
    "ga": 2,
    "res": "L",
    "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-18",
+   "opp": "South Africa",
+   "gf": 1,
+   "ga": 1,
+   "res": "D",
+   "venue": "H",
    "comp": "FIFA World Cup"
   }
  ],
@@ -2393,15 +2393,6 @@
  ],
  "Mexico": [
   {
-   "date": "2025-11-18",
-   "opp": "Paraguay",
-   "gf": 1,
-   "ga": 2,
-   "res": "L",
-   "venue": "H",
-   "comp": "Friendly"
-  },
-  {
    "date": "2026-01-22",
    "opp": "Panama",
    "gf": 1,
@@ -2477,6 +2468,15 @@
    "date": "2026-06-11",
    "opp": "South Africa",
    "gf": 2,
+   "ga": 0,
+   "res": "W",
+   "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-18",
+   "opp": "South Korea",
+   "gf": 1,
    "ga": 0,
    "res": "W",
    "venue": "H",
@@ -3129,15 +3129,6 @@
  ],
  "Qatar": [
   {
-   "date": "2025-09-07",
-   "opp": "Russia",
-   "gf": 1,
-   "ga": 4,
-   "res": "L",
-   "venue": "H",
-   "comp": "Friendly"
-  },
-  {
    "date": "2025-10-08",
    "opp": "Oman",
    "gf": 0,
@@ -3216,6 +3207,15 @@
    "ga": 1,
    "res": "D",
    "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-18",
+   "opp": "Canada",
+   "gf": 0,
+   "ga": 6,
+   "res": "L",
+   "venue": "A",
    "comp": "FIFA World Cup"
   }
  ],
@@ -3497,15 +3497,6 @@
  ],
  "South Africa": [
   {
-   "date": "2025-11-15",
-   "opp": "Zambia",
-   "gf": 3,
-   "ga": 1,
-   "res": "W",
-   "venue": "H",
-   "comp": "Friendly"
-  },
-  {
    "date": "2025-12-22",
    "opp": "Angola",
    "gf": 2,
@@ -3585,18 +3576,18 @@
    "res": "L",
    "venue": "A",
    "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-18",
+   "opp": "Czech Republic",
+   "gf": 1,
+   "ga": 1,
+   "res": "D",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "South Korea": [
-  {
-   "date": "2025-09-09",
-   "opp": "Mexico",
-   "gf": 2,
-   "ga": 2,
-   "res": "D",
-   "venue": "A",
-   "comp": "Friendly"
-  },
   {
    "date": "2025-10-10",
    "opp": "Brazil",
@@ -3676,6 +3667,15 @@
    "ga": 1,
    "res": "W",
    "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-18",
+   "opp": "Mexico",
+   "gf": 0,
+   "ga": 1,
+   "res": "L",
+   "venue": "A",
    "comp": "FIFA World Cup"
   }
  ],
@@ -3865,15 +3865,6 @@
  ],
  "Switzerland": [
   {
-   "date": "2025-09-08",
-   "opp": "Slovenia",
-   "gf": 3,
-   "ga": 0,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-10",
    "opp": "Sweden",
    "gf": 2,
@@ -3952,6 +3943,15 @@
    "ga": 1,
    "res": "D",
    "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-18",
+   "opp": "Bosnia and Herzegovina",
+   "gf": 4,
+   "ga": 1,
+   "res": "W",
+   "venue": "H",
    "comp": "FIFA World Cup"
   }
  ],

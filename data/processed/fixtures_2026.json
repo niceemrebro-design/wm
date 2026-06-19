@@ -295,9 +295,9 @@
   "city": "Atlanta",
   "country": "United States",
   "neutral": true,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 1,
+  "away_score": 1
  },
  {
   "id": "wc2026-025",
@@ -307,9 +307,9 @@
   "city": "Zapopan",
   "country": "Mexico",
   "neutral": false,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 1,
+  "away_score": 0
  },
  {
   "id": "wc2026-026",
@@ -319,9 +319,9 @@
   "city": "Inglewood",
   "country": "United States",
   "neutral": true,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 4,
+  "away_score": 1
  },
  {
   "id": "wc2026-027",
@@ -331,9 +331,9 @@
   "city": "Vancouver",
   "country": "Canada",
   "neutral": false,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 6,
+  "away_score": 0
  },
  {
   "id": "wc2026-028",
