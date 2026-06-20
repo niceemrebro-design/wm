@@ -343,9 +343,9 @@
   "city": "Santa Clara",
   "country": "United States",
   "neutral": true,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 0,
+  "away_score": 1
  },
  {
   "id": "wc2026-029",
@@ -355,9 +355,9 @@
   "city": "Foxborough",
   "country": "United States",
   "neutral": true,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 0,
+  "away_score": 1
  },
  {
   "id": "wc2026-030",
@@ -367,9 +367,9 @@
   "city": "Philadelphia",
   "country": "United States",
   "neutral": true,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 3,
+  "away_score": 0
  },
  {
   "id": "wc2026-031",
@@ -379,9 +379,9 @@
   "city": "Seattle",
   "country": "United States",
   "neutral": false,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 2,
+  "away_score": 0
  },
  {
   "id": "wc2026-032",
