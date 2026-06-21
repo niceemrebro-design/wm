@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-06-20",
+ "generated_at": "2026-06-21",
  "sims": 25000,
  "method": "Monte-Carlo: kalibriertes Poisson-Modell, Gruppenphase exakt (Top 2 + 8 beste Dritte), K.o. als zufälliges Bracket über alle Läufe gemittelt",
  "teams": [
