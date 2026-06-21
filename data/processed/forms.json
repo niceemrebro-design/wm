@@ -1013,15 +1013,6 @@
  ],
  "Curaçao": [
   {
-   "date": "2025-09-09",
-   "opp": "Bermuda",
-   "gf": 3,
-   "ga": 2,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-10",
    "opp": "Jamaica",
    "gf": 2,
@@ -1099,6 +1090,15 @@
    "gf": 1,
    "ga": 7,
    "res": "L",
+   "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-20",
+   "opp": "Ecuador",
+   "gf": 0,
+   "ga": 0,
+   "res": "D",
    "venue": "A",
    "comp": "FIFA World Cup"
   }
@@ -1289,15 +1289,6 @@
  ],
  "Ecuador": [
   {
-   "date": "2025-09-09",
-   "opp": "Argentina",
-   "gf": 1,
-   "ga": 0,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-10",
    "opp": "United States",
    "gf": 1,
@@ -1376,6 +1367,15 @@
    "ga": 1,
    "res": "L",
    "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-20",
+   "opp": "Curaçao",
+   "gf": 0,
+   "ga": 0,
+   "res": "D",
+   "venue": "H",
    "comp": "FIFA World Cup"
   }
  ],
@@ -1657,15 +1657,6 @@
  ],
  "Germany": [
   {
-   "date": "2025-09-07",
-   "opp": "Northern Ireland",
-   "gf": 3,
-   "ga": 1,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-10",
    "opp": "Luxembourg",
    "gf": 4,
@@ -1741,6 +1732,15 @@
    "date": "2026-06-14",
    "opp": "Curaçao",
    "gf": 7,
+   "ga": 1,
+   "res": "W",
+   "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-20",
+   "opp": "Ivory Coast",
+   "gf": 2,
    "ga": 1,
    "res": "W",
    "venue": "H",
@@ -2117,15 +2117,6 @@
  ],
  "Ivory Coast": [
   {
-   "date": "2025-11-18",
-   "opp": "Oman",
-   "gf": 2,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "Friendly"
-  },
-  {
    "date": "2025-12-24",
    "opp": "Mozambique",
    "gf": 1,
@@ -2205,18 +2196,18 @@
    "res": "W",
    "venue": "H",
    "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-20",
+   "opp": "Germany",
+   "gf": 1,
+   "ga": 2,
+   "res": "L",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Japan": [
-  {
-   "date": "2025-09-06",
-   "opp": "Mexico",
-   "gf": 0,
-   "ga": 0,
-   "res": "D",
-   "venue": "A",
-   "comp": "Friendly"
-  },
   {
    "date": "2025-09-09",
    "opp": "United States",
@@ -2295,6 +2286,15 @@
    "gf": 2,
    "ga": 2,
    "res": "D",
+   "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-20",
+   "opp": "Tunisia",
+   "gf": 4,
+   "ga": 0,
+   "res": "W",
    "venue": "A",
    "comp": "FIFA World Cup"
   }
@@ -2577,15 +2577,6 @@
  ],
  "Netherlands": [
   {
-   "date": "2025-09-07",
-   "opp": "Lithuania",
-   "gf": 3,
-   "ga": 2,
-   "res": "W",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-09",
    "opp": "Malta",
    "gf": 4,
@@ -2663,6 +2654,15 @@
    "gf": 2,
    "ga": 2,
    "res": "D",
+   "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-20",
+   "opp": "Sweden",
+   "gf": 5,
+   "ga": 1,
+   "res": "W",
    "venue": "H",
    "comp": "FIFA World Cup"
   }
@@ -3773,15 +3773,6 @@
  ],
  "Sweden": [
   {
-   "date": "2025-09-08",
-   "opp": "Kosovo",
-   "gf": 0,
-   "ga": 2,
-   "res": "L",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-10",
    "opp": "Switzerland",
    "gf": 0,
@@ -3860,6 +3851,15 @@
    "ga": 1,
    "res": "W",
    "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-20",
+   "opp": "Netherlands",
+   "gf": 1,
+   "ga": 5,
+   "res": "L",
+   "venue": "A",
    "comp": "FIFA World Cup"
   }
  ],
@@ -3957,15 +3957,6 @@
  ],
  "Tunisia": [
   {
-   "date": "2025-12-07",
-   "opp": "Qatar",
-   "gf": 3,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "Arab Cup"
-  },
-  {
    "date": "2025-12-23",
    "opp": "Uganda",
    "gf": 3,
@@ -4044,6 +4035,15 @@
    "ga": 5,
    "res": "L",
    "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-20",
+   "opp": "Japan",
+   "gf": 0,
+   "ga": 4,
+   "res": "L",
+   "venue": "H",
    "comp": "FIFA World Cup"
   }
  ],

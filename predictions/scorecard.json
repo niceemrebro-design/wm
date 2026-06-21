@@ -2,16 +2,16 @@
  "generated_at": "2026-06-21",
  "integrity": "Nur vor Anpfiff eingefrorene Tipps zaehlen (predictions/ledger.json). Markt-Tipps gespielter Spiele aus eingefrorenen Lambdas rekonstruiert.",
  "summary": {
-  "gewertet": 30,
-  "tipps_gesamt": 90,
-  "tipps_treffer": 55,
-  "tipps_quote": 0.611,
-  "bester_tipp_quote": 0.8,
-  "markt_1x2_quote": 0.533,
-  "markt_dc_quote": 0.867,
+  "gewertet": 34,
+  "tipps_gesamt": 102,
+  "tipps_treffer": 62,
+  "tipps_quote": 0.608,
+  "bester_tipp_quote": 0.765,
+  "markt_1x2_quote": 0.559,
+  "markt_dc_quote": 0.882,
   "exakt": 2,
-  "kicktipp_pts": 40,
-  "kicktipp_avg": 1.33,
+  "kicktipp_pts": 47,
+  "kicktipp_avg": 1.38,
   "retro_ungewertet": 2
  },
  "games": [
@@ -974,6 +974,134 @@
    "hit_dc": true,
    "exact_cat": "tendenz",
    "exact_pts": 2
+  },
+  {
+   "date": "2026-06-20",
+   "match": "Netherlands vs Sweden",
+   "result": "5:1",
+   "source": "Engine",
+   "locked_at": "2026-06-21",
+   "tips": [
+    {
+     "label": "Netherlands oder Remis",
+     "key": "1X",
+     "p": 0.839,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": false
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.537,
+     "hit": false
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tendenz",
+   "exact_pts": 2
+  },
+  {
+   "date": "2026-06-20",
+   "match": "Tunisia vs Japan",
+   "result": "0:4",
+   "source": "Engine",
+   "locked_at": "2026-06-21",
+   "tips": [
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": false
+    },
+    {
+     "label": "Japan gewinnt",
+     "key": "2",
+     "p": 0.726,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.655,
+     "hit": true
+    }
+   ],
+   "best_hit": false,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tendenz",
+   "exact_pts": 2
+  },
+  {
+   "date": "2026-06-20",
+   "match": "Germany vs Ivory Coast",
+   "result": "2:1",
+   "source": "Engine",
+   "locked_at": "2026-06-21",
+   "tips": [
+    {
+     "label": "Germany oder Remis",
+     "key": "1X",
+     "p": 0.814,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.519,
+     "hit": false
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tordifferenz",
+   "exact_pts": 3
+  },
+  {
+   "date": "2026-06-20",
+   "match": "Ecuador vs Curaçao",
+   "result": "0:0",
+   "source": "Engine",
+   "locked_at": "2026-06-21",
+   "tips": [
+    {
+     "label": "Ecuador gewinnt",
+     "key": "1",
+     "p": 0.796,
+     "hit": false
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.744,
+     "hit": true
+    }
+   ],
+   "best_hit": false,
+   "hit_1x2": false,
+   "hit_dc": true,
+   "exact_cat": "daneben",
+   "exact_pts": 0
   }
  ],
  "retro": [
