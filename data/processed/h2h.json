@@ -960,21 +960,28 @@
   ]
  },
  "wc2026-036": {
-  "meetings": 0,
+  "meetings": 1,
   "home_persp_w": 0,
-  "draw": 0,
+  "draw": 1,
   "home_persp_l": 0,
   "gf": 0,
   "ga": 0,
-  "last": []
+  "last": [
+   {
+    "date": "2026-06-21",
+    "score": "0:0",
+    "home": "Belgium",
+    "away": "Iran"
+   }
+  ]
  },
  "wc2026-037": {
-  "meetings": 3,
+  "meetings": 4,
   "home_persp_w": 0,
   "draw": 1,
-  "home_persp_l": 2,
-  "gf": 1,
-  "ga": 3,
+  "home_persp_l": 3,
+  "gf": 2,
+  "ga": 6,
   "last": [
    {
     "date": "1999-07-10",
@@ -993,15 +1000,21 @@
     "score": "1:0",
     "home": "Egypt",
     "away": "New Zealand"
+   },
+   {
+    "date": "2026-06-21",
+    "score": "1:3",
+    "home": "New Zealand",
+    "away": "Egypt"
    }
   ]
  },
  "wc2026-038": {
-  "meetings": 3,
-  "home_persp_w": 3,
+  "meetings": 4,
+  "home_persp_w": 4,
   "draw": 0,
   "home_persp_l": 0,
-  "gf": 9,
+  "gf": 13,
   "ga": 2,
   "last": [
    {
@@ -1021,17 +1034,30 @@
     "score": "5:0",
     "home": "Spain",
     "away": "Saudi Arabia"
+   },
+   {
+    "date": "2026-06-21",
+    "score": "4:0",
+    "home": "Spain",
+    "away": "Saudi Arabia"
    }
   ]
  },
  "wc2026-039": {
-  "meetings": 0,
+  "meetings": 1,
   "home_persp_w": 0,
-  "draw": 0,
+  "draw": 1,
   "home_persp_l": 0,
-  "gf": 0,
-  "ga": 0,
-  "last": []
+  "gf": 2,
+  "ga": 2,
+  "last": [
+   {
+    "date": "2026-06-21",
+    "score": "2:2",
+    "home": "Uruguay",
+    "away": "Cape Verde"
+   }
+  ]
  },
  "wc2026-040": {
   "meetings": 0,

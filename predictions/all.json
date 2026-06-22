@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-06-21",
+ "generated_at": "2026-06-22",
  "oracle": "Claude (Claude Code) — Multi-Agenten-Orakel + kalibriertes Statistik-Modell",
  "data": {
-  "built_at": "2026-06-21T23:23:53.863134+00:00",
+  "built_at": "2026-06-22T05:18:24.643487+00:00",
   "source": "martj42/international_results",
-  "n_historical_matches": 49441,
+  "n_historical_matches": 49445,
   "history_range": [
    "1872-11-30",
-   "2026-06-20"
+   "2026-06-21"
   ],
   "n_fixtures_2026": 72,
   "n_participants": 48
@@ -5250,8 +5250,11 @@
    "away": "Iran",
    "city": "Inglewood",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 0,
+    "away": 0
+   },
    "pick": {
     "home": 1,
     "away": 0
@@ -5278,7 +5281,7 @@
     },
     {
      "key": "1X",
-     "p": 0.712,
+     "p": 0.711,
      "label": "Belgium oder Remis"
     },
     {
@@ -5288,18 +5291,18 @@
     }
    ],
    "markets": {
-    "1": 0.415,
+    "1": 0.413,
     "X": 0.298,
-    "2": 0.288,
-    "1X": 0.712,
-    "X2": 0.585,
+    "2": 0.289,
+    "1X": 0.711,
+    "X2": 0.587,
     "12": 0.702,
-    "DNB1": 0.591,
-    "DNB2": 0.409,
+    "DNB1": 0.588,
+    "DNB2": 0.412,
     "BTTS_yes": 0.519,
     "BTTS_no": 0.481,
-    "home_o15": 0.403,
-    "away_o15": 0.307,
+    "home_o15": 0.401,
+    "away_o15": 0.308,
     "O15": 0.728,
     "U15": 0.272,
     "O25": 0.456,
@@ -5392,8 +5395,11 @@
    "away": "Egypt",
    "city": "Vancouver",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 1,
+    "away": 3
+   },
    "pick": {
     "home": 0,
     "away": 1
@@ -5420,28 +5426,28 @@
     },
     {
      "key": "X2",
-     "p": 0.748,
+     "p": 0.75,
      "label": "Egypt oder Remis"
     },
     {
      "key": "BTTS_yes",
-     "p": 0.511,
+     "p": 0.51,
      "label": "Beide Teams treffen"
     }
    ],
    "markets": {
-    "1": 0.252,
+    "1": 0.25,
     "X": 0.292,
-    "2": 0.455,
-    "1X": 0.545,
-    "X2": 0.748,
+    "2": 0.458,
+    "1X": 0.542,
+    "X2": 0.75,
     "12": 0.708,
-    "DNB1": 0.356,
-    "DNB2": 0.644,
-    "BTTS_yes": 0.511,
-    "BTTS_no": 0.489,
-    "home_o15": 0.277,
-    "away_o15": 0.43,
+    "DNB1": 0.353,
+    "DNB2": 0.647,
+    "BTTS_yes": 0.51,
+    "BTTS_no": 0.49,
+    "home_o15": 0.275,
+    "away_o15": 0.432,
     "O15": 0.728,
     "U15": 0.272,
     "O25": 0.456,
@@ -5534,8 +5540,11 @@
    "away": "Saudi Arabia",
    "city": "Atlanta",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 4,
+    "away": 0
+   },
    "pick": {
     "home": 2,
     "away": 0
@@ -5676,8 +5685,11 @@
    "away": "Cape Verde",
    "city": "Miami Gardens",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 2,
+    "away": 2
+   },
    "pick": {
     "home": 2,
     "away": 0
@@ -5950,7 +5962,7 @@
     "lambda_away": 0.21,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -6092,7 +6104,7 @@
     "lambda_away": 0.98,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -6234,7 +6246,7 @@
     "lambda_away": 0.56,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -6376,7 +6388,7 @@
     "lambda_away": 1.56,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -6518,7 +6530,7 @@
     "lambda_away": 0.68,
     "top_scoreline": "1:0"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -6660,7 +6672,7 @@
     "lambda_away": 0.53,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -6802,7 +6814,7 @@
     "lambda_away": 0.18,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -6944,7 +6956,7 @@
     "lambda_away": 1.56,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -7086,7 +7098,7 @@
     "lambda_away": 0.46,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -7228,7 +7240,7 @@
     "lambda_away": 1.09,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -7370,7 +7382,7 @@
     "lambda_away": 1.78,
     "top_scoreline": "0:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -7512,7 +7524,7 @@
     "lambda_away": 1.78,
     "top_scoreline": "0:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -7654,7 +7666,7 @@
     "lambda_away": 0.38,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -7796,7 +7808,7 @@
     "lambda_away": 1.07,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -7938,7 +7950,7 @@
     "lambda_away": 0.87,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -8080,7 +8092,7 @@
     "lambda_away": 1.27,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -8222,7 +8234,7 @@
     "lambda_away": 1.77,
     "top_scoreline": "0:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -8364,7 +8376,7 @@
     "lambda_away": 1.42,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -8506,7 +8518,7 @@
     "lambda_away": 0.72,
     "top_scoreline": "1:0"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -8648,7 +8660,7 @@
     "lambda_away": 2.14,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -8790,7 +8802,7 @@
     "lambda_away": 0.83,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -8932,7 +8944,7 @@
     "lambda_away": 1.6,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -8946,18 +8958,18 @@
    "result": null,
    "pick": {
     "home": 0,
-    "away": 1
+    "away": 2
    },
    "probs": {
-    "home": 0.118,
-    "draw": 0.242,
-    "away": 0.64
+    "home": 0.099,
+    "draw": 0.23,
+    "away": 0.671
    },
    "confidence": "hoch",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Spain ist nach Elo und Form favorisiert. Berechnet aus: Elo 1959 vs 2201 (Δ -242) · Form letzte 5 DLDDD (3:7) vs WDDWD (7:2) · H2H 10 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 12%/24%/64%, wahrscheinlichstes Ergebnis 0:1.",
+   "reasoning": "Modellbasierte Einschätzung: Spain ist nach Elo und Form favorisiert. Berechnet aus: Elo 1939 vs 2207 (Δ -268) · Form letzte 5 LDDDD (5:9) vs DDWDW (8:2) · H2H 10 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 10%/23%/67%, wahrscheinlichstes Ergebnis 0:2.",
    "key_factors": [
-    "Elo 1959 vs 2201 (Δ -242)",
+    "Elo 1939 vs 2207 (Δ -268)",
     "Form L5 4 vs 9 Punkte",
     "H2H 10 Spiele"
    ],
@@ -8965,7 +8977,7 @@
    "top_tips": [
     {
      "key": "X2",
-     "p": 0.882,
+     "p": 0.901,
      "label": "Spain oder Remis"
     },
     {
@@ -8975,25 +8987,25 @@
     },
     {
      "key": "BTTS_no",
-     "p": 0.578,
+     "p": 0.603,
      "label": "Nicht beide treffen"
     }
    ],
    "markets": {
-    "1": 0.118,
-    "X": 0.242,
-    "2": 0.64,
-    "1X": 0.36,
-    "X2": 0.882,
-    "12": 0.758,
-    "DNB1": 0.156,
-    "DNB2": 0.844,
-    "BTTS_yes": 0.422,
-    "BTTS_no": 0.578,
-    "home_o15": 0.146,
-    "away_o15": 0.546,
-    "O15": 0.725,
-    "U15": 0.275,
+    "1": 0.099,
+    "X": 0.23,
+    "2": 0.671,
+    "1X": 0.329,
+    "X2": 0.901,
+    "12": 0.77,
+    "DNB1": 0.129,
+    "DNB2": 0.871,
+    "BTTS_yes": 0.397,
+    "BTTS_no": 0.603,
+    "home_o15": 0.124,
+    "away_o15": 0.565,
+    "O15": 0.724,
+    "U15": 0.276,
     "O25": 0.456,
     "U25": 0.544,
     "O35": 0.242,
@@ -9001,23 +9013,23 @@
    },
    "basis": {
     "elo": {
-     "Uruguay": 1959.0,
-     "Spain": 2200.6,
-     "diff": -241.6
+     "Uruguay": 1938.7,
+     "Spain": 2207.2,
+     "diff": -268.5
     },
     "form": {
      "Uruguay": {
-      "seq5": "DLDDD",
+      "seq5": "LDDDD",
       "pts5": 4,
-      "gf5": 3,
-      "ga5": 7,
-      "pts10": 17,
+      "gf5": 5,
+      "ga5": 9,
+      "pts10": 15,
       "n": 10
      },
      "Spain": {
-      "seq5": "WDDWD",
+      "seq5": "DDWDW",
       "pts5": 9,
-      "gf5": 7,
+      "gf5": 8,
       "ga5": 2,
       "pts10": 22,
       "n": 10
@@ -9029,27 +9041,27 @@
      "goals": "8:16"
     },
     "model": {
-     "lambda_home": 0.67,
-     "lambda_away": 1.83,
-     "p_home": 0.118,
-     "p_draw": 0.242,
-     "p_away": 0.64,
+     "lambda_home": 0.61,
+     "lambda_away": 1.89,
+     "p_home": 0.099,
+     "p_draw": 0.23,
+     "p_away": 0.671,
      "top_scorelines": [
       {
-       "score": "0:1",
-       "p": 0.138
+       "score": "0:2",
+       "p": 0.147
       },
       {
-       "score": "0:2",
-       "p": 0.137
+       "score": "0:1",
+       "p": 0.144
       },
       {
        "score": "1:1",
-       "p": 0.113
+       "p": 0.105
       },
       {
        "score": "0:0",
-       "p": 0.094
+       "p": 0.093
       }
      ]
     },
@@ -9064,17 +9076,17 @@
      "rho": -0.12,
      "holdout_logloss": 0.8751
     },
-    "basis_text": "Berechnet aus: Elo 1959 vs 2201 (Δ -242) · Form letzte 5 DLDDD (3:7) vs WDDWD (7:2) · H2H 10 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 12%/24%/64%, wahrscheinlichstes Ergebnis 0:1."
+    "basis_text": "Berechnet aus: Elo 1939 vs 2207 (Δ -268) · Form letzte 5 LDDDD (5:9) vs DDWDW (8:2) · H2H 10 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 10%/23%/67%, wahrscheinlichstes Ergebnis 0:2."
    },
    "stat_model": {
-    "p_home": 0.118,
-    "p_draw": 0.242,
-    "p_away": 0.64,
-    "lambda_home": 0.67,
-    "lambda_away": 1.83,
-    "top_scoreline": "0:1"
+    "p_home": 0.099,
+    "p_draw": 0.23,
+    "p_away": 0.671,
+    "lambda_home": 0.61,
+    "lambda_away": 1.89,
+    "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -9091,23 +9103,23 @@
     "away": 1
    },
    "probs": {
-    "home": 0.146,
-    "draw": 0.258,
-    "away": 0.596
+    "home": 0.124,
+    "draw": 0.246,
+    "away": 0.631
    },
-   "confidence": "mittel-hoch",
+   "confidence": "hoch",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Belgium ist nach Elo und Form favorisiert. Berechnet aus: Elo 1734 vs 1940 (Δ -205) · Form letzte 5 LWLLD (6:10) vs WDWWD (14:4) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 15%/26%/60%, wahrscheinlichstes Ergebnis 0:1.",
+   "reasoning": "Modellbasierte Einschätzung: Belgium ist nach Elo und Form favorisiert. Berechnet aus: Elo 1701 vs 1935 (Δ -234) · Form letzte 5 WLLDL (7:11) vs DWWDD (9:2) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 12%/25%/63%, wahrscheinlichstes Ergebnis 0:1.",
    "key_factors": [
-    "Elo 1734 vs 1940 (Δ -205)",
-    "Form L5 4 vs 11 Punkte",
+    "Elo 1701 vs 1935 (Δ -234)",
+    "Form L5 4 vs 9 Punkte",
     "kein direktes H2H"
    ],
    "upset_watch": null,
    "top_tips": [
     {
      "key": "X2",
-     "p": 0.854,
+     "p": 0.876,
      "label": "Belgium oder Remis"
     },
     {
@@ -9117,25 +9129,25 @@
     },
     {
      "key": "BTTS_no",
-     "p": 0.549,
+     "p": 0.571,
      "label": "Nicht beide treffen"
     }
    ],
    "markets": {
-    "1": 0.146,
-    "X": 0.258,
-    "2": 0.596,
-    "1X": 0.404,
-    "X2": 0.854,
-    "12": 0.742,
-    "DNB1": 0.197,
-    "DNB2": 0.803,
-    "BTTS_yes": 0.451,
-    "BTTS_no": 0.549,
-    "home_o15": 0.176,
-    "away_o15": 0.52,
-    "O15": 0.726,
-    "U15": 0.274,
+    "1": 0.124,
+    "X": 0.246,
+    "2": 0.631,
+    "1X": 0.369,
+    "X2": 0.876,
+    "12": 0.754,
+    "DNB1": 0.164,
+    "DNB2": 0.836,
+    "BTTS_yes": 0.429,
+    "BTTS_no": 0.571,
+    "home_o15": 0.152,
+    "away_o15": 0.541,
+    "O15": 0.725,
+    "U15": 0.275,
     "O25": 0.456,
     "U25": 0.544,
     "O35": 0.242,
@@ -9143,25 +9155,25 @@
    },
    "basis": {
     "elo": {
-     "New Zealand": 1734.3,
-     "Belgium": 1939.5,
-     "diff": -205.2
+     "New Zealand": 1700.7,
+     "Belgium": 1934.7,
+     "diff": -234.0
     },
     "form": {
      "New Zealand": {
-      "seq5": "LWLLD",
+      "seq5": "WLLDL",
       "pts5": 4,
-      "gf5": 6,
-      "ga5": 10,
+      "gf5": 7,
+      "ga5": 11,
       "pts10": 5,
       "n": 10
      },
      "Belgium": {
-      "seq5": "WDWWD",
-      "pts5": 11,
-      "gf5": 14,
-      "ga5": 4,
-      "pts10": 22,
+      "seq5": "DWWDD",
+      "pts5": 9,
+      "gf5": 9,
+      "ga5": 2,
+      "pts10": 20,
       "n": 10
      }
     },
@@ -9171,27 +9183,27 @@
      "goals": "0:0"
     },
     "model": {
-     "lambda_home": 0.76,
-     "lambda_away": 1.74,
-     "p_home": 0.146,
-     "p_draw": 0.258,
-     "p_away": 0.596,
+     "lambda_home": 0.69,
+     "lambda_away": 1.81,
+     "p_home": 0.124,
+     "p_draw": 0.246,
+     "p_away": 0.631,
      "top_scorelines": [
       {
        "score": "0:1",
-       "p": 0.13
+       "p": 0.136
       },
       {
        "score": "0:2",
-       "p": 0.125
+       "p": 0.135
       },
       {
        "score": "1:1",
-       "p": 0.121
+       "p": 0.115
       },
       {
        "score": "0:0",
-       "p": 0.095
+       "p": 0.094
       }
      ]
     },
@@ -9206,17 +9218,17 @@
      "rho": -0.12,
      "holdout_logloss": 0.8751
     },
-    "basis_text": "Berechnet aus: Elo 1734 vs 1940 (Δ -205) · Form letzte 5 LWLLD (6:10) vs WDWWD (14:4) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 15%/26%/60%, wahrscheinlichstes Ergebnis 0:1."
+    "basis_text": "Berechnet aus: Elo 1701 vs 1935 (Δ -234) · Form letzte 5 WLLDL (7:11) vs DWWDD (9:2) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 12%/25%/63%, wahrscheinlichstes Ergebnis 0:1."
    },
    "stat_model": {
-    "p_home": 0.146,
-    "p_draw": 0.258,
-    "p_away": 0.596,
-    "lambda_home": 0.76,
-    "lambda_away": 1.74,
+    "p_home": 0.124,
+    "p_draw": 0.246,
+    "p_away": 0.631,
+    "lambda_home": 0.69,
+    "lambda_away": 1.81,
     "top_scoreline": "0:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -9233,16 +9245,16 @@
     "away": 1
    },
    "probs": {
-    "home": 0.283,
-    "draw": 0.297,
-    "away": 0.42
+    "home": 0.315,
+    "draw": 0.3,
+    "away": 0.385
    },
    "confidence": "niedrig-mittel",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Iran ist nach Elo und Form favorisiert. Berechnet aus: Elo 1824 vs 1884 (Δ -60) · Form letzte 5 WDWLD (7:3) vs LWWWD (13:5) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 28%/30%/42%, wahrscheinlichstes Ergebnis 1:1.",
+   "reasoning": "Modellbasierte Einschätzung: Iran ist nach Elo und Form favorisiert. Berechnet aus: Elo 1858 vs 1888 (Δ -31) · Form letzte 5 DWLDW (6:4) vs WWWDD (12:3) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 31%/30%/39%, wahrscheinlichstes Ergebnis 1:1.",
    "key_factors": [
-    "Elo 1824 vs 1884 (Δ -60)",
-    "Form L5 8 vs 10 Punkte",
+    "Elo 1858 vs 1888 (Δ -31)",
+    "Form L5 8 vs 11 Punkte",
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
@@ -9253,29 +9265,29 @@
      "label": "Unter 3,5 Tore"
     },
     {
-     "key": "X2",
-     "p": 0.717,
-     "label": "Iran oder Remis"
+     "key": "12",
+     "p": 0.7,
+     "label": "Kein Remis (einer gewinnt)"
     },
     {
      "key": "BTTS_yes",
-     "p": 0.518,
+     "p": 0.523,
      "label": "Beide Teams treffen"
     }
    ],
    "markets": {
-    "1": 0.283,
-    "X": 0.297,
-    "2": 0.42,
-    "1X": 0.58,
-    "X2": 0.717,
-    "12": 0.703,
-    "DNB1": 0.403,
-    "DNB2": 0.597,
-    "BTTS_yes": 0.518,
-    "BTTS_no": 0.482,
-    "home_o15": 0.303,
-    "away_o15": 0.406,
+    "1": 0.315,
+    "X": 0.3,
+    "2": 0.385,
+    "1X": 0.615,
+    "X2": 0.685,
+    "12": 0.7,
+    "DNB1": 0.45,
+    "DNB2": 0.55,
+    "BTTS_yes": 0.523,
+    "BTTS_no": 0.477,
+    "home_o15": 0.329,
+    "away_o15": 0.382,
     "O15": 0.728,
     "U15": 0.272,
     "O25": 0.456,
@@ -9285,25 +9297,25 @@
    },
    "basis": {
     "elo": {
-     "Egypt": 1823.9,
-     "Iran": 1883.7,
-     "diff": -59.8
+     "Egypt": 1857.5,
+     "Iran": 1888.4,
+     "diff": -30.9
     },
     "form": {
      "Egypt": {
-      "seq5": "WDWLD",
+      "seq5": "DWLDW",
       "pts5": 8,
-      "gf5": 7,
-      "ga5": 3,
-      "pts10": 16,
+      "gf5": 6,
+      "ga5": 4,
+      "pts10": 18,
       "n": 10
      },
      "Iran": {
-      "seq5": "LWWWD",
-      "pts5": 10,
-      "gf5": 13,
-      "ga5": 5,
-      "pts10": 18,
+      "seq5": "WWWDD",
+      "pts5": 11,
+      "gf5": 12,
+      "ga5": 3,
+      "pts10": 16,
       "n": 10
      }
     },
@@ -9313,27 +9325,27 @@
      "goals": "1:1"
     },
     "model": {
-     "lambda_home": 1.11,
-     "lambda_away": 1.39,
-     "p_home": 0.283,
-     "p_draw": 0.297,
-     "p_away": 0.42,
+     "lambda_home": 1.18,
+     "lambda_away": 1.32,
+     "p_home": 0.315,
+     "p_draw": 0.3,
+     "p_away": 0.385,
      "top_scorelines": [
       {
        "score": "1:1",
-       "p": 0.142
-      },
-      {
-       "score": "0:1",
-       "p": 0.099
+       "p": 0.143
       },
       {
        "score": "0:0",
        "p": 0.097
       },
       {
+       "score": "0:1",
+       "p": 0.093
+      },
+      {
        "score": "1:2",
-       "p": 0.088
+       "p": 0.085
       }
      ]
     },
@@ -9348,17 +9360,17 @@
      "rho": -0.12,
      "holdout_logloss": 0.8751
     },
-    "basis_text": "Berechnet aus: Elo 1824 vs 1884 (Δ -60) · Form letzte 5 WDWLD (7:3) vs LWWWD (13:5) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 28%/30%/42%, wahrscheinlichstes Ergebnis 1:1."
+    "basis_text": "Berechnet aus: Elo 1858 vs 1888 (Δ -31) · Form letzte 5 DWLDW (6:4) vs WWWDD (12:3) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 31%/30%/39%, wahrscheinlichstes Ergebnis 1:1."
    },
    "stat_model": {
-    "p_home": 0.283,
-    "p_draw": 0.297,
-    "p_away": 0.42,
-    "lambda_home": 1.11,
-    "lambda_away": 1.39,
+    "p_home": 0.315,
+    "p_draw": 0.3,
+    "p_away": 0.385,
+    "lambda_home": 1.18,
+    "lambda_away": 1.32,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -9375,16 +9387,16 @@
     "away": 1
    },
    "probs": {
-    "home": 0.299,
-    "draw": 0.299,
-    "away": 0.403
+    "home": 0.328,
+    "draw": 0.3,
+    "away": 0.371
    },
    "confidence": "niedrig-mittel",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Saudi Arabia ist nach Elo und Form favorisiert. Berechnet aus: Elo 1672 vs 1717 (Δ -46) · Form letzte 5 LDWLD (6:8) vs LLWDD (6:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 30%/30%/40%, wahrscheinlichstes Ergebnis 1:1.",
+   "reasoning": "Modellbasierte Einschätzung: Saudi Arabia ist nach Elo und Form favorisiert. Berechnet aus: Elo 1692 vs 1711 (Δ -19) · Form letzte 5 DWLDD (6:6) vs LWDDL (5:7) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 33%/30%/37%, wahrscheinlichstes Ergebnis 1:1.",
    "key_factors": [
-    "Elo 1672 vs 1717 (Δ -46)",
-    "Form L5 5 vs 5 Punkte",
+    "Elo 1692 vs 1711 (Δ -19)",
+    "Form L5 6 vs 5 Punkte",
     "kein direktes H2H"
    ],
    "upset_watch": null,
@@ -9395,29 +9407,29 @@
      "label": "Unter 3,5 Tore"
     },
     {
-     "key": "X2",
-     "p": 0.701,
-     "label": "Saudi Arabia oder Remis"
+     "key": "12",
+     "p": 0.7,
+     "label": "Kein Remis (einer gewinnt)"
     },
     {
      "key": "BTTS_yes",
-     "p": 0.521,
+     "p": 0.524,
      "label": "Beide Teams treffen"
     }
    ],
    "markets": {
-    "1": 0.299,
-    "X": 0.299,
-    "2": 0.403,
-    "1X": 0.597,
-    "X2": 0.701,
-    "12": 0.701,
-    "DNB1": 0.426,
-    "DNB2": 0.574,
-    "BTTS_yes": 0.521,
-    "BTTS_no": 0.479,
-    "home_o15": 0.316,
-    "away_o15": 0.394,
+    "1": 0.328,
+    "X": 0.3,
+    "2": 0.371,
+    "1X": 0.629,
+    "X2": 0.672,
+    "12": 0.7,
+    "DNB1": 0.469,
+    "DNB2": 0.531,
+    "BTTS_yes": 0.524,
+    "BTTS_no": 0.476,
+    "home_o15": 0.339,
+    "away_o15": 0.371,
     "O15": 0.728,
     "U15": 0.272,
     "O25": 0.456,
@@ -9427,25 +9439,25 @@
    },
    "basis": {
     "elo": {
-     "Cape Verde": 1671.5,
-     "Saudi Arabia": 1717.2,
-     "diff": -45.7
+     "Cape Verde": 1691.9,
+     "Saudi Arabia": 1710.6,
+     "diff": -18.7
     },
     "form": {
      "Cape Verde": {
-      "seq5": "LDWLD",
-      "pts5": 5,
+      "seq5": "DWLDD",
+      "pts5": 6,
       "gf5": 6,
-      "ga5": 8,
-      "pts10": 14,
+      "ga5": 6,
+      "pts10": 12,
       "n": 10
      },
      "Saudi Arabia": {
-      "seq5": "LLWDD",
+      "seq5": "LWDDL",
       "pts5": 5,
-      "gf5": 6,
-      "ga5": 5,
-      "pts10": 11,
+      "gf5": 5,
+      "ga5": 7,
+      "pts10": 8,
       "n": 10
      }
     },
@@ -9455,11 +9467,11 @@
      "goals": "0:0"
     },
     "model": {
-     "lambda_home": 1.14,
-     "lambda_away": 1.36,
-     "p_home": 0.299,
-     "p_draw": 0.299,
-     "p_away": 0.403,
+     "lambda_home": 1.21,
+     "lambda_away": 1.29,
+     "p_home": 0.328,
+     "p_draw": 0.3,
+     "p_away": 0.371,
      "top_scorelines": [
       {
        "score": "1:1",
@@ -9471,11 +9483,11 @@
       },
       {
        "score": "0:1",
-       "p": 0.096
+       "p": 0.091
       },
       {
-       "score": "1:2",
-       "p": 0.087
+       "score": "1:0",
+       "p": 0.084
       }
      ]
     },
@@ -9490,17 +9502,17 @@
      "rho": -0.12,
      "holdout_logloss": 0.8751
     },
-    "basis_text": "Berechnet aus: Elo 1672 vs 1717 (Δ -46) · Form letzte 5 LDWLD (6:8) vs LLWDD (6:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 30%/30%/40%, wahrscheinlichstes Ergebnis 1:1."
+    "basis_text": "Berechnet aus: Elo 1692 vs 1711 (Δ -19) · Form letzte 5 DWLDD (6:6) vs LWDDL (5:7) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 33%/30%/37%, wahrscheinlichstes Ergebnis 1:1."
    },
    "stat_model": {
-    "p_home": 0.299,
-    "p_draw": 0.299,
-    "p_away": 0.403,
-    "lambda_home": 1.14,
-    "lambda_away": 1.36,
+    "p_home": 0.328,
+    "p_draw": 0.3,
+    "p_away": 0.371,
+    "lambda_home": 1.21,
+    "lambda_away": 1.29,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -9642,7 +9654,7 @@
     "lambda_away": 2.0,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -9784,7 +9796,7 @@
     "lambda_away": 1.36,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -9926,7 +9938,7 @@
     "lambda_away": 2.36,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -10068,7 +10080,7 @@
     "lambda_away": 1.15,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -10210,7 +10222,7 @@
     "lambda_away": 1.29,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   },
   {
@@ -10352,7 +10364,7 @@
     "lambda_away": 0.58,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-21",
+   "locked_at": "2026-06-22",
    "retro": false
   }
  ]

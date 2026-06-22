@@ -369,15 +369,6 @@
  ],
  "Belgium": [
   {
-   "date": "2025-09-07",
-   "opp": "Kazakhstan",
-   "gf": 6,
-   "ga": 0,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-10",
    "opp": "North Macedonia",
    "gf": 0,
@@ -454,6 +445,15 @@
    "opp": "Egypt",
    "gf": 1,
    "ga": 1,
+   "res": "D",
+   "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-21",
+   "opp": "Iran",
+   "gf": 0,
+   "ga": 0,
    "res": "D",
    "venue": "H",
    "comp": "FIFA World Cup"
@@ -737,15 +737,6 @@
  ],
  "Cape Verde": [
   {
-   "date": "2025-09-09",
-   "opp": "Cameroon",
-   "gf": 1,
-   "ga": 0,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-08",
    "opp": "Libya",
    "gf": 3,
@@ -822,6 +813,15 @@
    "opp": "Spain",
    "gf": 0,
    "ga": 0,
+   "res": "D",
+   "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-21",
+   "opp": "Uruguay",
+   "gf": 2,
+   "ga": 2,
    "res": "D",
    "venue": "A",
    "comp": "FIFA World Cup"
@@ -1381,15 +1381,6 @@
  ],
  "Egypt": [
   {
-   "date": "2025-12-29",
-   "opp": "Angola",
-   "gf": 0,
-   "ga": 0,
-   "res": "D",
-   "venue": "A",
-   "comp": "African Cup of Nations"
-  },
-  {
    "date": "2026-01-05",
    "opp": "Benin",
    "gf": 3,
@@ -1467,6 +1458,15 @@
    "gf": 1,
    "ga": 1,
    "res": "D",
+   "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-21",
+   "opp": "New Zealand",
+   "gf": 3,
+   "ga": 1,
+   "res": "W",
    "venue": "A",
    "comp": "FIFA World Cup"
   }
@@ -1933,15 +1933,6 @@
  ],
  "Iran": [
   {
-   "date": "2025-06-10",
-   "opp": "North Korea",
-   "gf": 3,
-   "ga": 0,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-10",
    "opp": "Russia",
    "gf": 1,
@@ -2020,6 +2011,15 @@
    "ga": 2,
    "res": "D",
    "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-21",
+   "opp": "Belgium",
+   "gf": 0,
+   "ga": 0,
+   "res": "D",
+   "venue": "A",
    "comp": "FIFA World Cup"
   }
  ],
@@ -2669,15 +2669,6 @@
  ],
  "New Zealand": [
   {
-   "date": "2025-09-09",
-   "opp": "Australia",
-   "gf": 1,
-   "ga": 3,
-   "res": "L",
-   "venue": "H",
-   "comp": "Soccer Ashes"
-  },
-  {
    "date": "2025-10-09",
    "opp": "Poland",
    "gf": 0,
@@ -2756,6 +2747,15 @@
    "ga": 2,
    "res": "D",
    "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-21",
+   "opp": "Egypt",
+   "gf": 1,
+   "ga": 3,
+   "res": "L",
+   "venue": "H",
    "comp": "FIFA World Cup"
   }
  ],
@@ -3221,15 +3221,6 @@
  ],
  "Saudi Arabia": [
   {
-   "date": "2025-12-05",
-   "opp": "Comoros",
-   "gf": 3,
-   "ga": 1,
-   "res": "W",
-   "venue": "A",
-   "comp": "Arab Cup"
-  },
-  {
    "date": "2025-12-08",
    "opp": "Morocco",
    "gf": 0,
@@ -3308,6 +3299,15 @@
    "ga": 1,
    "res": "D",
    "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-21",
+   "opp": "Spain",
+   "gf": 0,
+   "ga": 4,
+   "res": "L",
+   "venue": "A",
    "comp": "FIFA World Cup"
   }
  ],
@@ -3681,15 +3681,6 @@
  ],
  "Spain": [
   {
-   "date": "2025-09-07",
-   "opp": "Turkey",
-   "gf": 6,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-11",
    "opp": "Georgia",
    "gf": 2,
@@ -3767,6 +3758,15 @@
    "gf": 0,
    "ga": 0,
    "res": "D",
+   "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-21",
+   "opp": "Saudi Arabia",
+   "gf": 4,
+   "ga": 0,
+   "res": "W",
    "venue": "H",
    "comp": "FIFA World Cup"
   }
@@ -4233,15 +4233,6 @@
  ],
  "Uruguay": [
   {
-   "date": "2025-06-10",
-   "opp": "Venezuela",
-   "gf": 2,
-   "ga": 0,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-09-04",
    "opp": "Peru",
    "gf": 3,
@@ -4320,6 +4311,15 @@
    "ga": 1,
    "res": "D",
    "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-21",
+   "opp": "Cape Verde",
+   "gf": 2,
+   "ga": 2,
+   "res": "D",
+   "venue": "H",
    "comp": "FIFA World Cup"
   }
  ],
