@@ -2,7 +2,7 @@
  "generated_at": "2026-06-22",
  "oracle": "Claude (Claude Code) — Multi-Agenten-Orakel + kalibriertes Statistik-Modell",
  "data": {
-  "built_at": "2026-06-22T12:20:36.549207+00:00",
+  "built_at": "2026-06-22T18:15:54.032177+00:00",
   "source": "martj42/international_results",
   "n_historical_matches": 49445,
   "history_range": [
