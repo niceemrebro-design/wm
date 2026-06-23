@@ -2,16 +2,16 @@
  "generated_at": "2026-06-23",
  "integrity": "Nur vor Anpfiff eingefrorene Tipps zaehlen (predictions/ledger.json). Markt-Tipps gespielter Spiele aus eingefrorenen Lambdas rekonstruiert.",
  "summary": {
-  "gewertet": 38,
-  "tipps_gesamt": 114,
-  "tipps_treffer": 69,
-  "tipps_quote": 0.605,
-  "bester_tipp_quote": 0.763,
-  "markt_1x2_quote": 0.553,
-  "markt_dc_quote": 0.895,
-  "exakt": 2,
-  "kicktipp_pts": 51,
-  "kicktipp_avg": 1.34,
+  "gewertet": 42,
+  "tipps_gesamt": 126,
+  "tipps_treffer": 79,
+  "tipps_quote": 0.627,
+  "bester_tipp_quote": 0.786,
+  "markt_1x2_quote": 0.595,
+  "markt_dc_quote": 0.905,
+  "exakt": 3,
+  "kicktipp_pts": 63,
+  "kicktipp_avg": 1.5,
   "retro_ungewertet": 2
  },
  "games": [
@@ -1230,6 +1230,134 @@
    "hit_dc": true,
    "exact_cat": "daneben",
    "exact_pts": 0
+  },
+  {
+   "date": "2026-06-22",
+   "match": "France vs Iraq",
+   "result": "3:0",
+   "source": "Engine",
+   "locked_at": "2026-06-23",
+   "tips": [
+    {
+     "label": "France gewinnt",
+     "key": "1",
+     "p": 0.845,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.825,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": true
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tendenz",
+   "exact_pts": 2
+  },
+  {
+   "date": "2026-06-22",
+   "match": "Norway vs Senegal",
+   "result": "3:2",
+   "source": "Engine",
+   "locked_at": "2026-06-23",
+   "tips": [
+    {
+     "label": "Norway oder Remis",
+     "key": "1X",
+     "p": 0.771,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": false
+    },
+    {
+     "label": "Beide Teams treffen",
+     "key": "BTTS_yes",
+     "p": 0.503,
+     "hit": true
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tordifferenz",
+   "exact_pts": 3
+  },
+  {
+   "date": "2026-06-22",
+   "match": "Argentina vs Austria",
+   "result": "2:0",
+   "source": "Engine",
+   "locked_at": "2026-06-23",
+   "tips": [
+    {
+     "label": "Argentina oder Remis",
+     "key": "1X",
+     "p": 0.913,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.622,
+     "hit": true
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "exakt",
+   "exact_pts": 4
+  },
+  {
+   "date": "2026-06-22",
+   "match": "Jordan vs Algeria",
+   "result": "1:2",
+   "source": "Engine",
+   "locked_at": "2026-06-23",
+   "tips": [
+    {
+     "label": "Algeria oder Remis",
+     "key": "X2",
+     "p": 0.787,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.504,
+     "hit": false
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tordifferenz",
+   "exact_pts": 3
   }
  ],
  "retro": [

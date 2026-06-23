@@ -1060,36 +1060,49 @@
   ]
  },
  "wc2026-040": {
-  "meetings": 0,
-  "home_persp_w": 0,
+  "meetings": 1,
+  "home_persp_w": 1,
   "draw": 0,
   "home_persp_l": 0,
-  "gf": 0,
+  "gf": 3,
   "ga": 0,
-  "last": []
+  "last": [
+   {
+    "date": "2026-06-22",
+    "score": "3:0",
+    "home": "France",
+    "away": "Iraq"
+   }
+  ]
  },
  "wc2026-041": {
-  "meetings": 1,
-  "home_persp_w": 0,
+  "meetings": 2,
+  "home_persp_w": 1,
   "draw": 0,
   "home_persp_l": 1,
-  "gf": 1,
-  "ga": 2,
+  "gf": 4,
+  "ga": 4,
   "last": [
    {
     "date": "2006-03-01",
     "score": "2:1",
     "home": "Senegal",
     "away": "Norway"
+   },
+   {
+    "date": "2026-06-22",
+    "score": "3:2",
+    "home": "Norway",
+    "away": "Senegal"
    }
   ]
  },
  "wc2026-042": {
-  "meetings": 2,
-  "home_persp_w": 1,
+  "meetings": 3,
+  "home_persp_w": 2,
   "draw": 1,
   "home_persp_l": 0,
-  "gf": 6,
+  "gf": 8,
   "ga": 2,
   "last": [
    {
@@ -1103,16 +1116,22 @@
     "score": "1:1",
     "home": "Austria",
     "away": "Argentina"
+   },
+   {
+    "date": "2026-06-22",
+    "score": "2:0",
+    "home": "Argentina",
+    "away": "Austria"
    }
   ]
  },
  "wc2026-043": {
-  "meetings": 2,
+  "meetings": 3,
   "home_persp_w": 0,
   "draw": 1,
-  "home_persp_l": 1,
-  "gf": 1,
-  "ga": 7,
+  "home_persp_l": 2,
+  "gf": 2,
+  "ga": 9,
   "last": [
    {
     "date": "1974-09-29",
@@ -1125,6 +1144,12 @@
     "score": "1:1",
     "home": "Algeria",
     "away": "Jordan"
+   },
+   {
+    "date": "2026-06-22",
+    "score": "1:2",
+    "home": "Jordan",
+    "away": "Algeria"
    }
   ]
  },

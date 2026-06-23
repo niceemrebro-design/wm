@@ -1,15 +1,6 @@
 {
  "Algeria": [
   {
-   "date": "2025-12-24",
-   "opp": "Sudan",
-   "gf": 3,
-   "ga": 0,
-   "res": "W",
-   "venue": "H",
-   "comp": "African Cup of Nations"
-  },
-  {
    "date": "2025-12-28",
    "opp": "Burkina Faso",
    "gf": 1,
@@ -89,18 +80,18 @@
    "res": "L",
    "venue": "A",
    "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-22",
+   "opp": "Jordan",
+   "gf": 2,
+   "ga": 1,
+   "res": "W",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Argentina": [
-  {
-   "date": "2025-09-04",
-   "opp": "Venezuela",
-   "gf": 3,
-   "ga": 0,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
   {
    "date": "2025-09-09",
    "opp": "Ecuador",
@@ -177,6 +168,15 @@
    "date": "2026-06-16",
    "opp": "Algeria",
    "gf": 3,
+   "ga": 0,
+   "res": "W",
+   "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-22",
+   "opp": "Austria",
+   "gf": 2,
    "ga": 0,
    "res": "W",
    "venue": "H",
@@ -277,15 +277,6 @@
  ],
  "Austria": [
   {
-   "date": "2025-09-06",
-   "opp": "Cyprus",
-   "gf": 1,
-   "ga": 0,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-09-09",
    "opp": "Bosnia and Herzegovina",
    "gf": 2,
@@ -364,6 +355,15 @@
    "ga": 1,
    "res": "W",
    "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-22",
+   "opp": "Argentina",
+   "gf": 0,
+   "ga": 2,
+   "res": "L",
+   "venue": "A",
    "comp": "FIFA World Cup"
   }
  ],
@@ -1565,15 +1565,6 @@
  ],
  "France": [
   {
-   "date": "2025-09-09",
-   "opp": "Iceland",
-   "gf": 2,
-   "ga": 1,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-10",
    "opp": "Azerbaijan",
    "gf": 3,
@@ -1650,6 +1641,15 @@
    "opp": "Senegal",
    "gf": 3,
    "ga": 1,
+   "res": "W",
+   "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-22",
+   "opp": "Iraq",
+   "gf": 3,
+   "ga": 0,
    "res": "W",
    "venue": "H",
    "comp": "FIFA World Cup"
@@ -2025,15 +2025,6 @@
  ],
  "Iraq": [
   {
-   "date": "2025-11-18",
-   "opp": "United Arab Emirates",
-   "gf": 2,
-   "ga": 1,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-12-03",
    "opp": "Bahrain",
    "gf": 2,
@@ -2112,6 +2103,15 @@
    "ga": 4,
    "res": "L",
    "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-22",
+   "opp": "France",
+   "gf": 0,
+   "ga": 3,
+   "res": "L",
+   "venue": "A",
    "comp": "FIFA World Cup"
   }
  ],
@@ -2301,15 +2301,6 @@
  ],
  "Jordan": [
   {
-   "date": "2025-12-06",
-   "opp": "Kuwait",
-   "gf": 3,
-   "ga": 1,
-   "res": "W",
-   "venue": "A",
-   "comp": "Arab Cup"
-  },
-  {
    "date": "2025-12-09",
    "opp": "Egypt",
    "gf": 3,
@@ -2388,6 +2379,15 @@
    "ga": 3,
    "res": "L",
    "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-22",
+   "opp": "Algeria",
+   "gf": 1,
+   "ga": 2,
+   "res": "L",
+   "venue": "H",
    "comp": "FIFA World Cup"
   }
  ],
@@ -2761,15 +2761,6 @@
  ],
  "Norway": [
   {
-   "date": "2025-09-09",
-   "opp": "Moldova",
-   "gf": 11,
-   "ga": 1,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-11",
    "opp": "Israel",
    "gf": 5,
@@ -2848,6 +2839,15 @@
    "ga": 1,
    "res": "W",
    "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-22",
+   "opp": "Senegal",
+   "gf": 3,
+   "ga": 2,
+   "res": "W",
+   "venue": "H",
    "comp": "FIFA World Cup"
   }
  ],
@@ -3405,15 +3405,6 @@
  ],
  "Senegal": [
   {
-   "date": "2025-12-30",
-   "opp": "Benin",
-   "gf": 3,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "African Cup of Nations"
-  },
-  {
    "date": "2026-01-03",
    "opp": "Sudan",
    "gf": 3,
@@ -3489,6 +3480,15 @@
    "date": "2026-06-16",
    "opp": "France",
    "gf": 1,
+   "ga": 3,
+   "res": "L",
+   "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-22",
+   "opp": "Norway",
+   "gf": 2,
    "ga": 3,
    "res": "L",
    "venue": "A",

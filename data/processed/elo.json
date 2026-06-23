@@ -16,8 +16,8 @@
   "matches": 135
  },
  "Algeria": {
-  "elo": 1874.7,
-  "matches": 618
+  "elo": 1894.2,
+  "matches": 619
  },
  "Ambazonia": {
   "elo": 1312.1,
@@ -36,7 +36,7 @@
   "matches": 229
  },
  "Angola": {
-  "elo": 1591.7,
+  "elo": 1591.6,
   "matches": 415
  },
  "Anguilla": {
@@ -52,8 +52,8 @@
   "matches": 10
  },
  "Argentina": {
-  "elo": 2209.2,
-  "matches": 1070
+  "elo": 2223.6,
+  "matches": 1071
  },
  "Armenia": {
   "elo": 1416.0,
@@ -72,12 +72,12 @@
   "matches": 1
  },
  "Australia": {
-  "elo": 1915.6,
+  "elo": 1915.7,
   "matches": 583
  },
  "Austria": {
-  "elo": 1920.9,
-  "matches": 861
+  "elo": 1906.5,
+  "matches": 862
  },
  "Aymara": {
   "elo": 1463.2,
@@ -96,7 +96,7 @@
   "matches": 584
  },
  "Bangladesh": {
-  "elo": 1129.5,
+  "elo": 1129.6,
   "matches": 305
  },
  "Barawa": {
@@ -184,7 +184,7 @@
   "matches": 218
  },
  "Cambodia": {
-  "elo": 1071.9,
+  "elo": 1072.0,
   "matches": 295
  },
  "Cameroon": {
@@ -256,7 +256,7 @@
   "matches": 639
  },
  "Comoros": {
-  "elo": 1496.1,
+  "elo": 1496.0,
   "matches": 151
  },
  "Congo": {
@@ -312,7 +312,7 @@
   "matches": 525
  },
  "Darfur": {
-  "elo": 1201.8,
+  "elo": 1201.9,
   "matches": 7
  },
  "Denmark": {
@@ -320,7 +320,7 @@
   "matches": 874
  },
  "Djibouti": {
-  "elo": 1076.7,
+  "elo": 1076.6,
   "matches": 111
  },
  "Dominica": {
@@ -372,11 +372,11 @@
   "matches": 179
  },
  "Eritrea": {
-  "elo": 1199.7,
+  "elo": 1199.6,
   "matches": 71
  },
  "Estonia": {
-  "elo": 1415.8,
+  "elo": 1415.9,
   "matches": 550
  },
  "Eswatini": {
@@ -408,8 +408,8 @@
   "matches": 818
  },
  "France": {
-  "elo": 2154.0,
-  "matches": 936
+  "elo": 2162.0,
+  "matches": 937
  },
  "Franconia": {
   "elo": 1471.3,
@@ -420,7 +420,7 @@
   "matches": 179
  },
  "Frøya": {
-  "elo": 1194.1,
+  "elo": 1194.0,
   "matches": 37
  },
  "Gabon": {
@@ -456,7 +456,7 @@
   "matches": 160
  },
  "Gotland": {
-  "elo": 1443.4,
+  "elo": 1442.5,
   "matches": 30
  },
  "Gozo": {
@@ -468,7 +468,7 @@
   "matches": 633
  },
  "Greenland": {
-  "elo": 1464.7,
+  "elo": 1464.8,
   "matches": 77
  },
  "Grenada": {
@@ -512,7 +512,7 @@
   "matches": 512
  },
  "Hitra": {
-  "elo": 1343.2,
+  "elo": 1343.1,
   "matches": 23
  },
  "Hmong": {
@@ -548,8 +548,8 @@
   "matches": 614
  },
  "Iraq": {
-  "elo": 1719.5,
-  "matches": 656
+  "elo": 1711.6,
+  "matches": 657
  },
  "Iraqi Kurdistan": {
   "elo": 1710.8,
@@ -560,7 +560,7 @@
   "matches": 58
  },
  "Isle of Wight": {
-  "elo": 1659.9,
+  "elo": 1660.0,
   "matches": 48
  },
  "Israel": {
@@ -588,8 +588,8 @@
   "matches": 235
  },
  "Jordan": {
-  "elo": 1746.8,
-  "matches": 486
+  "elo": 1727.4,
+  "matches": 487
  },
  "Kabylia": {
   "elo": 1457.0,
@@ -608,11 +608,11 @@
   "matches": 12
  },
  "Kiribati": {
-  "elo": 1234.5,
+  "elo": 1234.6,
   "matches": 11
  },
  "Kosovo": {
-  "elo": 1783.0,
+  "elo": 1783.1,
   "matches": 104
  },
  "Kurdistan": {
@@ -632,7 +632,7 @@
   "matches": 11
  },
  "Laos": {
-  "elo": 933.5,
+  "elo": 933.6,
   "matches": 224
  },
  "Latvia": {
@@ -692,7 +692,7 @@
   "matches": 835
  },
  "Maldives": {
-  "elo": 978.7,
+  "elo": 978.8,
   "matches": 233
  },
  "Mali": {
@@ -740,7 +740,7 @@
   "matches": 38
  },
  "Menorca": {
-  "elo": 1564.1,
+  "elo": 1564.2,
   "matches": 25
  },
  "Mexico": {
@@ -780,7 +780,7 @@
   "matches": 375
  },
  "Myanmar": {
-  "elo": 1130.7,
+  "elo": 1130.8,
   "matches": 512
  },
  "Namibia": {
@@ -832,7 +832,7 @@
   "matches": 24
  },
  "Northern Cyprus": {
-  "elo": 1711.1,
+  "elo": 1711.2,
   "matches": 34
  },
  "Northern Ireland": {
@@ -844,8 +844,8 @@
   "matches": 30
  },
  "Norway": {
-  "elo": 2006.7,
-  "matches": 873
+  "elo": 2027.4,
+  "matches": 874
  },
  "Occitania": {
   "elo": 1724.2,
@@ -880,11 +880,11 @@
   "matches": 540
  },
  "Panjab": {
-  "elo": 1590.3,
+  "elo": 1590.4,
   "matches": 19
  },
  "Papua New Guinea": {
-  "elo": 1453.9,
+  "elo": 1454.0,
   "matches": 155
  },
  "Paraguay": {
@@ -932,7 +932,7 @@
   "matches": 26
  },
  "Republic of Ireland": {
-  "elo": 1758.1,
+  "elo": 1758.2,
   "matches": 633
  },
  "Republic of St. Pauli": {
@@ -940,7 +940,7 @@
   "matches": 4
  },
  "Rhodes": {
-  "elo": 1591.3,
+  "elo": 1591.4,
   "matches": 18
  },
  "Romani people": {
@@ -1004,7 +1004,7 @@
   "matches": 236
  },
  "Samoa": {
-  "elo": 1249.1,
+  "elo": 1249.2,
   "matches": 71
  },
  "San Marino": {
@@ -1012,11 +1012,11 @@
   "matches": 225
  },
  "Sark": {
-  "elo": 1327.7,
+  "elo": 1327.9,
   "matches": 4
  },
  "Saudi Arabia": {
-  "elo": 1710.6,
+  "elo": 1710.7,
   "matches": 743
  },
  "Saugeais": {
@@ -1036,8 +1036,8 @@
   "matches": 1
  },
  "Senegal": {
-  "elo": 1895.7,
-  "matches": 639
+  "elo": 1875.0,
+  "matches": 640
  },
  "Serbia": {
   "elo": 1811.1,
@@ -1076,7 +1076,7 @@
   "matches": 317
  },
  "Solomon Islands": {
-  "elo": 1369.0,
+  "elo": 1369.1,
   "matches": 214
  },
  "Somalia": {
@@ -1132,7 +1132,7 @@
   "matches": 1103
  },
  "Switzerland": {
-  "elo": 1943.7,
+  "elo": 1943.8,
   "matches": 886
  },
  "Syria": {
@@ -1172,7 +1172,7 @@
   "matches": 599
  },
  "Thailand": {
-  "elo": 1530.2,
+  "elo": 1530.3,
   "matches": 865
  },
  "Tibet": {
@@ -1192,11 +1192,11 @@
   "matches": 447
  },
  "Tonga": {
-  "elo": 1072.4,
+  "elo": 1072.5,
   "matches": 68
  },
  "Trinidad and Tobago": {
-  "elo": 1546.1,
+  "elo": 1546.2,
   "matches": 753
  },
  "Tunisia": {
@@ -1268,7 +1268,7 @@
   "matches": 460
  },
  "Vietnam": {
-  "elo": 1462.8,
+  "elo": 1462.9,
   "matches": 297
  },
  "Vietnam Republic": {
@@ -1280,7 +1280,7 @@
   "matches": 726
  },
  "Wallis Islands and Futuna": {
-  "elo": 1296.4,
+  "elo": 1296.0,
   "matches": 24
  },
  "West Papua": {
@@ -1296,7 +1296,7 @@
   "matches": 32
  },
  "Western Isles": {
-  "elo": 1433.7,
+  "elo": 1433.6,
   "matches": 34
  },
  "Western Sahara": {
@@ -1308,11 +1308,11 @@
   "matches": 266
  },
  "Yemen DPR": {
-  "elo": 1352.8,
+  "elo": 1352.0,
   "matches": 25
  },
  "Ynys Môn": {
-  "elo": 1639.2,
+  "elo": 1639.1,
   "matches": 67
  },
  "Yorkshire": {
@@ -1340,7 +1340,7 @@
   "matches": 496
  },
  "Åland Islands": {
-  "elo": 1472.7,
+  "elo": 1472.9,
   "matches": 51
  }
 }
