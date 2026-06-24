@@ -2,16 +2,16 @@
  "generated_at": "2026-06-24",
  "integrity": "Nur vor Anpfiff eingefrorene Tipps zaehlen (predictions/ledger.json). Markt-Tipps gespielter Spiele aus eingefrorenen Lambdas rekonstruiert.",
  "summary": {
-  "gewertet": 42,
-  "tipps_gesamt": 126,
-  "tipps_treffer": 79,
-  "tipps_quote": 0.627,
-  "bester_tipp_quote": 0.786,
-  "markt_1x2_quote": 0.595,
-  "markt_dc_quote": 0.905,
-  "exakt": 3,
-  "kicktipp_pts": 63,
-  "kicktipp_avg": 1.5,
+  "gewertet": 46,
+  "tipps_gesamt": 138,
+  "tipps_treffer": 89,
+  "tipps_quote": 0.645,
+  "bester_tipp_quote": 0.783,
+  "markt_1x2_quote": 0.609,
+  "markt_dc_quote": 0.913,
+  "exakt": 4,
+  "kicktipp_pts": 71,
+  "kicktipp_avg": 1.54,
   "retro_ungewertet": 2
  },
  "games": [
@@ -1358,6 +1358,134 @@
    "hit_dc": true,
    "exact_cat": "tordifferenz",
    "exact_pts": 3
+  },
+  {
+   "date": "2026-06-23",
+   "match": "Portugal vs Uzbekistan",
+   "result": "5:0",
+   "source": "Engine",
+   "locked_at": "2026-06-24",
+   "tips": [
+    {
+     "label": "Portugal oder Remis",
+     "key": "1X",
+     "p": 0.879,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": false
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.574,
+     "hit": true
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tendenz",
+   "exact_pts": 2
+  },
+  {
+   "date": "2026-06-23",
+   "match": "Colombia vs DR Congo",
+   "result": "1:0",
+   "source": "Engine",
+   "locked_at": "2026-06-24",
+   "tips": [
+    {
+     "label": "Colombia oder Remis",
+     "key": "1X",
+     "p": 0.921,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.636,
+     "hit": true
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tendenz",
+   "exact_pts": 2
+  },
+  {
+   "date": "2026-06-23",
+   "match": "England vs Ghana",
+   "result": "0:0",
+   "source": "Engine",
+   "locked_at": "2026-06-24",
+   "tips": [
+    {
+     "label": "England gewinnt",
+     "key": "1",
+     "p": 0.862,
+     "hit": false
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.847,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.747,
+     "hit": true
+    }
+   ],
+   "best_hit": false,
+   "hit_1x2": false,
+   "hit_dc": true,
+   "exact_cat": "daneben",
+   "exact_pts": 0
+  },
+  {
+   "date": "2026-06-23",
+   "match": "Panama vs Croatia",
+   "result": "0:1",
+   "source": "Engine",
+   "locked_at": "2026-06-24",
+   "tips": [
+    {
+     "label": "Croatia oder Remis",
+     "key": "X2",
+     "p": 0.787,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.504,
+     "hit": true
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "exakt",
+   "exact_pts": 4
   }
  ],
  "retro": [

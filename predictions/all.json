@@ -2,12 +2,12 @@
  "generated_at": "2026-06-24",
  "oracle": "Claude (Claude Code) — Multi-Agenten-Orakel + kalibriertes Statistik-Modell",
  "data": {
-  "built_at": "2026-06-24T04:15:19.330092+00:00",
+  "built_at": "2026-06-24T09:45:36.074422+00:00",
   "source": "martj42/international_results",
-  "n_historical_matches": 49449,
+  "n_historical_matches": 49453,
   "history_range": [
    "1872-11-30",
-   "2026-06-22"
+   "2026-06-23"
   ],
   "n_fixtures_2026": 72,
   "n_participants": 48
@@ -6410,8 +6410,11 @@
    "away": "Uzbekistan",
    "city": "Houston",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 5,
+    "away": 0
+   },
    "pick": {
     "home": 1,
     "away": 0
@@ -6448,11 +6451,11 @@
     }
    ],
    "markets": {
-    "1": 0.634,
+    "1": 0.635,
     "X": 0.244,
     "2": 0.121,
     "1X": 0.879,
-    "X2": 0.366,
+    "X2": 0.365,
     "12": 0.756,
     "DNB1": 0.84,
     "DNB2": 0.16,
@@ -6552,8 +6555,11 @@
    "away": "DR Congo",
    "city": "Zapopan",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 1,
+    "away": 0
+   },
    "pick": {
     "home": 2,
     "away": 0
@@ -6575,7 +6581,7 @@
    "top_tips": [
     {
      "key": "1X",
-     "p": 0.92,
+     "p": 0.921,
      "label": "Colombia oder Remis"
     },
     {
@@ -6585,23 +6591,23 @@
     },
     {
      "key": "BTTS_no",
-     "p": 0.634,
+     "p": 0.636,
      "label": "Nicht beide treffen"
     }
    ],
    "markets": {
-    "1": 0.706,
+    "1": 0.707,
     "X": 0.214,
-    "2": 0.08,
-    "1X": 0.92,
-    "X2": 0.294,
+    "2": 0.079,
+    "1X": 0.921,
+    "X2": 0.293,
     "12": 0.786,
-    "DNB1": 0.898,
-    "DNB2": 0.102,
-    "BTTS_yes": 0.366,
-    "BTTS_no": 0.634,
-    "home_o15": 0.585,
-    "away_o15": 0.1,
+    "DNB1": 0.899,
+    "DNB2": 0.101,
+    "BTTS_yes": 0.364,
+    "BTTS_no": 0.636,
+    "home_o15": 0.586,
+    "away_o15": 0.099,
     "O15": 0.723,
     "U15": 0.277,
     "O25": 0.456,
@@ -6694,8 +6700,11 @@
    "away": "Ghana",
    "city": "Foxborough",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 0,
+    "away": 0
+   },
    "pick": {
     "home": 2,
     "away": 0
@@ -6727,7 +6736,7 @@
     },
     {
      "key": "U35",
-     "p": 0.748,
+     "p": 0.747,
      "label": "Unter 3,5 Tore"
     }
    ],
@@ -6742,14 +6751,14 @@
     "DNB2": 0.017,
     "BTTS_yes": 0.153,
     "BTTS_no": 0.847,
-    "home_o15": 0.684,
+    "home_o15": 0.685,
     "away_o15": 0.014,
-    "O15": 0.726,
-    "U15": 0.274,
-    "O25": 0.468,
-    "U25": 0.532,
-    "O35": 0.252,
-    "U35": 0.748
+    "O15": 0.727,
+    "U15": 0.273,
+    "O25": 0.469,
+    "U25": 0.531,
+    "O35": 0.253,
+    "U35": 0.747
    },
    "basis": {
     "elo": {
@@ -6836,8 +6845,11 @@
    "away": "Croatia",
    "city": "Toronto",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 0,
+    "away": 1
+   },
    "pick": {
     "home": 0,
     "away": 1
@@ -6859,7 +6871,7 @@
    "top_tips": [
     {
      "key": "X2",
-     "p": 0.786,
+     "p": 0.787,
      "label": "Croatia oder Remis"
     },
     {
@@ -6874,17 +6886,17 @@
     }
    ],
    "markets": {
-    "1": 0.214,
-    "X": 0.284,
-    "2": 0.503,
-    "1X": 0.497,
-    "X2": 0.786,
-    "12": 0.716,
-    "DNB1": 0.298,
-    "DNB2": 0.702,
+    "1": 0.213,
+    "X": 0.283,
+    "2": 0.504,
+    "1X": 0.496,
+    "X2": 0.787,
+    "12": 0.717,
+    "DNB1": 0.297,
+    "DNB2": 0.703,
     "BTTS_yes": 0.496,
     "BTTS_no": 0.504,
-    "home_o15": 0.243,
+    "home_o15": 0.242,
     "away_o15": 0.462,
     "O15": 0.727,
     "U15": 0.273,
@@ -9541,23 +9553,23 @@
     "away": 2
    },
    "probs": {
-    "home": 0.072,
-    "draw": 0.206,
-    "away": 0.722
+    "home": 0.076,
+    "draw": 0.21,
+    "away": 0.714
    },
    "confidence": "hoch",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: England ist nach Elo und Form favorisiert. Berechnet aus: Elo 1815 vs 2128 (Δ -313) · Form letzte 5 WLWDL (9:11) vs DLWWW (9:4) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 7%/21%/72%, wahrscheinlichstes Ergebnis 0:2.",
+   "reasoning": "Modellbasierte Einschätzung: England ist nach Elo und Form favorisiert. Berechnet aus: Elo 1796 vs 2102 (Δ -306) · Form letzte 5 LWDLL (7:11) vs LWWWD (8:3) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 8%/21%/71%, wahrscheinlichstes Ergebnis 0:2.",
    "key_factors": [
-    "Elo 1815 vs 2128 (Δ -313)",
-    "Form L5 7 vs 10 Punkte",
+    "Elo 1796 vs 2102 (Δ -306)",
+    "Form L5 4 vs 10 Punkte",
     "H2H 1 Spiele"
    ],
    "upset_watch": null,
    "top_tips": [
     {
      "key": "X2",
-     "p": 0.928,
+     "p": 0.924,
      "label": "England oder Remis"
     },
     {
@@ -9567,25 +9579,25 @@
     },
     {
      "key": "BTTS_no",
-     "p": 0.651,
+     "p": 0.643,
      "label": "Nicht beide treffen"
     }
    ],
    "markets": {
-    "1": 0.072,
-    "X": 0.206,
-    "2": 0.722,
-    "1X": 0.278,
-    "X2": 0.928,
-    "12": 0.794,
-    "DNB1": 0.09,
-    "DNB2": 0.91,
-    "BTTS_yes": 0.349,
-    "BTTS_no": 0.651,
-    "home_o15": 0.09,
-    "away_o15": 0.594,
-    "O15": 0.722,
-    "U15": 0.278,
+    "1": 0.076,
+    "X": 0.21,
+    "2": 0.714,
+    "1X": 0.286,
+    "X2": 0.924,
+    "12": 0.79,
+    "DNB1": 0.096,
+    "DNB2": 0.904,
+    "BTTS_yes": 0.357,
+    "BTTS_no": 0.643,
+    "home_o15": 0.095,
+    "away_o15": 0.59,
+    "O15": 0.723,
+    "U15": 0.277,
     "O25": 0.456,
     "U25": 0.544,
     "O35": 0.242,
@@ -9593,25 +9605,25 @@
    },
    "basis": {
     "elo": {
-     "Panama": 1815.1,
-     "England": 2128.3,
-     "diff": -313.2
+     "Panama": 1795.7,
+     "England": 2102.1,
+     "diff": -306.4
     },
     "form": {
      "Panama": {
-      "seq5": "WLWDL",
-      "pts5": 7,
-      "gf5": 9,
+      "seq5": "LWDLL",
+      "pts5": 4,
+      "gf5": 7,
       "ga5": 11,
-      "pts10": 15,
+      "pts10": 12,
       "n": 10
      },
      "England": {
-      "seq5": "DLWWW",
+      "seq5": "LWWWD",
       "pts5": 10,
-      "gf5": 9,
-      "ga5": 4,
-      "pts10": 25,
+      "gf5": 8,
+      "ga5": 3,
+      "pts10": 23,
       "n": 10
      }
     },
@@ -9621,27 +9633,27 @@
      "goals": "1:6"
     },
     "model": {
-     "lambda_home": 0.5,
-     "lambda_away": 2.0,
-     "p_home": 0.072,
-     "p_draw": 0.206,
-     "p_away": 0.722,
+     "lambda_home": 0.51,
+     "lambda_away": 1.99,
+     "p_home": 0.076,
+     "p_draw": 0.21,
+     "p_away": 0.714,
      "top_scorelines": [
       {
        "score": "0:2",
-       "p": 0.164
+       "p": 0.162
       },
       {
        "score": "0:1",
-       "p": 0.155
+       "p": 0.153
       },
       {
        "score": "0:3",
-       "p": 0.11
+       "p": 0.107
       },
       {
-       "score": "0:0",
-       "p": 0.092
+       "score": "1:1",
+       "p": 0.094
       }
      ]
     },
@@ -9656,14 +9668,14 @@
      "rho": -0.12,
      "holdout_logloss": 0.8751
     },
-    "basis_text": "Berechnet aus: Elo 1815 vs 2128 (Δ -313) · Form letzte 5 WLWDL (9:11) vs DLWWW (9:4) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 7%/21%/72%, wahrscheinlichstes Ergebnis 0:2."
+    "basis_text": "Berechnet aus: Elo 1796 vs 2102 (Δ -306) · Form letzte 5 LWDLL (7:11) vs LWWWD (8:3) · H2H 1 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 8%/21%/71%, wahrscheinlichstes Ergebnis 0:2."
    },
    "stat_model": {
-    "p_home": 0.072,
-    "p_draw": 0.206,
-    "p_away": 0.722,
-    "lambda_home": 0.5,
-    "lambda_away": 2.0,
+    "p_home": 0.076,
+    "p_draw": 0.21,
+    "p_away": 0.714,
+    "lambda_home": 0.51,
+    "lambda_away": 1.99,
     "top_scoreline": "0:2"
    },
    "locked_at": "2026-06-24",
@@ -9967,16 +9979,16 @@
     "away": 0
    },
    "probs": {
-    "home": 0.4,
-    "draw": 0.299,
-    "away": 0.301
+    "home": 0.382,
+    "draw": 0.3,
+    "away": 0.318
    },
    "confidence": "niedrig-mittel",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Colombia ist nach Elo und Form favorisiert. Berechnet aus: Elo 2085 vs 2042 (Δ +43) · Form letzte 5 LLWWW (10:7) vs DWWWD (7:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 40%/30%/30%, wahrscheinlichstes Ergebnis 1:1.",
+   "reasoning": "Modellbasierte Einschätzung: Colombia ist nach Elo und Form favorisiert. Berechnet aus: Elo 2094 vs 2066 (Δ +28) · Form letzte 5 LWWWW (10:5) vs WWWDW (12:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 38%/30%/32%, wahrscheinlichstes Ergebnis 1:1.",
    "key_factors": [
-    "Elo 2085 vs 2042 (Δ +43)",
-    "Form L5 9 vs 11 Punkte",
+    "Elo 2094 vs 2066 (Δ +28)",
+    "Form L5 12 vs 13 Punkte",
     "kein direktes H2H"
    ],
    "upset_watch": null,
@@ -9988,28 +10000,28 @@
     },
     {
      "key": "12",
-     "p": 0.701,
+     "p": 0.7,
      "label": "Kein Remis (einer gewinnt)"
     },
     {
      "key": "BTTS_yes",
-     "p": 0.521,
+     "p": 0.523,
      "label": "Beide Teams treffen"
     }
    ],
    "markets": {
-    "1": 0.4,
-    "X": 0.299,
-    "2": 0.301,
-    "1X": 0.699,
-    "X2": 0.6,
-    "12": 0.701,
-    "DNB1": 0.571,
-    "DNB2": 0.429,
-    "BTTS_yes": 0.521,
-    "BTTS_no": 0.479,
-    "home_o15": 0.392,
-    "away_o15": 0.318,
+    "1": 0.382,
+    "X": 0.3,
+    "2": 0.318,
+    "1X": 0.682,
+    "X2": 0.618,
+    "12": 0.7,
+    "DNB1": 0.546,
+    "DNB2": 0.454,
+    "BTTS_yes": 0.523,
+    "BTTS_no": 0.477,
+    "home_o15": 0.379,
+    "away_o15": 0.331,
     "O15": 0.728,
     "U15": 0.272,
     "O25": 0.456,
@@ -10019,23 +10031,23 @@
    },
    "basis": {
     "elo": {
-     "Colombia": 2085.2,
-     "Portugal": 2041.8,
-     "diff": 43.4
+     "Colombia": 2094.3,
+     "Portugal": 2066.2,
+     "diff": 28.1
     },
     "form": {
      "Colombia": {
-      "seq5": "LLWWW",
-      "pts5": 9,
+      "seq5": "LWWWW",
+      "pts5": 12,
       "gf5": 10,
-      "ga5": 7,
+      "ga5": 5,
       "pts10": 22,
       "n": 10
      },
      "Portugal": {
-      "seq5": "DWWWD",
-      "pts5": 11,
-      "gf5": 7,
+      "seq5": "WWWDW",
+      "pts5": 13,
+      "gf5": 12,
       "ga5": 3,
       "pts10": 21,
       "n": 10
@@ -10047,11 +10059,11 @@
      "goals": "0:0"
     },
     "model": {
-     "lambda_home": 1.35,
-     "lambda_away": 1.15,
-     "p_home": 0.4,
-     "p_draw": 0.299,
-     "p_away": 0.301,
+     "lambda_home": 1.32,
+     "lambda_away": 1.18,
+     "p_home": 0.382,
+     "p_draw": 0.3,
+     "p_away": 0.318,
      "top_scorelines": [
       {
        "score": "1:1",
@@ -10063,11 +10075,11 @@
       },
       {
        "score": "1:0",
-       "p": 0.096
+       "p": 0.093
       },
       {
        "score": "2:1",
-       "p": 0.086
+       "p": 0.084
       }
      ]
     },
@@ -10082,14 +10094,14 @@
      "rho": -0.12,
      "holdout_logloss": 0.8751
     },
-    "basis_text": "Berechnet aus: Elo 2085 vs 2042 (Δ +43) · Form letzte 5 LLWWW (10:7) vs DWWWD (7:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 40%/30%/30%, wahrscheinlichstes Ergebnis 1:1."
+    "basis_text": "Berechnet aus: Elo 2094 vs 2066 (Δ +28) · Form letzte 5 LWWWW (10:5) vs WWWDW (12:3) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 38%/30%/32%, wahrscheinlichstes Ergebnis 1:1."
    },
    "stat_model": {
-    "p_home": 0.4,
-    "p_draw": 0.299,
-    "p_away": 0.301,
-    "lambda_home": 1.35,
-    "lambda_away": 1.15,
+    "p_home": 0.382,
+    "p_draw": 0.3,
+    "p_away": 0.318,
+    "lambda_home": 1.32,
+    "lambda_away": 1.18,
     "top_scoreline": "1:1"
    },
    "locked_at": "2026-06-24",
@@ -10109,16 +10121,16 @@
     "away": 1
    },
    "probs": {
-    "home": 0.329,
-    "draw": 0.3,
-    "away": 0.371
+    "home": 0.346,
+    "draw": 0.301,
+    "away": 0.353
    },
-   "confidence": "niedrig-mittel",
+   "confidence": "niedrig",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Uzbekistan ist nach Elo und Form favorisiert. Berechnet aus: Elo 1786 vs 1804 (Δ -18) · Form letzte 5 WWDLD (5:3) vs WDLLL (5:8) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 33%/30%/37%, wahrscheinlichstes Ergebnis 1:1.",
+   "reasoning": "Modellbasierte Einschätzung: Uzbekistan ist nach Elo und Form favorisiert. Berechnet aus: Elo 1777 vs 1780 (Δ -3) · Form letzte 5 WDLDL (3:4) vs DLLLL (2:12) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 35%/30%/35%, wahrscheinlichstes Ergebnis 1:1.",
    "key_factors": [
-    "Elo 1786 vs 1804 (Δ -18)",
-    "Form L5 8 vs 4 Punkte",
+    "Elo 1777 vs 1780 (Δ -3)",
+    "Form L5 5 vs 1 Punkte",
     "kein direktes H2H"
    ],
    "upset_watch": null,
@@ -10130,7 +10142,7 @@
     },
     {
      "key": "12",
-     "p": 0.7,
+     "p": 0.699,
      "label": "Kein Remis (einer gewinnt)"
     },
     {
@@ -10140,18 +10152,18 @@
     }
    ],
    "markets": {
-    "1": 0.329,
-    "X": 0.3,
-    "2": 0.371,
-    "1X": 0.629,
-    "X2": 0.671,
-    "12": 0.7,
-    "DNB1": 0.47,
-    "DNB2": 0.53,
+    "1": 0.346,
+    "X": 0.301,
+    "2": 0.353,
+    "1X": 0.647,
+    "X2": 0.654,
+    "12": 0.699,
+    "DNB1": 0.495,
+    "DNB2": 0.505,
     "BTTS_yes": 0.524,
     "BTTS_no": 0.476,
-    "home_o15": 0.34,
-    "away_o15": 0.371,
+    "home_o15": 0.353,
+    "away_o15": 0.358,
     "O15": 0.728,
     "U15": 0.272,
     "O25": 0.456,
@@ -10161,25 +10173,25 @@
    },
    "basis": {
     "elo": {
-     "DR Congo": 1786.3,
-     "Uzbekistan": 1804.5,
-     "diff": -18.2
+     "DR Congo": 1777.2,
+     "Uzbekistan": 1780.1,
+     "diff": -2.9
     },
     "form": {
      "DR Congo": {
-      "seq5": "WWDLD",
-      "pts5": 8,
-      "gf5": 5,
-      "ga5": 3,
-      "pts10": 16,
+      "seq5": "WDLDL",
+      "pts5": 5,
+      "gf5": 3,
+      "ga5": 4,
+      "pts10": 15,
       "n": 10
      },
      "Uzbekistan": {
-      "seq5": "WDLLL",
-      "pts5": 4,
-      "gf5": 5,
-      "ga5": 8,
-      "pts10": 12,
+      "seq5": "DLLLL",
+      "pts5": 1,
+      "gf5": 2,
+      "ga5": 12,
+      "pts10": 9,
       "n": 10
      }
     },
@@ -10189,15 +10201,15 @@
      "goals": "0:0"
     },
     "model": {
-     "lambda_home": 1.21,
-     "lambda_away": 1.29,
-     "p_home": 0.329,
-     "p_draw": 0.3,
-     "p_away": 0.371,
+     "lambda_home": 1.24,
+     "lambda_away": 1.26,
+     "p_home": 0.346,
+     "p_draw": 0.301,
+     "p_away": 0.353,
      "top_scorelines": [
       {
        "score": "1:1",
-       "p": 0.143
+       "p": 0.144
       },
       {
        "score": "0:0",
@@ -10205,11 +10217,11 @@
       },
       {
        "score": "0:1",
-       "p": 0.091
+       "p": 0.088
       },
       {
        "score": "1:0",
-       "p": 0.084
+       "p": 0.087
       }
      ]
     },
@@ -10224,14 +10236,14 @@
      "rho": -0.12,
      "holdout_logloss": 0.8751
     },
-    "basis_text": "Berechnet aus: Elo 1786 vs 1804 (Δ -18) · Form letzte 5 WWDLD (5:3) vs WDLLL (5:8) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 33%/30%/37%, wahrscheinlichstes Ergebnis 1:1."
+    "basis_text": "Berechnet aus: Elo 1777 vs 1780 (Δ -3) · Form letzte 5 WDLDL (3:4) vs DLLLL (2:12) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 35%/30%/35%, wahrscheinlichstes Ergebnis 1:1."
    },
    "stat_model": {
-    "p_home": 0.329,
-    "p_draw": 0.3,
-    "p_away": 0.371,
-    "lambda_home": 1.21,
-    "lambda_away": 1.29,
+    "p_home": 0.346,
+    "p_draw": 0.301,
+    "p_away": 0.353,
+    "lambda_home": 1.24,
+    "lambda_away": 1.26,
     "top_scoreline": "1:1"
    },
    "locked_at": "2026-06-24",
@@ -10251,23 +10263,23 @@
     "away": 0
    },
    "probs": {
-    "home": 0.686,
-    "draw": 0.223,
-    "away": 0.091
+    "home": 0.678,
+    "draw": 0.227,
+    "away": 0.095
    },
    "confidence": "hoch",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Croatia ist nach Elo und Form favorisiert. Berechnet aus: Elo 1944 vs 1662 (Δ +281) · Form letzte 5 WLLWL (7:11) vs LLLDW (4:10) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 69%/22%/9%, wahrscheinlichstes Ergebnis 2:0.",
+   "reasoning": "Modellbasierte Einschätzung: Croatia ist nach Elo und Form favorisiert. Berechnet aus: Elo 1963 vs 1689 (Δ +274) · Form letzte 5 LLWLW (6:10) vs LLDWD (3:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 68%/23%/10%, wahrscheinlichstes Ergebnis 2:0.",
    "key_factors": [
-    "Elo 1944 vs 1662 (Δ +281)",
-    "Form L5 6 vs 4 Punkte",
+    "Elo 1963 vs 1689 (Δ +274)",
+    "Form L5 6 vs 5 Punkte",
     "kein direktes H2H"
    ],
    "upset_watch": null,
    "top_tips": [
     {
      "key": "1X",
-     "p": 0.909,
+     "p": 0.905,
      "label": "Croatia oder Remis"
     },
     {
@@ -10277,23 +10289,23 @@
     },
     {
      "key": "BTTS_no",
-     "p": 0.616,
+     "p": 0.609,
      "label": "Nicht beide treffen"
     }
    ],
    "markets": {
-    "1": 0.686,
-    "X": 0.223,
-    "2": 0.091,
-    "1X": 0.909,
-    "X2": 0.314,
-    "12": 0.777,
-    "DNB1": 0.883,
-    "DNB2": 0.117,
-    "BTTS_yes": 0.384,
-    "BTTS_no": 0.616,
-    "home_o15": 0.573,
-    "away_o15": 0.114,
+    "1": 0.678,
+    "X": 0.227,
+    "2": 0.095,
+    "1X": 0.905,
+    "X2": 0.322,
+    "12": 0.773,
+    "DNB1": 0.877,
+    "DNB2": 0.123,
+    "BTTS_yes": 0.391,
+    "BTTS_no": 0.609,
+    "home_o15": 0.569,
+    "away_o15": 0.119,
     "O15": 0.724,
     "U15": 0.276,
     "O25": 0.456,
@@ -10303,25 +10315,25 @@
    },
    "basis": {
     "elo": {
-     "Croatia": 1943.7,
-     "Ghana": 1662.5,
-     "diff": 281.2
+     "Croatia": 1963.1,
+     "Ghana": 1688.6,
+     "diff": 274.5
     },
     "form": {
      "Croatia": {
-      "seq5": "WLLWL",
+      "seq5": "LLWLW",
       "pts5": 6,
-      "gf5": 7,
-      "ga5": 11,
+      "gf5": 6,
+      "ga5": 10,
       "pts10": 19,
       "n": 10
      },
      "Ghana": {
-      "seq5": "LLLDW",
-      "pts5": 4,
-      "gf5": 4,
-      "ga5": 10,
-      "pts10": 13,
+      "seq5": "LLDWD",
+      "pts5": 5,
+      "gf5": 3,
+      "ga5": 5,
+      "pts10": 11,
       "n": 10
      }
     },
@@ -10331,27 +10343,27 @@
      "goals": "0:0"
     },
     "model": {
-     "lambda_home": 1.92,
-     "lambda_away": 0.58,
-     "p_home": 0.686,
-     "p_draw": 0.223,
-     "p_away": 0.091,
+     "lambda_home": 1.91,
+     "lambda_away": 0.59,
+     "p_home": 0.678,
+     "p_draw": 0.227,
+     "p_away": 0.095,
      "top_scorelines": [
       {
        "score": "2:0",
-       "p": 0.152
+       "p": 0.15
       },
       {
        "score": "1:0",
-       "p": 0.147
+       "p": 0.146
       },
       {
        "score": "1:1",
-       "p": 0.102
+       "p": 0.104
       },
       {
        "score": "3:0",
-       "p": 0.098
+       "p": 0.095
       }
      ]
     },
@@ -10366,14 +10378,14 @@
      "rho": -0.12,
      "holdout_logloss": 0.8751
     },
-    "basis_text": "Berechnet aus: Elo 1944 vs 1662 (Δ +281) · Form letzte 5 WLLWL (7:11) vs LLLDW (4:10) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 69%/22%/9%, wahrscheinlichstes Ergebnis 2:0."
+    "basis_text": "Berechnet aus: Elo 1963 vs 1689 (Δ +274) · Form letzte 5 LLWLW (6:10) vs LLDWD (3:5) · H2H 0 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 68%/23%/10%, wahrscheinlichstes Ergebnis 2:0."
    },
    "stat_model": {
-    "p_home": 0.686,
-    "p_draw": 0.223,
-    "p_away": 0.091,
-    "lambda_home": 1.92,
-    "lambda_away": 0.58,
+    "p_home": 0.678,
+    "p_draw": 0.227,
+    "p_away": 0.095,
+    "lambda_home": 1.91,
+    "lambda_away": 0.59,
     "top_scoreline": "2:0"
    },
    "locked_at": "2026-06-24",
