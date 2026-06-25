@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-06-24",
+ "generated_at": "2026-06-25",
  "oracle": "Claude (Claude Code) — Multi-Agenten-Orakel + kalibriertes Statistik-Modell",
  "data": {
-  "built_at": "2026-06-24T23:13:54.904512+00:00",
+  "built_at": "2026-06-25T04:15:28.488491+00:00",
   "source": "martj42/international_results",
   "n_historical_matches": 49453,
   "history_range": [
@@ -7122,7 +7122,7 @@
     "lambda_away": 0.46,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -7264,7 +7264,7 @@
     "lambda_away": 1.09,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -7406,7 +7406,7 @@
     "lambda_away": 1.78,
     "top_scoreline": "0:1"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -7548,7 +7548,7 @@
     "lambda_away": 1.78,
     "top_scoreline": "0:1"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -7690,7 +7690,7 @@
     "lambda_away": 0.38,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -7832,7 +7832,7 @@
     "lambda_away": 1.07,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -7974,7 +7974,7 @@
     "lambda_away": 0.87,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -8116,7 +8116,7 @@
     "lambda_away": 1.27,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -8258,7 +8258,7 @@
     "lambda_away": 1.77,
     "top_scoreline": "0:1"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -8400,7 +8400,7 @@
     "lambda_away": 1.42,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -8542,7 +8542,7 @@
     "lambda_away": 0.72,
     "top_scoreline": "1:0"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -8684,7 +8684,7 @@
     "lambda_away": 2.14,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -8826,7 +8826,7 @@
     "lambda_away": 0.86,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -8968,7 +8968,7 @@
     "lambda_away": 1.57,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -9110,7 +9110,7 @@
     "lambda_away": 1.89,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -9252,7 +9252,7 @@
     "lambda_away": 1.81,
     "top_scoreline": "0:1"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -9394,7 +9394,7 @@
     "lambda_away": 1.32,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -9536,7 +9536,7 @@
     "lambda_away": 1.3,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -9678,7 +9678,7 @@
     "lambda_away": 1.99,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -9820,7 +9820,7 @@
     "lambda_away": 1.28,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -9962,7 +9962,7 @@
     "lambda_away": 2.44,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -10104,7 +10104,7 @@
     "lambda_away": 1.18,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -10246,7 +10246,7 @@
     "lambda_away": 1.26,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   },
   {
@@ -10388,7 +10388,7 @@
     "lambda_away": 0.59,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-24",
+   "locked_at": "2026-06-25",
    "retro": false
   }
  ]
