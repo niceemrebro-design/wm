@@ -2,12 +2,12 @@
  "generated_at": "2026-06-25",
  "oracle": "Claude (Claude Code) — Multi-Agenten-Orakel + kalibriertes Statistik-Modell",
  "data": {
-  "built_at": "2026-06-25T04:15:28.488491+00:00",
+  "built_at": "2026-06-25T09:36:56.946798+00:00",
   "source": "martj42/international_results",
-  "n_historical_matches": 49453,
+  "n_historical_matches": 49459,
   "history_range": [
    "1872-11-30",
-   "2026-06-23"
+   "2026-06-24"
   ],
   "n_fixtures_2026": 72,
   "n_participants": 48
@@ -42,76 +42,76 @@
     "away": 0
    },
    "probs": {
-    "home": 0.862,
-    "draw": 0.124,
-    "away": 0.015
+    "home": 0.843,
+    "draw": 0.137,
+    "away": 0.02
    },
    "confidence": "hoch",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: Mexico ist nach Elo und Form favorisiert. Berechnet aus: Elo 2011 vs 1671 (Δ +340) · Form letzte 5 WWWWW (11:1) vs LDWLD (3:5) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 86%/12%/1%, wahrscheinlichstes Ergebnis 2:0.",
+   "reasoning": "Modellbasierte Einschätzung: Mexico ist nach Elo und Form favorisiert. Berechnet aus: Elo 2024 vs 1718 (Δ +306) · Form letzte 5 WWWWW (12:1) vs DWLDW (3:3) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 84%/14%/2%, wahrscheinlichstes Ergebnis 2:0.",
    "key_factors": [
-    "Elo 2011 vs 1671 (Δ +340)",
-    "Form L5 15 vs 5 Punkte",
+    "Elo 2024 vs 1718 (Δ +306)",
+    "Form L5 15 vs 8 Punkte",
     "H2H 5 Spiele"
    ],
    "upset_watch": null,
    "top_tips": [
     {
      "key": "1",
-     "p": 0.862,
+     "p": 0.843,
      "label": "Mexico gewinnt"
     },
     {
      "key": "BTTS_no",
-     "p": 0.847,
+     "p": 0.822,
      "label": "Nicht beide treffen"
     },
     {
      "key": "U35",
-     "p": 0.748,
+     "p": 0.758,
      "label": "Unter 3,5 Tore"
     }
    ],
    "markets": {
-    "1": 0.862,
-    "X": 0.124,
-    "2": 0.015,
-    "1X": 0.985,
-    "X2": 0.138,
-    "12": 0.876,
-    "DNB1": 0.983,
-    "DNB2": 0.017,
-    "BTTS_yes": 0.153,
-    "BTTS_no": 0.847,
-    "home_o15": 0.684,
-    "away_o15": 0.014,
-    "O15": 0.726,
-    "U15": 0.274,
-    "O25": 0.468,
-    "U25": 0.532,
-    "O35": 0.252,
-    "U35": 0.748
+    "1": 0.843,
+    "X": 0.137,
+    "2": 0.02,
+    "1X": 0.98,
+    "X2": 0.157,
+    "12": 0.863,
+    "DNB1": 0.977,
+    "DNB2": 0.023,
+    "BTTS_yes": 0.178,
+    "BTTS_no": 0.822,
+    "home_o15": 0.666,
+    "away_o15": 0.02,
+    "O15": 0.717,
+    "U15": 0.283,
+    "O25": 0.456,
+    "U25": 0.544,
+    "O35": 0.242,
+    "U35": 0.758
    },
    "basis": {
     "elo": {
-     "Mexico": 2010.9,
-     "South Africa": 1670.8,
-     "diff": 340.1
+     "Mexico": 2024.1,
+     "South Africa": 1717.7,
+     "diff": 306.4
     },
     "form": {
      "Mexico": {
       "seq5": "WWWWW",
       "pts5": 15,
-      "gf5": 11,
+      "gf5": 12,
       "ga5": 1,
       "pts10": 26,
       "n": 10
      },
      "South Africa": {
-      "seq5": "LDWLD",
-      "pts5": 5,
+      "seq5": "DWLDW",
+      "pts5": 8,
       "gf5": 3,
-      "ga5": 5,
+      "ga5": 3,
       "pts10": 12,
       "n": 10
      }
@@ -122,27 +122,27 @@
      "goals": "12:5"
     },
     "model": {
-     "lambda_home": 2.37,
-     "lambda_away": 0.18,
-     "p_home": 0.862,
-     "p_draw": 0.124,
-     "p_away": 0.015,
+     "lambda_home": 2.29,
+     "lambda_away": 0.21,
+     "p_home": 0.843,
+     "p_draw": 0.137,
+     "p_away": 0.02,
      "top_scorelines": [
       {
        "score": "2:0",
-       "p": 0.22
+       "p": 0.214
       },
       {
        "score": "1:0",
-       "p": 0.182
+       "p": 0.183
       },
       {
        "score": "3:0",
-       "p": 0.173
+       "p": 0.163
       },
       {
        "score": "4:0",
-       "p": 0.102
+       "p": 0.093
       }
      ]
     },
@@ -157,14 +157,14 @@
      "rho": -0.12,
      "holdout_logloss": 0.8751
     },
-    "basis_text": "Berechnet aus: Elo 2011 vs 1671 (Δ +340) · Form letzte 5 WWWWW (11:1) vs LDWLD (3:5) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 86%/12%/1%, wahrscheinlichstes Ergebnis 2:0."
+    "basis_text": "Berechnet aus: Elo 2024 vs 1718 (Δ +306) · Form letzte 5 WWWWW (12:1) vs DWLDW (3:3) · H2H 5 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 84%/14%/2%, wahrscheinlichstes Ergebnis 2:0."
    },
    "stat_model": {
-    "p_home": 0.862,
-    "p_draw": 0.124,
-    "p_away": 0.015,
-    "lambda_home": 2.37,
-    "lambda_away": 0.18,
+    "p_home": 0.843,
+    "p_draw": 0.137,
+    "p_away": 0.02,
+    "lambda_home": 2.29,
+    "lambda_away": 0.21,
     "top_scoreline": "2:0"
    },
    "locked_at": null,
@@ -187,51 +187,51 @@
     "away": 0
    },
    "probs": {
-    "home": 0.489,
-    "draw": 0.286,
-    "away": 0.224
+    "home": 0.448,
+    "draw": 0.293,
+    "away": 0.258
    },
    "confidence": "mittel",
    "source": "Engine",
-   "reasoning": "Modellbasierte Einschätzung: South Korea ist nach Elo und Form favorisiert. Berechnet aus: Elo 1891 vs 1774 (Δ +117) · Form letzte 5 LWWWL (8:3) vs DWWLD (11:7) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 49%/29%/22%, wahrscheinlichstes Ergebnis 1:1.",
+   "reasoning": "Modellbasierte Einschätzung: South Korea ist nach Elo und Form favorisiert. Berechnet aus: Elo 1844 vs 1760 (Δ +84) · Form letzte 5 WWWLL (8:3) vs WWLDL (9:8) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 45%/29%/26%, wahrscheinlichstes Ergebnis 1:1.",
    "key_factors": [
-    "Elo 1891 vs 1774 (Δ +117)",
-    "Form L5 9 vs 8 Punkte",
+    "Elo 1844 vs 1760 (Δ +84)",
+    "Form L5 9 vs 7 Punkte",
     "H2H 4 Spiele"
    ],
    "upset_watch": null,
    "top_tips": [
-    {
-     "key": "1X",
-     "p": 0.776,
-     "label": "South Korea oder Remis"
-    },
     {
      "key": "U35",
      "p": 0.758,
      "label": "Unter 3,5 Tore"
     },
     {
+     "key": "1X",
+     "p": 0.742,
+     "label": "South Korea oder Remis"
+    },
+    {
      "key": "BTTS_yes",
-     "p": 0.501,
+     "p": 0.512,
      "label": "Beide Teams treffen"
     }
    ],
    "markets": {
-    "1": 0.489,
-    "X": 0.286,
-    "2": 0.224,
-    "1X": 0.776,
-    "X2": 0.511,
-    "12": 0.714,
-    "DNB1": 0.686,
-    "DNB2": 0.314,
-    "BTTS_yes": 0.501,
-    "BTTS_no": 0.499,
-    "home_o15": 0.453,
-    "away_o15": 0.253,
-    "O15": 0.727,
-    "U15": 0.273,
+    "1": 0.448,
+    "X": 0.293,
+    "2": 0.258,
+    "1X": 0.742,
+    "X2": 0.552,
+    "12": 0.707,
+    "DNB1": 0.635,
+    "DNB2": 0.365,
+    "BTTS_yes": 0.512,
+    "BTTS_no": 0.488,
+    "home_o15": 0.426,
+    "away_o15": 0.282,
+    "O15": 0.728,
+    "U15": 0.272,
     "O25": 0.456,
     "U25": 0.544,
     "O35": 0.242,
@@ -239,13 +239,13 @@
    },
    "basis": {
     "elo": {
-     "South Korea": 1891.1,
-     "Czech Republic": 1773.7,
-     "diff": 117.4
+     "South Korea": 1844.3,
+     "Czech Republic": 1760.5,
+     "diff": 83.8
     },
     "form": {
      "South Korea": {
-      "seq5": "LWWWL",
+      "seq5": "WWWLL",
       "pts5": 9,
       "gf5": 8,
       "ga5": 3,
@@ -253,11 +253,11 @@
       "n": 10
      },
      "Czech Republic": {
-      "seq5": "DWWLD",
-      "pts5": 8,
-      "gf5": 11,
-      "ga5": 7,
-      "pts10": 16,
+      "seq5": "WWLDL",
+      "pts5": 7,
+      "gf5": 9,
+      "ga5": 8,
+      "pts10": 15,
       "n": 10
      }
     },
@@ -267,27 +267,27 @@
      "goals": "6:9"
     },
     "model": {
-     "lambda_home": 1.53,
-     "lambda_away": 0.97,
-     "p_home": 0.489,
-     "p_draw": 0.286,
-     "p_away": 0.224,
+     "lambda_home": 1.45,
+     "lambda_away": 1.05,
+     "p_home": 0.448,
+     "p_draw": 0.293,
+     "p_away": 0.258,
      "top_scorelines": [
       {
        "score": "1:1",
-       "p": 0.136
+       "p": 0.14
       },
       {
        "score": "1:0",
-       "p": 0.111
+       "p": 0.104
       },
       {
        "score": "0:0",
        "p": 0.097
       },
       {
-       "score": "2:0",
-       "p": 0.096
+       "score": "2:1",
+       "p": 0.091
       }
      ]
     },
@@ -302,14 +302,14 @@
      "rho": -0.12,
      "holdout_logloss": 0.8751
     },
-    "basis_text": "Berechnet aus: Elo 1891 vs 1774 (Δ +117) · Form letzte 5 LWWWL (8:3) vs DWWLD (11:7) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 49%/29%/22%, wahrscheinlichstes Ergebnis 1:1."
+    "basis_text": "Berechnet aus: Elo 1844 vs 1760 (Δ +84) · Form letzte 5 WWWLL (8:3) vs WWLDL (9:8) · H2H 4 Begegnungen · kalibriertes Poisson/Dixon-Coles-Modell 45%/29%/26%, wahrscheinlichstes Ergebnis 1:1."
    },
    "stat_model": {
-    "p_home": 0.489,
-    "p_draw": 0.286,
-    "p_away": 0.224,
-    "lambda_home": 1.53,
-    "lambda_away": 0.97,
+    "p_home": 0.448,
+    "p_draw": 0.293,
+    "p_away": 0.258,
+    "lambda_home": 1.45,
+    "lambda_away": 1.05,
     "top_scoreline": "1:1"
    },
    "locked_at": null,
@@ -6990,8 +6990,11 @@
    "away": "Haiti",
    "city": "Atlanta",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 4,
+    "away": 2
+   },
    "pick": {
     "home": 2,
     "away": 0
@@ -7023,7 +7026,7 @@
     },
     {
      "key": "BTTS_no",
-     "p": 0.669,
+     "p": 0.67,
      "label": "Nicht beide treffen"
     }
    ],
@@ -7034,12 +7037,12 @@
     "1X": 0.937,
     "X2": 0.261,
     "12": 0.802,
-    "DNB1": 0.921,
-    "DNB2": 0.079,
-    "BTTS_yes": 0.331,
-    "BTTS_no": 0.669,
-    "home_o15": 0.604,
-    "away_o15": 0.079,
+    "DNB1": 0.922,
+    "DNB2": 0.078,
+    "BTTS_yes": 0.33,
+    "BTTS_no": 0.67,
+    "home_o15": 0.605,
+    "away_o15": 0.078,
     "O15": 0.722,
     "U15": 0.278,
     "O25": 0.456,
@@ -7132,8 +7135,11 @@
    "away": "Qatar",
    "city": "Seattle",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 3,
+    "away": 1
+   },
    "pick": {
     "home": 1,
     "away": 0
@@ -7160,7 +7166,7 @@
     },
     {
      "key": "1X",
-     "p": 0.722,
+     "p": 0.724,
      "label": "Bosnia and Herzegovina oder Remis"
     },
     {
@@ -7170,18 +7176,18 @@
     }
    ],
    "markets": {
-    "1": 0.426,
+    "1": 0.428,
     "X": 0.296,
-    "2": 0.278,
-    "1X": 0.722,
-    "X2": 0.574,
+    "2": 0.276,
+    "1X": 0.724,
+    "X2": 0.572,
     "12": 0.704,
-    "DNB1": 0.605,
-    "DNB2": 0.395,
+    "DNB1": 0.608,
+    "DNB2": 0.392,
     "BTTS_yes": 0.517,
     "BTTS_no": 0.483,
-    "home_o15": 0.41,
-    "away_o15": 0.299,
+    "home_o15": 0.412,
+    "away_o15": 0.297,
     "O15": 0.728,
     "U15": 0.272,
     "O25": 0.456,
@@ -7274,8 +7280,11 @@
    "away": "Brazil",
    "city": "Miami Gardens",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 0,
+    "away": 3
+   },
    "pick": {
     "home": 0,
     "away": 1
@@ -7297,7 +7306,7 @@
    "top_tips": [
     {
      "key": "X2",
-     "p": 0.867,
+     "p": 0.866,
      "label": "Brazil oder Remis"
     },
     {
@@ -7307,23 +7316,23 @@
     },
     {
      "key": "BTTS_no",
-     "p": 0.562,
+     "p": 0.561,
      "label": "Nicht beide treffen"
     }
    ],
    "markets": {
-    "1": 0.133,
+    "1": 0.134,
     "X": 0.251,
-    "2": 0.616,
-    "1X": 0.384,
-    "X2": 0.867,
+    "2": 0.615,
+    "1X": 0.385,
+    "X2": 0.866,
     "12": 0.749,
-    "DNB1": 0.177,
-    "DNB2": 0.823,
-    "BTTS_yes": 0.438,
-    "BTTS_no": 0.562,
-    "home_o15": 0.162,
-    "away_o15": 0.532,
+    "DNB1": 0.179,
+    "DNB2": 0.821,
+    "BTTS_yes": 0.439,
+    "BTTS_no": 0.561,
+    "home_o15": 0.163,
+    "away_o15": 0.531,
     "O15": 0.725,
     "U15": 0.275,
     "O25": 0.456,
@@ -7416,8 +7425,11 @@
    "away": "South Korea",
    "city": "Guadalupe",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 1,
+    "away": 0
+   },
    "pick": {
     "home": 0,
     "away": 1
@@ -7449,21 +7461,21 @@
     },
     {
      "key": "BTTS_no",
-     "p": 0.56,
+     "p": 0.561,
      "label": "Nicht beide treffen"
     }
    ],
    "markets": {
     "1": 0.134,
-    "X": 0.252,
-    "2": 0.614,
-    "1X": 0.386,
+    "X": 0.251,
+    "2": 0.615,
+    "1X": 0.385,
     "X2": 0.866,
-    "12": 0.748,
+    "12": 0.749,
     "DNB1": 0.179,
     "DNB2": 0.821,
-    "BTTS_yes": 0.44,
-    "BTTS_no": 0.56,
+    "BTTS_yes": 0.439,
+    "BTTS_no": 0.561,
     "home_o15": 0.163,
     "away_o15": 0.531,
     "O15": 0.725,
@@ -7558,8 +7570,11 @@
    "away": "Czech Republic",
    "city": "Mexico City",
    "neutral": false,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 3,
+    "away": 0
+   },
    "pick": {
     "home": 2,
     "away": 0
@@ -7591,7 +7606,7 @@
     },
     {
      "key": "BTTS_no",
-     "p": 0.713,
+     "p": 0.714,
      "label": "Nicht beide treffen"
     }
    ],
@@ -7602,10 +7617,10 @@
     "1X": 0.954,
     "X2": 0.225,
     "12": 0.821,
-    "DNB1": 0.943,
-    "DNB2": 0.057,
-    "BTTS_yes": 0.287,
-    "BTTS_no": 0.713,
+    "DNB1": 0.944,
+    "DNB2": 0.056,
+    "BTTS_yes": 0.286,
+    "BTTS_no": 0.714,
     "home_o15": 0.625,
     "away_o15": 0.056,
     "O15": 0.721,
@@ -7700,8 +7715,11 @@
    "away": "Switzerland",
    "city": "Vancouver",
    "neutral": false,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 1,
+    "away": 2
+   },
    "pick": {
     "home": 1,
     "away": 0
@@ -7728,28 +7746,28 @@
     },
     {
      "key": "1X",
-     "p": 0.734,
+     "p": 0.733,
      "label": "Canada oder Remis"
     },
     {
      "key": "BTTS_yes",
-     "p": 0.514,
+     "p": 0.515,
      "label": "Beide Teams treffen"
     }
    ],
    "markets": {
-    "1": 0.44,
+    "1": 0.438,
     "X": 0.295,
-    "2": 0.266,
-    "1X": 0.734,
-    "X2": 0.56,
+    "2": 0.267,
+    "1X": 0.733,
+    "X2": 0.562,
     "12": 0.705,
-    "DNB1": 0.623,
-    "DNB2": 0.377,
-    "BTTS_yes": 0.514,
-    "BTTS_no": 0.486,
-    "home_o15": 0.42,
-    "away_o15": 0.289,
+    "DNB1": 0.621,
+    "DNB2": 0.379,
+    "BTTS_yes": 0.515,
+    "BTTS_no": 0.485,
+    "home_o15": 0.418,
+    "away_o15": 0.29,
     "O15": 0.728,
     "U15": 0.272,
     "O25": 0.456,

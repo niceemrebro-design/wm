@@ -461,15 +461,6 @@
  ],
  "Bosnia and Herzegovina": [
   {
-   "date": "2025-10-09",
-   "opp": "Cyprus",
-   "gf": 2,
-   "ga": 2,
-   "res": "D",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-12",
    "opp": "Malta",
    "gf": 4,
@@ -549,18 +540,18 @@
    "res": "L",
    "venue": "A",
    "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-24",
+   "opp": "Qatar",
+   "gf": 3,
+   "ga": 1,
+   "res": "W",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ],
  "Brazil": [
-  {
-   "date": "2025-10-10",
-   "opp": "South Korea",
-   "gf": 5,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "Friendly"
-  },
   {
    "date": "2025-10-14",
    "opp": "Japan",
@@ -641,18 +632,18 @@
    "res": "W",
    "venue": "H",
    "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-24",
+   "opp": "Scotland",
+   "gf": 3,
+   "ga": 0,
+   "res": "W",
+   "venue": "A",
+   "comp": "FIFA World Cup"
   }
  ],
  "Canada": [
-  {
-   "date": "2025-10-10",
-   "opp": "Australia",
-   "gf": 0,
-   "ga": 1,
-   "res": "L",
-   "venue": "H",
-   "comp": "Friendly"
-  },
   {
    "date": "2025-10-14",
    "opp": "Colombia",
@@ -731,6 +722,15 @@
    "gf": 6,
    "ga": 0,
    "res": "W",
+   "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-24",
+   "opp": "Switzerland",
+   "gf": 1,
+   "ga": 2,
+   "res": "L",
    "venue": "H",
    "comp": "FIFA World Cup"
   }
@@ -1105,15 +1105,6 @@
  ],
  "Czech Republic": [
   {
-   "date": "2025-10-09",
-   "opp": "Croatia",
-   "gf": 0,
-   "ga": 0,
-   "res": "D",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-12",
    "opp": "Faroe Islands",
    "gf": 1,
@@ -1192,6 +1183,15 @@
    "ga": 1,
    "res": "D",
    "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-24",
+   "opp": "Mexico",
+   "gf": 0,
+   "ga": 3,
+   "res": "L",
+   "venue": "A",
    "comp": "FIFA World Cup"
   }
  ],
@@ -1841,15 +1841,6 @@
  ],
  "Haiti": [
   {
-   "date": "2025-10-09",
-   "opp": "Nicaragua",
-   "gf": 3,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-13",
    "opp": "Honduras",
    "gf": 0,
@@ -1926,6 +1917,15 @@
    "opp": "Brazil",
    "gf": 0,
    "ga": 3,
+   "res": "L",
+   "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-24",
+   "opp": "Morocco",
+   "gf": 2,
+   "ga": 4,
    "res": "L",
    "venue": "A",
    "comp": "FIFA World Cup"
@@ -2393,15 +2393,6 @@
  ],
  "Mexico": [
   {
-   "date": "2026-01-22",
-   "opp": "Panama",
-   "gf": 1,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "Friendly"
-  },
-  {
    "date": "2026-01-25",
    "opp": "Bolivia",
    "gf": 1,
@@ -2481,18 +2472,18 @@
    "res": "W",
    "venue": "H",
    "comp": "FIFA World Cup"
-  }
- ],
- "Morocco": [
+  },
   {
-   "date": "2026-01-09",
-   "opp": "Cameroon",
-   "gf": 2,
+   "date": "2026-06-24",
+   "opp": "Czech Republic",
+   "gf": 3,
    "ga": 0,
    "res": "W",
    "venue": "H",
-   "comp": "African Cup of Nations"
-  },
+   "comp": "FIFA World Cup"
+  }
+ ],
+ "Morocco": [
   {
    "date": "2026-01-14",
    "opp": "Nigeria",
@@ -2572,6 +2563,15 @@
    "ga": 0,
    "res": "W",
    "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-24",
+   "opp": "Haiti",
+   "gf": 4,
+   "ga": 2,
+   "res": "W",
+   "venue": "H",
    "comp": "FIFA World Cup"
   }
  ],
@@ -3129,15 +3129,6 @@
  ],
  "Qatar": [
   {
-   "date": "2025-10-08",
-   "opp": "Oman",
-   "gf": 0,
-   "ga": 0,
-   "res": "D",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-14",
    "opp": "United Arab Emirates",
    "gf": 2,
@@ -3214,6 +3205,15 @@
    "opp": "Canada",
    "gf": 0,
    "ga": 6,
+   "res": "L",
+   "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-24",
+   "opp": "Bosnia and Herzegovina",
+   "gf": 1,
+   "ga": 3,
    "res": "L",
    "venue": "A",
    "comp": "FIFA World Cup"
@@ -3313,15 +3313,6 @@
  ],
  "Scotland": [
   {
-   "date": "2025-10-09",
-   "opp": "Greece",
-   "gf": 3,
-   "ga": 1,
-   "res": "W",
-   "venue": "H",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-12",
    "opp": "Belarus",
    "gf": 2,
@@ -3398,6 +3389,15 @@
    "opp": "Morocco",
    "gf": 0,
    "ga": 1,
+   "res": "L",
+   "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-24",
+   "opp": "Brazil",
+   "gf": 0,
+   "ga": 3,
    "res": "L",
    "venue": "H",
    "comp": "FIFA World Cup"
@@ -3497,15 +3497,6 @@
  ],
  "South Africa": [
   {
-   "date": "2025-12-22",
-   "opp": "Angola",
-   "gf": 2,
-   "ga": 1,
-   "res": "W",
-   "venue": "H",
-   "comp": "African Cup of Nations"
-  },
-  {
    "date": "2025-12-26",
    "opp": "Egypt",
    "gf": 0,
@@ -3585,18 +3576,18 @@
    "res": "D",
    "venue": "A",
    "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-24",
+   "opp": "South Korea",
+   "gf": 1,
+   "ga": 0,
+   "res": "W",
+   "venue": "H",
+   "comp": "FIFA World Cup"
   }
  ],
  "South Korea": [
-  {
-   "date": "2025-10-10",
-   "opp": "Brazil",
-   "gf": 0,
-   "ga": 5,
-   "res": "L",
-   "venue": "H",
-   "comp": "Friendly"
-  },
   {
    "date": "2025-10-14",
    "opp": "Paraguay",
@@ -3672,6 +3663,15 @@
   {
    "date": "2026-06-18",
    "opp": "Mexico",
+   "gf": 0,
+   "ga": 1,
+   "res": "L",
+   "venue": "A",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-24",
+   "opp": "South Africa",
    "gf": 0,
    "ga": 1,
    "res": "L",
@@ -3865,15 +3865,6 @@
  ],
  "Switzerland": [
   {
-   "date": "2025-10-10",
-   "opp": "Sweden",
-   "gf": 2,
-   "ga": 0,
-   "res": "W",
-   "venue": "A",
-   "comp": "FIFA World Cup qualification"
-  },
-  {
    "date": "2025-10-13",
    "opp": "Slovenia",
    "gf": 0,
@@ -3952,6 +3943,15 @@
    "ga": 1,
    "res": "W",
    "venue": "H",
+   "comp": "FIFA World Cup"
+  },
+  {
+   "date": "2026-06-24",
+   "opp": "Canada",
+   "gf": 2,
+   "ga": 1,
+   "res": "W",
+   "venue": "A",
    "comp": "FIFA World Cup"
   }
  ],

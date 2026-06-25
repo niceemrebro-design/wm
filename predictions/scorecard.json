@@ -2,15 +2,15 @@
  "generated_at": "2026-06-25",
  "integrity": "Nur vor Anpfiff eingefrorene Tipps zaehlen (predictions/ledger.json). Markt-Tipps gespielter Spiele aus eingefrorenen Lambdas rekonstruiert.",
  "summary": {
-  "gewertet": 46,
-  "tipps_gesamt": 138,
-  "tipps_treffer": 89,
-  "tipps_quote": 0.645,
-  "bester_tipp_quote": 0.783,
-  "markt_1x2_quote": 0.609,
-  "markt_dc_quote": 0.913,
+  "gewertet": 52,
+  "tipps_gesamt": 156,
+  "tipps_treffer": 102,
+  "tipps_quote": 0.654,
+  "bester_tipp_quote": 0.75,
+  "markt_1x2_quote": 0.615,
+  "markt_dc_quote": 0.885,
   "exakt": 4,
-  "kicktipp_pts": 71,
+  "kicktipp_pts": 80,
   "kicktipp_avg": 1.54,
   "retro_ungewertet": 2
  },
@@ -1486,6 +1486,198 @@
    "hit_dc": true,
    "exact_cat": "exakt",
    "exact_pts": 4
+  },
+  {
+   "date": "2026-06-24",
+   "match": "Morocco vs Haiti",
+   "result": "4:2",
+   "source": "Engine",
+   "locked_at": "2026-06-25",
+   "tips": [
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": false
+    },
+    {
+     "label": "Morocco gewinnt",
+     "key": "1",
+     "p": 0.739,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.67,
+     "hit": false
+    }
+   ],
+   "best_hit": false,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tordifferenz",
+   "exact_pts": 3
+  },
+  {
+   "date": "2026-06-24",
+   "match": "Bosnia and Herzegovina vs Qatar",
+   "result": "3:1",
+   "source": "Engine",
+   "locked_at": "2026-06-25",
+   "tips": [
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": false
+    },
+    {
+     "label": "Bosnia and Herzegovina oder Remis",
+     "key": "1X",
+     "p": 0.724,
+     "hit": true
+    },
+    {
+     "label": "Beide Teams treffen",
+     "key": "BTTS_yes",
+     "p": 0.517,
+     "hit": true
+    }
+   ],
+   "best_hit": false,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tendenz",
+   "exact_pts": 2
+  },
+  {
+   "date": "2026-06-24",
+   "match": "Scotland vs Brazil",
+   "result": "0:3",
+   "source": "Engine",
+   "locked_at": "2026-06-25",
+   "tips": [
+    {
+     "label": "Brazil oder Remis",
+     "key": "X2",
+     "p": 0.866,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.561,
+     "hit": true
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tendenz",
+   "exact_pts": 2
+  },
+  {
+   "date": "2026-06-24",
+   "match": "South Africa vs South Korea",
+   "result": "1:0",
+   "source": "Engine",
+   "locked_at": "2026-06-25",
+   "tips": [
+    {
+     "label": "South Korea oder Remis",
+     "key": "X2",
+     "p": 0.866,
+     "hit": false
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.561,
+     "hit": true
+    }
+   ],
+   "best_hit": false,
+   "hit_1x2": false,
+   "hit_dc": false,
+   "exact_cat": "daneben",
+   "exact_pts": 0
+  },
+  {
+   "date": "2026-06-24",
+   "match": "Mexico vs Czech Republic",
+   "result": "3:0",
+   "source": "Engine",
+   "locked_at": "2026-06-25",
+   "tips": [
+    {
+     "label": "Mexico gewinnt",
+     "key": "1",
+     "p": 0.775,
+     "hit": true
+    },
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": true
+    },
+    {
+     "label": "Nicht beide treffen",
+     "key": "BTTS_no",
+     "p": 0.714,
+     "hit": true
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": true,
+   "hit_dc": true,
+   "exact_cat": "tendenz",
+   "exact_pts": 2
+  },
+  {
+   "date": "2026-06-24",
+   "match": "Canada vs Switzerland",
+   "result": "1:2",
+   "source": "Engine",
+   "locked_at": "2026-06-25",
+   "tips": [
+    {
+     "label": "Unter 3,5 Tore",
+     "key": "U35",
+     "p": 0.758,
+     "hit": true
+    },
+    {
+     "label": "Canada oder Remis",
+     "key": "1X",
+     "p": 0.733,
+     "hit": false
+    },
+    {
+     "label": "Beide Teams treffen",
+     "key": "BTTS_yes",
+     "p": 0.515,
+     "hit": true
+    }
+   ],
+   "best_hit": true,
+   "hit_1x2": false,
+   "hit_dc": false,
+   "exact_cat": "daneben",
+   "exact_pts": 0
   }
  ],
  "retro": [
