@@ -1,10 +1,10 @@
 {
- "built_at": "2026-06-26T04:21:41.047520+00:00",
+ "built_at": "2026-06-26T09:43:55.648089+00:00",
  "source": "martj42/international_results",
- "n_historical_matches": 49459,
+ "n_historical_matches": 49465,
  "history_range": [
   "1872-11-30",
-  "2026-06-24"
+  "2026-06-25"
  ],
  "n_fixtures_2026": 72,
  "n_participants": 48

@@ -655,9 +655,9 @@
   "city": "Inglewood",
   "country": "United States",
   "neutral": false,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 2,
+  "away_score": 3
  },
  {
   "id": "wc2026-055",
@@ -667,9 +667,9 @@
   "city": "Santa Clara",
   "country": "United States",
   "neutral": true,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 0,
+  "away_score": 0
  },
  {
   "id": "wc2026-056",
@@ -679,9 +679,9 @@
   "city": "Philadelphia",
   "country": "United States",
   "neutral": true,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 0,
+  "away_score": 2
  },
  {
   "id": "wc2026-057",
@@ -691,9 +691,9 @@
   "city": "East Rutherford",
   "country": "United States",
   "neutral": true,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 2,
+  "away_score": 1
  },
  {
   "id": "wc2026-058",
@@ -703,9 +703,9 @@
   "city": "Arlington",
   "country": "United States",
   "neutral": true,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 1,
+  "away_score": 1
  },
  {
   "id": "wc2026-059",
@@ -715,9 +715,9 @@
   "city": "Kansas City",
   "country": "United States",
   "neutral": true,
-  "played": false,
-  "home_score": null,
-  "away_score": null
+  "played": true,
+  "home_score": 1,
+  "away_score": 3
  },
  {
   "id": "wc2026-060",

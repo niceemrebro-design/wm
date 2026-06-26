@@ -2,12 +2,12 @@
  "generated_at": "2026-06-26",
  "oracle": "Claude (Claude Code) — Multi-Agenten-Orakel + kalibriertes Statistik-Modell",
  "data": {
-  "built_at": "2026-06-26T04:21:41.047520+00:00",
+  "built_at": "2026-06-26T09:43:55.648089+00:00",
   "source": "martj42/international_results",
-  "n_historical_matches": 49459,
+  "n_historical_matches": 49465,
   "history_range": [
    "1872-11-30",
-   "2026-06-24"
+   "2026-06-25"
   ],
   "n_fixtures_2026": 72,
   "n_participants": 48
@@ -7860,8 +7860,11 @@
    "away": "Turkey",
    "city": "Inglewood",
    "neutral": false,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 2,
+    "away": 3
+   },
    "pick": {
     "home": 1,
     "away": 0
@@ -7883,7 +7886,7 @@
    "top_tips": [
     {
      "key": "1X",
-     "p": 0.815,
+     "p": 0.814,
      "label": "United States oder Remis"
     },
     {
@@ -7893,23 +7896,23 @@
     },
     {
      "key": "BTTS_no",
-     "p": 0.52,
+     "p": 0.519,
      "label": "Nicht beide treffen"
     }
    ],
    "markets": {
-    "1": 0.541,
-    "X": 0.274,
-    "2": 0.185,
-    "1X": 0.815,
-    "X2": 0.459,
-    "12": 0.726,
-    "DNB1": 0.745,
-    "DNB2": 0.255,
-    "BTTS_yes": 0.48,
-    "BTTS_no": 0.52,
-    "home_o15": 0.486,
-    "away_o15": 0.215,
+    "1": 0.539,
+    "X": 0.275,
+    "2": 0.186,
+    "1X": 0.814,
+    "X2": 0.461,
+    "12": 0.725,
+    "DNB1": 0.744,
+    "DNB2": 0.256,
+    "BTTS_yes": 0.481,
+    "BTTS_no": 0.519,
+    "home_o15": 0.485,
+    "away_o15": 0.217,
     "O15": 0.727,
     "U15": 0.273,
     "O25": 0.456,
@@ -8002,8 +8005,11 @@
    "away": "Australia",
    "city": "Santa Clara",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 0,
+    "away": 0
+   },
    "pick": {
     "home": 0,
     "away": 1
@@ -8040,18 +8046,18 @@
     }
    ],
    "markets": {
-    "1": 0.338,
+    "1": 0.34,
     "X": 0.301,
-    "2": 0.362,
-    "1X": 0.638,
-    "X2": 0.662,
+    "2": 0.359,
+    "1X": 0.641,
+    "X2": 0.66,
     "12": 0.699,
-    "DNB1": 0.483,
-    "DNB2": 0.517,
+    "DNB1": 0.486,
+    "DNB2": 0.514,
     "BTTS_yes": 0.524,
     "BTTS_no": 0.476,
-    "home_o15": 0.346,
-    "away_o15": 0.364,
+    "home_o15": 0.348,
+    "away_o15": 0.363,
     "O15": 0.728,
     "U15": 0.272,
     "O25": 0.456,
@@ -8144,8 +8150,11 @@
    "away": "Ivory Coast",
    "city": "Philadelphia",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 0,
+    "away": 2
+   },
    "pick": {
     "home": 0,
     "away": 1
@@ -8183,16 +8192,16 @@
    ],
    "markets": {
     "1": 0.137,
-    "X": 0.254,
-    "2": 0.609,
-    "1X": 0.391,
+    "X": 0.253,
+    "2": 0.61,
+    "1X": 0.39,
     "X2": 0.863,
-    "12": 0.746,
-    "DNB1": 0.184,
-    "DNB2": 0.816,
+    "12": 0.747,
+    "DNB1": 0.183,
+    "DNB2": 0.817,
     "BTTS_yes": 0.443,
     "BTTS_no": 0.557,
-    "home_o15": 0.167,
+    "home_o15": 0.166,
     "away_o15": 0.528,
     "O15": 0.725,
     "U15": 0.275,
@@ -8286,8 +8295,11 @@
    "away": "Germany",
    "city": "East Rutherford",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 2,
+    "away": 1
+   },
    "pick": {
     "home": 0,
     "away": 1
@@ -8314,7 +8326,7 @@
     },
     {
      "key": "X2",
-     "p": 0.73,
+     "p": 0.728,
      "label": "Germany oder Remis"
     },
     {
@@ -8324,18 +8336,18 @@
     }
    ],
    "markets": {
-    "1": 0.27,
-    "X": 0.295,
-    "2": 0.435,
-    "1X": 0.565,
-    "X2": 0.73,
-    "12": 0.705,
-    "DNB1": 0.383,
-    "DNB2": 0.617,
+    "1": 0.272,
+    "X": 0.296,
+    "2": 0.433,
+    "1X": 0.567,
+    "X2": 0.728,
+    "12": 0.704,
+    "DNB1": 0.386,
+    "DNB2": 0.614,
     "BTTS_yes": 0.516,
     "BTTS_no": 0.484,
-    "home_o15": 0.292,
-    "away_o15": 0.416,
+    "home_o15": 0.294,
+    "away_o15": 0.415,
     "O15": 0.728,
     "U15": 0.272,
     "O25": 0.456,
@@ -8428,8 +8440,11 @@
    "away": "Sweden",
    "city": "Arlington",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 1,
+    "away": 1
+   },
    "pick": {
     "home": 1,
     "away": 0
@@ -8451,7 +8466,7 @@
    "top_tips": [
     {
      "key": "1X",
-     "p": 0.865,
+     "p": 0.866,
      "label": "Japan oder Remis"
     },
     {
@@ -8461,23 +8476,23 @@
     },
     {
      "key": "BTTS_no",
-     "p": 0.56,
+     "p": 0.561,
      "label": "Nicht beide treffen"
     }
    ],
    "markets": {
-    "1": 0.613,
-    "X": 0.252,
-    "2": 0.135,
-    "1X": 0.865,
-    "X2": 0.387,
-    "12": 0.748,
-    "DNB1": 0.82,
-    "DNB2": 0.18,
-    "BTTS_yes": 0.44,
-    "BTTS_no": 0.56,
-    "home_o15": 0.53,
-    "away_o15": 0.164,
+    "1": 0.615,
+    "X": 0.251,
+    "2": 0.134,
+    "1X": 0.866,
+    "X2": 0.385,
+    "12": 0.749,
+    "DNB1": 0.821,
+    "DNB2": 0.179,
+    "BTTS_yes": 0.439,
+    "BTTS_no": 0.561,
+    "home_o15": 0.531,
+    "away_o15": 0.163,
     "O15": 0.725,
     "U15": 0.275,
     "O25": 0.456,
@@ -8570,8 +8585,11 @@
    "away": "Netherlands",
    "city": "Kansas City",
    "neutral": true,
-   "played": false,
-   "result": null,
+   "played": true,
+   "result": {
+    "home": 1,
+    "away": 3
+   },
    "pick": {
     "home": 0,
     "away": 2
@@ -8593,7 +8611,7 @@
    "top_tips": [
     {
      "key": "2",
-     "p": 0.785,
+     "p": 0.784,
      "label": "Netherlands gewinnt"
     },
     {
@@ -8603,23 +8621,23 @@
     },
     {
      "key": "BTTS_no",
-     "p": 0.727,
+     "p": 0.726,
      "label": "Nicht beide treffen"
     }
    ],
    "markets": {
-    "1": 0.042,
-    "X": 0.173,
-    "2": 0.785,
-    "1X": 0.215,
-    "X2": 0.958,
-    "12": 0.827,
-    "DNB1": 0.051,
-    "DNB2": 0.949,
-    "BTTS_yes": 0.273,
-    "BTTS_no": 0.727,
+    "1": 0.043,
+    "X": 0.174,
+    "2": 0.784,
+    "1X": 0.216,
+    "X2": 0.957,
+    "12": 0.826,
+    "DNB1": 0.052,
+    "DNB2": 0.948,
+    "BTTS_yes": 0.274,
+    "BTTS_no": 0.726,
     "home_o15": 0.051,
-    "away_o15": 0.631,
+    "away_o15": 0.63,
     "O15": 0.72,
     "U15": 0.28,
     "O25": 0.456,
@@ -9339,9 +9357,9 @@
    },
    "basis": {
     "elo": {
-     "Egypt": 1857.5,
+     "Egypt": 1857.6,
      "Iran": 1888.4,
-     "diff": -30.9
+     "diff": -30.8
     },
     "form": {
      "Egypt": {
@@ -9482,8 +9500,8 @@
    "basis": {
     "elo": {
      "Cape Verde": 1691.9,
-     "Saudi Arabia": 1710.7,
-     "diff": -18.8
+     "Saudi Arabia": 1710.6,
+     "diff": -18.7
     },
     "form": {
      "Cape Verde": {
@@ -9509,8 +9527,8 @@
      "goals": "0:0"
     },
     "model": {
-     "lambda_home": 1.2,
-     "lambda_away": 1.3,
+     "lambda_home": 1.21,
+     "lambda_away": 1.29,
      "p_home": 0.328,
      "p_draw": 0.3,
      "p_away": 0.371,
@@ -9550,8 +9568,8 @@
     "p_home": 0.328,
     "p_draw": 0.3,
     "p_away": 0.371,
-    "lambda_home": 1.2,
-    "lambda_away": 1.3,
+    "lambda_home": 1.21,
+    "lambda_away": 1.29,
     "top_scoreline": "1:1"
    },
    "locked_at": "2026-06-26",

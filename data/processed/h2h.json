@@ -1368,19 +1368,13 @@
   ]
  },
  "wc2026-054": {
-  "meetings": 5,
+  "meetings": 6,
   "home_persp_w": 2,
   "draw": 1,
-  "home_persp_l": 2,
-  "gf": 7,
-  "ga": 7,
+  "home_persp_l": 3,
+  "gf": 9,
+  "ga": 10,
   "last": [
-   {
-    "date": "1991-09-04",
-    "score": "1:1",
-    "home": "Turkey",
-    "away": "United States"
-   },
    {
     "date": "2003-06-19",
     "score": "2:1",
@@ -1404,23 +1398,23 @@
     "score": "1:2",
     "home": "United States",
     "away": "Turkey"
+   },
+   {
+    "date": "2026-06-25",
+    "score": "2:3",
+    "home": "United States",
+    "away": "Turkey"
    }
   ]
  },
  "wc2026-055": {
-  "meetings": 5,
+  "meetings": 6,
   "home_persp_w": 0,
-  "draw": 3,
+  "draw": 4,
   "home_persp_l": 2,
   "gf": 2,
   "ga": 4,
   "last": [
-   {
-    "date": "2000-06-09",
-    "score": "0:0",
-    "home": "Australia",
-    "away": "Paraguay"
-   },
    {
     "date": "2000-06-12",
     "score": "0:0",
@@ -1444,25 +1438,38 @@
     "score": "1:0",
     "home": "Australia",
     "away": "Paraguay"
+   },
+   {
+    "date": "2026-06-25",
+    "score": "0:0",
+    "home": "Paraguay",
+    "away": "Australia"
    }
   ]
  },
  "wc2026-056": {
-  "meetings": 0,
+  "meetings": 1,
   "home_persp_w": 0,
   "draw": 0,
-  "home_persp_l": 0,
+  "home_persp_l": 1,
   "gf": 0,
-  "ga": 0,
-  "last": []
+  "ga": 2,
+  "last": [
+   {
+    "date": "2026-06-25",
+    "score": "0:2",
+    "home": "Curaçao",
+    "away": "Ivory Coast"
+   }
+  ]
  },
  "wc2026-057": {
-  "meetings": 2,
-  "home_persp_w": 0,
+  "meetings": 3,
+  "home_persp_w": 1,
   "draw": 0,
   "home_persp_l": 2,
-  "gf": 2,
-  "ga": 7,
+  "gf": 4,
+  "ga": 8,
   "last": [
    {
     "date": "2006-06-20",
@@ -1475,16 +1482,22 @@
     "score": "2:4",
     "home": "Ecuador",
     "away": "Germany"
+   },
+   {
+    "date": "2026-06-25",
+    "score": "2:1",
+    "home": "Ecuador",
+    "away": "Germany"
    }
   ]
  },
  "wc2026-058": {
-  "meetings": 4,
+  "meetings": 5,
   "home_persp_w": 0,
-  "draw": 3,
+  "draw": 4,
   "home_persp_l": 1,
-  "gf": 4,
-  "ga": 5,
+  "gf": 5,
+  "ga": 6,
   "last": [
    {
     "date": "1995-06-10",
@@ -1509,16 +1522,22 @@
     "score": "1:1",
     "home": "Japan",
     "away": "Sweden"
+   },
+   {
+    "date": "2026-06-25",
+    "score": "1:1",
+    "home": "Japan",
+    "away": "Sweden"
    }
   ]
  },
  "wc2026-059": {
-  "meetings": 3,
+  "meetings": 4,
   "home_persp_w": 0,
   "draw": 2,
-  "home_persp_l": 1,
-  "gf": 3,
-  "ga": 7,
+  "home_persp_l": 2,
+  "gf": 4,
+  "ga": 10,
   "last": [
    {
     "date": "1978-04-05",
@@ -1535,6 +1554,12 @@
    {
     "date": "2009-02-11",
     "score": "1:1",
+    "home": "Tunisia",
+    "away": "Netherlands"
+   },
+   {
+    "date": "2026-06-25",
+    "score": "1:3",
     "home": "Tunisia",
     "away": "Netherlands"
    }
