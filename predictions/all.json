@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-06-26",
+ "generated_at": "2026-06-27",
  "oracle": "Claude (Claude Code) — Multi-Agenten-Orakel + kalibriertes Statistik-Modell",
  "data": {
-  "built_at": "2026-06-26T23:15:22.030492+00:00",
+  "built_at": "2026-06-27T04:08:30.143785+00:00",
   "source": "martj42/international_results",
   "n_historical_matches": 49465,
   "history_range": [
@@ -8862,7 +8862,7 @@
     "lambda_away": 0.86,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-26",
+   "locked_at": "2026-06-27",
    "retro": false
   },
   {
@@ -9004,7 +9004,7 @@
     "lambda_away": 1.57,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-26",
+   "locked_at": "2026-06-27",
    "retro": false
   },
   {
@@ -9146,7 +9146,7 @@
     "lambda_away": 1.89,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-26",
+   "locked_at": "2026-06-27",
    "retro": false
   },
   {
@@ -9288,7 +9288,7 @@
     "lambda_away": 1.81,
     "top_scoreline": "0:1"
    },
-   "locked_at": "2026-06-26",
+   "locked_at": "2026-06-27",
    "retro": false
   },
   {
@@ -9430,7 +9430,7 @@
     "lambda_away": 1.32,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-26",
+   "locked_at": "2026-06-27",
    "retro": false
   },
   {
@@ -9572,7 +9572,7 @@
     "lambda_away": 1.29,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-26",
+   "locked_at": "2026-06-27",
    "retro": false
   },
   {
@@ -9714,7 +9714,7 @@
     "lambda_away": 1.99,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-26",
+   "locked_at": "2026-06-27",
    "retro": false
   },
   {
@@ -9856,7 +9856,7 @@
     "lambda_away": 1.28,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-26",
+   "locked_at": "2026-06-27",
    "retro": false
   },
   {
@@ -9998,7 +9998,7 @@
     "lambda_away": 2.44,
     "top_scoreline": "0:2"
    },
-   "locked_at": "2026-06-26",
+   "locked_at": "2026-06-27",
    "retro": false
   },
   {
@@ -10140,7 +10140,7 @@
     "lambda_away": 1.18,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-26",
+   "locked_at": "2026-06-27",
    "retro": false
   },
   {
@@ -10282,7 +10282,7 @@
     "lambda_away": 1.26,
     "top_scoreline": "1:1"
    },
-   "locked_at": "2026-06-26",
+   "locked_at": "2026-06-27",
    "retro": false
   },
   {
@@ -10424,7 +10424,7 @@
     "lambda_away": 0.59,
     "top_scoreline": "2:0"
    },
-   "locked_at": "2026-06-26",
+   "locked_at": "2026-06-27",
    "retro": false
   }
  ]
